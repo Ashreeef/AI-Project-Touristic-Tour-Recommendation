@@ -1,4 +1,4 @@
-# Touristic Tour Recommendation (Project 4)
+# Touristic Tour Recommendation
 
 ## Overview
 This project aims to generate a one-week itinerary for travelers in Algeria by leveraging AI search algorithms and Constraint Satisfaction Problem (CSP) techniques. The system minimizes travel time and cost while maximizing user satisfaction based on preferences such as historical, cultural, or natural attractions.
@@ -13,3 +13,5 @@ This project aims to generate a one-week itinerary for travelers in Algeria by l
 - **Web Interface**: A user-friendly website for entering preferences and viewing the recommended itinerary, with cost/time breakdowns and optional map visualizations.
 
 ## Repository Structure
+
+to be continued
