@@ -407,5 +407,155 @@
     "cost": "400 DZD",
     "visit_duration": "2.5 hours",
     "nearby_amenities": ["Archaeological Museum", "Hiking Trails"]
-  }
+  },
+  {
+    "name": "Basilique Saint Augustin",
+    "category": "Cultural",
+    "city": "Annaba",
+    "gps": [36.88194, 7.74472],
+    "description": "A 19th-century basilica blending Roman, Byzantine, and Berbero-Moorish styles, perched atop the Hill of Hippo in Annaba, housing a relic of Saint Augustine.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "0.5-1 hour",
+    "nearby_amenities": ["Restaurants", "Public Restrooms", "Museum", "Archaeological Site"]
+  },
+  {
+    "name": "Musee des Ruines d' Hippone",
+    "category": "Museum",
+    "city": "Annaba",
+    "gps": [36.86667, 7.73333],
+    "description": "A museum showcasing artifacts from over a century of excavations at Hippo Regius, offering panoramic views of Annaba and its historical landmarks.",
+    "rating": 4,
+    "cost": "200 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Cafés", "Public Restrooms", "Gift Shop", "Guided Tours", "Information Center"]
+  },
+  {
+    "name": "Farouk Land",
+    "category": "Amusement Park",
+    "city": "Annaba",
+    "gps": [36.8660, 7.7346],
+    "description": "An amusement park in Annaba offering various rides, games, and family-friendly attractions, ideal for leisure and entertainment.",
+    "rating": 5,
+    "cost": "100 DZD",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": ["Cafés", "Public Restrooms", "Gift Shop", "Picnic Areas", "First Aid Stations"]
+  },
+  {
+    "name": "Seraidi Forest",
+    "category": "Nature",
+    "city": "Annaba",
+    "gps": [36.91667, 7.66667],
+    "description": "A scenic location in Seraïdi, known for its lush forests, mountain views, and tranquil atmosphere, ideal for nature lovers and hikers.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": ["Cafés", "Public Restrooms", "Hiking Trails", "Scenic Viewpoints"]
+  },
+  {
+    "name": "Hammam Debagh Hot Springs",
+    "category": "Nature",
+    "city": "Guelma",
+    "gps": [36.46111, 7.26667],
+    "description": "A natural hot spring in Guelma, famous for its therapeutic waters and stunning waterfall, attracting visitors seeking relaxation and wellness.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants", "Cafés", "Public Restrooms", "Parking", "Thermal Baths", "Souvenir Shops"]
+  },
+  {
+    "name": "Guelma Roman Theatre",
+    "category": "Historical",
+    "city": "Guelma",
+    "gps": [36.4672, 7.4333],
+    "description": "A well-preserved ancient Roman amphitheater in Guelma, showcasing impressive architecture and hosting cultural events and performances.",
+    "rating": 4,
+    "cost": "100 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants", "Cafés", "Public Restrooms"]
+  },
+  {
+    "name": "Parc National El Kala",
+    "category": "Nature",
+    "city": "El Tarf",
+    "gps": [36.8781, 8.4436],
+    "description": "A UNESCO-listed national park in northeastern Algeria, known for its diverse ecosystems, rich wildlife, and scenic lakes, making it a paradise for nature lovers and birdwatchers.",
+    "rating": 4,
+    "cost": "Free",
+    "visit_duration": "2 hours",
+    "nearby_amenities": ["Restaurants", "Scenic Viewpoints", "Visitor Center", "Wildlife Observation Areas", "Public Restrooms"]
+  },
+  
+ {
+  "name": "National Museum of Antiquities of Algiers",
+  "category": "Museum",
+  "city": "Algiers",
+  "gps": [36.76139, 3.04611],
+  "description": "The oldest museum in Algeria and Africa, showcasing a vast collection of classical antiquities and Islamic art from various Arab-Muslim dynasties, located in Algiers' Freedom Park.",
+  "rating": 4.4,
+  "cost": "200 DZD",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": ["Restaurants", "Public Restrooms", "Library"]
+},
+{
+  "name": "Dounia Parc",
+  "category": "Nature",
+  "city": "Algiers",
+  "gps": [36.74305, 2.97240],
+  "description": "A vast urban park in Algiers, offering lush green spaces, walking trails, recreational areas, and scenic views, perfect for relaxation and outdoor activities.",
+  "rating": 3.5,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": ["Restaurants", "Cafés", "Playgrounds", "Walking Trails", "Picnic Areas", "Public Restrooms", "Parking"]
+},
+{
+  "name": "Villa Abd-el-Tif",
+  "category": "Museum",
+  "city": "Algiers",
+  "gps": [36.74504, 3.07330],
+  "description": "A historic villa in Algiers, known for its Moorish architecture and artistic legacy, once home to the Abd-el-Tif Prize laureates, fostering creativity and cultural exchange.",
+  "rating": 4.3,
+  "cost": "150 DZD",
+  "visit_duration": "2 hours",
+  "nearby_amenities": ["Public Restrooms", "Scenic Viewpoints"]
+},
+
+{
+  "name": "Villa Boulkine",
+  "category": "Historical",
+  "city": "Algiers",
+  "gps": [36.7345, 3.0915],
+  "description": "A 19th-century architectural gem in Hussein Dey, Algiers, once the secondary residence of Dey Hussein, now serving as the temporary home for the Grand Museum of Africa.",
+  "rating": 4.7,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": ["Cafés", "Restaurants", "Public Restrooms", "Parking", "Metro Station", "Stadium"]
+},
+{
+  "name": "Assekrem",
+  "category": "Nature",
+  "city": "Tamanrasset",
+  "gps": [23.2900, 5.6290],
+  "description": "A breathtaking high plateau in the Hoggar Mountains, offering panoramic views, dramatic volcanic landscapes, and the historic hermitage of Charles de Foucauld.",
+  "rating": 4.8,
+  "cost": "Free",
+  "visit_duration": "3-5 hours",
+  "nearby_amenities": ["Camping Area", "Scenic Viewpoints", "Hiking Trails"]
+},
+{
+  "name": "M'Zab Valley",
+  "category": "Cultural",
+  "city": "Ghardaïa",
+  "gps": [32.4900, 3.6700],
+  "description": "A UNESCO World Heritage site, M'Zab Valley features five fortified cities established in the 10th century by the Ibadites, showcasing unique medieval architecture and traditional human habitat adapted to the Sahara Desert environment.",
+  "rating": 5,
+  "cost": "Free",
+  "visit_duration": "1-2 days",
+  "nearby_amenities": ["Hotels", "Restaurants", "Guided Tours", "Souvenir Shops", "Cafés"]
+}
+
+
+
+
+
 ]
