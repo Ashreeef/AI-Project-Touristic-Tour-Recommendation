@@ -552,10 +552,128 @@
   "cost": "Free",
   "visit_duration": "1-2 days",
   "nearby_amenities": ["Hotels", "Restaurants", "Guided Tours", "Souvenir Shops", "Cafés"]
-}
-
-
-
+},
+{
+      "name": "Ain El Fouara Fountain",
+      "category": "Cultural",
+      "city": "Sétif",
+      "gps": [36.18944, 5.40497],
+      "description": "A renowned fountain known for its intricate sculpture and as a symbol of Sétif.",
+      "rating": 4.7,
+      "cost": "Free",
+      "visit_duration": "30 minutes",
+      "nearby_amenities": ["Cafés", "Shops"]
+    },
+    {
+      "name": "Sétif Archaeological Museum",
+      "category": "Museum",
+      "city": "Sétif",
+      "gps": [36.192186258904, 5.409908696237017],
+      "description": "Museum housing artifacts from the Roman and Byzantine periods.",
+      "rating": 4.5,
+      "cost": "150 DZD",
+      "visit_duration": "1-2 hours",
+      "nearby_amenities": ["Gift Shop", "Guided Tours"]
+    },
+    {
+      "name": "Park Mall Sétif",
+      "category": "Entertainment",
+      "city": "Sétif",
+      "gps": [36.1911, 5.4137],
+      "description": "A modern shopping center with various retail outlets and an indoor amusement park.",
+      "rating": 4.6,
+      "cost": "Variable",
+      "visit_duration": "2-4 hours",
+      "nearby_amenities": ["Food Court", "parking", "prayer Areas"]
+    },
+    {
+      "name": "Emir Abdelkader Mosque",
+      "category": "Religious",
+      "city": "Constantine",
+      "gps": [36.34713210397179, 6.603390940422307],
+      "description": "One of the largest mosques in Algeria, showcasing stunning Ottoman-inspired architecture.",
+      "rating": 4.9,
+      "cost": "Free",
+      "visit_duration": "1 hour",
+      "nearby_amenities": ["Prayer Areas", "Shops"]
+    },
+    {
+      "name": "Pont Sidi M'Cid",
+      "category": "Landmark",
+      "city": "Constantine",
+      "gps": [36.37264181304701, 6.614391153916172],
+      "description": "A suspension bridge offering breathtaking panoramic views of the Rhumel Gorge.",
+      "rating": 4.8,
+      "cost": "Free",
+      "visit_duration": "30 minutes",
+      "nearby_amenities": ["Photo Spots", "Benches", "Viewpoints"]
+    },
+    {
+      "name": "Monument aux Morts",
+      "category": "Historical",
+      "city": "Constantine",
+      "gps": [36.37536529384592, 6.613642625080477],
+      "description": "A war memorial perched atop a hill, providing expansive city views.",
+      "rating": 4.6,
+      "cost": "Free",
+      "visit_duration": "1 hour",
+      "nearby_amenities": ["Viewpoints", "Benches"]
+    },
+    {
+      "name": "Palais d'Ahmed Bey",
+      "category": "Historical",
+      "city": "Constantine",
+      "gps": [36.367958942038435, 6.611419780901351],
+      "description": "A historic palace reflecting Ottoman-era architecture with beautiful courtyards.",
+      "rating": 4.7,
+      "cost": "250 DZD",
+      "visit_duration": "1-2 hours",
+      "nearby_amenities": ["Guided Tours", "Gift Shop"]
+    },
+    {
+    "name": "Hoggar Mountains",
+    "category": "Natural",
+    "city": "Tamanrasset",
+    "gps": [23.290495650409653, 5.536439029266573],
+    "description": "A breathtaking desert landscape with volcanic mountains, scenic sunrises, and home to the Assekrem Plateau.",
+    "rating": 5.0,
+    "cost": "Variable",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Camping Areas", "Hiking Trails"]
+  },
+  {
+    "name": "Assekrem Plateau",
+    "category": "Nature",
+    "city": "Tamanrasset",
+    "gps": [23.28451888591167, 5.608760087488796],
+    "description": "A high-altitude plateau offering stunning sunrise and sunset views, famously visited by Charles de Foucauld.",
+    "rating": 4.9,
+    "cost": "Variable",
+    "visit_duration": "Half-day to Full day",
+    "nearby_amenities": ["Lodges", "Photography Spots"]
+  },
+  {
+    "name": "Taghit Oasis",
+    "category": "Nature",
+    "city": "Taghit",
+    "gps": [30.92518861793609, -2.030575203968185],
+    "description": "A beautiful desert oasis with massive sand dunes and palm groves, perfect for relaxation and adventure.",
+    "rating": 4.8,
+    "cost": "Variable",
+    "visit_duration": "Half-day to Full day",
+    "nearby_amenities": ["Hotels", "Camel Rides", "Sandboarding"]
+  },
+  {
+    "name": "Tassili N'Ajjer National Park",
+    "category": "Historical",
+    "city": "Djanet",
+    "gps": [25.81440522863711, 8.133984480688643],
+    "description": "UNESCO-listed rock art site with prehistoric cave paintings, surreal sandstone formations, and an unforgettable desert experience.",
+    "rating": 5.0,
+    "cost": "Variable",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Camping Areas", "4x4 Tours"]
+  }
 
 
 ]
