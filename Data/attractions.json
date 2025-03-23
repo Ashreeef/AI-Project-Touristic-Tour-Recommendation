@@ -412,6 +412,7 @@
     "name": "Basilique Saint Augustin",
     "category": "Cultural",
     "city": "Annaba",
+    "gps": [36.88194, 7.74472],
     "description": "A 19th-century basilica blending Roman, Byzantine, and Berbero-Moorish styles, perched atop the Hill of Hippo in Annaba, housing a relic of Saint Augustine.",
     "rating": 4.5,
     "cost": "Free",
@@ -483,7 +484,78 @@
     "cost": "Free",
     "visit_duration": "2 hours",
     "nearby_amenities": ["Restaurants", "Scenic Viewpoints", "Visitor Center", "Wildlife Observation Areas", "Public Restrooms"]
-  }
+  },
+  
+ {
+  "name": "National Museum of Antiquities of Algiers",
+  "category": "Museum",
+  "city": "Algiers",
+  "gps": [36.76139, 3.04611],
+  "description": "The oldest museum in Algeria and Africa, showcasing a vast collection of classical antiquities and Islamic art from various Arab-Muslim dynasties, located in Algiers' Freedom Park.",
+  "rating": 4.4,
+  "cost": "200 DZD",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": ["Restaurants", "Public Restrooms", "Library"]
+},
+{
+  "name": "Dounia Parc",
+  "category": "Nature",
+  "city": "Algiers",
+  "gps": [36.74305, 2.97240],
+  "description": "A vast urban park in Algiers, offering lush green spaces, walking trails, recreational areas, and scenic views, perfect for relaxation and outdoor activities.",
+  "rating": 3.5,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": ["Restaurants", "Cafés", "Playgrounds", "Walking Trails", "Picnic Areas", "Public Restrooms", "Parking"]
+},
+{
+  "name": "Villa Abd-el-Tif",
+  "category": "Museum",
+  "city": "Algiers",
+  "gps": [36.74504, 3.07330],
+  "description": "A historic villa in Algiers, known for its Moorish architecture and artistic legacy, once home to the Abd-el-Tif Prize laureates, fostering creativity and cultural exchange.",
+  "rating": 4.3,
+  "cost": "150 DZD",
+  "visit_duration": "2 hours",
+  "nearby_amenities": ["Public Restrooms", "Scenic Viewpoints"]
+},
+
+{
+  "name": "Villa Boulkine",
+  "category": "Historical",
+  "city": "Algiers",
+  "gps": [36.7345, 3.0915],
+  "description": "A 19th-century architectural gem in Hussein Dey, Algiers, once the secondary residence of Dey Hussein, now serving as the temporary home for the Grand Museum of Africa.",
+  "rating": 4.7,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": ["Cafés", "Restaurants", "Public Restrooms", "Parking", "Metro Station", "Stadium"]
+},
+{
+  "name": "Assekrem",
+  "category": "Nature",
+  "city": "Tamanrasset",
+  "gps": [23.2900, 5.6290],
+  "description": "A breathtaking high plateau in the Hoggar Mountains, offering panoramic views, dramatic volcanic landscapes, and the historic hermitage of Charles de Foucauld.",
+  "rating": 4.8,
+  "cost": "Free",
+  "visit_duration": "3-5 hours",
+  "nearby_amenities": ["Camping Area", "Scenic Viewpoints", "Hiking Trails"]
+},
+{
+  "name": "M'Zab Valley",
+  "category": "Cultural",
+  "city": "Ghardaïa",
+  "gps": [32.4900, 3.6700],
+  "description": "A UNESCO World Heritage site, M'Zab Valley features five fortified cities established in the 10th century by the Ibadites, showcasing unique medieval architecture and traditional human habitat adapted to the Sahara Desert environment.",
+  "rating": 5,
+  "cost": "Free",
+  "visit_duration": "1-2 days",
+  "nearby_amenities": ["Hotels", "Restaurants", "Guided Tours", "Souvenir Shops", "Cafés"]
+}
+
+
+
 
 
 ]
