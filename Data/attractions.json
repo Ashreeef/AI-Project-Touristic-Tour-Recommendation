@@ -673,7 +673,17 @@
     "cost": "Variable",
     "visit_duration": "Full day",
     "nearby_amenities": ["Camping Areas", "4x4 Tours"]
-  }
-
+  },
+ {
+    "name": "Tikjda National Park",
+    "category": "Nature",
+    "city": "Tikjda",
+    "gps": [36.44312894176837, 4.11527339439725],
+    "description": "A scenic mountain resort in the Djurdjura Range, offering skiing in winter and hiking in summer. Known for its stunning alpine views.",
+    "rating": 4.3,
+    "cost": "Variable",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": ["Ski Rentals", "Restaurants", "Hiking Trails"]
+}
 
 ]
