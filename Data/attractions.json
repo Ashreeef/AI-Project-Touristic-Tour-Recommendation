@@ -487,6 +487,17 @@
     "nearby_amenities": ["Cable Cars", "Traditional Bakeries"]
   },
   {
+    "name": "Cirta Museum",
+    "category": "Museum",
+    "city": "Constantine",
+    "gps": [36.365, 6.6147],
+    "description": "A well-preserved Roman mosaic depicting allegorical representations of the four seasons. Typical of Roman-era floor decorations in wealthy homes, it exhibits intricate designs and a variety of colored tiles.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Museum Cafe", "Gift Shop"]
+  },
+  {
     "name": "Tassili n'Ajjer",
     "category": "Nature",
     "city": "Djanet",
@@ -815,5 +826,71 @@
     "cost": "Free",
     "visit_duration": "1-2 hours",
     "nearby_amenities": ["Unknown"]
-  }
+  },
+  {
+    "name": "Timimoun Oasis",
+    "category": "Nature",
+    "city": "Timimoun",
+    "gps": [29.2689, 0.2310],
+    "description": "A small oasis town known as the 'Red Oasis' with distinctive red mud-brick architecture in the Sudanese style. Explore the ancient Ksour, palm groves, and experience the unique blend of Berber, Arab, and African cultures.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1-2 days",
+    "nearby_amenities": ["Local Guesthouses", "Restaurants serving traditional cuisine", "Souvenir Shops"]
+  },
+  {
+    "name": "Ksar Draa",
+    "category": "Historical",
+    "city": "Timimoun",
+    "gps": [29.5457, 0.1818],
+    "description": "A fascinating architectural wonder and one of the most significant and well-preserved ksars in the Timimoun region. Built in the 14th century with walls made of sand, straw, and clay, it features narrow alleys, winding staircases, and hidden courtyards. It has houses, mosques and kitchens.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-6 hours",
+    "nearby_amenities": ["Local shops", "Restaurants"]
+  },
+  {
+    "name": "La Gazelle d'Or Resort & Spa",
+    "category": "Resort",
+    "city": "El Oued",
+    "gps": [33.3494, 6.8038],
+    "description": "A luxurious 4.5-star resort and spa in El Oued, offering a unique desert experience with tent and deluxe room accommodations. Features 3 outdoor pools, an indoor pool, a full-service spa, and multiple dining options serving international cuisine [1][3].",
+    "rating": 4.2,
+    "cost": "20000 DZD",
+    "visit_duration": "2-3 days",
+    "nearby_amenities": ["Spa", "Swimming pools", "Restaurants", "Fitness center"]
+  },
+  {
+    "name": "Qal'at Bani Hammad",
+    "category": "Historical",
+    "city": "M'Sila",
+    "gps": [35.8139, 4.7933],
+    "description": "A fortified palatine city and UNESCO World Heritage site.  Founded in 1007, it served as the first capital of the Hammadid dynasty, showcasing medieval Islamic architecture. It was abandoned in 1090 and partly destroyed in 1152.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Limited"]
+  },
+  {
+    "name": "Djurdjura National Park",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps": [36.4667, 4.1333],
+    "description": "A natural gem in the Kabylie region, renowned for its dramatic mountain ranges, lush forests, and diverse wildlife, including the endangered Barbary Macaque. The park offers hiking trails with stunning viewpoints and is steeped in cultural significance with the local Kabyle people.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "1 day",
+    "nearby_amenities": ["Hotels", "Campgrounds", "Hiking trails", "Visitor center at Tikjda"]
+  },
+  {
+    "name": "Beni Abbes Museum",
+    "category": "Museum",
+    "city": "Beni Abbes",
+    "gps": [30.1292, -2.1767],
+    "description": "A museum dedicated to desert fauna, fossils, and Algerian arts and crafts. It displays an extensive range of different types of dates, minerals, rocks, and objects from the Paleolithic and Neolithic eras. Supported by the Saharan Research Center.",
+    "rating": 4.2,
+    "cost": "Unknown",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Unknown"]
+  }  
 ]
