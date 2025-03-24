@@ -89,7 +89,7 @@
   },
   {
     "name": "Djamaâ El-Djazaïr",
-    "category": "Cultural",
+    "category": "Religious",
     "city": "Algiers",
     "gps": [36.73583, 3.13806],
     "description": "The third-largest mosque in the world, featuring the world's tallest minaret at 265 meters. It includes a prayer hall for 120,000 worshippers, a one-million book library, and a museum of Islamic art.",
@@ -144,6 +144,17 @@
     "nearby_amenities": ["Restaurants", "Beach Access"]
   },  
   {
+    "name": "Garden City Mall",
+    "category": "Shopping Mall",
+    "city": "Algiers",
+    "gps": [36.7507, 2.9517],
+    "description": "A premier shopping and entertainment hub in Dély Ibrahim, Algiers. It features a diverse range of retail outlets from international brands to local boutiques. The mall provides various dining options and recreational facilities including cinemas and play areas for children.",
+    "rating": 4.2,
+    "cost": "Variable based on purchases and activities",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Cinemas", "Play areas", "Parking"]
+  },  
+  {
     "name": "Tipaza Roman Ruins",
     "category": "Historical",
     "city": "Tipaza",
@@ -166,6 +177,50 @@
     "nearby_amenities": ["Scenic Views", "Local Guides"],
     "tourist_type": "Archaeology Enthusiasts"
   },
+  {
+    "name": "Chréa Mountains",
+    "category": "Nature",
+    "city": "Blida",
+    "gps": [36.428455, 2.879427],
+    "description": "A breathtaking mountain range within Chréa National Park, offering stunning landscapes, diverse flora and fauna, and a cool climate. It is Known for its ancient Atlas cedar forests and is home to a population of the endangered Barbary macaque.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "Variable, depending on activities",
+    "nearby_amenities": ["Hiking trails", "Picnic spots", "Lookout points"]
+  },
+  {
+    "name": "Monastère de Tibhirine",
+    "category": "Religious",
+    "city": "Médéa",
+    "gps": [36.2956, 2.7157],
+    "description": "A monastery with historical and religious significance, located near Médéa.",
+    "rating": 4.5,
+    "cost": "Unknown",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Limited"]
+  },
+  {
+    "name": "Lac Dhaya",
+    "category": "Nature",
+    "city": "Médéa",
+    "gps": [36.3666, 2.6918],
+    "description": "A body of water near Médéa, offering scenic views and a natural environment.",
+    "rating": 4.4,
+    "cost": "Unknown",
+    "visit_duration": "Variable",
+    "nearby_amenities": ["Limited"]
+  },
+  {
+    "name": "Cascade Zonday (Zonday Waterfalls)",
+    "category": "Nature",
+    "city": "Médéa",
+    "gps": [36.3493, 2.8018],
+    "description": "A beautiful set of waterfalls located in El-Hamdania, near Médéa, Algeria. It's a popular destination for hiking and day trips, offering scenic trails and natural beauty[3][6].",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "Variable (day trip)",
+    "nearby_amenities": ["Hiking trails"]
+  },  
   {
     "name": "Fort Santa Cruz",
     "category": "Historical",
@@ -266,8 +321,41 @@
     "nearby_amenities": ["Restaurants", "Public Transport", "Parking"]
   },
   {
-    "name": "Great Mosque of Tlemcen",
+    "name": "Abdelhamid Ben Badis Mosque",
+    "category": "Religious",
+    "city": "Oran",
+    "gps": [35.697, -0.6230],
+    "description": "Inaugurated in 2015, this mosque is a revered place of worship and a prominent symbol of Oran, known for its Andalusian-Maghrebi architectural style. It can accommodate 25,000 worshipers. Its minaret is 104 meters high and covered in glass. It's a meeting place for high-level figures.",
+    "rating": 4.8,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants", "Public Transport"]
+  },
+  {
+    "name": "Arènes d'Oran",
     "category": "Historical",
+    "city": "Oran",
+    "gps": [35.6900, -0.6600],
+    "description": "Originally built in 1890 (wooden structure) and rebuilt in 1908/1910, these are the only bullfighting arena in Algeria. It can host 10,000 spectators. Used for bullfighting, football, boxing, and wrestling. Reopened in 2018 after rehabilitation.",
+    "rating": 4.3,
+    "cost": "Variable (based on events)",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants", "Public Transport"]
+  },
+  {
+    "name": "Disco Maghreb",
+    "category": "Cultural",
+    "city": "Oran",
+    "gps": [35.7000, -0.6500],
+    "description": "A historic music store made famous by DJ Snake's music video. It's become a cultural landmark and a place of pilgrimage for fans of Raï music and a must-see for visitors to Oran. In 2022, French President Emmanuel Macron visited this location.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "30 minutes - 1 hour",
+    "nearby_amenities": ["Restaurants", "Public Transport"]
+  },
+  {
+    "name": "Great Mosque of Tlemcen",
+    "category": "Cultural",
     "city": "Tlemcen",
     "gps": [34.8833, -1.3167],
     "description": "Built in 1082, this mosque is a highlight of Tlemcen's Islamic heritage.",
@@ -343,6 +431,18 @@
     "nearby_amenities": ["Beach Amenities", "Water Sports Rentals"]
   },
   {
+    "name": "Mosquée Sidi Boumediene",
+    "category": "Religious",
+    "city": "Tlemcen",
+    "gps": [34.8778, -1.2896],
+    "description": "A mosque located in the El Eubbad district of Tlemcen. It was originally built as a tomb in 1339 by the Merinid sultan Abou l'Hassan Ali as an annex to the mausoleum of Sidi Boumediene and includes a madrasa (built in 1347), a small palace (Dar es Sultân), a zaouia, a hammam, and latrines.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants", "Public Transport"],
+    "unique_feature": "Part of a complex that includes a madrasa, a small palace, a zaouia, a hammam, and latrines."
+  },  
+  {
     "name": "Timgad Ruins",
     "category": "Historical",
     "city": "Batna",
@@ -356,7 +456,7 @@
   {
     "name": "M'Zab Valley",
     "category": "Cultural",
-    "city": "Ghardaia",
+    "city": "Ghardaïa",
     "gps": [32.4891, 3.6735],
     "description": "UNESCO site with pentagonal Ibadi mosques and cliffside granaries. Includes five fortified ksour (villages) dating to 11th century.",
     "rating": 4.5,
@@ -400,7 +500,7 @@
   {
     "name": "Djemila",
     "category": "Historical",
-    "city": "Setif",
+    "city": "Sétif",
     "gps": [36.3200, 5.7350],
     "description": "Best-preserved Roman town in North Africa with Capitolium temple, 3,000-seat theater, and mosaic-filled Christian quarter.",
     "rating": 4.6,
@@ -485,85 +585,72 @@
     "visit_duration": "2 hours",
     "nearby_amenities": ["Restaurants", "Scenic Viewpoints", "Visitor Center", "Wildlife Observation Areas", "Public Restrooms"]
   },
-  
- {
-  "name": "National Museum of Antiquities of Algiers",
-  "category": "Museum",
-  "city": "Algiers",
-  "gps": [36.76139, 3.04611],
-  "description": "The oldest museum in Algeria and Africa, showcasing a vast collection of classical antiquities and Islamic art from various Arab-Muslim dynasties, located in Algiers' Freedom Park.",
-  "rating": 4.4,
-  "cost": "200 DZD",
-  "visit_duration": "1-2 hours",
-  "nearby_amenities": ["Restaurants", "Public Restrooms", "Library"]
-},
-{
-  "name": "Dounia Parc",
-  "category": "Nature",
-  "city": "Algiers",
-  "gps": [36.74305, 2.97240],
-  "description": "A vast urban park in Algiers, offering lush green spaces, walking trails, recreational areas, and scenic views, perfect for relaxation and outdoor activities.",
-  "rating": 3.5,
-  "cost": "Free",
-  "visit_duration": "1 hour",
-  "nearby_amenities": ["Restaurants", "Cafés", "Playgrounds", "Walking Trails", "Picnic Areas", "Public Restrooms", "Parking"]
-},
-{
-  "name": "Villa Abd-el-Tif",
-  "category": "Museum",
-  "city": "Algiers",
-  "gps": [36.74504, 3.07330],
-  "description": "A historic villa in Algiers, known for its Moorish architecture and artistic legacy, once home to the Abd-el-Tif Prize laureates, fostering creativity and cultural exchange.",
-  "rating": 4.3,
-  "cost": "150 DZD",
-  "visit_duration": "2 hours",
-  "nearby_amenities": ["Public Restrooms", "Scenic Viewpoints"]
-},
-
-{
-  "name": "Villa Boulkine",
-  "category": "Historical",
-  "city": "Algiers",
-  "gps": [36.7345, 3.0915],
-  "description": "A 19th-century architectural gem in Hussein Dey, Algiers, once the secondary residence of Dey Hussein, now serving as the temporary home for the Grand Museum of Africa.",
-  "rating": 4.7,
-  "cost": "Free",
-  "visit_duration": "1-2 hours",
-  "nearby_amenities": ["Cafés", "Restaurants", "Public Restrooms", "Parking", "Metro Station", "Stadium"]
-},
-{
-  "name": "Assekrem",
-  "category": "Nature",
-  "city": "Tamanrasset",
-  "gps": [23.2900, 5.6290],
-  "description": "A breathtaking high plateau in the Hoggar Mountains, offering panoramic views, dramatic volcanic landscapes, and the historic hermitage of Charles de Foucauld.",
-  "rating": 4.8,
-  "cost": "Free",
-  "visit_duration": "3-5 hours",
-  "nearby_amenities": ["Camping Area", "Scenic Viewpoints", "Hiking Trails"]
-},
-{
-  "name": "M'Zab Valley",
-  "category": "Cultural",
-  "city": "Ghardaïa",
-  "gps": [32.4900, 3.6700],
-  "description": "A UNESCO World Heritage site, M'Zab Valley features five fortified cities established in the 10th century by the Ibadites, showcasing unique medieval architecture and traditional human habitat adapted to the Sahara Desert environment.",
-  "rating": 5,
-  "cost": "Free",
-  "visit_duration": "1-2 days",
-  "nearby_amenities": ["Hotels", "Restaurants", "Guided Tours", "Souvenir Shops", "Cafés"]
-},
-{
-      "name": "Ain El Fouara Fountain",
-      "category": "Cultural",
-      "city": "Sétif",
-      "gps": [36.18944, 5.40497],
-      "description": "A renowned fountain known for its intricate sculpture and as a symbol of Sétif.",
-      "rating": 4.7,
-      "cost": "Free",
-      "visit_duration": "30 minutes",
-      "nearby_amenities": ["Cafés", "Shops"]
-    },
+  {
+    "name": "National Museum of Antiquities of Algiers",
+    "category": "Museum",
+    "city": "Algiers",
+    "gps": [36.76139, 3.04611],
+    "description": "The oldest museum in Algeria and Africa, showcasing a vast collection of classical antiquities and Islamic art from various Arab-Muslim dynasties, located in Algiers' Freedom Park.",
+    "rating": 4.4,
+    "cost": "200 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants", "Public Restrooms", "Library"]
+  },
+  {
+    "name": "Dounia Parc",
+    "category": "Nature",
+    "city": "Algiers",
+    "gps": [36.74305, 2.97240],
+    "description": "A vast urban park in Algiers, offering lush green spaces, walking trails, recreational areas, and scenic views, perfect for relaxation and outdoor activities.",
+    "rating": 3.5,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": ["Restaurants", "Cafés", "Playgrounds", "Walking Trails", "Picnic Areas", "Public Restrooms", "Parking"]
+  },
+  {
+    "name": "Villa Abd-el-Tif",
+    "category": "Museum",
+    "city": "Algiers",
+    "gps": [36.74504, 3.07330],
+    "description": "A historic villa in Algiers, known for its Moorish architecture and artistic legacy, once home to the Abd-el-Tif Prize laureates, fostering creativity and cultural exchange.",
+    "rating": 4.3,
+    "cost": "150 DZD",
+    "visit_duration": "2 hours",
+    "nearby_amenities": ["Public Restrooms", "Scenic Viewpoints"]
+  },
+  {
+    "name": "Villa Boulkine",
+    "category": "Historical",
+    "city": "Algiers",
+    "gps": [36.7345, 3.0915],
+    "description": "A 19th-century architectural gem in Hussein Dey, Algiers, once the secondary residence of Dey Hussein, now serving as the temporary home for the Grand Museum of Africa.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Cafés", "Restaurants", "Public Restrooms", "Parking", "Metro Station", "Stadium"]
+  },
+  {
+    "name": "M'Zab Valley",
+    "category": "Cultural",
+    "city": "Ghardaïa",
+    "gps": [32.4900, 3.6700],
+    "description": "A UNESCO World Heritage site, M'Zab Valley features five fortified cities established in the 10th century by the Ibadites, showcasing unique medieval architecture and traditional human habitat adapted to the Sahara Desert environment.",
+    "rating": 5,
+    "cost": "Free",
+    "visit_duration": "1-2 days",
+    "nearby_amenities": ["Hotels", "Restaurants", "Guided Tours", "Souvenir Shops", "Cafés"]
+  },
+  {
+    "name": "Ain El Fouara Fountain",
+    "category": "Cultural",
+    "city": "Sétif",
+    "gps": [36.18944, 5.40497],
+    "description": "A renowned fountain known for its intricate sculpture and as a symbol of Sétif.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "30 minutes",
+    "nearby_amenities": ["Cafés", "Shops"]
+  },
     {
       "name": "Sétif Archaeological Museum",
       "category": "Museum",
@@ -577,7 +664,7 @@
     },
     {
       "name": "Park Mall Sétif",
-      "category": "Entertainment",
+      "category": "Shopping Mall",
       "city": "Sétif",
       "gps": [36.1911, 5.4137],
       "description": "A modern shopping center with various retail outlets and an indoor amusement park.",
@@ -599,7 +686,7 @@
     },
     {
       "name": "Pont Sidi M'Cid",
-      "category": "Landmark",
+      "category": "Nature",
       "city": "Constantine",
       "gps": [36.37264181304701, 6.614391153916172],
       "description": "A suspension bridge offering breathtaking panoramic views of the Rhumel Gorge.",
@@ -632,11 +719,11 @@
     },
     {
     "name": "Hoggar Mountains",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Tamanrasset",
     "gps": [23.290495650409653, 5.536439029266573],
     "description": "A breathtaking desert landscape with volcanic mountains, scenic sunrises, and home to the Assekrem Plateau.",
-    "rating": 5.0,
+    "rating": 4.6,
     "cost": "Variable",
     "visit_duration": "Full day",
     "nearby_amenities": ["Camping Areas", "Hiking Trails"]
@@ -647,7 +734,7 @@
     "city": "Tamanrasset",
     "gps": [23.28451888591167, 5.608760087488796],
     "description": "A high-altitude plateau offering stunning sunrise and sunset views, famously visited by Charles de Foucauld.",
-    "rating": 4.9,
+    "rating": 4.7,
     "cost": "Variable",
     "visit_duration": "Half-day to Full day",
     "nearby_amenities": ["Lodges", "Photography Spots"]
@@ -655,7 +742,7 @@
   {
     "name": "Taghit Oasis",
     "category": "Nature",
-    "city": "Taghit",
+    "city": "Béchar",
     "gps": [30.92518861793609, -2.030575203968185],
     "description": "A beautiful desert oasis with massive sand dunes and palm groves, perfect for relaxation and adventure.",
     "rating": 4.8,
@@ -664,26 +751,69 @@
     "nearby_amenities": ["Hotels", "Camel Rides", "Sandboarding"]
   },
   {
-    "name": "Tassili N'Ajjer National Park",
-    "category": "Historical",
-    "city": "Djanet",
-    "gps": [25.81440522863711, 8.133984480688643],
-    "description": "UNESCO-listed rock art site with prehistoric cave paintings, surreal sandstone formations, and an unforgettable desert experience.",
-    "rating": 5.0,
-    "cost": "Variable",
-    "visit_duration": "Full day",
-    "nearby_amenities": ["Camping Areas", "4x4 Tours"]
-  },
- {
     "name": "Tikjda National Park",
     "category": "Nature",
-    "city": "Tikjda",
+    "city": "Bouira",
     "gps": [36.44312894176837, 4.11527339439725],
     "description": "A scenic mountain resort in the Djurdjura Range, offering skiing in winter and hiking in summer. Known for its stunning alpine views.",
     "rating": 4.3,
     "cost": "Variable",
     "visit_duration": "3-4 hours",
     "nearby_amenities": ["Ski Rentals", "Restaurants", "Hiking Trails"]
-}
-
+  },
+  {
+    "name": "Brezina Oasis",
+    "category": "Nature",
+    "city": "El Bayadh",
+    "gps": [33.0978, 1.2587],
+    "description": "An oasis town at the foot of the Saharan Atlas. Explore the traditional palm groves and witness the ancient system of water distribution. Rich in prehistoric vestiges, including rock engravings.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Local shops", "Basic services"]
+  },
+  {
+    "name": "Hammam Salihine",
+    "category": "Nature",
+    "city": "Khenchela",
+    "gps": [35.4403, 7.0844],
+    "description": "Sulphur springs known for their medical properties, believed to heal skin conditions and rheumatism. Visited for recreation and increasingly popular[1][2].",
+    "rating": 4.2,
+    "cost": "Unknown",
+    "visit_duration": "Variable",
+    "nearby_amenities": ["Unknown"]
+  },
+  {
+    "name": "Aqua Palm Les Jardains des Zibans Biskra",
+    "category": "Amusement Park",
+    "city": "Biskra",
+    "gps": [34.8252, 5.7731],
+    "description": "A water park offering recreation and entertainment.",
+    "rating": 3.9,
+    "cost": "1800 DZD",
+    "visit_duration": "Variable",
+    "nearby_amenities": ["Unknown"]
+  },
+  {
+    "name": "Landon Garden",
+    "category": "Garden",
+    "city": "Biskra",
+    "gps": [34.8457, 5.7336],
+    "description": "A public garden providing a relaxing venue for families. Biskra's breathtaking public gardens provide families with the perfect venue to relax and spend time together [1][2].",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Unknown"]
+  },
+  {
+    "name": "Sidna Oqba Ibn Nafi Mosque",
+    "category": "Religious",
+    "city": "Biskra",
+    "gps": [34.8505, 5.6973],
+    "description": "A significant mosque near Biskra, reflecting the region's spiritual heritage [2].",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Unknown"]
+  }
 ]
