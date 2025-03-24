@@ -815,5 +815,203 @@
     "cost": "Free",
     "visit_duration": "1-2 hours",
     "nearby_amenities": ["Unknown"]
-  }
+  },
+  {
+    "name": "Port de Stora",
+    "category": "Port",
+    "city": "skikda",
+    "gps": [36.8792, 6.9065],
+    "description": "A picturesque fishing port near Skikda, offering stunning coastal views, fresh seafood, and a gateway to boat tours and maritime activities.",
+    "rating": 3.9,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": ["Cafés", "Fishing Spots", "Boat Tours" ]
+  },
+ {
+    "name": "La Place",
+    "category": "Cultural",
+    "city": "Skikda",
+    "gps": [36.8665, 6.9063],
+    "description": "A vibrant public square in the heart of Skikda, known for its historic architecture, lively atmosphere, and a popular gathering spot for locals and visitors.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "0.5-1 hour",
+    "nearby_amenities": ["Cafés", "Shops", "Restaurants", "Public Seating"]
+},
+ {
+    "name": "Madaure Ruins",
+    "category": "Cultural",
+    "city": "Souk Ahras",
+    "gps": [36.2844, 7.9519],
+    "description": "Ancient Roman ruins in Souk Ahras, once home to a renowned university and the philosopher Apuleius, offering a glimpse into Algeria's rich classical past.",
+    "rating": 4.3,
+    "cost": "unknown",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Guided Tours", "Information Center"]
+},
+{
+    "name": "Thubursicum",
+    "category": "Historical",
+    "city": "Souk Ahras",
+    "gps": [36.4556, 7.9511],
+    "description": "An ancient Roman archaeological site near Khemissa, known for its well-preserved Roman theater, forums, public baths, and other ruins that offer insight into the city's historical significance.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Public Restrooms", "Guided Tours", "Parking", "Information Center"]
+},
+{
+    "name": "Lac Tonga",
+    "category": "Nature",
+    "city": "El tarf",
+    "gps": [36.8911, 8.4433],
+    "description": "A freshwater lake within El Kala National Park, recognized as a Ramsar site, providing a crucial habitat for aquatic plants and migratory birds, making it a paradise for nature lovers and birdwatchers.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Guided Tours", "Wildlife Observation Areas", "Scenic Viewpoints", "Visitor Center"]
+},
+{
+    "name": "Monument historique de Challe et Maurice",
+    "category": "Historical",
+    "city": "El tarf",
+    "gps": [36.9236, 8.4512],
+    "description": "A significant historical monument located in Ain El Assel, El Tarf, Algeria, recognized for its cultural heritage and national significance.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": ["Parking", "Information Center", "Guided Tours"]
+},
+{
+    "name": "Palais de Lala Fatma",
+    "category": "Historical",
+    "city": "El tarf",
+    "gps": [36.8950, 8.3130],
+    "description": "An ancient Roman-era site located in a cork oak forest near Oued Djenane, showcasing remnants from Roman, Byzantine, and Islamic periods, recently designated as a national protected archaeological site.",
+    "rating": 4.3,
+    "cost": "unknown",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Guided Tours", "Information Center", "Scenic Viewpoints"]
+},
+{
+    "name": "Église Saint Cyprien",
+    "category": "Religious",
+    "city": "El tarf",
+    "gps": [36.8956, 8.4433],
+    "description": "A historic Catholic church in El kala, serving as a significant place of worship for the local Christian community.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "0.5-1 hour",
+    "nearby_amenities": ["Cafés", "Public Transportation"]
+},
+{
+    "name": "Zoo Brabtia et Aqua Park",
+    "category": "Amusement Park",
+    "city": "El tarf",
+    "gps": [36.8958, 8.4447],
+    "description": "A combined zoological and aquatic amusement park in El Kala, featuring a variety of wildlife species, water attractions, and family-friendly entertainment.",
+    "rating": 4.2,
+    "cost": "Variable",
+    "visit_duration": "3-5 hours",
+    "nearby_amenities": ["Cafés", "Picnic Areas", "Restrooms", "Parking", "Gift Shops", "Children's Play Area"]
+},
+{
+    "name": "Mosquée El-Atik 'Ibn Khaldoune'",
+    "category": "Religious",
+    "city": "Guelma",
+    "gps": [36.4622, 7.4266],
+    "description": "One of Guelma's oldest mosques, blending Ottoman and French architectural influences, located centrally on Rue Malika Bouzit.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "0.5-1 hour",
+    "nearby_amenities": ["Shops", "Public Restrooms"]
+},
+{
+    "name": "Île Srigina",
+    "category": "Nature",
+    "city": "Skikda",
+    "gps": [36.9378, 6.8861],
+    "description": "Île Srigina is a small island located at the western entrance of Skikda's harbor in Algeria. The island's name is believed to originate from the Punic term 'rus gunia,' meaning 'cape of the creek.'",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Boat Tours", "Fishing Spots", "Scenic Viewpoints"]
+},
+{
+    "name": "Grottes de Wadi Bo’kouz",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [35.4125, 8.1194],
+    "description": "A fascinating cave system in Tébessa, Algeria, known for its geological formations and natural beauty, attracting adventure seekers and nature lovers.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Hiking Trails", "Guided Tours"]
+},
+{
+    "name": "Naqrine et Farkan",
+    "category": "Historical",
+    "city": "Tébessa",
+    "gps": [35.4042, 8.1200],
+    "description": "Naqrine et Farkan is a tourist site located in the Fatima Zahra district of Tébessa, Algeria. Specific details about the site's features and attractions are limited.",
+    "rating": 4,
+    "cost": "Unknown",
+    "visit_duration": "Variable",
+    "nearby_amenities": ["Guided Tours"]
+},
+{
+    "name": "Timerkanine Lake",
+    "category": "Nature",
+    "city": "Oum El-Bouaghi",
+    "gps": [35.7667, 7.8667],
+    "description": "Recognized internationally under the Ramsar Convention, the lake is a popular destination for tourists seeking relaxation and leisure, as well as a natural laboratory for scientific tourism, attracting students and researchers.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Hiking Trails", "Bird Watching Platforms"]
+},
+{
+    "name": "Nécropole mégalithique de Sefia",
+    "category": "Historical",
+    "city": "Oum El-Bouaghi",
+    "gps": [35.8667, 6.9333],
+    "description": "The site was registered in 1900 and classified as a national heritage site on January 23, 1968.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Parking", "Guided Tours", "Information Panels"]
+},
+{
+    "name": "Sidi Rghis Mount Forest",
+    "category": "Nature",
+    "city": "Oum El Bouaghi",
+    "gps": [35.8833, 7.0833],
+    "description": "The forest is characterized by its lush greenery and diverse vegetation, including Aleppo pine, oak, wormwood, and cork trees. It serves as a habitat for various wildlife species such as wild rabbits, blond foxes, jackals, eagles, and partridges.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Hiking Trails", "Picnic Areas", "Paragliding Spots", "Wildlife Observation Points"]
+},
+{
+    "name": "Mosquée El Atique",
+    "category": "Religious",
+    "city": "Oum El Bouaghi",
+    "gps": [35.8781, 7.1139],
+    "description": "The mosque showcases traditional Algerian Islamic architecture, featuring intricate tile work and stunning calligraphy, reflecting the region's rich Islamic heritage.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "0.5-1 hour",
+    "nearby_amenities": ["Parking", "Cafés", "Shops"]
+},
+{
+    "name": "Zoo de Oum El Bouaghi",
+    "category": "Amusement Park",
+    "city": "Oum El Bouaghi",
+    "gps": [35.8781, 7.1139],
+    "description": "it serves as a popular destination for both locals and visitors seeking leisure and educational experiences.",
+    "rating": 4.0,
+    "cost": "Nominal entrance fee",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Cafés", "Restrooms", "Playground"]
+}
 ]
