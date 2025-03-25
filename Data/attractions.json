@@ -1214,6 +1214,94 @@
             "Restaurants",
             "Hotels"
         ]
+    },
+  {
+        "name": "Taza National Park",
+        "category": "National Park",
+        "city": "Jijel",
+        "gps": [36.700194, 5.559389],
+        "description": "A UNESCO-recognized biosphere reserve, Taza National Park boasts diverse flora and fauna, including the endangered Barbary macaque. Visitors can explore its lush forests and scenic mountains.",
+        "rating": 5.0,
+        "cost": "Free",
+        "visit_duration": "3 hours",
+        "nearby_amenities": ["Guided Tours", "Picnic Areas"]
+    },
+    {
+        "name": "Caves of Jijel (Grottes Merveilleuses)",
+        "category": "Nature",
+        "city": "Jijel",
+        "gps": [36.8200, 5.7667],
+        "description": "Known as the 'Marvelous Caves,' these limestone caves feature stunning stalactites and stalagmites, offering visitors a unique subterranean experience.",
+        "rating": 4.5,
+        "cost": "200 DZD",
+        "visit_duration": "2 hours",
+        "nearby_amenities": ["Guided Tours", "Gift Shop"]
+    },
+    {
+        "name": "Island of El Aouana",
+        "category": "Island",
+        "city": "El Aouana",
+        "gps": [36.8667, 5.7500],
+        "description": "A picturesque island located 950 meters off the coast, accessible by boat. It's ideal for short boat trips, sightseeing, and exploring the natural beauty.",
+        "rating": 5.0,
+        "cost": "Boat rental fees apply",
+        "visit_duration": "2 hours",
+        "nearby_amenities": ["Boat Rentals", "Picnic Areas"]
+    },
+    {
+        "name": "Grand Phare (Great Lighthouse)",
+        "category": "Historical",
+        "city": "Jijel",
+        "gps": [36.8150, 5.7667],
+        "description": "This historic lighthouse offers panoramic views of the Mediterranean Sea and the surrounding coastline, making it a popular spot for photography and sightseeing.",
+        "rating": 4.0,
+        "cost": "Free",
+        "visit_duration": "1 hour",
+        "nearby_amenities": ["Parking", "Viewing Platforms"]
+    },
+    {
+        "name": "Kotama Museum",
+        "category": "Museum",
+        "city": "Jijel",
+        "gps": [36.8200, 5.7667],
+        "description": "A museum showcasing the rich history and cultural heritage of the Jijel region, featuring artifacts, traditional crafts, and historical exhibits.",
+        "rating": 4.3,
+        "cost": "100 DZD",
+        "visit_duration": "2 hours",
+        "nearby_amenities": ["Restrooms", "Guided Tours"]
+    },
+    {
+        "name": "Animal Park - Kissir El Aouana",
+        "category": "Wildlife Park",
+        "city": "El Aouana",
+        "gps": [36.8500, 5.7500],
+        "description": "A family-friendly park home to various animal species, offering visitors the chance to observe wildlife in a natural setting.",
+        "rating": 4.0,
+        "cost": "300 DZD",
+        "visit_duration": "2 hours",
+        "nearby_amenities": ["Cafeteria", "Playground"]
+    },
+    {
+        "name": "Baba Arroudj Fortress",
+        "category": "Historical",
+        "city": "Jijel",
+        "gps": [36.8205, 5.7512],
+        "description": "A historic fortress dating back to the Ottoman era, offering a glimpse into Algeria's rich maritime history.",
+        "rating": 4.5,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": ["Guided Tours", "Cafes"]
+    },
+    {
+        "name": "Ziama Mansouriah",
+        "category": "Coastal Town",
+        "city": "Ziama Mansouriah",
+        "gps": [36.6500, 5.4000],
+        "description": "A charming coastal town known for its picturesque scenery, local seafood cuisine, and peaceful environment.",
+        "rating": 4.5,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": ["Restaurants", "Shops"]
     }
 
 ]
