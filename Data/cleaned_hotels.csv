@@ -1,147 +1,313 @@
-hotel,price,score,avg review,city
-Hotel Best Night 2,69741,8.8,Fabulous,Algiers
-Holiday Inn Algiers - Cheraga Tower by IHG,99300,7.7,Good,Algiers
-Hotel Best Night,75676,7.8,Good,Algiers
-Hôtel Sidi Yahia,109956,8.1,Very good,Algiers
-Mercure Alger Palais Des Congres,92400,8.7,Fabulous,Algiers
-AFRIC HOTEL- Casbah,62300,7.5,Good,Algiers
-ibis Alger Aéroport,88920,6.6,Review score,Algiers
-Lalla Doudja Hotel,99400,8.2,Very good,Algiers
-Atlantis Alger,91000,9.0,Superb,Algiers
-Hotel Hammamet,105000,7.7,Good,Algiers
-Numidien Hotel,73500,7.0,Good,Algiers
-Golden Tulip Opera Alger,113400,8.6,Fabulous,Algiers
-Cozi et très chaleureux,47600,7.81875,Good,Algiers
-Hôtel Zinou zm,77000,8.1,Very good,Algiers
-M Suite Hotel,106780,8.8,Fabulous,Algiers
-AZ Hôtels Kouba,109200,7.5,Good,Algiers
-AZ Hôtels Vieux Kouba,147000,7.4,Good,Algiers
-Algiers Marriott Hotel Bab Ezzouar,164900,7.0,Good,Algiers
-Residence Inn by Marriott Algiers Bab Ezzouar,325500,7.4,Good,Algiers
-"Cosy apartment, central and peaceful",68040,10.0,Exceptional,Algiers
-Apartment dans villa avec Piscine,142800,7.81875,Good,Algiers
-Maisonnette Borj El Bahri,37931,7.81875,Good,Algiers
-Cosy house,45062,9.7,Exceptional,Algiers
-Coast Haven,80920,7.81875,Good,Algiers
-Hotel El Biar,47775,6.7,Review score,Algiers
-Rym El Djamil Hotel,81900,7.81875,Good,Annaba
-MAJESTIC Hotel Annaba,57225,1.0,Review score,Annaba
-F2 duplex proche corniches plages et promenades,60588,7.5,Good,Annaba
-Azur,78750,7.81875,Good,Annaba
-Azur,78750,7.81875,Good,Annaba
-Hotel D'orient,58800,1.0,Review score,Annaba
-Hotel Sabri,86100,7.81875,Good,Annaba
-Jakasse,28560,7.4,Good,Annaba
-Hotel el Hayat,32480,7.8,Good,Batna
-HOTEL CHELIA,41055,4.5,Review score,Batna
-hotel brahimi batna,35000,7.6,Good,Batna
-Hotel Messaoudi,98000,7.81875,Good,Batna
-HOTEL SALDAE,8000,9.3,Superb,Béjaia
-Atlantis Bejaia Aéroport,12350,8.3,Very good,Béjaia
-HOTEL DU NORD,7310,7.9,Good,Béjaia
-BEJAIA Location Appartements de 39 à 69eur,6950,9.3,Superb,Béjaia
-Kenzi appart,5200,7.81875,Good,Béjaia
-T4 douane,7500,8.0,Very good,Béjaia
-Kenzi appart,4500,7.81875,Good,Béjaia
-Brahmi Hotel,5175,8.8,Fabulous,Béjaia
-Golden H,5175,9.0,Superb,Béjaia
-Léa appart,9000,7.81875,Good,Béjaia
-F2 bien équipé en plein centre-ville de Béjaïa,9600,7.81875,Good,Béjaia
-Bejaia city center,3200,7.81875,Good,Béjaia
-Sofwar location,6300,7.81875,Good,Béjaia
-Résidence Aslouni Aach El Vaz saket Béjaïa,11200,7.81875,Good,Béjaia
-Kenzi appart,7000,7.81875,Good,Béjaia
-HOTEL DU LAC,6230,6.5,Review score,Béjaia
-Super appartement de luxe T4 a la ville de Bejaia,14000,6.7,Review score,Béjaia
-Résidence brahmi,5120,7.81875,Good,Béjaia
-Appartement Bejaia centre Ville vue sur gouraya,8000,7.81875,Good,Béjaia
-Résidence riad kharfallah,9750,7.81875,Good,Béjaia
-Appartement chic à louer,8000,10.0,Exceptional,Béjaia
-T3 cité douanière,9500,7.81875,Good,Béjaia
-LES HAMMADITES,6970,7.0,Good,Béjaia
-Appartement chic à louer,7200,7.81875,Good,Béjaia
-Villa la crête,19125,7.6,Good,Béjaia
-Ibis Constantine,53010,6.2,Review score,Constantine
-Novotel Constantine,69849,6.7,Review score,Constantine
-Hotel El Bey Constantine,67200,8.0,Very good,Constantine
-Hostel le Rhumel,21000,8.9,Fabulous,Constantine
-El khayem Hotel,59325,9.0,Superb,Constantine
-Constantine Marriott Hotel,158500,8.7,Fabulous,Constantine
-Appartement F4 de Luxe,63725,9.1,Superb,Constantine
-Appartement meublé,28560,9.5,Exceptional,Constantine
-Constantine Air-conditioned Parking near Parc Aquatiq,119000,7.81875,Good,Constantine
-résidence infinity,23562,7.81875,Good,Constantine
-Mirana Mayotte Hostel 47,4000,9.1,Superb,Ghardaia
-Charming Studio for Two Persons,3528,7.81875,Good,Ghardaia
-HABIB Farm,10125,9.0,Superb,Ghardaia
-Thanmirth Ghardaia,19600,7.81875,Good,Ghardaia
-Hotel Noumerat,6500,9.5,Exceptional,Ghardaia
-Hotel MEDINA,56000,8.1,Very good,Oran
-LE PALME HOTEL,81800,8.9,Fabulous,Oran
-Hôtel Ottoman - ORAN,41412,7.3,Good,Oran
-HOTEL IKRAM ORAN,31014,6.1,Review score,Oran
-Hotel 2H,1338750,7.81875,Good,Oran
-Le cheval blanc,28350,6.8,Review score,Oran
-T2 résidence le wencharis Oran,38080,7.81875,Good,Oran
-Liberté Hotels Oran,68600,7.1,Good,Oran
-Melissa Hotel,107800,6.7,Review score,Oran
-Appartement de luxe exceptionnel,107100,7.81875,Good,Oran
-Hôtel privilège Oran,33201,6.7,Review score,Oran
-ONYX by luna,87500,8.9,Fabulous,Oran
-Calypso,59500,8.3,Very good,Oran
-Hotel Les Ambassadeurs,50400,8.1,Very good,Oran
-Calypso Home Oran,59500,8.5,Very good,Oran
-Four Points by Sheraton Oran,116800,6.5,Review score,Oran
-Le Meridien Oran Hotel,153900,7.4,Good,Oran
-2H Hotel,227500,7.9,Good,Oran
-À oran centre ville dans la residence gharb mall,38080,7.81875,Good,Oran
-Khawaja,47600,3.5,Review score,Oran
-Charm El Cheikh Hotel,41475,8.4,Very good,Oran
-appartement design face à la mer,368550,7.81875,Good,Oran
-West khaw,61880,7.81875,Good,Oran
-superbe appartement F3 - 80m2,32237,10.0,Exceptional,Oran
-Belle vue à Bel air,50575,7.5,Good,Oran
-dreamHome,5000,7.2,Good,Sétif
-Setif deplux,8000,7.81875,Good,Sétif
-Appartement avec garage,5700,7.81875,Good,Sétif
-Chambre 1 à 6 personnes,2250,7.81875,Good,Sétif
-Chambre d'hôte Sétif très bien placé 2 à 6 personnes salle de bain privative,3750,9.0,Superb,Sétif
-Park Mall Hotel & Conference Center,16361,8.4,Very good,Sétif
-TADJ EL MAOUADA,8160,7.7,Good,Sétif
-19000Setif rue khabchache embarek,5120,7.81875,Good,Sétif
-Chambres individuelles et collectives à Setif,3200,7.81875,Good,Sétif
-Hotel Borsa,6200,8.1,Very good,Sétif
-Guest apartment for a family or for family members,6300,7.81875,Good,Sétif
-studio el karma,5225,7.81875,Good,Sétif
-Tipaza ville,26275,7.81875,Good,Tipasa
-Hôtel Ben Aouda & Spa,121800,9.0,Superb,Tipasa
-Au bord de la mer,76636,7.81875,Good,Tipasa
-Studio peirechahin,23800,7.81875,Good,Tipasa
-Appartement proche plage,52360,7.81875,Good,Tipasa
-"Apart F3 in Tipaza, 10 mins from the beach",35819,7.81875,Good,Tipasa
-Appartement Ruines Romaines tipasa,78750,7.81875,Good,Tipasa
-Eagle nest,35700,7.81875,Good,Tipasa
-Pieds dans l'eau,81218,7.81875,Good,Tipasa
-Appartement proche plage,71400,7.81875,Good,Tipasa
-Super Apparte avec vue sur mèr,35700,7.81875,Good,Tipasa
-bangalow sidrafood,44621,7.81875,Good,Tipasa
-Villa pieds dans l'eau,104720,7.81875,Good,Tipasa
-Villa belle vue,238000,7.81875,Good,Tipasa
-ibis Tlemcen,56345,7.1,Good,Tlemcen
-Hôtel El Menzah Kazi,32130,7.81875,Good,Tlemcen
-Hôtel résidence pomaria,29750,7.81875,Good,Tlemcen
-appartement royal,37604,7.81875,Good,Tlemcen
-Location Tlemcen,17850,7.81875,Good,Tlemcen
-El Hartoune,27846,7.81875,Good,Tlemcen
-Appartement de lux,32130,7.81875,Good,Tlemcen
-STAMBOULI,41440,10.0,Exceptional,Tlemcen
-Résidence EL-HANA,57330,7.81875,Good,Tlemcen
-Résidence EL-HANA,73710,7.81875,Good,Tlemcen
-Appartement à louer à Tlemcen,57120,9.1,Superb,Tlemcen
-Luxueux Appartement à Tlemcen,119000,10.0,Exceptional,Tlemcen
-Résidence Sofia,48195,7.81875,Good,Tlemcen
-Villa avec piscine et jardin,385000,7.81875,Good,Tlemcen
-appartement f6 haut standing,928200,7.81875,Good,Tlemcen
-Location appartement meublé,28350,7.81875,Good,Tlemcen
-Location appartement meublé,47250,7.81875,Good,Tlemcen
-Location de vacances,36295,7.81875,Good,Tlemcen
+hotel,price,city,gps,average review
+hotel techriret فندق تيشريرث,9900,Batna,"[35.673567, 5.654875]",3.8
+فندق محطة خدمات أولاد سي سليمان,9900,Batna,"[35.619495, 5.6358572]",4.3
+Hôtel El Hayat,9900,Batna,"[35.5540393, 6.1757195]",4.2
+Hotel chaabani,9900,Batna,"[35.136557, 6.3074837]",1
+Hôtel Messaoudi,12420,Batna,"[35.5346408, 6.1476273]",4.4
+فندق براهيمي,4590,Batna,"[35.5543101, 6.1474458]",4.1
+Hotel CH Chaker,10125,Batna,"[35.5538106, 6.1777472]",3.8
+Chelia Batna Hotel,7020,Batna,"[35.5580517, 6.1742792]",3.1
+TIMGAD HÔTEL HAZEM,6345,Batna,"[35.5566648, 6.179055]",3.9
+Hôtel Guettafi,6345,Batna,"[35.5467135, 6.1797358]",3.7
+Hotel elmadera,5670,Batna,"[35.521882, 6.2112293]",4.2
+Hôtel Kourtel,9900,Batna,"[35.5388048, 6.1356769]",4.1
+فندق سليم,9900,Batna,"[35.5347737, 6.1487147]",3.5
+hôtel résidence el mahdi,9900,Batna,"[35.5562004, 6.1741627]",4.5
+HOTEL MESSAOUI BARIKA,9900,Batna,"[35.3870609, 5.3713901]",3.8
+Timgad Trajan Hotel,6885,Batna,"[35.4896955, 6.4683489]",4.5
+MOFATIS Hotel,9900,Batna,"[35.6308037, 6.2674526]",4.3
+hotel mont chélia فندق الهواء النقي شليا,9900,Batna,"[35.2967128, 6.6028033]",4
+مرقد لمهنوي hotel mhnawi,9900,Batna,"[35.3864128, 5.3515723]",4.3
+HOTEL MIZOU,9900,Batna,"[35.3680159, 5.3623012]",4.3
+Hotel Transatlantique - Ghoufi,9900,Batna,"[35.0505067, 6.1698837]",4.4
+HOTEL AMINE نزل أمين,9900,Batna,"[35.3772509, 5.8932749]",4
+Gold Hotel,9900,Batna,"[35.3836216, 5.9048195]",3.4
+Atlantis Hôtel Bejaia,12690,Bejaia,"[36.7219809, 5.0627865]",4.1
+Hôtel Golden  Bejaia,5940,Bejaia,"[36.7408814, 5.0593254]",4.4
+Hôtel du Lac,7155,Bejaia,"[36.7511214, 5.0525521]",4.4
+Saldae Hotel,15255,Bejaia,"[36.7550862, 5.0886595]",4
+Hôtel Brahmi,6615,Bejaia,"[36.7528102, 5.0727501]",4.1
+Hôtel Cristal,7020,Bejaia,"[36.7557148, 5.0566805]",3.8
+Hôtel de l'Étoile,8505,Bejaia,"[36.7524515, 5.085308]",4.8
+Hôtel La Bravoure,5670,Bejaia,"[36.7543005, 5.0794202]",4.2
+Hôtel Royal,9900,Bejaia,"[36.7449222, 5.041348]",3.5
+Hôtel Le Zéphyr,9900,Bejaia,"[36.7465102, 5.050861]",3.7
+Hotel Chrea,9900,Bejaia,"[36.7487188, 5.0539336]",3.7
+Hôtel du Nord,9900,Bejaia,"[36.7550895, 5.0804112]",4.1
+Hôtel Le Sarrasin,9900,Bejaia,"[36.7377804, 5.0652086]",3.7
+Hôtel Le Palace,9900,Bejaia,"[36.755859, 5.057696]",3.7
+Hôtel Madala,9900,Bejaia,"[36.7507257, 5.0485534]",3.5
+Hôtel Providentia,9900,Bejaia,"[36.7527174, 5.0457794]",3.8
+Hotel Ou Autre,9900,Bejaia,"[36.7508053, 5.0567081]",4
+Hôtel,9900,Bejaia,"[36.7497316, 5.050447]",2.5
+Hôtel taïs,9900,Bejaia,"[36.7514502, 5.0557713]",3.8
+Hôtel Essalem,9900,Bejaia,"[36.7294239, 5.0597485]",4.1
+Hôtel Thiziri,9900,Bejaia,"[36.7408679, 5.0592638]",3.9
+Hôtel Delphine,9900,Bejaia,"[36.8103244, 4.9892421]",2.7
+Hôtel Cap Carbon,9900,Bejaia,"[36.7605974, 5.0910125]",4.2
+Le Belvédère Hôtel,9900,Bejaia,"[36.7610063, 5.0889287]",5
+Afric Hotel,6075,Algiers,"[36.7803563, 3.058772]",4.1
+Hôtel El Aurassi,12825,Algiers,"[36.7764399, 3.0509035]",4.1
+Nelson Hotel,6480,Algiers,"[36.7900927, 3.0601361]",4.2
+Hôtel Saint Eugène,15255,Algiers,"[36.7967598, 3.0477974]",4.7
+The Post Hotel,9900,Algiers,"[36.7802054, 3.0605697]",4
+Hôtel RALF,15255,Algiers,"[36.768639, 3.049401]",4.7
+Oasis Hotel,4185,Algiers,"[36.7410913, 3.0917937]",3.3
+Hôtel Audin,7830,Algiers,"[36.7686374, 3.0540299]",4
+City Hotel Algiers,5535,Algiers,"[36.7626114, 3.0564456]",3.8
+Space Telemly Hotel,8370,Algiers,"[36.7697274, 3.0506393]",4.4
+Atlantis Hotel - Algiers,11880,Algiers,"[36.7753121, 3.0112195]",4.5
+The Legacy Luxury Hotel,12150,Algiers,"[36.7517764, 3.0189749]",4.2
+Hôtel Suisse,8640,Algiers,"[36.7676807, 3.0528687]",3.8
+Hotel El Djazair,10530,Algiers,"[36.7539677, 3.0462679]",4.1
+Sidi Yahia Hotel,12690,Algiers,"[36.7393836, 3.0367565]",4
+Hôtel Elghanami,11070,Algiers,"[36.7592291, 3.0554404]",4.3
+AD Hotel Hydra,11880,Algiers,"[36.7517345, 3.0398417]",4.4
+Hôtel des Etrangers - Square Port Said,9900,Algiers,"[36.7803397, 3.0598174]",2.4
+El Kettani Hotel,9900,Algiers,"[36.7920189, 3.0605936]",3.5
+Terminus Hotel,9900,Algiers,"[36.7803614, 3.0613358]",3.2
+Hôtel El Badr,9900,Algiers,"[36.7829314, 3.061025]",2.6
+Hotel Astrid,9900,Algiers,"[36.7806912, 3.0595992]",3.2
+Hotel Amirouche,9900,Algiers,"[36.780406, 3.0580583]",3.4
+Hôtel Tunis,9900,Algiers,"[36.7820131, 3.0608908]",3.4
+Grand Hôtel des étrangers,9900,Algiers,"[36.7806316, 3.0600924]",5
+HOTEL LA FAMILLE,9900,Algiers,"[36.7897492, 3.0599637]",3.7
+Hydra Hotel,4455,Algiers,"[36.7382034, 3.0300499]",3.4
+Hotel Saray,9045,Algiers,"[36.73476, 3.053754]",4.3
+Hôtel Ikram El Dhayf,9990,Algiers,"[36.7503132, 3.0583151]",4.3
+"AD Hotel, Hydra",16200,Algiers,"[36.7506706, 3.0229354]",4.5
+Hôtel du Val,14040,Algiers,"[36.7585526, 3.0258206]",4.2
+Plaza Hotel Algiers,6480,Algiers,"[36.7551362, 3.0596954]",3.7
+Hotel Dar Diaf,9900,Algiers,"[36.7513889, 3.0517932]",4
+Hotel restaurant le 103,9900,Algiers,"[36.7391177, 3.0344332]",4.5
+El Bey Hotel - Jijel,11205,Jijel,"[36.811768, 5.777539]",4.6
+BARBAROUS Royal Hotel,9900,Jijel,"[36.8086325, 5.772312]",4.1
+Hôtel Le Convivial,9900,Jijel,"[36.8110357, 5.7783613]",4.4
+Hôtel la Résidence,9900,Jijel,"[36.8168289, 5.7722176]",3.9
+Hôtel sultan jijel,9900,Jijel,"[36.8118208, 5.7781471]",4.3
+Hôtel Dar El Aaz,7965,Jijel,"[36.8229186, 5.7550801]",3.6
+Hôtel Taghrast,7020,Jijel,"[36.8216666, 5.7686695]",4.2
+Hôtel de la Plage d'or jijel,4590,Jijel,"[36.8189086, 5.7088266]",3.7
+Hôtel Rouikha Meriem ep Zaimen,9900,Jijel,"[36.819052, 5.706786]",3.7
+BABA AROUJ Hotel,9900,Jijel,"[36.8174414, 5.7713262]",3.4
+Residence Hôtelière El Macif,9900,Jijel,"[36.814039, 5.6982104]",3.3
+Hôtel les emeraudes,9900,Jijel,"[36.8098669, 5.8406985]",3.8
+Hôtel Barbarouse,9900,Jijel,"[36.8098223, 5.8426742]",3.8
+فندق الزمرد,9900,Jijel,"[36.8098528, 5.8405654]",4.3
+Hôtel Mongorno - Berrouaghia,9900,Medea,"[36.1323079, 2.9173331]",4.2
+Hôtel El Andalous,9900,Medea,"[36.137135, 2.9135435]",4.7
+Hotel boughezoul,9900,Medea,"[35.7042925, 2.8397566]",4.7
+Hotel Marhba نزل مرحبا,9900,Medea,"[35.8715327, 2.7535729]",4.2
+Hotel MBC,9900,Medea,"[35.7013902, 2.8459166]",4.3
+Hotel sekhri,9900,Medea,"[35.7041035, 2.8396973]",3.4
+Hotel boughezoul 2,9900,Medea,"[35.703101, 2.8405742]",3
+فندق النور,9900,Medea,"[35.7044493, 2.8437267]",4.3
+HOTEL LE RAVIN BLEU,9900,Medea,"[36.139268, 2.9202484]",3.9
+Hotel happiness,9900,Medea,"[36.4234125, 3.1002031]",4.3
+Royal Hotel Oran-MGallery,14580,Oran,"[35.7032656, -0.6477597]",4.4
+Best Western Hotel Colombe Oran,8100,Oran,"[35.6937079, -0.630017]",4.4
+Hôtel le Cheval Blanc,4995,Oran,"[35.70036, -0.638033]",3.8
+ASSALA HOTEL,10800,Oran,"[35.6981172, -0.6507136]",4.3
+MH HOTEL,5670,Oran,"[35.6932568, -0.6509683]",4.2
+Charme El Cheikh Hotel,6210,Oran,"[35.6962083, -0.6458546]",3.9
+Le Palme Hotel Oran,10800,Oran,"[35.6850745, -0.6468509]",4.7
+Melissa Hotel,11475,Oran,"[35.7054711, -0.6434277]",3.5
+Hotel II Horloges Oran,6615,Oran,"[35.7002679, -0.6494708]",3.7
+2H Hotel,24165,Oran,"[35.7048426, -0.6325642]",4.2
+Medina Hotel Oran,7425,Oran,"[35.6943678, -0.653354]",3.8
+Plaza Hotel Oran,9315,Oran,"[35.7093148, -0.6273225]",3.4
+Le Méridien Oran Hotel & Convention Centre,16065,Oran,"[35.7264888, -0.5919311]",4.1
+RODINA Hotel & SPA,12285,Oran,"[35.6706055, -0.6383101]",3.9
+Ibiris Hotel,7695,Oran,"[35.709833, -0.612295]",4.6
+Hôtel Bay Oran,18360,Oran,"[35.7153985, -0.6095628]",4.1
+Fantazia Hotel Oran,7425,Oran,"[35.7140643, -0.6172048]",3.5
+Hôtel El Ksar,6480,Oran,"[35.7043667, -0.635729]",2.6
+Liberty Hotel,11070,Oran,"[35.6990304, -0.5990661]",3.8
+Hotel Onyx By Luna,12960,Oran,"[35.694531, -0.6050509]",4.6
+Hôtel Adef,10530,Oran,"[35.7052715, -0.6422358]",2.9
+Hotel Grand Horloge,9900,Oran,"[35.6965886, -0.6409868]",4.3
+HÔTEL RHOUFI,9900,Oran,"[35.6917516, -0.6497993]",3.9
+Hotel MZ,9900,Oran,"[35.6937801, -0.6456979]",3.8
+Hotel Talbi,9900,Oran,"[35.6950445, -0.6463698]",3.7
+Hôtel bouaza,9900,Oran,"[35.6903225, -0.6498405]",4.1
+Sidi Khattab Hotel,9900,Oran,"[35.6988587, -0.6398204]",2.9
+Hôtel Houna,9900,Oran,"[35.6923904, -0.6351568]",3.6
+Hotel Charem Echikh,9900,Oran,"[35.6956234, -0.6456916]",3.4
+Hotel Mansour,9900,Oran,"[35.700141, -0.6414124]",3.7
+Hôtel NADJAH,9900,Oran,"[35.6968363, -0.6445567]",4.4
+Hotel President 2,9900,Oran,"[35.6970697, -0.6307988]",2.8
+Hôtel du Jardin,9900,Oran,"[35.6875937, -0.6451058]",3.1
+Hôtel tahtaha وهران,9900,Oran,"[35.6965172, -0.6479898]",4
+Hôtel Andalous,9900,Oran,"[35.6984428, -0.6407898]",3.4
+Hôtel l'Alhambra,9900,Oran,"[35.6952789, -0.6481574]",3.7
+Hôtel Bel Air,9900,Oran,"[35.7001157, -0.6285904]",3.2
+HOTEL HAYATT REGENCY BARKI ORAN,9900,Oran,"[35.6988026, -0.6348483]",4.9
+Hôtel KAMEL,9900,place Guarguentah,"[35.699128, -0.649834]",3.6
+Hotel RIAD,9900,Oran,"[35.6980304, -0.6401631]",4.1
+Africa Hotel,9900,Oran,"[35.6932402, -0.6455219]",3.9
+SH Hotel,9900,Oran,"[35.6880261, -0.6444408]",5
+Hôtel le Majestic Oran,9900,Oran,"[35.6999266, -0.6420901]",4
+Constantine Marriott Hotel,19845,Constantine,"[36.3473514, 6.616838]",4.4
+El Bey Hotel - Constantine,8100,Constantine,"[36.3376724, 6.6503689]",4.2
+Grand Hotel Cirta,9900,Constantine,"[36.3633013, 6.6092511]",3.6
+Grand Hotel,9900,Constantine,"[36.3657144, 6.6107417]",3.4
+Eucalyptus Hotel,9900,Constantine,"[36.3187077, 6.6173635]",4.2
+Remes Hotel,9900,Constantine,"[36.3426103, 6.6449589]",4.1
+Hotel el-Hawa Talk,9900,Constantine,"[36.3678842, 6.6160531]",3.1
+Hotel Des Prince,9900,Constantine,"[36.3614615, 6.6076484]",3.4
+فندق بلقيس,9900,Constantine,"[36.3190285, 6.6172554]",3.9
+Hôtel Dali Constantine,9900,Constantine,"[36.3008237, 6.6181261]",4.3
+Hôtel Nassim,9900,Constantine,"[36.3500173, 6.6000107]",5
+L'escale hotel aéroport Constantine,9900,Constantine,"[36.2889157, 6.6172188]",4.2
+Park Mall Hotel & Conference Center,10395,Setif,"[36.1909922, 5.4090147]",4.3
+Hôtel Frantz Fanon,4455,Setif,"[36.1880451, 5.4045101]",4.1
+Hôtel Zidane,10530,Setif,"[36.2006129, 5.4128965]",3.5
+Hotel & Restaurant Setif,8505,Setif,"[36.1894, 5.419071]",4.3
+Hôtel Azdif,11070,Setif,"[36.1903115, 5.4048251]",4.3
+Golden Rose Hôtel & Spa,11610,Setif,"[36.1893868, 5.3991513]",3.9
+Hôtel Rue D'or,6885,Setif,"[36.1884432, 5.4058657]",4.3
+Hôtel Ferdi,7425,Setif,"[36.1851083, 5.4060889]",3.9
+Hôtel El-Kenz,9720,Setif,"[36.1901107, 5.4075]",4.1
+Hôtel Tadj el Mouada,8775,Setif,"[36.1901837, 5.407562]",4.2
+Hotel Nova,9045,Setif,"[36.1894345, 5.3987287]",3.9
+HÔTEL BAYAZID,12285,Setif,"[36.1998232, 5.3850255]",4.1
+Hotel el hidhab,9900,Setif,"[36.1934865, 5.408215]",3.1
+Hôtel Hamdani,9900,Setif,"[36.1945858, 5.4140401]",4.3
+Dar El Sultan Hôtel,9900,Setif,"[36.1845006, 5.4134701]",4.2
+Hôtel El-Rabie,9900,Setif,"[36.1888935, 5.4045196]",3.7
+Hôtel El Bachir,9900,Setif,"[36.1894719, 5.404893]",3.2
+SETIFIS Hôtel,9900,Setif,"[36.1896496, 5.3931393]",3.6
+Hôtel el Fouara,9900,Setif,"[36.1898002, 5.4048991]",2.7
+Hôtel Tassili,9900,Setif,"[36.186421, 5.4076878]",2.8
+Hôtel Rif,9900,Setif,"[36.1897593, 5.4107984]",4.3
+Ben Aouda Hotel,13230,Tipaza,"[36.5989195, 2.4110682]",4.4
+Cesaria Hotel,10260,Tipaza,"[36.6078971, 2.1917044]",4.1
+Hotel La Côte Turquoise,9900,Tipaza,"[36.5924396, 2.4502968]",3.7
+Hôtel Munatec,9900,Tipaza,"[36.5880967, 2.4465486]",3.1
+Hôtel Namymas - Berard,9900,Tipaza,"[36.6032161, 2.6067694]",4.1
+Hotel Es-salem فندق السلام,9900,Tipaza,"[36.6391341, 2.6842992]",3.1
+Hôtel Fouka,9900,Tipaza,"[36.6446029, 2.7527622]",3
+hotel l'étoile de la mediterranne 2,9900,Tipaza,"[36.6818305, 2.7822227]",4.1
+فندق السلام,9900,Tipaza,"[36.6428412, 2.6900001]",3.7
+فندق نسيب,9900,Tipaza,"[36.6077656, 2.1913034]",3
+COMPLEXE GOUNINI,9900,Tipaza,"[36.5687866, 2.0267556]",4.3
+Sheraton Annaba Hotel,19305,Annaba,"[36.9024131, 7.7622351]",4.2
+Hotel Royal Elisa Annaba,11880,Annaba,"[36.908611, 7.7466315]",3.6
+Le Majestic Hotel,6075,Annaba,"[36.9060598, 7.7601344]",3.7
+El Nour Hotel,5535,Annaba,"[36.8939825, 7.7575791]",4.2
+HOTEL TÉLÉPHÉRIQUE ANNABA,5805,Annaba,"[36.8957975, 7.7217579]",3.6
+Seybouse international hotel,19845,Annaba,"[36.9039358, 7.7611095]",3.7
+Hôtel Sidi Brahim,9900,Annaba,"[36.8867966, 7.7454555]",3
+HÔTEL SINDIBAD,9900,Annaba,"[36.8874344, 7.7505627]",3.5
+فندق دار لياس,9900,Annaba,"[36.8999111, 7.7503088]",3
+فندق تامانارت,9900,Annaba,"[36.8990517, 7.7484206]",4.1
+Hôtel El Mouna,9900,Annaba,"[36.9196278, 7.7639785]",3.7
+Hôtel Safsaf,9900,Annaba,"[36.8993125, 7.7619375]",3.7
+Hôtel Andalous,9900,Annaba,"[36.900944, 7.761809]",4.3
+Hôtel El Hana,9900,Annaba,"[36.9008128, 7.7626267]",4.5
+فندق تورينغ,9900,Annaba,"[36.9003736, 7.7596136]",3.3
+Hôtel Résidence Hippone,9900,Annaba,"[36.9244444, 7.7602778]",2.8
+Hôtel Marignan,9900,Annaba,"[36.9005133, 7.7527124]",3.8
+Hôtel Splendid,9900,Annaba,"[36.9000625, 7.7573402]",2.8
+Sabri hotel,4320,Annaba,"[36.93849, 7.766487]",3.7
+Rym El Djamil Hotel,6615,Annaba,"[36.9480646, 7.7723146]",3.5
+Hôtel Nassim,9900,Annaba,"[36.945, 7.7633333]",3.4
+Hôtel Dar Chadli,9900,Annaba,"[36.8974009, 7.7521249]",3.8
+Hotel anaba,9900,Annaba,"[36.8941875, 7.7572726]",5
+Hotel Cirta,9900,Annaba,"[36.8992311, 7.7562536]",4.6
+Hôtel Hoggar,9900,Annaba,"[36.9009577, 7.7587248]",3.7
+Hôtel Mondial,9900,Annaba,"[36.9013476, 7.7632273]",4.4
+HÔTEL NOUZHA,9900,Annaba,"[36.8967628, 7.7581069]",3.6
+فندق الحرية,9900,Annaba,"[36.8987758, 7.7610813]",4.3
+Hotel International,9900,Annaba,"[36.8998221, 7.76214]",5
+Hôtel Familial Marhaba,9900,Annaba,"[36.9473736, 7.7707037]",3.2
+Hôtel El Ahram,9900,Annaba,"[36.9009592, 7.7528099]",3.3
+فندق رشراش,9900,Annaba,"[36.9016745, 7.7507523]",3.1
+Hôtel Alexandria,9900,Annaba,"[36.9014264, 7.7588532]",3
+HÔTEL DE NICE,9900,Annaba,"[36.8992229, 7.759413]",4.3
+فندق حريم السلطان,9900,Annaba,"[36.8973007, 7.7500931]",4.3
+hôtel bizoc,9900,Annaba,"[36.8973007, 7.7500931]",4.3
+Renaissance Tlemcen Hotel,19454,Tlemcen,"[34.866878, -1.316167]",4.1
+Hôtel Les Zianides,7124,Tlemcen,"[34.8803043, -1.3021008]",3.3
+Hôtel Stambouli,3425,Tlemcen,"[34.8823546, -1.3035217]",3.8
+ibis Tlemcen,7672,Tlemcen,"[34.8893585, -1.3353105]",4
+Relax Hotel,9900,Tlemcen,"[34.8756366, -1.2900326]",4.1
+El menzah kazi Hotel,3973,Tlemcen,"[34.8801861, -1.3271803]",4.6
+Hôtel Islam ll Tlemcen,6576,Khamis,"[34.8857118, -1.3134094]",3.8
+Hôtel ELMAFROUCHE restaurant salle polyvalente,3973,Tlemcen,"[34.8646746, -1.3227995]",4.6
+Hôtel Grand Bassin Tlemcen,9900,Tlemcen,"[34.8793388, -1.3172201]",4.1
+Hotel la perle,9900,Tlemcen,"[34.8862448, -1.3219542]",4
+Shrine Belkaid,9900,Tlemcen,"[34.8854938, -1.3051281]",3.2
+Venisia Hotel Tlemcen,9900,Tlemcen,"[34.8983103, -1.3057411]",3.8
+Hôtel KZ Tlemcen,9900,Tlemcen,"[34.8979277, -1.3070757]",4.5
+Hotel Tlemcen Medina فندق تلمسان المدينة,9900,Tlemcen,"[34.8834133, -1.3125392]",4.7
+Hotel Majestic,9900,Tlemcen,"[34.8832115, -1.3075125]",3.7
+Hôtel Maghreb,9900,Tlemcen,"[34.8824539, -1.3086586]",5
+Hotel Meriem Tlemcen,9900,Bab Zir,"[34.8868481, -1.3068211]",3.4
+Hôtel hamid,9900,Tlemcen,"[34.8853446, -1.3055223]",2.5
+Ghouti,9900,Tlemcen,"[34.8849632, -1.3108381]",4.3
+citè des jardins batimentA,9900,Tlemcen,"[34.8810095, -1.2981712]",4.3
+Soleil Tours Zelfana,15481,Zelfana,"[32.3909133, 4.224035]",3.4
+فندق الطريق,5480,Metlili,"[32.3662694, 3.7962105]",3.8
+M'zab Hotel,11234,Ghardaia,"[32.4843716, 3.6762879]",3.3
+Belvedere hotel,10686,Ghardaia,"[32.4934258, 3.6905131]",3.8
+Hotel El djanoub,6987,Ghardaia,"[32.4953456, 3.6806712]",3.1
+Résidence Aghlen Paradise,9900,Ghardaia,"[32.4308541, 3.6137937]",3.9
+Maison d'hôtes Taskift,9900,Ghardaia,"[32.4631273, 3.6629849]",4.7
+Gîte TARIST,9900,Ghardaia,"[32.4627482, 3.6611583]",4.6
+Les Deux Tours,9900,Ghardaia,"[32.4599076, 3.6860826]",3.8
+Maison traditionnelle Akham,9900,Ghardaia,"[32.4651763, 3.6694575]",4.1
+Résidence maison d'hôte TAJAMI,9900,Ghardaia,"[32.4646875, 3.6629375]",4.2
+Caravansérail Ghardaïa,9900,Ghardaia,"[32.4651753, 3.6679558]",4.1
+Dar El Diaf,9900,Ghardaia,"[32.4937333, 3.6817205]",4.1
+Résidence Al Riyadh Land,9900,Ghardaia,"[32.4848448, 3.681016]",4.3
+Mzab Hotel Tagherdayt,9900,Ghardaia,"[32.4943741, 3.64446]",3.9
+HOTEL PARADISE,9900,Ghardaia,"[32.576177, 3.6907206]",5
+Hotel Ghardaia,9900,Ghardaia,"[32.4843713, 3.6762851]",4.3
+Ziban Hotel,6850,Biskra,"[34.8428877, 5.7353699]",3.2
+Hôtel Vescera sud,12741,Biskra,"[34.8532603, 5.7280366]",4.4
+Hammam Salihine,6165,Biskra,"[34.8575292, 5.708187]",3.5
+Hotel Cristal,5069,Biskra,"[34.8546393, 5.7279516]",4.6
+Complexe touristiques thermal Sidi Yahia - Biskra,9900,Biskra,"[34.8654094, 5.6942296]",3.9
+Hôtel Maurice Laban,9900,Biskra,"[34.8450629, 5.7057128]",4.4
+AN Hôtel,9900,Biskra,"[34.8506628, 5.7298522]",3.8
+JB HÔTEL BISKRA,9900,Biskra,"[34.8536823, 5.7275624]",3.4
+Hôtel Palace Biskra,9900,Biskra,"[34.8548781, 5.7306737]",3.3
+Hôtel Royal,9900,Biskra,"[34.8572599, 5.7151132]",3.7
+Hôtel Bab Sahara,9900,Biskra,"[34.8674318, 5.7148262]",3.6
+Hôtel El Qods,9900,Biskra,"[34.8486306, 5.7277561]",3.7
+hotel nail zakaria,9900,Biskra,"[34.8711119, 5.7187399]",4.2
+HOTEL ET RESTAURANT SELAMI,9900,Biskra,"[34.8582874, 5.7417297]",3.9
+complexe sidi yahya,9900,Biskra,"[34.8653989, 5.6941124]",3.8
+Hôtel Oasis,9900,Biskra,"[34.8599563, 5.7194668]",3.3
+Hôtel PTT,9900,Biskra,"[34.8599881, 5.7084795]",3.4
+Hôtel Ennakhil,9900,Biskra,"[34.8565109, 5.7087698]",2.9
+Le Grand Hôtel,9900,Biskra,"[34.8588591, 5.7092653]",2.7
+HOTEL YOUCEF,9900,Khenchela,"[35.4633375, 7.0939309]",3.9
+Oasis de seïar,9900,Khenchela,"[34.8381153, 7.0333203]",4.7
+فندق دار الضياف,9900,Khenchela,"[35.4255526, 7.1474507]",3.3
+Hôtel des PTT khenchela MGPTT,9900,Khenchela,"[35.4432985, 7.0826893]",2.9
+Complexe Touristique Bouzidi,9900,Khenchela,"[35.4414986, 7.0861739]",5
+فندق بوزيدي,9900,Khenchela,"[35.4412835, 7.0859069]",4
+Hôtel remila (houssin),9900,Khenchela,"[35.4903149, 6.9324042]",3.3
+فندق ايث عزوز,9900,Khenchela,"[35.2483821, 7.3631512]",4.3
+Hotel des finances,9900,Khenchela,"[35.0408767, 7.0049933]",4.3
+Hotel El Kahina,9900,Khenchela,"[35.4329908, 7.1448361]",2.6
+Hotel Hana,9900,El Bayadh,"[33.6819074, 1.0148713]",5
+Hotel El Hidhab,9900,El Bayadh,"[33.6835787, 1.013163]",2.8
+Hôtel doaa,9900,El Bayadh,"[33.6844154, 1.0116801]",4.1
+Hotel BOURENANE,9900,El Bayadh,"[33.6916714, 1.0189196]",3.8
+Hôtel Fahmi KSEL,9900,El Bayadh,"[33.6828574, 1.0148121]",3.5
+Hôtel Nadjem,9900,El Bayadh,"[33.6757133, 1.0266222]",3.6
+Hotel Sidi Sheikh,9900,El Bayadh,"[32.8968314, 0.5488771]",3.4
+HOTEL EL BESSEM,9900,Bouira,"[36.3337514, 3.687402]",4
+AB Hôtel,9900,Bouira,"[36.384827, 3.8743126]",4.5
+Hotel Al Mokhtar,9900,Bouira,"[36.2616416, 3.5874365]",4.4
+Hôtel Errich,9900,Bouira,"[36.3911553, 3.9010658]",3.2
+Hôtel Le Royal - Bouira,9900,Bouira,"[36.3791762, 3.899513]",3.3
+Hôtel Résidence Mekdouh,9900,Bouira,"[36.3711795, 3.903944]",3.2
+Sofy Hotel,9900,Bouira,"[36.3800206, 3.8922345]",3.5
+El ATTIK BOUIRA HOTEL,9900,Bouira,"[36.3734276, 3.8998286]",3.1
+Dortoir bouira,9900,Bouira,"[36.3739873, 3.9027548]",3.9
+Dortoir hôtel ouest,9900,Bouira,"[36.3756386, 3.8922802]",4.3
+Dortoire FLORIDA,9900,Bouira,"[36.3737714, 3.897351]",4.3
