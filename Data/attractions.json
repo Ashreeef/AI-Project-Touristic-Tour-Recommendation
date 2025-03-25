@@ -1302,13 +1302,13 @@
         "cost": "Free",
         "visit_duration": "2 hours",
         "nearby_amenities": ["Restaurants", "Shops"]
-    }
+    },
 
 
 
 {
     "name": "Ouled Djellal Sand Dunes",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Ouled Djellal",
     "gps": [34.4170, 5.0670],
     "description": "Expansive dunes offering breathtaking sunset views and an authentic desert experience.",
@@ -1319,7 +1319,7 @@
 },
  {
     "name": "Oued El Bared",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Sétif",
     "gps": [36.4700, 5.4760],
     "description": "A scenic river with crystal-clear waters, surrounded by lush greenery and rocky cliffs.",
@@ -1341,7 +1341,7 @@
   },
   {
     "name": "Ain Droj Fountain",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Sétif",
     "gps": [36.1872, 5.4125],
     "description": "A historic natural fountain known for its refreshing mineral-rich waters and tranquil surroundings.",
@@ -1363,7 +1363,7 @@
   },
   {
     "name": "Bougaa Mountains",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Sétif",
     "gps": [36.4000, 5.2000],
     "description": "A breathtaking mountainous region perfect for hiking, picnicking, and nature exploration.",
@@ -1374,7 +1374,7 @@
   },
   {
     "name": "Megress Mountains",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Sétif",
     "gps": [36.331798, 5.355749],
     "description": "A breathtaking mountainous region perfect for hiking, picnicking, and nature exploration.",
@@ -1418,7 +1418,7 @@
   },
   {
     "name": "Aïn Salah Sand Dunes",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Aïn Salah",
     "gps": [27.2000, 2.4833],
     "description": "Expansive sand dunes offering a quintessential Sahara experience, ideal for sandboarding and camel treks.",
@@ -1429,7 +1429,7 @@
   },
   {
     "name": "Soumaa Plateau",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Tébessa",
     "gps": [35.4000, 8.1330],
     "description": "A vast highland region with stunning landscapes, caves, and prehistoric sites.",
@@ -1440,7 +1440,7 @@
   },
   {
     "name": "Timimoun Oasis",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Timimoun",
     "gps": [29.2500, 0.2667],
     "description": "A picturesque desert oasis with lush palm groves and traditional red mudbrick architecture.",
@@ -1460,7 +1460,7 @@
     "visit_duration": "Full day",
     "nearby_amenities": ["Camping Areas", "Guided Tours", "Hiking Trails"]
   },
-  [
+  
     {
       "name": "Aït Ouabane Village",
       "category": "Cultural",
