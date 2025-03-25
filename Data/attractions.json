@@ -1013,5 +1013,207 @@
     "cost": "Nominal entrance fee",
     "visit_duration": "2-3 hours",
     "nearby_amenities": ["Parking", "Cafés", "Restrooms", "Playground"]
-}
+},
+{
+        "name": "Beni Belaid Beach East",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [36.879499,6.111168],
+        "description": "A serene beach known for its clear waters and tranquil environment.",
+        "rating": 4.5,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Beni Belaid Beach west",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.881,
+            6.1105
+        ],
+        "description": "Popular for its golden sands and family-friendly atmosphere.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Lake of Beni Belaid",
+        "category": "Lake",
+        "city": "Jijel",
+        "gps": [
+            36.88,
+            6.112
+        ],
+        "description": "A picturesque lake adjacent to the beach, ideal for picnics and bird-watching.",
+        "rating": 4.3,
+        "cost": "Free",
+        "visit_duration": "1.5 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Plage Sidi Abdelaziz",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.8665,
+            6.005
+        ],
+        "description": "Known for its scenic beauty and clear blue waters, attracting both locals and tourists.",
+        "rating": 4.2,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Plage Rocher aux Moules",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.859,
+            6.0005
+        ],
+        "description": "Features unique rock formations and is popular among snorkeling enthusiasts.",
+        "rating": 4.1,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "El Djenah",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.85,
+            5.995
+        ],
+        "description": "A beautiful beach offering stunning sunsets and a peaceful environment.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2.5 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Plage Kotama",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.82,
+            5.965
+        ],
+        "description": "A lively beach known for its local eateries and vibrant atmosphere.",
+        "rating": 4.3,
+        "cost": "Free",
+        "visit_duration": "2.5 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Grand Phare",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.815,
+            5.96
+        ],
+        "description": "Located near a historic lighthouse, offering panoramic views and a glimpse into maritime history.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Zouai",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.823392,
+            5.73955
+        ],
+        "description": "A hidden gem with crystal-clear waters and soft sandy shores, ideal for relaxation.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Rabta",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.82055,
+            5.76671
+        ],
+        "description": "A tranquil beach near Jijel city, offering scenic views and a relaxing environment.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "La Crique",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.819339,
+            5.706459
+        ],
+        "description": "A stunning beach with rocky cliffs and breathtaking sea views, perfect for photography.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    },
+    {
+        "name": "Plage d'Ouled Bounnar",
+        "category": "Beach",
+        "city": "Jijel",
+        "gps": [
+            36.819416,
+            5.713016
+        ],
+        "description": "A peaceful beach surrounded by nature, ideal for family outings and picnics.",
+        "rating": 4.4,
+        "cost": "Free",
+        "visit_duration": "2 hours",
+        "nearby_amenities": [
+            "Restaurants",
+            "Hotels"
+        ]
+    }
+
 ]
