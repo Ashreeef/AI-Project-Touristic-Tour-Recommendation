@@ -1752,7 +1752,6 @@
   {
     "name": "Oued El Bared",
     "category": "Nature",
-    "category": "Nature",
     "city": "Sétif",
     "gps": [36.47, 5.476],
     "description": "A scenic river with crystal-clear waters, surrounded by lush greenery and rocky cliffs.",
@@ -1783,7 +1782,6 @@
   {
     "name": "Ain Droj Fountain",
     "category": "Nature",
-    "category": "Nature",
     "city": "Sétif",
     "gps": [36.1872, 5.4125],
     "description": "A historic natural fountain known for its refreshing mineral-rich waters and tranquil surroundings.",
@@ -1813,7 +1811,6 @@
   {
     "name": "Bougaa Mountains",
     "category": "Nature",
-    "category": "Nature",
     "city": "Sétif",
     "gps": [36.4, 5.2],
     "description": "A breathtaking mountainous region perfect for hiking, picnicking, and nature exploration.",
@@ -1828,7 +1825,6 @@
   },
   {
     "name": "Megress Mountains",
-    "category": "Nature",
     "category": "Nature",
     "city": "Sétif",
     "gps": [36.331798, 5.355749],
@@ -1904,7 +1900,6 @@
   {
     "name": "Soumaa Plateau",
     "category": "Nature",
-    "category": "Nature",
     "city": "Tébessa",
     "gps": [35.4, 8.133],
     "description": "A vast highland region with stunning landscapes, caves, and prehistoric sites.",
@@ -1918,7 +1913,6 @@
   },
   {
     "name": "Timimoun Oasis",
-    "category": "Nature",
     "category": "Nature",
     "city": "Timimoun",
     "gps": [29.25, 0.2667],
