@@ -462,6 +462,20 @@
     ]
   },
   {
+    "name": "Sebkha of Oran",
+    "category": "Nature",
+    "city": "Oran",
+    "gps": [35.5167, 0.7833],
+    "description": "A salt lake located 15 km south of Oran in the municipality of Misserghin. It is a Ramsar site recognized for its importance as a habitat for migratory birds, including flamingos and other waders. The lake dries up during summer due to high evaporation rates and is surrounded by agricultural lands.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "Half day",
+    "nearby_amenities": [
+      "Limited", 
+      "Agricultural areas"
+    ]
+  },
+  {
     "name": "Great Mosque of Tlemcen",
     "category": "Cultural",
     "city": "Tlemcen",
@@ -605,7 +619,7 @@
   {
     "name": "Cap Carbon",
     "category": "Nature",
-    "city": "Bejaia",
+    "city": "Béjaïa",
     "gps": [36.9127, 5.0999],
     "description": "Dramatic limestone cliffs with 1906 lighthouse. Hiking trails connect to Aokas coastal caves and Gouraya National Park.",
     "rating": 4.3,
@@ -2059,5 +2073,126 @@
       "Camping Areas",
       "Local Restaurants"
     ]
-  }
+  },
+    {
+      "name": "Barbadjani Beach",
+      "category": "Beach",
+      "city": "Tlemcen",
+      "gps": [35.0333, -1.7833],
+      "description": "A secluded beach accessible only by boat, known for its natural beauty and historical significance. It features a freshwater spring and is nestled under a large cliff.",
+      "rating": 4.5,
+      "cost": "Free",
+      "visit_duration": "Half day to full day",
+      "nearby_amenities": ["Limited"]
+    },
+    {
+      "name": "Sbiat Beach",
+      "category": "Beach",
+      "city": "Aïn Témouchent",
+      "gps": [35.5333, -1.0833],
+      "description": "A picturesque beach with a presqu'île and several islets. It is popular for camping and offers a serene natural environment.",
+      "rating": 4.3,
+      "cost": "Free",
+      "visit_duration": "Full day",
+      "nearby_amenities": ["Camping sites", "Local shops"]
+    },
+    {
+      "name": "Madagh Beach",
+      "category": "Beach",
+      "city": "Aïn Témouchent",
+      "gps": [35.6333, -1.2333],
+      "description": "Comprises two beaches, Madagh 1 and Madagh 2, separated by a small mountain. Known for its crystal-clear waters and scenic surroundings.",
+      "rating": 4.4,
+      "cost": "Free",
+      "visit_duration": "Half day to full day",
+      "nearby_amenities": ["Restaurants", "Local shops"]
+    },
+    {
+      "name": "Les Andalouses Beach",
+      "category": "Beach",
+      "city": "Oran",
+      "gps": [35.7833, -0.6333],
+      "description": "A popular beach with golden sand, part of a large tourist complex offering various amenities and activities like water sports.",
+      "rating": 4.6,
+      "cost": "Free (site-specific fees may apply)",
+      "visit_duration": "Full day",
+      "nearby_amenities": ["Hotels", "Restaurants", "Water sports facilities"]
+    },
+    {
+      "name": "Cap Falcon",
+      "category": "Beach",
+      "city": "Oran",
+      "gps": [35.7833, -0.6333],
+      "description": "A cape with a historic lighthouse, offering scenic views of the Mediterranean Sea.",
+      "rating": 4.4,
+      "cost": "Free",
+      "visit_duration": "Half day",
+      "nearby_amenities": ["Lighthouse", "Scenic viewpoints"]
+    },
+    {
+      "name": "Cap Rousseau",
+      "category": "Beach",
+      "city": "Oran",
+      "gps": [35.7742, -0.5516],
+      "description": "A scenic cape with beaches and natural beauty, known for its historic significance.",
+      "rating": 4.7,
+      "cost": "Free",
+      "visit_duration": "Half day",
+      "nearby_amenities": ["Limited"]
+    },
+    {
+      "name": "Cap Djenat",
+      "category": "Beach",
+      "city": "Boumerdès",
+      "gps": [36.8782, 3.7205],
+      "description": "A cape with beaches and natural beauty, part of the El Kala National Park.",
+      "rating": 4.2,
+      "cost": "Free",
+      "visit_duration": "Half day",
+      "nearby_amenities": ["National Park", "Limited"]
+    },
+    {
+      "name": "Dellys Beach",
+      "category": "Beach",
+      "city": "Boumerdès",
+      "gps": [36.9167, 3.9167],
+      "description": "A popular beach town with scenic views and historic sites.",
+      "rating": 4.3,
+      "cost": "Free",
+      "visit_duration": "Half day to full day",
+      "nearby_amenities": ["Restaurants", "Local shops"]
+    },
+    {
+      "name": "Les Aiguades Beach",
+      "category": "Beach",
+      "city": "Béjaïa",
+      "gps": [36.7833, 5.0833],
+      "description": "A scenic beach in Bejaia, known for its natural beauty and local charm.",
+      "rating": 4.5,
+      "cost": "Free",
+      "visit_duration": "Half day",
+      "nearby_amenities": ["Limited"]
+    },
+    {
+      "name": "Tichy Beach",
+      "category": "Beach",
+      "city": "Béjaïa",
+      "gps": [36.7833, 5.0833],
+      "description": "A popular beach in Béjaïa, offering scenic views and local amenities.",
+      "rating": 4.1,
+      "cost": "Free",
+      "visit_duration": "Half day",
+      "nearby_amenities": ["Restaurants", "Local shops"]
+    },
+    {
+      "name": "Collo Beach",
+      "category": "Beach",
+      "city": "Skikda",
+      "gps": [37.0167, 6.5667],
+      "description": "A scenic beach in Collo, known for its natural beauty and local charm.",
+      "rating": 4.5,
+      "cost": "Free",
+      "visit_duration": "Half day",
+      "nearby_amenities": ["Limited"]
+    }  
 ]
