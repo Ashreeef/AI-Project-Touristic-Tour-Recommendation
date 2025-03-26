@@ -1220,15 +1220,16 @@
     "gps": [36.2844, 7.9519],
     "description": "Ancient Roman ruins in Souk Ahras, once home to a renowned university and the philosopher Apuleius, offering a glimpse into Algeria's rich classical past.",
     "rating": 4.3,
-    "cost": "unknown",
+    "cost": "50 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Guided Tours",
       "Information Center"
     ]
   },
+  
   {
-    "name": "Thubursicum",
+    "name": "Thubursicum(Khamissa)",
     "category": "Historical",
     "city": "Souk Ahras",
     "gps": [36.4556, 7.9511],
@@ -1243,6 +1244,73 @@
       "Information Center"
     ]
   },
+  {
+    "name": "lacs de Burgas",
+    "category": "Nature",
+    "city": "Souk Ahras",
+    "gps": [36.258669, 7.852478],
+    "description": "The Burgas Lakes near Taoura in Souk Ahras are the largest natural lakes in the region. They are a peaceful haven for many birds, including flamingos and the rare white-headed duck. The area offers stunning landscapes and a unique spot for nature lovers and birdwatchers.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Public Restrooms",
+      "Guided Tours",
+      "Parking",
+      "Restaruants",
+      "Tawra University"
+    ]
+  },
+  {
+    "name": "The olive tree of St. Augustine",
+    "category": "Historical",
+    "city": "Souk Ahras",
+    "gps": [36.2844431, 7.9590463],
+    "description": "a revered 2,900-year-old olive tree in Souk Ahras, Algeria, where Saint Augustine is said to have meditated and written under its branches alongside his mother, Saint Monica. Certified by dendrochronology in 1953, this ancient symbol of faith and resilience—linked to biblical figures and Mediterranean history—draws pilgrims and scholars alike. Restored in 2005 with Italian collaboration, the site now features a museum and stands as a spiritual landmark, echoing UNESCO’s World Olive Day (November 26) as a testament to its global cultural and religious legacy.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Public Restrooms",
+      "small museum",
+      "Parking",
+      "Restaruants",
+      "cafes"
+    ]
+  },
+  {
+    "name": "Mujahid Museum",
+    "category": "Museum",
+    "city": "Souk Ahras",
+    "gps": [36.287316, 7.967866],
+    "description": "honors Algeria’s fight for freedom (1954–1962) with photos, weapons, and stories of local heroes. Located in a historic city, it’s a moving tribute to courage and sacrifice. Perfect for understanding Algeria’s past. 🇩🇿",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Guided Tours",
+      "Parking",
+      "Restaruants",
+      "cafes"
+    ]
+  },
+  {
+    "name": "Mosque of Al-Aman",
+    "category": "Religious",
+    "city": "Souk Ahras",
+    "gps": [36.285538, 7.954362],
+    "description": " is a stunning modern mosque in the city center, built from 2011 to 2016. It holds 4,400 worshippers and includes a Quranic school, a 200-seat library, and parking. With its elegant design, it’s a peaceful place for prayer and cultural discovery. ",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "hotels",
+      "Parking",
+      "Restaruants",
+      "cafes"
+    ]
+  },
+  
   {
     "name": "Lac Tonga",
     "category": "Nature",
