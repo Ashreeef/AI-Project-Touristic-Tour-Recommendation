@@ -2451,6 +2451,139 @@
     "cost": "Free",
     "visit_duration": "Half day to Full day",
     "nearby_amenities": ["Restaurants","Hotels","Cafes"]
-  }
+  },
+  {
+    "name": "Plage Saint-Cloud",
+    "category": "Nature",
+    "city": "Annaba",
+    "gps": [36.919279, 7.764824],
+    "description": "Plage Saint-Cloud, also known as Plage Fellah Rachid, is a popular beach located north of Annaba, Algeria. Renowned for its expansive shoreline and scenic beauty, it attracts visitors year-round due to its convenient location and accessibility.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking", 
+"Shops",
+ "Restrooms"
+]
+},
+{
+    "name": "Plage Chapuis (Rizzi Amor)",
+    "category": "Beach",
+    "city": "Annaba",
+    "gps": [36.9175, 7.7667],
+    "description": "Plage Chapuis, also known as Rizzi Amor, is a popular beach in Annaba, featuring fine, high-quality sand stretching over several hundred meters. It is one of the four beautiful beaches located in the northern part of Annaba.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking",
+  "Cafés",
+ "Restrooms",
+ "Shops"
+]
+},
+{
+    "name": "Plage Sable d'Or Chetaïbi",
+    "category": "Nature",
+    "city": "Annaba",
+    "gps": [37.078838, 7.387577],
+    "description": "Plage Sable d'Or, located in Chetaïbi, Annaba,Visitors can enjoy sunbathing, swimming, and exploring the natural beauty of the area.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking",
+ "Cafés", 
+"Restrooms"
+]
+},
+{
+    "name": "Plage Sable d'Or Chetaïbi",
+    "category": "Nature",
+    "city": "Annaba",
+    "gps": [37.078838, 7.387577],
+    "description": "Plage Sable d'Or, located in Chetaïbi, Annaba,Visitors can enjoy sunbathing, swimming, and exploring the natural beauty of the area.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking",
+ "Cafés", 
+"Restrooms"
+]
+},
+{
+    "name": "plage El Marsa",
+    "category": "Nature",
+    "city": "Skikda",
+    "gps": [37.025912, 7.255878],
+    "description": "El Marsa is a picturesque coastal village located approximately 60 kilometers east of Skikda. Once a simple fishing village, it has transformed into a popular tourist destination, attracting visitors with its expansive sandy beaches, charming pebble coves, and scenic calanques. ",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "Half-day to full-day",
+    "nearby_amenities": [
+"Parking", 
+"Restrooms"
+]
+},
+{
+    "name": "Plage Vieille Calle",
+    "category": "Nature",
+    "city": "El tarf",
+    "gps": [36.916359, 8.340023],
+    "description": "Plage Vieille Calle, located in El Kala, El Tarf Province, is renowned for its extensive stretch of golden sand and clear blue waters. ",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking",
+ "Cafés",
+ "Restrooms"
+]
+},
+{
+    "name": "Plage Echatt",
+    "category": "Nature",
+    "city": "Annaba",
+    "gps": [36.841958, 7.874237],
+    "description": "Plage Echatt is a serene beach located in the town of Echatt, near Annaba, The beach is a popular spot among locals, especially during the summer months, providing a peaceful retreat from the bustling city life.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking",
+ "Cafés",
+ "Restrooms"
+]
+},
+{
+    "name": "Plage Djenane El Bey",
+    "category": "Nature",
+    "city": "Annaba",
+    "gps": [36.950134, 7.705643],
+    "description": "Plage Djenane El Bey, also known as Plage Oued Boqrat, is a serene beach located near Seraïdi in the Annaba province of Algeria.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+"Parking",
+ "Restrooms"
+]
+},
+{
+    "name": "Plage Bikini",
+    "category": "Nature",
+    "city": "Skikda",
+    "gps": [36.898293, 6.880145],
+    "description": "Plage Bikini is a beach located near the village of Stora in Skikda, Algeria. It extends from the grand bend to the edge of the fishing port's jetty.",
+    "rating": 3.8,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+"Parking",
+ "Restrooms"
+]
+}
 ]
 
