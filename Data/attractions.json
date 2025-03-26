@@ -2059,5 +2059,398 @@
       "Camping Areas",
       "Local Restaurants"
     ]
+  },
+  {
+    "name": "Village Ait El Kaid",
+    "category": "Cultural",
+    "city": "Tizi Ouzou",
+    "gps": [36.51101917869863, 4.103998125109986],
+    "description": "A traditional village known for its historical and cultural heritage.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Unknown"]
+  },
+  
+  {
+    "name": "Grotte Ifri n-teriel",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps": [36.51664439137907, 4.10102686135285],
+    "description": "An ancient cave located in Agouni Gueghrane, known for its cultural significance and historical artifacts",
+    "rating": 4.8,
+    "cost": "200DA",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Cultural Sites"]
+  },
+  {
+    "name": "La Grotte d'Anou",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps": [36.46979083941765, 4.191870511956074],
+    "description": "A mysterious cave with natural formations, perfect for exploration.",
+    "rating": 4.5,
+    "cost": "2000DA",
+    "visit_duration": "2-3 Hours",
+    "nearby_amenities": ["Cultural Sites"]
+  },
+  {
+    "name": "Main du Juif",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps": [36.4865010567156, 4.204843384120294],
+    "description": " a striking rock formation in Tizi Ouzou, known for its unique shape resembling a hand",
+    "rating": 4.9,
+    "cost": "Free",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": ["Hiking Trails"]
+  },
+  {
+    "name": "Ifri N'Dlal",
+    "category": "Historical",
+    "city": "Tizi Ouzou",
+    "gps": [36.67713945192814, 4.424203498706064],
+    "description": "A grotto carved into the rock, containing inscriptions in ancient Berber script.",
+    "rating":3.8,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Unknown"]
+  },
+  {
+    "name": "Ancient Villages Aourir and Moknea",
+    "category": "Cultural",
+    "city": "Tizi Ouzou",
+    "gps": [36.67231470882251, 4.432362119598503],
+    "description": "Traditional Kabyle villages.",
+    "rating":5.0,
+    "cost": "Free",
+    "visit_duration": "2-3 Hours",
+    "nearby_amenities": ["Unknown"]
+  },
+  {
+    "name": "Ruines romaines",
+    "category": "Historical",
+    "city": "Tizi Ouzou",
+    "gps": [36.90838523283387, 4.4349283219061215],
+    "description": "Ancient Roman ruins",
+    "rating":3.8,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Unknown"]
+  },
+  {
+    "name": "Plage les Caroubiers",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps": [36.89131726155061, 4.4020554894827555],
+    "description": "A beautiful beach on the northwestern coast of Azeffoun, ideal for relaxation.",
+    "rating": 3.9,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafés"]
+  },
+  
+  {
+    "name": "Plage Sidi-Khelifa",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps": [36.88377859533915, 4.51821160319113],
+    "description": "A serene beach to the northeast of Azeffoun, known for its peaceful atmosphere.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes"]
+  },
+  
+  {
+    "name": "Petit Paradis",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps":[36.886066475044814, 4.572267836584797],
+    "description": "A picturesque area offering beautiful natural views and serene surroundings.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration":"Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes"]
+  },
+  
+  {
+    "name": "Mont de Tamgout",
+    "category": "Nature",
+    "city": "Tizi Ouzou",
+    "gps":[36.82465911253464, 4.416857685955141],
+    "description": "",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Hiking Trails"]
+  },
+  {
+    "name": "Plage Zemmouri El Bahri",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps": [36.81026366683766, 3.5686742183399107],
+    "description": "A scenic beach in Zemmouri, popular for swimming and family outings.",
+    "rating": 3.9,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes"]
+  },
+  {
+    "name": "Plage Corso",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps": [36.766763334892744, 3.4532527898027254],
+    "description": "A beach known for its beautiful coastline and clear waters.",
+    "rating":3.8,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes"]
+  },
+  {
+    "name": "Plage Boumerdes",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps": [36.768653415356795, 3.4716457353609793],
+    "description": "A central beach offering easy access to nearby restaurants and entertainment.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaurants", "Beach Access", "Shops"]
+  },
+  {
+    "name": "Plage Boudouaou El Bahri",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps": [36.775348501536406, 3.411077492450189],
+    "description": "A serene beach offering a peaceful atmosphere for visitors.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes"]
+  },
+  {
+    "name": "Plage Cap Djinet",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps":[36.87953187558449, 3.716596822875468],
+    "description": "A picturesque beach offering beautiful views and clear waters for swimming.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["restaruants" , "hotels" ,"cafes"]
+  },
+ 
+  {
+    "name": "Plage Souffleur",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps": [16.4251415253337, -61.528508772726866],
+    "description": "A beautiful and well-known beach in Zemmouri with crystal-clear waters.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes" ]
+  },
+  
+  {
+    "name": "Plage du Figuier",
+    "category": "Nature",
+    "city": "Boumerdes",
+    "gps": [36.778779021279476, 3.516269110194683],
+    "description": "A quiet beach known for its fig trees and tranquil environment.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaruants" , "Hotels" ,"Cafes"]
+  },
+  {
+    "name": "Aokas Craftsmanship Center (Centre de l'Artisanat à Aokas)",
+    "category": "Cultural",
+    "city": "Bejaia",
+    "gps": [36.64013940097449, 5.240938414019272],
+    "description": "A craft center with 22 workshops dedicated to various local art forms.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants"]
+  },  
+  {
+    "name": "House of the Soummam Congress (Maison du Congrès de la Soummam)",
+    "category": "Historical",
+    "city": "Bejaia",
+    "gps": [36.550759623584476, 4.550989008494017],
+    "description": "A historic house where key meetings of the Algerian revolution took place.",
+    "rating": 5,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [ "Picnic Areas", "Wildlife Observation Points"]
+  },  
+  {
+    "name": "Tomb of Sheikh Ahddad (Tombeau de Chikh Ahddad)",
+    "category": "Historical",
+    "city": "Bejaia",
+    "gps": [36.517991453995286, 4.710391087908245],
+    "description": "A significant historical site related to Sheikh Ahddad, a major figure in the local history.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Unknown"]
+  },  
+  {
+    "name": "Tomb of El Mokrani (Tombeau d'El Mokrani)",
+    "category": "Historical",
+    "city": "Bejaia",
+    "gps": [36.29557614812591, 4.5794187098046715],
+    "description": " The final resting place of El Mokrani, a local hero",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Unknown"]
+  }, 
+   {
+    "name": "Museum of Ifri ",
+    "category": "Historical",
+    "city": "Bejaia",
+    "gps": [36.55090969710629, 4.551260024230193],
+    "description": "a cultural and historical site known for its significance during the Algerian War",
+    "rating": 4.8,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [ "Picnic Areas", "Wildlife Observation Points"]
+  }, 
+   {
+    "name": "Roman Ruins of Tiklate (Les Ruines Romaines de Tiklate)",
+    "category": "Historical",
+    "city": "Bejaia",
+    "gps": [36.65753196608864, 4.837855385257641],
+    "description": "Ancient Roman ruins",
+    "rating":5.0,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Picnic Areas"]
+  },  
+  
+  {
+    "name": "Touja Spring (Source de l'Eau Touja)",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.752308740467576, 4.895339208545372],
+    "description": " A natural spring that provides fresh water",
+    "rating": 3.5,
+    "cost": "Free",
+    "visit_duration": "Half day",
+    "nearby_amenities": ["Picnic Areas","Hiking Trails"]
+  },  
+  {
+    "name": "Black Lake of Akfadou (Le Lac Noir Akfadou)",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.69671445235191, 4.602674662199735],
+    "description": "A mysterious and beautiful lake nestled in the mountains",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": [ "Hiking Trails", "Picnic Areas", "Wildlife Observation Points"]
+  },  
+  {
+    "name": "Kherrata Gorges (Les Gorges de Kherrata)",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.530967150387895, 5.28498279665224],
+    "description": "a natural rock formations known for their deep cliffs and scenic views, popular for hiking and nature exploration",
+    "rating": 5.0,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Hiking Trails"]
+  },  
+  {
+    "name": "Brise de Mer",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.757231960257954, 5.0940370730301785],
+    "description": "A charming seaside area in Bejaia, perfect for a relaxing walk by the sea.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Restaurants", "Beach Access","Cafés"]
+  },  
+  {
+    "name": "Yemma Gouraya",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.77162266712763, 5.081368442834204],
+    "description": "A famous mountain in Bejaia, offering hiking trails and panoramic views of the city and the sea",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "Half day ",
+    "nearby_amenities": ["Picnic Areas","Beach Access"]
+  },  
+  {
+    "name": "Aiguades Beaches (Plages les Aiguades)",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.764994309313884, 5.103047484181613],
+    "description": "Known for their crystal-clear waters and picturesque views",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "Full day",
+    "nearby_amenities": ["Restaurants", "Hotels","Parking","Cafes"]
+  },  
+  {
+    "name": "Kefrida Waterfall (Cascade de Kefrida)",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.57072378720996, 5.2896610680126885],
+    "description": "A stunning natural waterfall, ideal for nature lovers and those looking to escape into a tranquil environment.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "Half day to Full day",
+    "nearby_amenities": ["Restaurants", "Picnic Areas","Restrooms"]
+  },  
+  {
+    "name": "Place du 1er Novembre",
+    "category": "Cultural",
+    "city": "Bejaia",
+    "gps": [36.75246425609905, 5.085459623246589],
+    "description": "A central square in Bejaia, it holds historical significance and is a lively gathering place for locals and visitors alike.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Restaurants","Cafes","Hotels"]
+  },  
+  {
+    "name": "Bab El Fouka",
+    "category": "Historical",
+    "city": "Bejaia",
+    "gps": [36.754949462178416, 5.081226996859788],
+    "description": "A significant historical gateway, representing the architectural and cultural heritage of Bejaia.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Unknown"]
+  },  
+  {
+    "name": "Monkey Peak (Pic des Singes)",
+    "category": "Nature",
+    "city": "Bejaia",
+    "gps": [36.76944486493275, 5.0963161372833445],
+    "description": "A popular hiking destination offering breathtaking views and known for its population of Barbary monkeys.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "Half-day to Full day",
+    "nearby_amenities": ["Picnic Areas"]
+  }, 
+  {
+    "name": "Chenoua Beach (Plage de Chenoua)",
+    "category": "Nature",
+    "city": "Tipaza",
+    "gps": [36.60260469072381, 2.4128991659261496],
+    "description": "A beautiful beach in Tipaza, known for its crystal-clear waters and scenic views",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "Half day to Full day",
+    "nearby_amenities": ["Restaurants","Hotels","Cafes"]
   }
 ]
+
