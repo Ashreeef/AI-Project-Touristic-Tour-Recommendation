@@ -1840,7 +1840,7 @@
   },
   {
     "name": "Hammam Sokhna",
-    "category": "Wellness",
+    "category": "Resort",
     "city": "Sétif",
     "gps": [35.9729, 5.83687],
     "description": "A natural hot spring surrounded by beautiful landscapes, offering therapeutic mineral waters.",
@@ -1855,7 +1855,7 @@
   },
   {
     "name": "Hammam Guergour",
-    "category": "Wellness",
+    "category": "Resort",
     "city": "Sétif",
     "gps": [36.32676, 5.05812],
     "description": "A famous thermal spa known for its sulfur-rich hot springs, ideal for relaxation and health benefits.",
