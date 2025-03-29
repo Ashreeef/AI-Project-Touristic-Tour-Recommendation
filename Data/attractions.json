@@ -814,6 +814,109 @@
     ]
   },
   {
+    "name": "Moul N'Aga Pass",
+    "category": "Adventure",
+    "city": "Djanet",
+    "gps": [
+      24.004,
+      10.9439
+    ],
+    "description": "Dramatic mountain pass offering panoramic desert views and ancient rock carvings. Popular for hiking and photography.",
+    "rating": 4.6,
+    "cost": "300 DZD",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": [
+      "Campgrounds",
+      "Local Guides"
+    ]
+  },
+  {
+    "name": "Tadrart Rouge",
+    "category": "Nature",
+    "city": "Djanet",
+    "gps": [
+      23.6721146,
+      10.896877
+    ],
+    "description": "Stunning red sandstone formations and dunes, known as the 'Red Tadrart.' Iconic Sahara Desert landscape.",
+    "rating": 4.8,
+    "cost": "1500 DZD (guided tour)",
+    "visit_duration": "Multi-day trek",
+    "nearby_amenities": [
+      "Desert Camps",
+      "4x4 Rentals"
+    ]
+  },
+  {
+    "name": "Essendilène Valley",
+    "category": "Nature",
+    "city": "Djanet",
+    "gps": [
+      24.959595,9.009221
+    ],
+    "description": "Remote valley with striking sandstone cliffs and prehistoric rock art. Ideal for off-road exploration.",
+    "rating": 4.9,
+    "cost": "400 DZD",
+    "visit_duration": "5-6 hours",
+    "nearby_amenities": [
+      "Camping Sites",
+      "Guided Tours"
+    ]
+  },
+  {
+    "name": "Fort Charlet",
+    "category": "Historical",
+    "city": "Djanet",
+    "gps": [
+      24.5514523
+    , 9.4842383
+    ],
+    "description": "19th-century Ottoman-era fort offering insights into Djanet's history and strategic desert trade routes.",
+    "rating": 4.2,
+    "cost": "100 DZD",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Museum",
+      "Town Center"
+    ]
+  },
+
+{
+  "name": "Iherir Valley",
+  "category": "Nature",
+  "city": "Djanet",
+  "gps": [
+    25.4173294
+    , 8.4179192
+  ],
+  "description": "UNESCO-listed valley with freshwater springs, prehistoric engravings, and rare Saharan wildlife.",
+  "rating": 4.7,
+  "cost": "Free",
+  "visit_duration": "3-4 hours",
+  "nearby_amenities": [
+    "Eco-Lodges",
+    "Guided Hikes"
+    ,"Oasis d' iherir"
+  ]
+},
+{
+  "name": "Tikoubaouine Arch",
+  "category": "Nature",
+  "city": "Djanet",
+  "gps": [
+    24.7392189,
+    9.1717242
+  ],
+  "description": "Natural sandstone arch sculpted by erosion. A breathtaking spot for sunset views and photography.",
+  "rating": 4.5,
+  "cost": "Free",
+  "visit_duration": "2-3 hours",
+  "nearby_amenities": [
+    "Guided Tours",
+    "Picnic Areas"
+  ]
+},
+  {
     "name": "Djemila",
     "category": "Historical",
     "city": "Sétif",
