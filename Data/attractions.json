@@ -933,7 +933,7 @@
     "Campgrounds"
   ]
 },
-]
+
   {
     "name": "Djemila",
     "category": "Historical",
@@ -1358,6 +1358,76 @@
       "Camel Rides",
       "Sandboarding"
     ]
+  },
+  {  
+    "name": "Ahaggar National Park",  
+    "category": "Nature",  
+    "city": "Tamanrasset",  
+    "gps": [  
+      23.1432003
+    ,6.411794 
+    ],  
+    "description": "Vast protected desert park encompassing volcanic peaks, sand dunes, and archaeological sites. Home to the endangered Saharan cheetah.",  
+    "rating": 4.7,  
+    "cost": "800 DZD (entry permit)",  
+    "visit_duration": "Full day",  
+    "nearby_amenities": [  
+      "Visitor Center",  
+      "Campgrounds"  
+    ]  
+  },
+  
+    {
+      "name": "National Museum of Ahaggar",
+      "category": "Museum",
+      "city": "Tamanrasset",
+      "gps": [
+        22.7976,
+        5.5391
+      ],
+      "description": "A museum dedicated to preserving the cultural and natural heritage of the Ahaggar (Hoggar) region. Exhibits include Tuareg artifacts, traditional jewelry, tools, historical photographs, and displays on the area's geology, prehistoric rock art, and nomadic lifestyles. Highlights the ecological and anthropological significance of the Ahaggar Cultural Park, a UNESCO-recognized site.",
+      "rating": 4.2,
+      "cost": "200 DZD",
+      "visit_duration": "1-2 hours",
+      "nearby_amenities": [
+        "Souvenir Shops",
+        "Cafes",
+        "Town Center"
+      ]
+    }
+  ,
+  {  
+    "name": "Tazrouk Village",  
+    "category": "Cultural",  
+    "city": "Tamanrasset",  
+    "gps": [  
+      23.4225572
+    ,6.2650813 
+    ],  
+    "description": "Traditional Tuareg village nestled in the Hoggar Mountains. Offers insights into nomadic lifestyles and handicrafts like silver jewelry.",  
+    "rating": 4.5,  
+    "cost": "Free",  
+    "visit_duration": "2-3 hours",  
+    "nearby_amenities": [  
+      "Local Markets",  
+      "Guided Village Tours"  
+    ]  
+  },
+  {  
+    "name": "Erg Tihodaïne",  
+    "category": "Adventure",  
+    "city": "Tamanrasset",  
+    "gps": [  
+      25.2666667,6.5333333 
+    ],  
+    "description": "Remote dune field ideal for 4x4 safaris, camel treks, and stargazing. Known for its golden sands and isolation.",  
+    "rating": 4.6,  
+    "cost": "2500 DZD (guided tour)",  
+    "visit_duration": "Full day or overnight",  
+    "nearby_amenities": [  
+      "Desert Camps",  
+      "Tour Agencies"  
+    ]  
   },
   {
     "name": "Tikjda National Park",
