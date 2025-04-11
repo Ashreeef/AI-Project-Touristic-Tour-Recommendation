@@ -815,7 +815,7 @@
   },
   {
     "name": "Moul N'Aga Pass",
-    "category": "Adventure",
+    "category": "Nature",
     "city": "Djanet",
     "gps": [
       24.004,
@@ -840,7 +840,7 @@
     ],
     "description": "Stunning red sandstone formations and dunes, known as the 'Red Tadrart.' Iconic Sahara Desert landscape.",
     "rating": 4.8,
-    "cost": "1500 DZD (guided tour)",
+    "cost": "1500 DZD",
     "visit_duration": "Multi-day trek",
     "nearby_amenities": [
       "Desert Camps",
@@ -856,7 +856,7 @@
     ],
     "description": "Remote valley with striking sandstone cliffs and prehistoric rock art. Ideal for off-road exploration.",
     "rating": 4.9,
-    "cost": "400 DZD",
+    "cost": "Free",
     "visit_duration": "5-6 hours",
     "nearby_amenities": [
       "Camping Sites",
@@ -916,6 +916,24 @@
     "Picnic Areas"
   ]
 },
+{
+  "name": "Sefar Rock Art Site",
+  "category": "Historical",
+  "city": "Djanet",
+  "gps": [
+    24.4753933,
+    9.9130294
+  ],
+  "description": "One of the most iconic rock art sites in the Tassili n'Ajjer region, featuring Neolithic-era paintings and carvings dating back to 6000 BCE. Highlights include the famous 'Great God of Sefar,' a towering humanoid figure, and vivid scenes of ancient pastoral life. A UNESCO World Heritage gem.",
+  "rating": 4.7,
+  "cost": "Free",
+  "visit_duration": "3-4 hours",
+  "nearby_amenities": [
+    "Guided Tours",
+    "Campgrounds"
+  ]
+},
+
   {
     "name": "Djemila",
     "category": "Historical",
@@ -1341,6 +1359,76 @@
       "Sandboarding"
     ]
   },
+  {  
+    "name": "Ahaggar National Park",  
+    "category": "Nature",  
+    "city": "Tamanrasset",  
+    "gps": [  
+      23.1432003
+    ,6.411794 
+    ],  
+    "description": "Vast protected desert park encompassing volcanic peaks, sand dunes, and archaeological sites. Home to the endangered Saharan cheetah.",  
+    "rating": 4.7,  
+    "cost": "800 DZD (entry permit)",  
+    "visit_duration": "Full day",  
+    "nearby_amenities": [  
+      "Visitor Center",  
+      "Campgrounds"  
+    ]  
+  },
+  
+    {
+      "name": "National Museum of Ahaggar",
+      "category": "Museum",
+      "city": "Tamanrasset",
+      "gps": [
+        22.7976,
+        5.5391
+      ],
+      "description": "A museum dedicated to preserving the cultural and natural heritage of the Ahaggar (Hoggar) region. Exhibits include Tuareg artifacts, traditional jewelry, tools, historical photographs, and displays on the area's geology, prehistoric rock art, and nomadic lifestyles. Highlights the ecological and anthropological significance of the Ahaggar Cultural Park, a UNESCO-recognized site.",
+      "rating": 4.2,
+      "cost": "200 DZD",
+      "visit_duration": "1-2 hours",
+      "nearby_amenities": [
+        "Souvenir Shops",
+        "Cafes",
+        "Town Center"
+      ]
+    }
+  ,
+  {  
+    "name": "Tazrouk Village",  
+    "category": "Cultural",  
+    "city": "Tamanrasset",  
+    "gps": [  
+      23.4225572
+    ,6.2650813 
+    ],  
+    "description": "Traditional Tuareg village nestled in the Hoggar Mountains. Offers insights into nomadic lifestyles and handicrafts like silver jewelry.",  
+    "rating": 4.5,  
+    "cost": "Free",  
+    "visit_duration": "2-3 hours",  
+    "nearby_amenities": [  
+      "Local Markets",  
+      "Guided Village Tours"  
+    ]  
+  },
+  {  
+    "name": "Erg Tihodaïne",  
+    "category": "Adventure",  
+    "city": "Tamanrasset",  
+    "gps": [  
+      25.2666667,6.5333333 
+    ],  
+    "description": "Remote dune field ideal for 4x4 safaris, camel treks, and stargazing. Known for its golden sands and isolation.",  
+    "rating": 4.6,  
+    "cost": "2500 DZD (guided tour)",  
+    "visit_duration": "Full day or overnight",  
+    "nearby_amenities": [  
+      "Desert Camps",  
+      "Tour Agencies"  
+    ]  
+  },
   {
     "name": "Tikjda National Park",
     "category": "Nature",
@@ -1621,7 +1709,7 @@
   },
   {
     "name": "lacs de Burgas",
-    "category": "Nature",
+    "category": "Lake",
     "city": "Souk Ahras",
     "gps": [36.258669, 7.852478],
     "description": "The Burgas Lakes near Taoura in Souk Ahras are the largest natural lakes in the region. They are a peaceful haven for many birds, including flamingos and the rare white-headed duck. The area offers stunning landscapes and a unique spot for nature lovers and birdwatchers.",
