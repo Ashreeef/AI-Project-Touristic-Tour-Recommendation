@@ -2581,23 +2581,6 @@
     ]
   },
   {
-    "name": "Timimoun Oasis",
-    "category": "Nature",
-    "city": "Timimoun",
-    "gps": [
-      29.25,
-      0.2667
-    ],
-    "description": "A picturesque desert oasis with lush palm groves and traditional red mudbrick architecture.",
-    "rating": 4.9,
-    "cost": "Free",
-    "visit_duration": "4-8 hours",
-    "nearby_amenities": [
-      "Local Markets",
-      "Camping"
-    ]
-  },
-  {
     "name": "Djurdjura National Park",
     "category": "Nature",
     "city": "Tizi Ouzou",
