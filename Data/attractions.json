@@ -3801,17 +3801,6 @@
       "Cultural Sites"
     ]
   },
-    {
-    "name": "Sbeaat Beach",
-    "category": "Nature",
-    "city": "Aïn Temouchent",
-    "gps": [35.56242221874778, -1.1977865891653827],
-    "description": "Sbeaat Beach is a tranquil spot featuring soft golden sands and gentle waves. Surrounded by natural cliffs and pine trees, it offers a perfect escape for those seeking peace and quiet.",
-    "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
-  },
   {
     "name": "Cap Figalo Beach",
     "category": "Nature",
