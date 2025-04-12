@@ -4134,5 +4134,607 @@
       "Hotels",
       "Playground"
     ]
+  },
+  
+  {
+    "name": "Djebel Messaâd",
+    "category": "Nature",
+    "city": "M'Sila",
+    "gps": [
+      35.6611,
+      4.8667
+    ],
+    "description": "Djebel Messaâd is one of the highest points in the Hodna region and offers stunning panoramic views. A favorite among local hikers and nature lovers, it's an ideal spot for trekking and exploring the natural landscapes of M'Sila.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "Half-day",
+    "nearby_amenities": [
+      "Hiking trails",
+      "Natural lookout points",
+      "Parking area",
+      "Picnic spots"
+    ]
+  },
+  {
+    "name": "Tomb of Tin Hinan",
+    "category": "Historical",
+    "city": "M'Sila",
+    "gps": [
+      35.7075,
+      4.5453
+    ],
+    "description": "A symbolic and cultural site believed to be inspired by the original Tomb of Tin Hinan. While not the original tomb, this local replica pays homage to the Berber queen and reflects M'Sila’s heritage and admiration of Amazigh history.",
+    "rating": 3.8,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Local market",
+      "Souvenir shops",
+      "Public restrooms",
+      "Guided tour availability"
+    ]
+  },
+  {
+    "name": "Hodna Salt Lake (Chott El Hodna)",
+    "category": "Nature",
+    "city": "M'Sila",
+    "gps": [
+      35.5359,
+      4.4206
+    ],
+    "description": "Chott El Hodna is a large seasonal salt lake located in the Hodna region. It is a vital wetland that attracts migratory birds and offers a unique desert-lake landscape perfect for nature photography and eco-tourism.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Bird-watching spots",
+      "Nature trails",
+      "Resting areas",
+      "Information panels"
+    ]
+  },
+  {
+    "name": "Ksar El Aouassi",
+    "category": "Cultural",
+    "city": "M'Sila",
+    "gps": [
+      35.7748,
+      4.5239
+    ],
+    "description": "Ksar El Aouassi is a traditional fortified village that showcases the architectural style and community living of ancient Amazigh and Arab societies. Visitors can explore narrow alleys, ancient homes, and cultural artifacts.",
+    "rating": 4.1,
+    "cost": "300 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Local café",
+      "Souvenir shop",
+      "Cultural center",
+      "Guided tours"
+    ]
+  },
+  {
+    "name": "Bou Saâda Museum of Nasreddine Dinet",
+    "category": "Museum",
+    "city": "M'Sila",
+    "gps": [
+      35.2085,
+      4.1743
+    ],
+    "description": "This museum is dedicated to the French-Algerian orientalist painter Nasreddine Dinet, who spent much of his life in Bou Saâda. It houses original paintings, personal items, and artifacts reflecting Algerian culture through his eyes.",
+    "rating": 4.4,
+    "cost": "500 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Art gallery",
+      "Gift shop",
+      "Parking",
+      "Café"
+    ]
+  },
+  {
+    "name": "Grande Mosquée de Ghardaïa",
+    "category": "Religious",
+    "city": "Ghardaïa",
+    "gps": [
+      32.4963,
+      3.6430
+    ],
+    "description": "Constructed in 1048, the Grande Mosquée de Ghardaïa stands as a central spiritual and communal hub. Its distinctive minaret and desert-adapted architecture symbolize the city's historical significance and religious devotion.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Historical sites",
+      "Local eateries",
+      "Souvenir shops",
+      "Cultural exhibitions"
+    ]
+  },
+  {
+    "name": "Ancienne Cité de Ghardaïa",
+    "category": "Historical",
+    "city": "Ghardaïa",
+    "gps": [
+      32.4900,
+      3.6700
+    ],
+    "description": "The old city of Ghardaïa offers a labyrinth of narrow alleys, traditional houses, and bustling markets. Visitors can immerse themselves in the daily life and customs of the Mozabite community.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Artisan workshops",
+      "Traditional cafés",
+      "Local guides",
+      "Cultural landmarks"
+    ]
+  },
+  {
+    "name": "Reptiles Zoo",
+    "category": "Wildlife Attraction",
+    "city": "Ghardaïa",
+    "gps": [
+      32.4833,
+      3.6667
+    ],
+    "description": "A specialized reptile zoo showcasing a variety of desert reptiles, offering educational insights into the region's unique fauna.",
+    "rating": 4.2,
+    "cost": "300 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Guided tours",
+      "Educational exhibits",
+      "Refreshment stands",
+      "Parking facilities"
+    ]
+  },
+  {
+    "name": "Mosquée Al Ghofrane",
+    "category": "Religious",
+    "city": "Ghardaïa",
+    "gps": [
+      32.496468,
+      3.642989
+    ],
+    "description": "Mosquée Al Ghofrane is a significant religious site in Ghardaïa, known for its serene ambiance and traditional design. It serves as a place of worship and community gatherings.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "30 minutes",
+    "nearby_amenities": [
+      "Prayer areas",
+      "Cultural centers",
+      "Local shops",
+      "Public restrooms"
+    ]
+  },
+  {
+    "name": "Mosquée Badr",
+    "category": "Religious",
+    "city": "Ghardaïa",
+    "gps": [
+      32.47704,
+      3.69007
+    ],
+    "description": "Mosquée Badr is a notable mosque in Ghardaïa, reflecting the architectural heritage of the M'Zab Valley. It is a place of spiritual significance for the local community.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "30 minutes",
+    "nearby_amenities": [
+      "Prayer halls",
+      "Community centers",
+      "Nearby cafés",
+      "Parking facilities"
+    ]
+  },
+  {
+    "name": "Mosquée Omar Ibn Al-Khattab",
+    "category": "Religious",
+    "city": "Ghardaïa",
+    "gps": [
+      32.479091,
+      3.680431
+    ],
+    "description": "Named after the second caliph of Islam, Mosquée Omar Ibn Al-Khattab is a significant mosque in Ghardaïa, known for its spiritual ambiance and community importance.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "30 minutes",
+    "nearby_amenities": [
+      "Prayer facilities",
+      "Educational centers",
+      "Nearby eateries",
+      "Public transportation access"
+    ]
+  },
+  {
+    "name": "Grotte de Cervantes",
+    "category": "Historical",
+    "city": "Bouira",
+    "gps": [
+      36.4942,
+      4.0417
+    ],
+    "description": "Cave where Spanish writer Miguel de Cervantes was held captive in 1577. Now a cultural heritage site with informational displays.",
+    "rating": 4.2,
+    "cost": "100 DZD",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Information plaques",
+      "Guided tours",
+      "Parking area",
+      "Viewing platforms"
+    ]
+  },
+  {
+    "name": "Souk El Had Bouira",
+    "category": "Cultural",
+    "city": "Bouira",
+    "gps": [
+      36.3749,
+      3.9026
+    ],
+    "description": "Vibrant weekly market showcasing traditional Kabyle crafts, local produce, and authentic Algerian street food.",
+    "rating": 4.3,
+    "cost": "Variable",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Handicraft stalls",
+      "Food vendors",
+      "Currency exchange",
+      "Public restrooms"
+    ]
+  },
+  {
+    "name": "Aïn Bessem Hot Springs",
+    "category": "Resort",
+    "city": "Bouira",
+    "gps": [
+      36.2936,
+      3.6731
+    ],
+    "description": "Natural thermal springs renowned for therapeutic properties, with mineral-rich waters averaging 47°C year-round.",
+    "rating": 4.5,
+    "cost": "200 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Changing rooms",
+      "Therapy centers",
+      "Cafeteria",
+      "Gardens"
+    ]
+  },
+  {
+    "name": "Monument des Martyrs",
+    "category": "Historical",
+    "city": "Bouira",
+    "gps": [
+      36.3765,
+      3.9003
+    ],
+    "description": "Imposing memorial honoring Bouira's martyrs from the Algerian Revolution, featuring striking modernist architecture.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "30 minutes",
+    "nearby_amenities": [
+      "Guided tours",
+      "Park benches",
+      "Illuminated at night",
+      "City center access"
+    ]
+  },
+  {
+    "name": "Tala Guilef Cave",
+    "category": "Nature",
+    "city": "Bouira",
+    "gps": [
+      36.5128,
+      4.0789
+    ],
+    "description": "Spectacular limestone cave system with impressive stalactites, requiring guided exploration with proper equipment.",
+    "rating": 4.7,
+    "cost": "500 DZD (with guide)",
+    "visit_duration": "3 hours",
+    "nearby_amenities": [
+      "Equipment rental",
+      "Certified guides",
+      "Safety briefing area",
+      "Parking"
+    ]
+  },
+  {
+    "name": "El Kseur Dam",
+    "category": "Infrastructure",
+    "city": "Bouira",
+    "gps": [
+      36.4278,
+      3.9456
+    ],
+    "description": "Impressive hydroelectric dam creating a scenic reservoir, popular for picnics and birdwatching.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Picnic tables",
+      "Fishing areas",
+      "Visitor center",
+      "Walking paths"
+    ]
+  },
+  {
+    "name": "Aïn Chrichira",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.3928,
+      8.0925
+    ],
+    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1.5 hours",
+    "nearby_amenities": [
+      "Picnic tables",
+      "Walking trails",
+      "Natural swimming pools",
+      "Local cafes"
+    ]
+  },
+  {
+    "name": "Grotte de l'Ours",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.4417,
+      8.1569
+    ],
+    "description": "Prehistoric cave system with Neolithic rock art depicting hunting scenes and ancient bear habitats, accessible with specialized guides.",
+    "rating": 4.6,
+    "cost": "600 DZD (with equipment)",
+    "visit_duration": "3 hours",
+    "nearby_amenities": [
+      "Helmet rentals",
+      "Archaeological briefings",
+      "Safety equipment",
+      "Prehistoric tool replicas"
+    ]
+  },
+  {
+    "name": "Aïn Chrichira",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.3928,
+      8.0925
+    ],
+    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1.5 hours",
+    "nearby_amenities": [
+      "Picnic tables",
+      "Walking trails",
+      "Natural swimming pools",
+      "Local cafes"
+    ]
+  },
+  {
+    "name": "Byzantine Walls",
+    "category": "Historical",
+    "city": "Tébessa",
+    "gps": [
+      35.4072,
+      8.1214
+    ],
+    "description": "6th-century defensive walls built by Emperor Justinian, featuring 14 surviving towers and original stonework incorporating Roman materials.",
+    "rating": 4.5,
+    "cost": "50 DZD",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Illuminated at night",
+      "Walking path",
+      "Historical markers",
+      "Panoramic viewpoints"
+    ]
+  },
+  {
+    "name": "Djebel Doukane",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.3583,
+      8.0836
+    ],
+    "description": "Dramatic limestone mountain offering challenging hikes to prehistoric cave dwellings with panoramic views of the Aurès Mountains.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "4-6 hours",
+    "nearby_amenities": [
+      "Mountain guides",
+      "Rock climbing routes",
+      "Emergency shelters",
+      "Spring water sources"
+    ]
+  },
+  {
+    "name": "Sebkha Circuit",
+    "category": "Natural",
+    "city": "Timimoun",
+    "gps": [
+      29.2639,
+      0.2306
+    ],
+    "description": "A scenic off-road tour around Timimoun featuring oases, sand dunes, ksour like Ighzer, and picturesque Saharan views. Popular for 4×4 adventures.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": [
+      "Guided Tours",
+      "Photo Spots",
+      "Local Markets"
+    ]
+  },
+  {
+    "name": "Ighzer Citadel and Cave",
+    "category": "Historical",
+    "city": "Timimoun",
+    "gps": [
+      29.2750,
+      0.2450
+    ],
+    "description": "A historic citadel combined with a natural cave, offering insight into the region’s heritage and defense architecture.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Walking Trails",
+      "Panoramic Views"
+    ]
+  },
+  {
+    "name": "Ksar Faoun",
+    "category": "Cultural",
+    "city": "Timimoun",
+    "gps": [
+      29.2805,
+      0.2612
+    ],
+    "description": "A traditional ksar showcasing desert architecture and community life, surrounded by palm trees and ancient irrigation systems.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Fougara System",
+      "Palm Groves"
+    ]
+  },
+  {
+    "name": "Fougara Irrigation System",
+    "category": "Cultural",
+    "city": "Timimoun",
+    "gps": [
+      29.2850,
+      0.2550
+    ],
+    "description": "An ancient underground water channeling system used for irrigation across the oasis. A unique and sustainable water solution.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "45 minutes",
+    "nearby_amenities": [
+      "Palm Groves",
+      "Cultural Tours"
+    ]
+  },
+  {
+    "name": "Citadelle d'Ighzer",
+    "category": "Historical",
+    "city": "Timimoun",
+    "gps": [
+      29.2700,
+      0.2480
+    ],
+    "description": "A panoramic citadel known for its defensive structures and sweeping views over the red-hued oasis below.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Viewpoints",
+      "Desert Trails"
+    ]
   }
+
+{
+    "name": "Aïn Chrichira",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.3928,
+      8.0925
+    ],
+    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1.5 hours",
+    "nearby_amenities": [
+      "Picnic tables",
+      "Walking trails",
+      "Natural swimming pools",
+      "Local cafes"
+    ]
+  },
+  {
+    "name": "Grotte de l'Ours",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.4417,
+      8.1569
+    ],
+    "description": "Prehistoric cave system with Neolithic rock art depicting hunting scenes and ancient bear habitats, accessible with specialized guides.",
+    "rating": 4.6,
+    "cost": "600 DZD (with equipment)",
+    "visit_duration": "3 hours",
+    "nearby_amenities": [
+      "Helmet rentals",
+      "Archaeological briefings",
+      "Safety equipment",
+      "Prehistoric tool replicas"
+    ]
+  },
+  {
+    "name": "Aïn Chrichira",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.3928,
+      8.0925
+    ],
+    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1.5 hours",
+    "nearby_amenities": [
+      "Picnic tables",
+      "Walking trails",
+      "Natural swimming pools",
+      "Local cafes"
+    ]
+  },
+  {
+    "name": "Byzantine Walls",
+    "category": "Historical",
+    "city": "Tébessa",
+    "gps": [
+      35.4072,
+      8.1214
+    ],
+    "description": "6th-century defensive walls built by Emperor Justinian, featuring 14 surviving towers and original stonework incorporating Roman materials.",
+    "rating": 4.5,
+    "cost": "50 DZD",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Illuminated at night",
+      "Walking path",
+      "Historical markers",
+      "Panoramic viewpoints"
+    ]
+  },
+  {
+    "name": "Djebel Doukane",
+    "category": "Nature",
+    "city": "Tébessa",
+    "gps": [
+      35.3583,
+      8.0836
+    ],
+    "description": "Dramatic limestone mountain offering challenging hikes to prehistoric cave dwellings with panoramic views of the Aurès Mountains.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "4-6 hours",
+    "nearby_amenities": [
+      "Mountain guides",
+      "Rock climbing routes",
+      "Emergency shelters",
+      "Spring water sources"
+    ]
+  }
+
 ]
