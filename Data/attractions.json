@@ -260,7 +260,7 @@
     "nearby_amenities": [
       "Beach Access",
       "Archaeological Museum"
-    ]
+    ] 
   },
   {
     "name": "Royal Mausoleum of Mauretania (Kbour-er-Roumia)",
@@ -1620,7 +1620,7 @@
   {
     "name": "Beni Abbes Museum",
     "category": "Museum",
-    "city": "Beni Abbes",
+    "city": "Béchar",
     "gps": [
       30.1292,
       -2.1767
@@ -3628,6 +3628,229 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
+    ]
+  },
+  {
+    "name": "Plage Bleu 2",
+    "category": "Beach",
+    "city": "Tipaza",
+    "gps": [
+      36.639810,
+      2.333309
+    ],
+    "description": "A compact beach adorned with rocks, offering opportunities for swimming, picnicking, and various recreational water activities.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "Variable",
+    "nearby_amenities": [
+      "Cafés",
+      "Parking",
+      "Boat Rentals",
+      "Picnic Areas"
+    ]
+  },
+  {
+    "name": "Plage Sacrée Gouraya",
+    "category": "Beach",
+    "city": "Tipaza",
+    "gps": [
+      36.568421,
+      1.882513
+    ],
+    "description": "A serene beach located in Boukhlidja, Gouraya, known for its natural beauty and tranquil atmosphere.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "Variable",
+    "nearby_amenities": [
+      "Cafés",
+      "Parking",
+      "Picnic Areas",
+      "Boat Rentals"
+    ]
+  },
+  {
+    "name": "Patrice Lumumba Garden",
+    "category": "Garden",
+    "city": "Blida",
+    "gps": [
+      36.4725,
+      2.8275
+    ],
+    "description": "Established in 1858 during the French colonial era as Jardin Bizot, this historic garden was renamed in 1968 to honor Congolese independence leader Patrice Lumumba.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "1.5 hours",
+    "nearby_amenities": [
+      "Cafés",
+      "Restaurants",
+      "Mosque",
+      "Cultural Center"
+    ]
+  },
+  {
+    "name": "Iron Park",
+    "category": "Amusement Park",
+    "city": "Blida",
+    "gps": [
+      36.522369,
+      2.818062
+    ],
+    "description": "Iron Park offers a variety of amenities including a gym, billiards, fast food restaurants, and a cafeteria, making it a popular spot for both fitness enthusiasts and families seeking leisure activities.",
+    "rating": 3.9,
+    "cost": "Variable",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Cafés",
+      "Restaurants",
+      "Parking",
+      "Public Transport Access"
+    ]
+  },
+  {
+    "name": "Jewish Cemetery of Blida",
+    "category": "Historical",
+    "city": "Blida",
+    "gps": [
+      36.476018,
+      2.839571
+    ],
+    "description": "The Jewish Cemetery of Blida stands as a testament to the city's once-thriving Jewish community. Although the Jewish population in Blida has significantly diminished since Algeria's independence, the cemetery remains a historical site reflecting the rich cultural tapestry of the region.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Cafés",
+      "Restaurants",
+      "Public Transport Access"
+    ]
+  },
+  {
+    "name": "Amoura",
+    "category": "Historical",
+    "city": "Djelfa",
+    "gps": [
+      34.3543,
+      3.8709
+  ],
+    "description": "Amoura, historically known as Sufasar, is a commune in Djelfa Province, Algeria. It holds significance as an ancient Roman town in the province of Mauretania Caesariensis.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "2 hours",
+    "nearby_amenities": [
+      "Cafés",
+      "Local Markets",
+      "Historical Sites",
+      "Public Transport Access"
+    ]
+  },
+  {
+    "name": "Ain al-Naqah Rock Carvings",
+    "category": "Historical",
+    "city": "Djelfa",
+    "gps": [
+      34.3502,
+      3.2616],
+    "description": "The Ain al-Naqah Rock Carvings are a nationally recognized archaeological site. The site comprises six stations featuring a total of 71 prehistoric rock engravings, offering valuable insights into the region's ancient history and art.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Local Cafés",
+      "Guided Tours",
+      "Parking",
+      "Public Transport Access"
+    ]
+  },
+  {
+    "name": "Senalba Forest",
+    "category": "Natural",
+    "city": "Djelfa",
+    "gps": [
+      34.564303,
+      3.036171
+    ],
+    "description": "Senalba Forest, located near Djelfa, Algeria, is a significant natural reserve known for its dense Aleppo pine (Pinus halepensis) woodlands.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": [
+      "Picnic Areas",
+      "Hiking Trails",
+      "Guided Tours",
+      "Parking Facilities"
+    ]
+  },
+  {
+    "name": "Agoulmime Lake",
+    "category": "Natural",
+    "city": "Tizi Ouzou",
+    "gps": [
+      36.4642,
+      4.0681
+    ],
+    "description": "Agoulmime Lake, also known as Tamda n Agoulmime, is a high-altitude alpine lake situated at approximately 1,700 meters in the Djurdjura Mountains of northern Algeria.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+      "Hiking Trails",
+      "Scenic Viewpoints",
+      "Picnic Areas",
+      "Camping Spots"
+    ]
+  },
+  {
+    "name": "Petit Vichy Garden",
+    "category": "Garden",
+    "city": "Aïn Témouchent",
+    "gps": [
+      35.376488,
+      -0.965453
+    ],
+    "description": "Petit Vichy Garden is Known for its lush greenery and tranquil ambiance, the garden offers visitors a peaceful retreat with well-maintained walking paths, shaded seating areas, and a variety of local flora.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Walking Trails",
+      "Seating Areas",
+      "Local Cafés",
+      "Restrooms"
+    ]
+  },
+  {
+    "name": "Mosquée Al-Houda",
+    "category": "Religious",
+    "city": "Béchar",
+    "gps": [
+    31.633522,
+   -2.198242
+   ],
+    "description": "Mosquée Al-Houda serves as a central hub for the local Muslim community, hosting daily prayers and religious gatherings.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Parc",
+      "gym"
+    ]
+  },
+  {
+    "name": "Dar Eddaya",
+    "category": "Guest House",
+    "city": "El Oued",
+    "gps": [
+      33.365088,
+      6.846127
+    ],
+    "description": "Dar Eddaya is a charming guest house located in the residential neighborhood of Hai Ennour in El Oued, Algeria.",
+    "rating": 5.0,
+    "cost": "Variable",
+    "visit_duration": "Overnight",
+    "nearby_amenities": [
+      "Local Markets",
+      "Restaurants",
+      "Cultural Sites"
     ]
   }
 ]
