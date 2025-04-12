@@ -729,23 +729,6 @@
     ]
   },
   {
-    "name": "M'Zab Valley",
-    "category": "Cultural",
-    "city": "Ghardaïa",
-    "gps": [
-      32.4891,
-      3.6735
-    ],
-    "description": "UNESCO site with pentagonal Ibadi mosques and cliffside granaries. Includes five fortified ksour (villages) dating to 11th century.",
-    "rating": 4.5,
-    "cost": "400 DZD",
-    "visit_duration": "3 hours",
-    "nearby_amenities": [
-      "Traditional Markets",
-      "Desert Tour Agencies"
-    ]
-  },
-  {
     "name": "Cap Carbon",
     "category": "Nature",
     "city": "Béjaïa",
