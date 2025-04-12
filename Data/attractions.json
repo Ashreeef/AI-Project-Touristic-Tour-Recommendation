@@ -2564,24 +2564,6 @@
     ]
   },
   {
-    "name": "Djurdjura National Park",
-    "category": "Nature",
-    "city": "Tizi Ouzou",
-    "gps": [
-      36.46857,
-      4.1867
-    ],
-    "description": "A stunning mountain range home to rare wildlife, deep caves, and breathtaking hiking trails.",
-    "rating": 4.9,
-    "cost": "Free",
-    "visit_duration": "6-16 hours",
-    "nearby_amenities": [
-      "Camping Areas",
-      "Guided Tours",
-      "Hiking Trails"
-    ]
-  },
-  {
     "name": "Aït Ouabane Village",
     "category": "Cultural",
     "city": "Tizi Ouzou",
