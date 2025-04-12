@@ -3853,7 +3853,7 @@
       "Cultural Sites"
     ]
   },
-  {
+    {
     "name": "Sbeaat Beach",
     "category": "Nature",
     "city": "Aïn Temouchent",
@@ -3887,7 +3887,7 @@
     "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
   },
   {
-    "name": "Bou_Zadjar Beach",
+    "name": "Bou Zadjar Beach",
     "category": "Nature",
     "city": "Aïn Temouchent",
     "gps": [35.6114455177521, -1.1513584550907507],
@@ -3944,7 +3944,7 @@
   
 {
     "name": "Pont Sidi Rached",
-    "category": "Infrastructure",
+    "category": "Historical",
     "city": "Constantine",
     "gps": [36.362936842970534, 6.613614219608882],
     "description": "Completed in 1912, the Sidi Rached Bridge is a multiple-span arch viaduct that crosses the Rhummel River gorge, connecting the Coudiat district to Constantine's train station. At the time of its construction, it was the tallest concrete bridge in the world, featuring 27 arches with the largest spanning 70 meters.",
@@ -3955,7 +3955,7 @@
   },
   {
     "name": "Pont El Kantara",
-    "category": "Infrastructure",
+    "category": "Historical",
     "city": "Constantine",
     "gps": [36.369455314488675, 6.6184242085484275],
     "description": "The El Kantara Bridge is the oldest in Constantine, originally serving as a Roman aqueduct. Reconstructed multiple times, the current concrete arch bridge was completed in the 19th century, spanning the Rhumel River gorge and connecting different parts of the city.",
@@ -3966,7 +3966,7 @@
   },
   {
     "name": "Pont Mellah Slimane",
-    "category": "Infrastructure",
+    "category": "Historical",
     "city": "Constantine",
     "gps": [36.36693878919292, 6.614976788929979],
     "description": "Opened in April 1925, the Mellah Slimane Bridge is a 125-meter-long suspension footbridge that stands approximately 110 meters above the Rhumel River. It connects the train station neighborhood to the old town center, offering pedestrians a thrilling crossing experience.",
@@ -3977,7 +3977,7 @@
   },
   {
     "name": "Théâtre Régional Mohamed Tahar Fergani",
-    "category": "Culture",
+    "category": "Cultural",
     "city": "Constantine",
     "gps": [36.36586863883418, 6.6105621809730755],
     "description": "Established in 1973, the Regional Theatre of Constantine was renamed in 2017 to honor the renowned Malouf singer Mohamed-Tahar Fergani. Located in the heart of the city, the theatre hosts a variety of performances, including plays, concerts, and cultural events.",
@@ -4043,7 +4043,7 @@
   },
   {
     "name": "Les Jardins des Ziban",
-    "category": "Water Park",
+    "category": "Amusement Park",
     "city": "Biskra",
     "gps": [34.82553721666425, 5.7746688709190],
     "description": "A popular water park offering a variety of fun water-based activities and relaxation areas for families and tourists looking to cool off.",
@@ -4056,7 +4056,6 @@
       "Refreshments"
     ]
   },
-
     {
     "name": "La plage de Sidi Lakhdar",
     "category": "Nature",
@@ -4119,7 +4118,7 @@
   },
   {
     "name": "Parc Mosta Land",
-    "category": "Entertainment",
+    "category": "Amusement Park",
     "city": "Mostaganem",
     "gps": [35.95432578186449, 0.09917718937280462],
     "description": "An amusement park offering a variety of rides and attractions for families and children.",
@@ -4144,7 +4143,7 @@
   },
   {
     "name": "1st November Mosque",
-    "category": "Religious Site",
+    "category": "Religious",
     "city": "Batna",
     "gps": [35.54682574650567, 6.166569873077366],
     "description": "An iconic mosque with symbolic value, reflecting Algeria's historical struggle for independence.",
@@ -4184,23 +4183,8 @@
     ]
   },
   {
-    "name": "Hammam Maskhoutine",
-    "category": "Natural Springs",
-    "city": "Guelma",
-    "gps": [36.4394, 7.1525],
-    "description": "Located in the dramatic valley of Hammam Debagh, Hammam Maskhoutine is famous for its unique volcanic rock formations and steaming hot springs reaching temperatures up to 98°C. The site includes spectacular travertine walls and petrified formations, known as the 'petrified wedding guests', tied to ancient local folklore.",
-    "rating": 4.7,
-    "cost": "Paid",
-    "visit_duration": "2-3 hours",
-    "nearby_amenities": [
-      "Natural pools",
-      "Scenic viewpoints",
-      "Folklore sites"
-    ]
-  },
-  {
     "name": "Hammam Melouane",
-    "category": "Thermal Spa",
+    "category": "Nature",
     "city": "Blida",
     "gps": [36.4282, 2.8339],
     "description": "A relaxing thermal spa located in a lush natural setting near Algiers, Hammam Melouane offers naturally heated pools, a spa center, and comfortable accommodations. It is ideal for stress relief and wellness therapy, especially during weekdays.",
