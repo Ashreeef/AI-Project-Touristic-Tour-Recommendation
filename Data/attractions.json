@@ -3852,5 +3852,366 @@
       "Restaurants",
       "Cultural Sites"
     ]
+  },
+  {
+    "name": "Sbeaat Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.56242221874778, -1.1977865891653827],
+    "description": "Sbeaat Beach is a tranquil spot featuring soft golden sands and gentle waves. Surrounded by natural cliffs and pine trees, it offers a perfect escape for those seeking peace and quiet.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Cap Figalo Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.58542299953683, -1.179062846337538],
+    "description": "Cap Figalo Beach is known for its rugged coastline and deep blue waters. Ideal for snorkeling and coastal walks, the area offers stunning views of the Mediterranean horizon.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Sassel Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.497349166578886, -1.221386042701457],
+    "description": "Sassel Beach is a popular family destination, appreciated for its calm waters and wide sandy areas. Local vendors often sell snacks and souvenirs near the entrance.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Bou_Zadjar Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.6114455177521, -1.1513584550907507],
+    "description": "Bou Zadjar Beach is admired for its clear waters and nearby hiking paths. It's a great location for a day trip combining swimming, exploration, and photography.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Plage Rachgoun Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.34104186004034, -1.4630242354562266],
+    "description": "Plage Rachgoun is one of the region's most iconic beaches, offering views of Rachgoun Island. It's perfect for sunrise walks and peaceful swims in crystal-clear waters.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Sidi Djelloul Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.40151139594744, -1.2844964185754213],
+    "description": "Sidi Djelloul Beach is tucked between rocky cliffs and is appreciated for its wild, untouched nature. It’s a hidden gem ideal for adventurers and nature lovers.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Terga Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.482066936563776, -1.2323113644102626],
+    "description": "Terga Beach offers a perfect balance between relaxation and activity. Its calm bay is great for swimming, and its promenade attracts families and tourists alike.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  {
+    "name": "Medegh 1 Beach",
+    "category": "Nature",
+    "city": "Aïn Temouchent",
+    "gps": [35.68087180905607, -1.0675164565202886],
+    "description": "Medegh 1 Beach stands out for its dramatic cliffs and natural beauty. It's less crowded than other beaches, offering a peaceful atmosphere for contemplation and seaside picnics.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+  },
+  
+{
+    "name": "Pont Sidi Rached",
+    "category": "Infrastructure",
+    "city": "Constantine",
+    "gps": [36.362936842970534, 6.613614219608882],
+    "description": "Completed in 1912, the Sidi Rached Bridge is a multiple-span arch viaduct that crosses the Rhummel River gorge, connecting the Coudiat district to Constantine's train station. At the time of its construction, it was the tallest concrete bridge in the world, featuring 27 arches with the largest spanning 70 meters.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": ["Parking", "Restrooms"]
+  },
+  {
+    "name": "Pont El Kantara",
+    "category": "Infrastructure",
+    "city": "Constantine",
+    "gps": [36.369455314488675, 6.6184242085484275],
+    "description": "The El Kantara Bridge is the oldest in Constantine, originally serving as a Roman aqueduct. Reconstructed multiple times, the current concrete arch bridge was completed in the 19th century, spanning the Rhumel River gorge and connecting different parts of the city.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": ["Parking", "Restrooms"]
+  },
+  {
+    "name": "Pont Mellah Slimane",
+    "category": "Infrastructure",
+    "city": "Constantine",
+    "gps": [36.36693878919292, 6.614976788929979],
+    "description": "Opened in April 1925, the Mellah Slimane Bridge is a 125-meter-long suspension footbridge that stands approximately 110 meters above the Rhumel River. It connects the train station neighborhood to the old town center, offering pedestrians a thrilling crossing experience.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "30 minutes",
+    "nearby_amenities": ["Restrooms"]
+  },
+  {
+    "name": "Théâtre Régional Mohamed Tahar Fergani",
+    "category": "Culture",
+    "city": "Constantine",
+    "gps": [36.36586863883418, 6.6105621809730755],
+    "description": "Established in 1973, the Regional Theatre of Constantine was renamed in 2017 to honor the renowned Malouf singer Mohamed-Tahar Fergani. Located in the heart of the city, the theatre hosts a variety of performances, including plays, concerts, and cultural events.",
+    "rating": 4.5,
+    "cost": "Varies by event",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Restrooms", "Cafes"]
+  },
+  {
+    "name": "Jardin de l'Aqueduc Romain",
+    "category": "Nature",
+    "city": "Constantine",
+    "gps": [36.35084038796594, 6.617827965630298],
+    "description": "The Roman Aqueduct Garden offers a serene environment with lush greenery and historical significance. Located near the remnants of an ancient Roman aqueduct, it's an ideal spot for relaxation and leisurely walks.",
+    "rating": 5.0,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": ["Parking", "Restrooms"]
+  },
+  {
+    "name": "Monts Chelia",
+    "category": "Nature",
+    "city": "Khenchela",
+    "gps": [35.326257661423035, 6.659807235434382],
+    "description": "Monts Chelia, also known as Djebel Chélia, is the highest peak in the Aurès Mountains and the second highest in Algeria, standing at 2,328 meters. Located west of Khenchela in Bouhmama county, it offers panoramic views and is a popular spot for hikers and nature enthusiasts.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "4-6 hours",
+    "nearby_amenities": ["Parking", "Restrooms", "Picnic areas"]
+  },
+  {
+    "name": "Canyon de Ghoufi",
+    "category": "Nature",
+    "city": "Batna",
+    "gps": [35.05856690189807, 6.175359364791057],
+    "description": "The Ghoufi Canyon, also known as the Balconies of Ghoufi, is a breathtaking site located in the Aurès region. This deep canyon features ancient cave dwellings carved into its cliffs and overlooks a lush oasis, offering a glimpse into the area's rich history and natural beauty.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": ["Parking", "Restrooms"]
+  },
+  {
+    "name": "Parc National de Djebel Aissa",
+    "category": "Nature",
+    "city": "Naâma",
+    "gps": [32.954744392641885, 0.4937485011400684],
+    "description": "Established in 2003, Djebel Aissa National Park spans 24,400 hectares in the Saharan Atlas region. It boasts diverse landscapes, including mountains, valleys, and forests, and is home to various endemic and endangered species, making it a haven for wildlife enthusiasts.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "4-5 hours",
+    "nearby_amenities": ["Parking", "Restrooms", "Visitor Center"]
+  },
+  {
+    "name": "Lac Agulmim",
+    "category": "Nature",
+    "city": "Tikejda",
+    "gps": [36.632708176315276, 4.5046569816971465],
+    "description": "Lac Agulmim, situated in the Tikejda region, is a serene mountain lake surrounded by lush greenery and rocky landscapes. It's a popular spot for picnics, nature walks, and offers stunning views, especially during sunrise and sunset.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Restrooms"]
+  },
+  {
+    "name": "Les Jardins des Ziban",
+    "category": "Water Park",
+    "city": "Biskra",
+    "gps": [34.82553721666425, 5.7746688709190],
+    "description": "A popular water park offering a variety of fun water-based activities and relaxation areas for families and tourists looking to cool off.",
+    "rating": 4.5,
+    "cost": "1600 DA",
+    "visit_duration": "full day",
+    "nearby_amenities": [
+      "Water slides",
+      "Swimming pools",
+      "Refreshments"
+    ]
+  },
+
+    {
+    "name": "La plage de Sidi Lakhdar",
+    "category": "Nature",
+    "city": "Mostaganem",
+    "gps": [36.20870415562302, 0.38009745019327773],
+    "description": "Located in the commune of Sidi Lakhdar, this beach is renowned for its golden sands and clear waters, providing an ideal setting for swimming and water sports.",
+    "rating": 4.4,
+    "cost": "Free",
+    "visit_duration": "full day",
+    "nearby_amenities": ["Parking", "Restrooms"]
+  },
+  {
+    "name": "Salamandre Beach",
+    "category": "Nature",
+    "city": "Mostaganem",
+    "gps": [35.91313623530849, 0.05437981802623946],
+    "description": "A beautiful and peaceful beach known for its golden sand, crystal-clear waters, and picturesque views, perfect for a relaxing day by the sea.",
+    "rating": 4.1,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Restrooms",
+      "Restaurants",
+      "Cafes",
+      "Boutiques"
+    ]
+  },
+  {
+    "name": "Marsa Ben M’Hidi beach ",
+    "category": "Nature",
+    "city": "Marsa Ben M’Hidi",
+    "gps": [35.08418725538024, -2.207698122669854],
+    "description": "Known for its fine sand and crystal-clear waters, this beach is ideal for swimming and water sports. It also offers amenities such as restrooms and free parking.",
+    "rating": 4.2,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Restrooms", "Restaurants", "Cafes"]
+  },
+  {
+    "name": "Hadjadj beach 2",
+    "category": "Nature",
+    "city": "Mostaganem",
+    "gps": [36.14907526387925, 0.3045909200849971],
+    "description": "A serene beach known for its clear waters and tranquil environment, suitable for swimming and relaxation.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking", "Restaurants", "Cafes"]
+  },
+  {
+    "name": "Hadjadj beach 1",
+    "category": "Nature",
+    "city": "Mostaganem",
+    "gps": [36.14666669936615, 0.30134543477268233],
+    "description": "A serene beach known for its clear waters and tranquil environment, suitable for swimming and relaxation.",
+    "rating": 4.3,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": ["Parking"]
+  },
+  {
+    "name": "Parc Mosta Land",
+    "category": "Entertainment",
+    "city": "Mostaganem",
+    "gps": [35.95432578186449, 0.09917718937280462],
+    "description": "An amusement park offering a variety of rides and attractions for families and children.",
+    "rating": 4.1,
+    "cost": "200 DA",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": ["Parking", "Restrooms", "Food Stalls"]
+  },
+  {
+    "name": "Mausoleum of Medghacen",
+    "category": "Historical",
+    "city": "Batna",
+    "gps": [35.70788061410484, 6.434999172605006],
+    "description": "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region’s early civilizations.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Historical site",
+      "Cultural tours"
+    ]
+  },
+  {
+    "name": "1st November Mosque",
+    "category": "Religious Site",
+    "city": "Batna",
+    "gps": [35.54682574650567, 6.166569873077366],
+    "description": "An iconic mosque with symbolic value, reflecting Algeria's historical struggle for independence.",
+    "rating": 4.9,
+    "cost": "Free",
+    "visit_duration": "1 hour",
+    "nearby_amenities": [
+      "Religious site",
+      "Guided tours"
+    ]
+  },
+  {
+    "name": "Lambaesis Ruins",
+    "category": "Historical",
+    "city": "Batna",
+    "gps": [35.492063530128085, 6.254945857130927],
+    "description": "Ancient Roman military site featuring impressive ruins, including a theater, baths, and temple ruins.",
+    "rating": 4.6,
+    "cost": "Free",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Archaeological sites"
+    ]
+  },
+  {
+    "name": "Belezma National Park",
+    "category": "Nature",
+    "city": "Batna",
+    "gps": [35.56336772028595, 5.948667364646422],
+    "description": "A national park known for its rich biodiversity, lush forests, and serene hiking trails, ideal for nature lovers and wildlife enthusiasts.",
+    "rating": 4.0,
+    "cost": "Free",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+      "Nature trails",
+      "Wildlife watching"
+    ]
+  },
+  {
+    "name": "Hammam Maskhoutine",
+    "category": "Natural Springs",
+    "city": "Guelma",
+    "gps": [36.4394, 7.1525],
+    "description": "Located in the dramatic valley of Hammam Debagh, Hammam Maskhoutine is famous for its unique volcanic rock formations and steaming hot springs reaching temperatures up to 98°C. The site includes spectacular travertine walls and petrified formations, known as the 'petrified wedding guests', tied to ancient local folklore.",
+    "rating": 4.7,
+    "cost": "Paid",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Natural pools",
+      "Scenic viewpoints",
+      "Folklore sites"
+    ]
+  },
+  {
+    "name": "Hammam Melouane",
+    "category": "Thermal Spa",
+    "city": "Blida",
+    "gps": [36.4282, 2.8339],
+    "description": "A relaxing thermal spa located in a lush natural setting near Algiers, Hammam Melouane offers naturally heated pools, a spa center, and comfortable accommodations. It is ideal for stress relief and wellness therapy, especially during weekdays.",
+    "rating": 4.3,
+    "cost": "Paid",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Spa center",
+      "Restaurant",
+      "Hotels",
+      "Playground"
+    ]
   }
 ]
