@@ -260,7 +260,7 @@
     "nearby_amenities": [
       "Beach Access",
       "Archaeological Museum"
-    ] 
+    ]
   },
   {
     "name": "Royal Mausoleum of Mauretania (Kbour-er-Roumia)",
@@ -835,7 +835,8 @@
     "category": "Nature",
     "city": "Djanet",
     "gps": [
-      24.959595,9.009221
+      24.959595,
+      9.009221
     ],
     "description": "Remote valley with striking sandstone cliffs and prehistoric rock art. Ideal for off-road exploration.",
     "rating": 4.9,
@@ -851,8 +852,8 @@
     "category": "Historical",
     "city": "Djanet",
     "gps": [
-      24.5514523
-    , 9.4842383
+      24.5514523,
+      9.4842383
     ],
     "description": "19th-century Ottoman-era fort offering insights into Djanet's history and strategic desert trade routes.",
     "rating": 4.2,
@@ -863,60 +864,58 @@
       "Town Center"
     ]
   },
-
-{
-  "name": "Iherir Valley",
-  "category": "Nature",
-  "city": "Djanet",
-  "gps": [
-    25.4173294
-    , 8.4179192
-  ],
-  "description": "UNESCO-listed valley with freshwater springs, prehistoric engravings, and rare Saharan wildlife.",
-  "rating": 4.7,
-  "cost": "Free",
-  "visit_duration": "3-4 hours",
-  "nearby_amenities": [
-    "Eco-Lodges",
-    "Guided Hikes"
-    ,"Oasis d' iherir"
-  ]
-},
-{
-  "name": "Tikoubaouine Arch",
-  "category": "Nature",
-  "city": "Djanet",
-  "gps": [
-    24.7392189,
-    9.1717242
-  ],
-  "description": "Natural sandstone arch sculpted by erosion. A breathtaking spot for sunset views and photography.",
-  "rating": 4.5,
-  "cost": "Free",
-  "visit_duration": "2-3 hours",
-  "nearby_amenities": [
-    "Guided Tours",
-    "Picnic Areas"
-  ]
-},
-{
-  "name": "Sefar Rock Art Site",
-  "category": "Historical",
-  "city": "Djanet",
-  "gps": [
-    24.4753933,
-    9.9130294
-  ],
-  "description": "One of the most iconic rock art sites in the Tassili n'Ajjer region, featuring Neolithic-era paintings and carvings dating back to 6000 BCE. Highlights include the famous 'Great God of Sefar,' a towering humanoid figure, and vivid scenes of ancient pastoral life. A UNESCO World Heritage gem.",
-  "rating": 4.7,
-  "cost": "Free",
-  "visit_duration": "3-4 hours",
-  "nearby_amenities": [
-    "Guided Tours",
-    "Campgrounds"
-  ]
-},
-
+  {
+    "name": "Iherir Valley",
+    "category": "Nature",
+    "city": "Djanet",
+    "gps": [
+      25.4173294,
+      8.4179192
+    ],
+    "description": "UNESCO-listed valley with freshwater springs, prehistoric engravings, and rare Saharan wildlife.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": [
+      "Eco-Lodges",
+      "Guided Hikes",
+      "Oasis d' iherir"
+    ]
+  },
+  {
+    "name": "Tikoubaouine Arch",
+    "category": "Nature",
+    "city": "Djanet",
+    "gps": [
+      24.7392189,
+      9.1717242
+    ],
+    "description": "Natural sandstone arch sculpted by erosion. A breathtaking spot for sunset views and photography.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Guided Tours",
+      "Picnic Areas"
+    ]
+  },
+  {
+    "name": "Sefar Rock Art Site",
+    "category": "Historical",
+    "city": "Djanet",
+    "gps": [
+      24.4753933,
+      9.9130294
+    ],
+    "description": "One of the most iconic rock art sites in the Tassili n'Ajjer region, featuring Neolithic-era paintings and carvings dating back to 6000 BCE. Highlights include the famous 'Great God of Sefar,' a towering humanoid figure, and vivid scenes of ancient pastoral life. A UNESCO World Heritage gem.",
+    "rating": 4.7,
+    "cost": "Free",
+    "visit_duration": "3-4 hours",
+    "nearby_amenities": [
+      "Guided Tours",
+      "Campgrounds"
+    ]
+  },
   {
     "name": "Djemila",
     "category": "Historical",
@@ -1342,75 +1341,74 @@
       "Sandboarding"
     ]
   },
-  {  
-    "name": "Ahaggar National Park",  
-    "category": "Nature",  
-    "city": "Tamanrasset",  
-    "gps": [  
-      23.1432003
-    ,6.411794 
-    ],  
-    "description": "Vast protected desert park encompassing volcanic peaks, sand dunes, and archaeological sites. Home to the endangered Saharan cheetah.",  
-    "rating": 4.7,  
-    "cost": "800 DZD (entry permit)",  
-    "visit_duration": "Full day",  
-    "nearby_amenities": [  
-      "Visitor Center",  
-      "Campgrounds"  
-    ]  
+  {
+    "name": "Ahaggar National Park",
+    "category": "Nature",
+    "city": "Tamanrasset",
+    "gps": [
+      23.1432003,
+      6.411794
+    ],
+    "description": "Vast protected desert park encompassing volcanic peaks, sand dunes, and archaeological sites. Home to the endangered Saharan cheetah.",
+    "rating": 4.7,
+    "cost": "800 DZD (entry permit)",
+    "visit_duration": "Full day",
+    "nearby_amenities": [
+      "Visitor Center",
+      "Campgrounds"
+    ]
   },
-  
-    {
-      "name": "National Museum of Ahaggar",
-      "category": "Museum",
-      "city": "Tamanrasset",
-      "gps": [
-        22.7976,
-        5.5391
-      ],
-      "description": "A museum dedicated to preserving the cultural and natural heritage of the Ahaggar (Hoggar) region. Exhibits include Tuareg artifacts, traditional jewelry, tools, historical photographs, and displays on the area's geology, prehistoric rock art, and nomadic lifestyles. Highlights the ecological and anthropological significance of the Ahaggar Cultural Park, a UNESCO-recognized site.",
-      "rating": 4.2,
-      "cost": "200 DZD",
-      "visit_duration": "1-2 hours",
-      "nearby_amenities": [
-        "Souvenir Shops",
-        "Cafes",
-        "Town Center"
-      ]
-    }
-  ,
-  {  
-    "name": "Tazrouk Village",  
-    "category": "Cultural",  
-    "city": "Tamanrasset",  
-    "gps": [  
-      23.4225572
-    ,6.2650813 
-    ],  
-    "description": "Traditional Tuareg village nestled in the Hoggar Mountains. Offers insights into nomadic lifestyles and handicrafts like silver jewelry.",  
-    "rating": 4.5,  
-    "cost": "Free",  
-    "visit_duration": "2-3 hours",  
-    "nearby_amenities": [  
-      "Local Markets",  
-      "Guided Village Tours"  
-    ]  
+  {
+    "name": "National Museum of Ahaggar",
+    "category": "Museum",
+    "city": "Tamanrasset",
+    "gps": [
+      22.7976,
+      5.5391
+    ],
+    "description": "A museum dedicated to preserving the cultural and natural heritage of the Ahaggar (Hoggar) region. Exhibits include Tuareg artifacts, traditional jewelry, tools, historical photographs, and displays on the area's geology, prehistoric rock art, and nomadic lifestyles. Highlights the ecological and anthropological significance of the Ahaggar Cultural Park, a UNESCO-recognized site.",
+    "rating": 4.2,
+    "cost": "200 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Souvenir Shops",
+      "Cafes",
+      "Town Center"
+    ]
   },
-  {  
-    "name": "Erg Tihodaïne",  
-    "category": "Adventure",  
-    "city": "Tamanrasset",  
-    "gps": [  
-      25.2666667,6.5333333 
-    ],  
-    "description": "Remote dune field ideal for 4x4 safaris, camel treks, and stargazing. Known for its golden sands and isolation.",  
-    "rating": 4.6,  
-    "cost": "2500 DZD (guided tour)",  
-    "visit_duration": "Full day or overnight",  
-    "nearby_amenities": [  
-      "Desert Camps",  
-      "Tour Agencies"  
-    ]  
+  {
+    "name": "Tazrouk Village",
+    "category": "Cultural",
+    "city": "Tamanrasset",
+    "gps": [
+      23.4225572,
+      6.2650813
+    ],
+    "description": "Traditional Tuareg village nestled in the Hoggar Mountains. Offers insights into nomadic lifestyles and handicrafts like silver jewelry.",
+    "rating": 4.5,
+    "cost": "Free",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Local Markets",
+      "Guided Village Tours"
+    ]
+  },
+  {
+    "name": "Erg Tihodaïne",
+    "category": "Adventure",
+    "city": "Tamanrasset",
+    "gps": [
+      25.2666667,
+      6.5333333
+    ],
+    "description": "Remote dune field ideal for 4x4 safaris, camel treks, and stargazing. Known for its golden sands and isolation.",
+    "rating": 4.6,
+    "cost": "2500 DZD (guided tour)",
+    "visit_duration": "Full day or overnight",
+    "nearby_amenities": [
+      "Desert Camps",
+      "Tour Agencies"
+    ]
   },
   {
     "name": "Tikjda National Park",
@@ -1670,7 +1668,6 @@
       "Information Center"
     ]
   },
-  
   {
     "name": "Thubursicum(Khamissa)",
     "category": "Historical",
@@ -1694,7 +1691,10 @@
     "name": "lacs de Burgas",
     "category": "Lake",
     "city": "Souk Ahras",
-    "gps": [36.258669, 7.852478],
+    "gps": [
+      36.258669,
+      7.852478
+    ],
     "description": "The Burgas Lakes near Taoura in Souk Ahras are the largest natural lakes in the region. They are a peaceful haven for many birds, including flamingos and the rare white-headed duck. The area offers stunning landscapes and a unique spot for nature lovers and birdwatchers.",
     "rating": 4.7,
     "cost": "Free",
@@ -1711,7 +1711,10 @@
     "name": "The olive tree of St. Augustine",
     "category": "Historical",
     "city": "Souk Ahras",
-    "gps": [36.2844431, 7.9590463],
+    "gps": [
+      36.2844431,
+      7.9590463
+    ],
     "description": "a revered 2,900-year-old olive tree in Souk Ahras, Algeria, where Saint Augustine is said to have meditated and written under its branches alongside his mother, Saint Monica. Certified by dendrochronology in 1953, this ancient symbol of faith and resilience—linked to biblical figures and Mediterranean history—draws pilgrims and scholars alike. Restored in 2005 with Italian collaboration, the site now features a museum and stands as a spiritual landmark, echoing UNESCO’s World Olive Day (November 26) as a testament to its global cultural and religious legacy.",
     "rating": 4.2,
     "cost": "Free",
@@ -1728,7 +1731,10 @@
     "name": "Mujahid Museum",
     "category": "Museum",
     "city": "Souk Ahras",
-    "gps": [36.287316, 7.967866],
+    "gps": [
+      36.287316,
+      7.967866
+    ],
     "description": "honors Algeria’s fight for freedom (1954–1962) with photos, weapons, and stories of local heroes. Located in a historic city, it’s a moving tribute to courage and sacrifice. Perfect for understanding Algeria’s past. 🇩🇿",
     "rating": 4.2,
     "cost": "Free",
@@ -1744,7 +1750,10 @@
     "name": "Mosque of Al-Aman",
     "category": "Religious",
     "city": "Souk Ahras",
-    "gps": [36.285538, 7.954362],
+    "gps": [
+      36.285538,
+      7.954362
+    ],
     "description": " is a stunning modern mosque in the city center, built from 2011 to 2016. It holds 4,400 worshippers and includes a Quranic school, a 200-seat library, and parking. With its elegant design, it’s a peaceful place for prayer and cultural discovery. ",
     "rating": 4.6,
     "cost": "Free",
@@ -1756,7 +1765,6 @@
       "cafes"
     ]
   },
-  
   {
     "name": "Lac Tonga",
     "category": "Lake",
@@ -3679,7 +3687,7 @@
     "gps": [
       34.3543,
       3.8709
-  ],
+    ],
     "description": "Amoura, historically known as Sufasar, is a commune in Djelfa Province, Algeria. It holds significance as an ancient Roman town in the province of Mauretania Caesariensis.",
     "rating": 4.0,
     "cost": "Free",
@@ -3697,7 +3705,8 @@
     "city": "Djelfa",
     "gps": [
       34.3502,
-      3.2616],
+      3.2616
+    ],
     "description": "The Ain al-Naqah Rock Carvings are a nationally recognized archaeological site. The site comprises six stations featuring a total of 71 prehistoric rock engravings, offering valuable insights into the region's ancient history and art.",
     "rating": 4.2,
     "cost": "Free",
@@ -3771,9 +3780,9 @@
     "category": "Religious",
     "city": "Béchar",
     "gps": [
-    31.633522,
-   -2.198242
-   ],
+      31.633522,
+      -2.198242
+    ],
     "description": "Mosquée Al-Houda serves as a central hub for the local Muslim community, hosting daily prayers and religious gatherings.",
     "rating": 4.0,
     "cost": "Free",
@@ -3805,184 +3814,291 @@
     "name": "Cap Figalo Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.58542299953683, -1.179062846337538],
+    "gps": [
+      35.58542299953683,
+      -1.179062846337538
+    ],
     "description": "Cap Figalo Beach is known for its rugged coastline and deep blue waters. Ideal for snorkeling and coastal walks, the area offers stunning views of the Mediterranean horizon.",
     "rating": 4.6,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Sassel Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.497349166578886, -1.221386042701457],
+    "gps": [
+      35.497349166578886,
+      -1.221386042701457
+    ],
     "description": "Sassel Beach is a popular family destination, appreciated for its calm waters and wide sandy areas. Local vendors often sell snacks and souvenirs near the entrance.",
     "rating": 4.0,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Bou Zadjar Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.6114455177521, -1.1513584550907507],
+    "gps": [
+      35.6114455177521,
+      -1.1513584550907507
+    ],
     "description": "Bou Zadjar Beach is admired for its clear waters and nearby hiking paths. It's a great location for a day trip combining swimming, exploration, and photography.",
     "rating": 4.4,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Plage Rachgoun Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.34104186004034, -1.4630242354562266],
+    "gps": [
+      35.34104186004034,
+      -1.4630242354562266
+    ],
     "description": "Plage Rachgoun is one of the region's most iconic beaches, offering views of Rachgoun Island. It's perfect for sunrise walks and peaceful swims in crystal-clear waters.",
     "rating": 4.2,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Sidi Djelloul Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.40151139594744, -1.2844964185754213],
+    "gps": [
+      35.40151139594744,
+      -1.2844964185754213
+    ],
     "description": "Sidi Djelloul Beach is tucked between rocky cliffs and is appreciated for its wild, untouched nature. It’s a hidden gem ideal for adventurers and nature lovers.",
     "rating": 4.4,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Terga Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.482066936563776, -1.2323113644102626],
+    "gps": [
+      35.482066936563776,
+      -1.2323113644102626
+    ],
     "description": "Terga Beach offers a perfect balance between relaxation and activity. Its calm bay is great for swimming, and its promenade attracts families and tourists alike.",
     "rating": 4.4,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Medegh 1 Beach",
     "category": "Nature",
     "city": "Aïn Témouchent",
-    "gps": [35.68087180905607, -1.0675164565202886],
+    "gps": [
+      35.68087180905607,
+      -1.0675164565202886
+    ],
     "description": "Medegh 1 Beach stands out for its dramatic cliffs and natural beauty. It's less crowded than other beaches, offering a peaceful atmosphere for contemplation and seaside picnics.",
     "rating": 4.5,
     "cost": "Free",
     "visit_duration": "2-4 hours",
-    "nearby_amenities": ["Restaurants", "Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Restaurants",
+      "Parking",
+      "Restrooms"
+    ]
   },
-  
-{
+  {
     "name": "Pont Sidi Rached",
     "category": "Historical",
     "city": "Constantine",
-    "gps": [36.362936842970534, 6.613614219608882],
+    "gps": [
+      36.362936842970534,
+      6.613614219608882
+    ],
     "description": "Completed in 1912, the Sidi Rached Bridge is a multiple-span arch viaduct that crosses the Rhummel River gorge, connecting the Coudiat district to Constantine's train station. At the time of its construction, it was the tallest concrete bridge in the world, featuring 27 arches with the largest spanning 70 meters.",
     "rating": 4.7,
     "cost": "Free",
     "visit_duration": "1 hour",
-    "nearby_amenities": ["Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Pont El Kantara",
     "category": "Historical",
     "city": "Constantine",
-    "gps": [36.369455314488675, 6.6184242085484275],
+    "gps": [
+      36.369455314488675,
+      6.6184242085484275
+    ],
     "description": "The El Kantara Bridge is the oldest in Constantine, originally serving as a Roman aqueduct. Reconstructed multiple times, the current concrete arch bridge was completed in the 19th century, spanning the Rhumel River gorge and connecting different parts of the city.",
     "rating": 4.6,
     "cost": "Free",
     "visit_duration": "1 hour",
-    "nearby_amenities": ["Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Pont Mellah Slimane",
     "category": "Historical",
     "city": "Constantine",
-    "gps": [36.36693878919292, 6.614976788929979],
+    "gps": [
+      36.36693878919292,
+      6.614976788929979
+    ],
     "description": "Opened in April 1925, the Mellah Slimane Bridge is a 125-meter-long suspension footbridge that stands approximately 110 meters above the Rhumel River. It connects the train station neighborhood to the old town center, offering pedestrians a thrilling crossing experience.",
     "rating": 4.6,
     "cost": "Free",
     "visit_duration": "30 minutes",
-    "nearby_amenities": ["Restrooms"]
+    "nearby_amenities": [
+      "Restrooms"
+    ]
   },
   {
     "name": "Théâtre Régional Mohamed Tahar Fergani",
     "category": "Cultural",
     "city": "Constantine",
-    "gps": [36.36586863883418, 6.6105621809730755],
+    "gps": [
+      36.36586863883418,
+      6.6105621809730755
+    ],
     "description": "Established in 1973, the Regional Theatre of Constantine was renamed in 2017 to honor the renowned Malouf singer Mohamed-Tahar Fergani. Located in the heart of the city, the theatre hosts a variety of performances, including plays, concerts, and cultural events.",
     "rating": 4.5,
     "cost": "Varies by event",
     "visit_duration": "2-3 hours",
-    "nearby_amenities": ["Parking", "Restrooms", "Cafes"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms",
+      "Cafes"
+    ]
   },
   {
     "name": "Jardin de l'Aqueduc Romain",
     "category": "Nature",
     "city": "Constantine",
-    "gps": [36.35084038796594, 6.617827965630298],
+    "gps": [
+      36.35084038796594,
+      6.617827965630298
+    ],
     "description": "The Roman Aqueduct Garden offers a serene environment with lush greenery and historical significance. Located near the remnants of an ancient Roman aqueduct, it's an ideal spot for relaxation and leisurely walks.",
     "rating": 5.0,
     "cost": "Free",
     "visit_duration": "1-2 hours",
-    "nearby_amenities": ["Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Monts Chelia",
     "category": "Nature",
     "city": "Khenchela",
-    "gps": [35.326257661423035, 6.659807235434382],
+    "gps": [
+      35.326257661423035,
+      6.659807235434382
+    ],
     "description": "Monts Chelia, also known as Djebel Chélia, is the highest peak in the Aurès Mountains and the second highest in Algeria, standing at 2,328 meters. Located west of Khenchela in Bouhmama county, it offers panoramic views and is a popular spot for hikers and nature enthusiasts.",
     "rating": 4.6,
     "cost": "Free",
     "visit_duration": "4-6 hours",
-    "nearby_amenities": ["Parking", "Restrooms", "Picnic areas"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms",
+      "Picnic areas"
+    ]
   },
   {
     "name": "Canyon de Ghoufi",
     "category": "Nature",
     "city": "Batna",
-    "gps": [35.05856690189807, 6.175359364791057],
+    "gps": [
+      35.05856690189807,
+      6.175359364791057
+    ],
     "description": "The Ghoufi Canyon, also known as the Balconies of Ghoufi, is a breathtaking site located in the Aurès region. This deep canyon features ancient cave dwellings carved into its cliffs and overlooks a lush oasis, offering a glimpse into the area's rich history and natural beauty.",
     "rating": 4.7,
     "cost": "Free",
     "visit_duration": "3-4 hours",
-    "nearby_amenities": ["Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Parc National de Djebel Aissa",
     "category": "Nature",
     "city": "Naâma",
-    "gps": [32.954744392641885, 0.4937485011400684],
+    "gps": [
+      32.954744392641885,
+      0.4937485011400684
+    ],
     "description": "Established in 2003, Djebel Aissa National Park spans 24,400 hectares in the Saharan Atlas region. It boasts diverse landscapes, including mountains, valleys, and forests, and is home to various endemic and endangered species, making it a haven for wildlife enthusiasts.",
     "rating": 4.3,
     "cost": "Free",
     "visit_duration": "4-5 hours",
-    "nearby_amenities": ["Parking", "Restrooms", "Visitor Center"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms",
+      "Visitor Center"
+    ]
   },
   {
     "name": "Lac Agulmim",
     "category": "Nature",
     "city": "Bouira",
-    "gps": [36.632708176315276, 4.5046569816971465],
+    "gps": [
+      36.632708176315276,
+      4.5046569816971465
+    ],
     "description": "Lac Agulmim, situated in the Tikejda region, is a serene mountain lake surrounded by lush greenery and rocky landscapes. It's a popular spot for picnics, nature walks, and offers stunning views, especially during sunrise and sunset.",
     "rating": 4.6,
     "cost": "Free",
     "visit_duration": "2-3 hours",
-    "nearby_amenities": ["Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Les Jardins des Ziban",
     "category": "Amusement Park",
     "city": "Biskra",
-    "gps": [34.82553721666425, 5.7746688709190],
+    "gps": [
+      34.82553721666425,
+      5.7746688709190
+    ],
     "description": "A popular water park offering a variety of fun water-based activities and relaxation areas for families and tourists looking to cool off.",
     "rating": 4.5,
     "cost": "1600 DA",
@@ -3993,22 +4109,31 @@
       "Refreshments"
     ]
   },
-    {
+  {
     "name": "La plage de Sidi Lakhdar",
     "category": "Nature",
     "city": "Mostaganem",
-    "gps": [36.20870415562302, 0.38009745019327773],
+    "gps": [
+      36.20870415562302,
+      0.38009745019327773
+    ],
     "description": "Located in the commune of Sidi Lakhdar, this beach is renowned for its golden sands and clear waters, providing an ideal setting for swimming and water sports.",
     "rating": 4.4,
     "cost": "Free",
     "visit_duration": "full day",
-    "nearby_amenities": ["Parking", "Restrooms"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms"
+    ]
   },
   {
     "name": "Salamandre Beach",
     "category": "Nature",
     "city": "Mostaganem",
-    "gps": [35.91313623530849, 0.05437981802623946],
+    "gps": [
+      35.91313623530849,
+      0.05437981802623946
+    ],
     "description": "A beautiful and peaceful beach known for its golden sand, crystal-clear waters, and picturesque views, perfect for a relaxing day by the sea.",
     "rating": 4.1,
     "cost": "Free",
@@ -4024,51 +4149,81 @@
     "name": "Marsa Ben M’Hidi beach ",
     "category": "Nature",
     "city": "Marsa Ben M’Hidi",
-    "gps": [35.08418725538024, -2.207698122669854],
+    "gps": [
+      35.08418725538024,
+      -2.207698122669854
+    ],
     "description": "Known for its fine sand and crystal-clear waters, this beach is ideal for swimming and water sports. It also offers amenities such as restrooms and free parking.",
     "rating": 4.2,
     "cost": "Free",
     "visit_duration": "2-3 hours",
-    "nearby_amenities": ["Parking", "Restrooms", "Restaurants", "Cafes"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms",
+      "Restaurants",
+      "Cafes"
+    ]
   },
   {
     "name": "Hadjadj beach 2",
     "category": "Nature",
     "city": "Mostaganem",
-    "gps": [36.14907526387925, 0.3045909200849971],
+    "gps": [
+      36.14907526387925,
+      0.3045909200849971
+    ],
     "description": "A serene beach known for its clear waters and tranquil environment, suitable for swimming and relaxation.",
     "rating": 4.3,
     "cost": "Free",
     "visit_duration": "2-3 hours",
-    "nearby_amenities": ["Parking", "Restaurants", "Cafes"]
+    "nearby_amenities": [
+      "Parking",
+      "Restaurants",
+      "Cafes"
+    ]
   },
   {
     "name": "Hadjadj beach 1",
     "category": "Nature",
     "city": "Mostaganem",
-    "gps": [36.14666669936615, 0.30134543477268233],
+    "gps": [
+      36.14666669936615,
+      0.30134543477268233
+    ],
     "description": "A serene beach known for its clear waters and tranquil environment, suitable for swimming and relaxation.",
     "rating": 4.3,
     "cost": "Free",
     "visit_duration": "2-3 hours",
-    "nearby_amenities": ["Parking"]
+    "nearby_amenities": [
+      "Parking"
+    ]
   },
   {
     "name": "Parc Mosta Land",
     "category": "Amusement Park",
     "city": "Mostaganem",
-    "gps": [35.95432578186449, 0.09917718937280462],
+    "gps": [
+      35.95432578186449,
+      0.09917718937280462
+    ],
     "description": "An amusement park offering a variety of rides and attractions for families and children.",
     "rating": 4.1,
     "cost": "200 DA",
     "visit_duration": "3-4 hours",
-    "nearby_amenities": ["Parking", "Restrooms", "Food Stalls"]
+    "nearby_amenities": [
+      "Parking",
+      "Restrooms",
+      "Food Stalls"
+    ]
   },
   {
     "name": "Mausoleum of Medghacen",
     "category": "Historical",
     "city": "Batna",
-    "gps": [35.70788061410484, 6.434999172605006],
+    "gps": [
+      35.70788061410484,
+      6.434999172605006
+    ],
     "description": "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region’s early civilizations.",
     "rating": 4.5,
     "cost": "Free",
@@ -4082,7 +4237,10 @@
     "name": "1st November Mosque",
     "category": "Religious",
     "city": "Batna",
-    "gps": [35.54682574650567, 6.166569873077366],
+    "gps": [
+      35.54682574650567,
+      6.166569873077366
+    ],
     "description": "An iconic mosque with symbolic value, reflecting Algeria's historical struggle for independence.",
     "rating": 4.9,
     "cost": "Free",
@@ -4096,7 +4254,10 @@
     "name": "Lambaesis Ruins",
     "category": "Historical",
     "city": "Batna",
-    "gps": [35.492063530128085, 6.254945857130927],
+    "gps": [
+      35.492063530128085,
+      6.254945857130927
+    ],
     "description": "Ancient Roman military site featuring impressive ruins, including a theater, baths, and temple ruins.",
     "rating": 4.6,
     "cost": "Free",
@@ -4109,7 +4270,10 @@
     "name": "Belezma National Park",
     "category": "Nature",
     "city": "Batna",
-    "gps": [35.56336772028595, 5.948667364646422],
+    "gps": [
+      35.56336772028595,
+      5.948667364646422
+    ],
     "description": "A national park known for its rich biodiversity, lush forests, and serene hiking trails, ideal for nature lovers and wildlife enthusiasts.",
     "rating": 4.0,
     "cost": "Free",
@@ -4123,7 +4287,10 @@
     "name": "Hammam Melouane",
     "category": "Nature",
     "city": "Blida",
-    "gps": [36.4282, 2.8339],
+    "gps": [
+      36.4282,
+      2.8339
+    ],
     "description": "A relaxing thermal spa located in a lush natural setting near Algiers, Hammam Melouane offers naturally heated pools, a spa center, and comfortable accommodations. It is ideal for stress relief and wellness therapy, especially during weekdays.",
     "rating": 4.3,
     "cost": "Paid",
@@ -4135,7 +4302,6 @@
       "Playground"
     ]
   },
-  
   {
     "name": "Djebel Messaâd",
     "category": "Nature",
@@ -4639,9 +4805,8 @@
       "Viewpoints",
       "Desert Trails"
     ]
-  }
-
-{
+  },
+  {
     "name": "Aïn Chrichira",
     "category": "Nature",
     "city": "Tébessa",
@@ -4736,5 +4901,4 @@
       "Spring water sources"
     ]
   }
-
 ]
