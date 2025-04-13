@@ -681,8 +681,8 @@
     "category": "Nature",
     "city": "Tlemcen",
     "gps": [
-      35.08,
-      -2.2
+      35.08418725538024,
+      -2.207698122669854
     ],
     "description": "A coastal area with beaches and scenic views.",
     "rating": 4.2,
@@ -690,7 +690,11 @@
     "visit_duration": "Variable",
     "nearby_amenities": [
       "Beach Amenities",
-      "Water Sports Rentals"
+      "Water Sports Rentals",
+      "Parking",
+      "Restrooms",
+      "Restaurants",
+      "Cafes"
     ]
   },
   {
@@ -1395,7 +1399,7 @@
   },
   {
     "name": "Erg Tihodaïne",
-    "category": "Adventure",
+    "category": "Nature",
     "city": "Tamanrasset",
     "gps": [
       25.2666667,
@@ -1470,11 +1474,13 @@
       5.7731
     ],
     "description": "A water park offering recreation and entertainment.",
-    "rating": 3.9,
+    "rating": 4.5,
     "cost": "1800 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
-      "Unknown"
+      "Water slides",
+      "Swimming pools",
+      "Refreshments"
     ]
   },
   {
@@ -2310,7 +2316,7 @@
   },
   {
     "name": "Animal Park - Kissir El Aouana",
-    "category": "Wildlife Park",
+    "category": "Amusement Park",
     "city": "Jijel",
     "gps": [
       36.85,
@@ -2396,7 +2402,7 @@
   },
   {
     "name": "El Firma Club",
-    "category": "Recreational",
+    "category": "Amusement Park",
     "city": "Sétif",
     "gps": [
       36.21,
@@ -3720,7 +3726,7 @@
   },
   {
     "name": "Senalba Forest",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Djelfa",
     "gps": [
       34.564303,
@@ -3739,7 +3745,7 @@
   },
   {
     "name": "Agoulmime Lake",
-    "category": "Natural",
+    "category": "Lake",
     "city": "Tizi Ouzou",
     "gps": [
       36.4642,
@@ -4092,24 +4098,6 @@
     ]
   },
   {
-    "name": "Les Jardins des Ziban",
-    "category": "Amusement Park",
-    "city": "Biskra",
-    "gps": [
-      34.82553721666425,
-      5.7746688709190
-    ],
-    "description": "A popular water park offering a variety of fun water-based activities and relaxation areas for families and tourists looking to cool off.",
-    "rating": 4.5,
-    "cost": "1600 DA",
-    "visit_duration": "full day",
-    "nearby_amenities": [
-      "Water slides",
-      "Swimming pools",
-      "Refreshments"
-    ]
-  },
-  {
     "name": "La plage de Sidi Lakhdar",
     "category": "Nature",
     "city": "Mostaganem",
@@ -4143,25 +4131,6 @@
       "Restaurants",
       "Cafes",
       "Boutiques"
-    ]
-  },
-  {
-    "name": "Marsa Ben M’Hidi beach ",
-    "category": "Nature",
-    "city": "Marsa Ben M’Hidi",
-    "gps": [
-      35.08418725538024,
-      -2.207698122669854
-    ],
-    "description": "Known for its fine sand and crystal-clear waters, this beach is ideal for swimming and water sports. It also offers amenities such as restrooms and free parking.",
-    "rating": 4.2,
-    "cost": "Free",
-    "visit_duration": "2-3 hours",
-    "nearby_amenities": [
-      "Parking",
-      "Restrooms",
-      "Restaurants",
-      "Cafes"
     ]
   },
   {
@@ -4437,7 +4406,7 @@
   },
   {
     "name": "Reptiles Zoo",
-    "category": "Wildlife Attraction",
+    "category": "Amusement Park",
     "city": "Ghardaïa",
     "gps": [
       32.4833,
@@ -4607,25 +4576,6 @@
     ]
   },
   {
-    "name": "El Kseur Dam",
-    "category": "Infrastructure",
-    "city": "Bouira",
-    "gps": [
-      36.4278,
-      3.9456
-    ],
-    "description": "Impressive hydroelectric dam creating a scenic reservoir, popular for picnics and birdwatching.",
-    "rating": 4.1,
-    "cost": "Free",
-    "visit_duration": "1-2 hours",
-    "nearby_amenities": [
-      "Picnic tables",
-      "Fishing areas",
-      "Visitor center",
-      "Walking paths"
-    ]
-  },
-  {
     "name": "Aïn Chrichira",
     "category": "Nature",
     "city": "Tébessa",
@@ -4722,7 +4672,7 @@
   },
   {
     "name": "Sebkha Circuit",
-    "category": "Natural",
+    "category": "Nature",
     "city": "Timimoun",
     "gps": [
       29.2639,
@@ -4790,23 +4740,6 @@
     ]
   },
   {
-    "name": "Citadelle d'Ighzer",
-    "category": "Historical",
-    "city": "Timimoun",
-    "gps": [
-      29.2700,
-      0.2480
-    ],
-    "description": "A panoramic citadel known for its defensive structures and sweeping views over the red-hued oasis below.",
-    "rating": 4.2,
-    "cost": "Free",
-    "visit_duration": "1 hour",
-    "nearby_amenities": [
-      "Viewpoints",
-      "Desert Trails"
-    ]
-  },
-  {
     "name": "Aïn Chrichira",
     "category": "Nature",
     "city": "Tébessa",
@@ -4823,82 +4756,6 @@
       "Walking trails",
       "Natural swimming pools",
       "Local cafes"
-    ]
-  },
-  {
-    "name": "Grotte de l'Ours",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.4417,
-      8.1569
-    ],
-    "description": "Prehistoric cave system with Neolithic rock art depicting hunting scenes and ancient bear habitats, accessible with specialized guides.",
-    "rating": 4.6,
-    "cost": "600 DZD (with equipment)",
-    "visit_duration": "3 hours",
-    "nearby_amenities": [
-      "Helmet rentals",
-      "Archaeological briefings",
-      "Safety equipment",
-      "Prehistoric tool replicas"
-    ]
-  },
-  {
-    "name": "Aïn Chrichira",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.3928,
-      8.0925
-    ],
-    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
-    "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "1.5 hours",
-    "nearby_amenities": [
-      "Picnic tables",
-      "Walking trails",
-      "Natural swimming pools",
-      "Local cafes"
-    ]
-  },
-  {
-    "name": "Byzantine Walls",
-    "category": "Historical",
-    "city": "Tébessa",
-    "gps": [
-      35.4072,
-      8.1214
-    ],
-    "description": "6th-century defensive walls built by Emperor Justinian, featuring 14 surviving towers and original stonework incorporating Roman materials.",
-    "rating": 4.5,
-    "cost": "50 DZD",
-    "visit_duration": "1 hour",
-    "nearby_amenities": [
-      "Illuminated at night",
-      "Walking path",
-      "Historical markers",
-      "Panoramic viewpoints"
-    ]
-  },
-  {
-    "name": "Djebel Doukane",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.3583,
-      8.0836
-    ],
-    "description": "Dramatic limestone mountain offering challenging hikes to prehistoric cave dwellings with panoramic views of the Aurès Mountains.",
-    "rating": 4.7,
-    "cost": "Free",
-    "visit_duration": "4-6 hours",
-    "nearby_amenities": [
-      "Mountain guides",
-      "Rock climbing routes",
-      "Emergency shelters",
-      "Spring water sources"
     ]
   }
 ]
