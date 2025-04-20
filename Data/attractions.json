@@ -2249,8 +2249,8 @@
     ]
   },
   {
-    "name": "Island of El Aouana",
-    "category": "Island",
+    "name": "Îles Cavallo",
+    "category": "Beach",
     "city": "Jijel",
     "gps": [
       36.8667,
@@ -2334,8 +2334,8 @@
     ]
   },
   {
-    "name": "Ziama Mansouriah",
-    "category": "Coastal Town",
+    "name": "Ziama Mansouriah Coastal Town",
+    "category": "Nature",
     "city": "Jijel",
     "gps": [
       36.65,
