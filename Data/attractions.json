@@ -45,7 +45,7 @@
     ],
     "description": "Neo-Byzantine basilica (1872) offering panoramic bay views. Features a silver statue of the Virgin Mary and interfaith inscriptions in French/Arabic.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Cable Car Station",
@@ -62,7 +62,7 @@
     ],
     "description": "UNESCO World Heritage Site with Ottoman-era palaces, mosques, and labyrinthine streets. Key landmarks: Ketchaoua Mosque (1612) and Dar Hassan Pacha.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Traditional Tea Houses",
@@ -80,7 +80,7 @@
     ],
     "description": "A monument commemorating Algeria's independence struggle, featuring three palm leaves and an eternal flame",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Public Transport",
@@ -97,7 +97,7 @@
     ],
     "description": "A blend of Moorish and Byzantine styles, originally a mosque, then a cathedral, and now a mosque again",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Casbah",
@@ -114,7 +114,7 @@
     ],
     "description": "A 16th-century palace showcasing Ottoman grandeur, located in the lower Casbah",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Casbah",
@@ -131,7 +131,7 @@
     ],
     "description": "Known for its vibrant street art portraits and parakeets, offering a lively atmosphere.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5 hour",
     "nearby_amenities": [
       "Public Transport",
@@ -148,7 +148,7 @@
     ],
     "description": "The third-largest mosque in the world, featuring the world's tallest minaret at 265 meters. It includes a prayer hall for 120,000 worshippers, a one-million book library, and a museum of Islamic art.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Public Transport",
@@ -166,7 +166,7 @@
     ],
     "description": "A masterpiece of neo-Moorish architecture, now housing the Museum of Post and Telecommunications. Features intricate geometric patterns and vaulted ceilings.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1.5 hours",
     "nearby_amenities": [
       "Public Transport",
@@ -190,6 +190,24 @@
     "nearby_amenities": [
       "Food Court",
       "Secure Parking"
+    ]
+  },
+  {
+    "name": "Beb Ezzouar Shopping Mall",
+    "category": "Shopping Mall",
+    "city": "Algiers",
+    "gps": [
+      36.7236,
+      3.1825
+    ],
+    "description": "A large shopping mall offering a variety of international and local retail stores, entertainment options, and dining facilities.",
+    "rating": 4.3,
+    "cost": "Variable",
+    "visit_duration": "2-4 hours",
+    "nearby_amenities": [
+      "Cinema",
+      "Food Court",
+      "Parking"
     ]
   },
   {
@@ -219,7 +237,7 @@
     ],
     "description": "A scenic port area with historical significance as the site of the French landing in 1830. Offers beautiful views and seafood restaurants.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -272,7 +290,7 @@
     ],
     "description": "Ancient mausoleum believed to be the tomb of King Juba II and Queen Cleopatra Selene.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Scenic Views",
@@ -290,8 +308,8 @@
     ],
     "description": "A breathtaking mountain range within Chréa National Park, offering stunning landscapes, diverse flora and fauna, and a cool climate. It is known for its ancient Atlas cedar forests and is home to a population of the endangered Barbary macaque.",
     "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "Variable",
+    "cost": "0 DZD",
+    "visit_duration": "4-12 hours",
     "nearby_amenities": [
       "Hiking trails",
       "Picnic spots",
@@ -308,7 +326,7 @@
     ],
     "description": "A monastery with historical and religious significance, located near Médéa.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Limited"
@@ -324,7 +342,7 @@
     ],
     "description": "A body of water near Médéa, offering scenic views and a natural environment.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-5 hours",
     "nearby_amenities": [
       "Limited"
@@ -340,7 +358,7 @@
     ],
     "description": "A beautiful set of waterfalls located in El-Hamdania, near Médéa, Algeria. It's a popular destination for hiking and day trips, offering scenic trails and natural beauty[3][6].",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "5-8 hours",
     "nearby_amenities": [
       "Hiking trails"
@@ -373,7 +391,7 @@
     ],
     "description": "18th-century palace showcasing Ottoman architecture. Features intricate tilework and historical artifacts.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Sidi El Houari District",
@@ -409,7 +427,7 @@
     ],
     "description": "Roman and Byzantine landmark now serving as a public library and cultural center.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Restaurants",
@@ -427,7 +445,7 @@
     ],
     "description": "Picturesque coastal area with stunning views and a vibrant atmosphere.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-3 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -445,7 +463,7 @@
     ],
     "description": "Tranquil forest area ideal for hiking and relaxation.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -516,7 +534,7 @@
     ],
     "description": "Inaugurated in 2015, this mosque is a revered place of worship and a prominent symbol of Oran, known for its Andalusian-Maghrebi architectural style. It can accommodate 25,000 worshipers. Its minaret is 104 meters high and covered in glass. It's a meeting place for high-level figures.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -550,8 +568,8 @@
     ],
     "description": "A historic music store made famous by DJ Snake's music video. It's become a cultural landmark and a place of pilgrimage for fans of Raï music and a must-see for visitors to Oran. In 2022, French President Emmanuel Macron visited this location.",
     "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "30 minutes - 1 hour",
+    "cost": "0 DZD",
+    "visit_duration": "0.5-1 hour",
     "nearby_amenities": [
       "Restaurants",
       "Public Transport"
@@ -562,12 +580,12 @@
     "category": "Nature",
     "city": "Oran",
     "gps": [
-      35.5167,
-      0.7833
+      35.56677413645729, 
+      0.7907912564314122
     ],
     "description": "A salt lake located 15 km south of Oran in the municipality of Misserghin. It is a Ramsar site recognized for its importance as a habitat for migratory birds, including flamingos and other waders. The lake dries up during summer due to high evaporation rates and is surrounded by agricultural lands.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-5 hours",
     "nearby_amenities": [
       "Limited",
@@ -576,7 +594,7 @@
   },
   {
     "name": "Great Mosque of Tlemcen",
-    "category": "Cultural",
+    "category": "Religious",
     "city": "Tlemcen",
     "gps": [
       34.8833,
@@ -584,7 +602,7 @@
     ],
     "description": "Built in 1082, this mosque is a highlight of Tlemcen's Islamic heritage.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "City Center",
@@ -635,7 +653,7 @@
     ],
     "description": "Offers panoramic views of Tlemcen from a height of 1000 meters.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-5 hours",
     "nearby_amenities": [
       "Public Transport",
@@ -669,7 +687,7 @@
     ],
     "description": "A scenic waterfall area ideal for hiking and relaxation.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Hiking Trails",
@@ -686,8 +704,8 @@
     ],
     "description": "A coastal area with beaches and scenic views.",
     "rating": 4.2,
-    "cost": "Free",
-    "visit_duration": "Variable",
+    "cost": "0 DZD",
+    "visit_duration": "3-10 hours",
     "nearby_amenities": [
       "Beach Amenities",
       "Water Sports Rentals",
@@ -707,7 +725,7 @@
     ],
     "description": "A mosque located in the El Eubbad district of Tlemcen. It was originally built as a tomb in 1339 by the Merinid sultan Abou l'Hassan Ali as an annex to the mausoleum of Sidi Boumediene and includes a madrasa (built in 1347), a small palace (Dar es Sultân), a zaouia, a hammam, and latrines.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -759,7 +777,7 @@
     ],
     "description": "‘City of Bridges’ featuring Sidi M’Cid suspension bridge (1912) and Palais d'Ahmed Bey. Historic Jewish quarter with Ottoman architecture.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3 hours",
     "nearby_amenities": [
       "Cable Cars",
@@ -776,7 +794,7 @@
     ],
     "description": "A well-preserved Roman mosaic depicting allegorical representations of the four seasons. Typical of Roman-era floor decorations in wealthy homes, it exhibits intricate designs and a variety of colored tiles.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Museum Cafe",
@@ -828,7 +846,7 @@
     "description": "Stunning red sandstone formations and dunes, known as the 'Red Tadrart.' Iconic Sahara Desert landscape.",
     "rating": 4.8,
     "cost": "1500 DZD",
-    "visit_duration": "Multi-day trek",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Desert Camps",
       "4x4 Rentals"
@@ -844,7 +862,7 @@
     ],
     "description": "Remote valley with striking sandstone cliffs and prehistoric rock art. Ideal for off-road exploration.",
     "rating": 4.9,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "5-6 hours",
     "nearby_amenities": [
       "Camping Sites",
@@ -878,7 +896,7 @@
     ],
     "description": "UNESCO-listed valley with freshwater springs, prehistoric engravings, and rare Saharan wildlife.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Eco-Lodges",
@@ -896,7 +914,7 @@
     ],
     "description": "Natural sandstone arch sculpted by erosion. A breathtaking spot for sunset views and photography.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -913,7 +931,7 @@
     ],
     "description": "One of the most iconic rock art sites in the Tassili n'Ajjer region, featuring Neolithic-era paintings and carvings dating back to 6000 BCE. Highlights include the famous 'Great God of Sefar,' a towering humanoid figure, and vivid scenes of ancient pastoral life. A UNESCO World Heritage gem.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -947,7 +965,7 @@
     ],
     "description": "A 19th-century basilica blending Roman, Byzantine, and Berbero-Moorish styles, perched atop the Hill of Hippo in Annaba, housing a relic of Saint Augustine.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5-1 hour",
     "nearby_amenities": [
       "Restaurants",
@@ -1006,7 +1024,7 @@
     ],
     "description": "A scenic location in Seraïdi, known for its lush forests, mountain views, and tranquil atmosphere, ideal for nature lovers and hikers.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Cafés",
@@ -1025,7 +1043,7 @@
     ],
     "description": "A natural hot spring in Guelma, famous for its therapeutic waters and stunning waterfall, attracting visitors seeking relaxation and wellness.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -1064,7 +1082,7 @@
     ],
     "description": "A UNESCO-listed national park in northeastern Algeria, known for its diverse ecosystems, rich wildlife, and scenic lakes, making it a paradise for nature lovers and birdwatchers.",
     "rating": 4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -1102,7 +1120,7 @@
     ],
     "description": "A vast urban park in Algiers, offering lush green spaces, walking trails, recreational areas, and scenic views, perfect for relaxation and outdoor activities.",
     "rating": 3.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Restaurants",
@@ -1141,7 +1159,7 @@
     ],
     "description": "A 19th-century architectural gem in Hussein Dey, Algiers, once the secondary residence of Dey Hussein, now serving as the temporary home for the Grand Museum of Africa.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Cafés",
@@ -1162,7 +1180,7 @@
     ],
     "description": "A UNESCO World Heritage site, M'Zab Valley features five fortified cities established in the 10th century by the Ibadites, showcasing unique medieval architecture and traditional human habitat adapted to the Sahara Desert environment.",
     "rating": 5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 days",
     "nearby_amenities": [
       "Hotels",
@@ -1182,7 +1200,7 @@
     ],
     "description": "A renowned fountain known for its intricate sculpture and as a symbol of Sétif.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5 hour",
     "nearby_amenities": [
       "Cafés",
@@ -1234,7 +1252,7 @@
     ],
     "description": "One of the largest mosques in Algeria, showcasing stunning Ottoman-inspired architecture.",
     "rating": 4.9,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Prayer Areas",
@@ -1251,7 +1269,7 @@
     ],
     "description": "A suspension bridge offering breathtaking panoramic views of the Rhumel Gorge.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5 hour",
     "nearby_amenities": [
       "Photo Spots",
@@ -1269,7 +1287,7 @@
     ],
     "description": "A war memorial perched atop a hill, providing expansive city views.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Viewpoints",
@@ -1338,7 +1356,7 @@
     "description": "A beautiful desert oasis with massive sand dunes and palm groves, perfect for relaxation and adventure.",
     "rating": 4.8,
     "cost": "Variable",
-    "visit_duration": "8-16 hours",
+    "visit_duration": "6-12 hours",
     "nearby_amenities": [
       "Hotels",
       "Camel Rides",
@@ -1356,7 +1374,7 @@
     "description": "Vast protected desert park encompassing volcanic peaks, sand dunes, and archaeological sites. Home to the endangered Saharan cheetah.",
     "rating": 4.7,
     "cost": "800 DZD (entry permit)",
-    "visit_duration": "Full day",
+    "visit_duration": "6-14 hours",
     "nearby_amenities": [
       "Visitor Center",
       "Campgrounds"
@@ -1390,7 +1408,7 @@
     ],
     "description": "Traditional Tuareg village nestled in the Hoggar Mountains. Offers insights into nomadic lifestyles and handicrafts like silver jewelry.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Local Markets",
@@ -1408,7 +1426,7 @@
     "description": "Remote dune field ideal for 4x4 safaris, camel treks, and stargazing. Known for its golden sands and isolation.",
     "rating": 4.6,
     "cost": "2500 DZD (guided tour)",
-    "visit_duration": "Full day or overnight",
+    "visit_duration": "8-12 hours",
     "nearby_amenities": [
       "Desert Camps",
       "Tour Agencies"
@@ -1442,7 +1460,7 @@
     ],
     "description": "An oasis town at the foot of the Saharan Atlas. Explore the traditional palm groves and witness the ancient system of water distribution. Rich in prehistoric vestiges, including rock engravings.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Local shops",
@@ -1493,7 +1511,7 @@
     ],
     "description": "A public garden providing a relaxing venue for families. Biskra's breathtaking public gardens provide families with the perfect venue to relax and spend time together [1][2].",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
@@ -1509,7 +1527,7 @@
     ],
     "description": "A significant mosque near Biskra, reflecting the region's spiritual heritage [2].",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
@@ -1525,7 +1543,7 @@
     ],
     "description": "A small oasis town known as the 'Red Oasis' with distinctive red mud-brick architecture in the Sudanese style. Explore the ancient Ksour, palm groves, and experience the unique blend of Berber, Arab, and African cultures.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 days",
     "nearby_amenities": [
       "Local Guesthouses",
@@ -1543,7 +1561,7 @@
     ],
     "description": "A fascinating architectural wonder and one of the most significant and well-preserved ksars in the Timimoun region. Built in the 14th century with walls made of sand, straw, and clay, it features narrow alleys, winding staircases, and hidden courtyards. It has houses, mosques and kitchens.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-6 hours",
     "nearby_amenities": [
       "Local shops",
@@ -1579,7 +1597,7 @@
     ],
     "description": "A fortified palatine city and UNESCO World Heritage site. Founded in 1007, it served as the first capital of the Hammadid dynasty, showcasing medieval Islamic architecture. It was abandoned in 1090 and partly destroyed in 1152.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Limited"
@@ -1595,8 +1613,8 @@
     ],
     "description": "A natural gem in the Kabylie region, renowned for its dramatic mountain ranges, lush forests, and diverse wildlife, including the endangered Barbary Macaque. The park offers hiking trails with stunning viewpoints and is steeped in cultural significance with the local Kabyle people.",
     "rating": 4.6,
-    "cost": "Free",
-    "visit_duration": "1 day",
+    "cost": "0 DZD",
+    "visit_duration": "8-12 hours",
     "nearby_amenities": [
       "Hotels",
       "Campgrounds",
@@ -1630,7 +1648,7 @@
     ],
     "description": "A picturesque fishing port near Skikda, offering stunning coastal views, fresh seafood, and a gateway to boat tours and maritime activities.",
     "rating": 3.9,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Cafés",
@@ -1648,7 +1666,7 @@
     ],
     "description": "A vibrant public square in the heart of Skikda, known for its historic architecture, lively atmosphere, and a popular gathering spot for locals and visitors.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5-1 hour",
     "nearby_amenities": [
       "Cafés",
@@ -1667,7 +1685,7 @@
     ],
     "description": "Ancient Roman ruins in Souk Ahras, once home to a renowned university and the philosopher Apuleius, offering a glimpse into Algeria's rich classical past.",
     "rating": 4.3,
-    "cost": "unknown",
+    "cost": "150 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -1684,7 +1702,7 @@
     ],
     "description": "An ancient Roman archaeological site near Khemissa, known for its well-preserved Roman theater, forums, public baths, and other ruins that offer insight into the city's historical significance.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Public Restrooms",
@@ -1703,7 +1721,7 @@
     ],
     "description": "The Burgas Lakes near Taoura in Souk Ahras are the largest natural lakes in the region. They are a peaceful haven for many birds, including flamingos and the rare white-headed duck. The area offers stunning landscapes and a unique spot for nature lovers and birdwatchers.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Public Restrooms",
@@ -1723,7 +1741,7 @@
     ],
     "description": "a revered 2,900-year-old olive tree in Souk Ahras, Algeria, where Saint Augustine is said to have meditated and written under its branches alongside his mother, Saint Monica. Certified by dendrochronology in 1953, this ancient symbol of faith and resilience—linked to biblical figures and Mediterranean history—draws pilgrims and scholars alike. Restored in 2005 with Italian collaboration, the site now features a museum and stands as a spiritual landmark, echoing UNESCO’s World Olive Day (November 26) as a testament to its global cultural and religious legacy.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Public Restrooms",
@@ -1743,7 +1761,7 @@
     ],
     "description": "honors Algeria’s fight for freedom (1954–1962) with photos, weapons, and stories of local heroes. Located in a historic city, it’s a moving tribute to courage and sacrifice. Perfect for understanding Algeria’s past. 🇩🇿",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -1762,7 +1780,7 @@
     ],
     "description": " is a stunning modern mosque in the city center, built from 2011 to 2016. It holds 4,400 worshippers and includes a Quranic school, a 200-seat library, and parking. With its elegant design, it’s a peaceful place for prayer and cultural discovery. ",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "hotels",
@@ -1781,7 +1799,7 @@
     ],
     "description": "A freshwater lake within El Kala National Park, recognized as a Ramsar site, providing a crucial habitat for aquatic plants and migratory birds, making it a paradise for nature lovers and birdwatchers.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -1800,7 +1818,7 @@
     ],
     "description": "A significant historical monument located in Ain El Assel, El Tarf, Algeria, recognized for its cultural heritage and national significance.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Parking",
@@ -1818,7 +1836,7 @@
     ],
     "description": "An ancient Roman-era site located in a cork oak forest near Oued Djenane, showcasing remnants from Roman, Byzantine, and Islamic periods, recently designated as a national protected archaeological site.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -1836,7 +1854,7 @@
     ],
     "description": "A historic Catholic church in El kala, serving as a significant place of worship for the local Christian community.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5-1 hour",
     "nearby_amenities": [
       "Cafés",
@@ -1874,7 +1892,7 @@
     ],
     "description": "One of Guelma's oldest mosques, blending Ottoman and French architectural influences, located centrally on Rue Malika Bouzit.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5-1 hour",
     "nearby_amenities": [
       "Shops",
@@ -1891,7 +1909,7 @@
     ],
     "description": "Île Srigina is a small island located at the western entrance of Skikda's harbor in Algeria. The island's name is believed to originate from the Punic term 'rus gunia,' meaning 'cape of the creek.'",
     "rating": 4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Boat Tours",
@@ -1909,26 +1927,10 @@
     ],
     "description": "A fascinating cave system in Tébessa, Algeria, known for its geological formations and natural beauty, attracting adventure seekers and nature lovers.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Hiking Trails",
-      "Guided Tours"
-    ]
-  },
-  {
-    "name": "Naqrine et Farkan",
-    "category": "Historical",
-    "city": "Tébessa",
-    "gps": [
-      35.4042,
-      8.12
-    ],
-    "description": "Naqrine et Farkan is a tourist site located in the Fatima Zahra district of Tébessa, Algeria. Specific details about the site's features and attractions are limited.",
-    "rating": 4,
-    "cost": "Free",
-    "visit_duration": "Variable",
-    "nearby_amenities": [
       "Guided Tours"
     ]
   },
@@ -1942,7 +1944,7 @@
     ],
     "description": "Recognized internationally under the Ramsar Convention, the lake is a popular destination for tourists seeking relaxation and leisure, as well as a natural laboratory for scientific tourism, attracting students and researchers.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking",
@@ -1960,7 +1962,7 @@
     ],
     "description": "The site was registered in 1900 and classified as a national heritage site on January 23, 1968.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Parking",
@@ -1978,7 +1980,7 @@
     ],
     "description": "The forest is characterized by its lush greenery and diverse vegetation, including Aleppo pine, oak, wormwood, and cork trees. It serves as a habitat for various wildlife species such as wild rabbits, blond foxes, jackals, eagles, and partridges.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking",
@@ -1998,7 +2000,7 @@
     ],
     "description": "The mosque showcases traditional Algerian Islamic architecture, featuring intricate tile work and stunning calligraphy, reflecting the region's rich Islamic heritage.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "0.5-1 hour",
     "nearby_amenities": [
       "Parking",
@@ -2026,7 +2028,7 @@
     ]
   },
   {
-    "name": "Beni Belaid Beach East",
+    "name": "Beni Belaid Beach",
     "category": "Beach",
     "city": "Jijel",
     "gps": [
@@ -2035,24 +2037,7 @@
     ],
     "description": "A serene beach known for its clear waters and tranquil environment.",
     "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "2 hours",
-    "nearby_amenities": [
-      "Restaurants",
-      "Hotels"
-    ]
-  },
-  {
-    "name": "Beni Belaid Beach west",
-    "category": "Beach",
-    "city": "Jijel",
-    "gps": [
-      36.881,
-      6.1105
-    ],
-    "description": "Popular for its golden sands and family-friendly atmosphere.",
-    "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2069,7 +2054,7 @@
     ],
     "description": "A picturesque lake adjacent to the beach, ideal for picnics and bird-watching.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1.5 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2086,7 +2071,7 @@
     ],
     "description": "Known for its scenic beauty and clear blue waters, attracting both locals and tourists.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2103,7 +2088,7 @@
     ],
     "description": "Features unique rock formations and is popular among snorkeling enthusiasts.",
     "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2120,7 +2105,7 @@
     ],
     "description": "A beautiful beach offering stunning sunsets and a peaceful environment.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2.5 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2137,7 +2122,7 @@
     ],
     "description": "A lively beach known for its local eateries and vibrant atmosphere.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2.5 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2154,7 +2139,7 @@
     ],
     "description": "Located near a historic lighthouse, offering panoramic views and a glimpse into maritime history.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2171,7 +2156,7 @@
     ],
     "description": "A hidden gem with crystal-clear waters and soft sandy shores, ideal for relaxation.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2188,7 +2173,7 @@
     ],
     "description": "A tranquil beach near Jijel city, offering scenic views and a relaxing environment.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2205,7 +2190,7 @@
     ],
     "description": "A stunning beach with rocky cliffs and breathtaking sea views, perfect for photography.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2222,7 +2207,7 @@
     ],
     "description": "A peaceful beach surrounded by nature, ideal for family outings and picnics.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2239,7 +2224,7 @@
     ],
     "description": "A UNESCO-recognized biosphere reserve, Taza National Park boasts diverse flora and fauna, including the endangered Barbary macaque. Visitors can explore its lush forests and scenic mountains.",
     "rating": 5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -2290,7 +2275,7 @@
     ],
     "description": "This historic lighthouse offers panoramic views of the Mediterranean Sea and the surrounding coastline, making it a popular spot for photography and sightseeing.",
     "rating": 4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Parking",
@@ -2341,7 +2326,7 @@
     ],
     "description": "A historic fortress dating back to the Ottoman era, offering a glimpse into Algeria's rich maritime history.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -2350,7 +2335,7 @@
   },
   {
     "name": "Ziama Mansouriah",
-    "category": "Historical",
+    "category": "Coastal Town",
     "city": "Jijel",
     "gps": [
       36.65,
@@ -2358,7 +2343,7 @@
     ],
     "description": "A charming coastal town known for its picturesque scenery, local seafood cuisine, and peaceful environment.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2392,7 +2377,7 @@
     ],
     "description": "A scenic river with crystal-clear waters, surrounded by lush greenery and rocky cliffs.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-6 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -2411,7 +2396,7 @@
     "description": "A family-friendly leisure complex offering swimming pools, sports activities, and relaxation areas.",
     "rating": 4.6,
     "cost": "1000 DZD",
-    "visit_duration": "8-16 hours",
+    "visit_duration": "3-8 hours",
     "nearby_amenities": [
       "Restaurants",
       "Sports Facilities",
@@ -2428,7 +2413,7 @@
     ],
     "description": "A historic natural fountain known for its refreshing mineral-rich waters and tranquil surroundings.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Rest Areas",
@@ -2463,7 +2448,7 @@
     ],
     "description": "A breathtaking mountainous region perfect for hiking, picnicking, and nature exploration.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Camping",
@@ -2481,7 +2466,7 @@
     ],
     "description": "A breathtaking mountainous region perfect for hiking, picnicking, and nature exploration.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Camping",
@@ -2535,7 +2520,7 @@
     ],
     "description": "One of the oldest human sites, possibly marking the first human presence. It features 1.7-million-year-old stone tools and early human remains, making it a key prehistoric site in North Africa.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -2570,7 +2555,7 @@
     ],
     "description": "A vast highland region with stunning landscapes, caves, and prehistoric sites.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Hiking Trails",
@@ -2587,7 +2572,7 @@
     ],
     "description": "A breathtaking Kabyle village nestled in the Djurdjura mountains, known for its traditional architecture and stunning views.",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Traditional Guesthouses",
@@ -2605,7 +2590,7 @@
     ],
     "description": "A historic Kabyle village famous for its traditional silver jewelry craftsmanship and panoramic mountain scenery.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Handicraft Shops",
@@ -2623,7 +2608,7 @@
     ],
     "description": "A lush forest perfect for hiking, picnicking, and spotting wildlife, offering a cool retreat in summer.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "6-12 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -2641,7 +2626,7 @@
     ],
     "description": "A scenic mountain pass with panoramic views, winding roads, and a gateway to many traditional Kabyle villages.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking",
@@ -2659,7 +2644,7 @@
     ],
     "description": "A picturesque river with lush surroundings, offering relaxing spots for picnicking and enjoying nature.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -2677,8 +2662,8 @@
     ],
     "description": "A serene Mediterranean beach with crystal-clear waters and golden sands.",
     "rating": 4.6,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "5-10 hours",
     "nearby_amenities": [
       "Restaurants",
       "Parking",
@@ -2695,7 +2680,7 @@
     ],
     "description": "A family-friendly park with playgrounds, walking trails, and green spaces for relaxation.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Cafés",
@@ -2713,8 +2698,8 @@
     ],
     "description": "A scenic mountain area with fresh springs, dense forests, and a peaceful environment for hiking and relaxation.",
     "rating": 4.7,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Hiking Trails",
       "Camping Areas",
@@ -2731,8 +2716,8 @@
     ],
     "description": "A secluded beach accessible only by boat, known for its natural beauty and historical significance. It features a freshwater spring and is nestled under a large cliff.",
     "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "6-14 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Limited"
     ]
@@ -2747,8 +2732,8 @@
     ],
     "description": "A picturesque beach with a presqu'île and several islets. It is popular for camping and offers a serene natural environment.",
     "rating": 4.3,
-    "cost": "Free",
-    "visit_duration": "4-14 hours",
+    "cost": "0 DZD",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Camping sites",
       "Local shops"
@@ -2764,8 +2749,8 @@
     ],
     "description": "Comprises two beaches, Madagh 1 and Madagh 2, separated by a small mountain. Known for its crystal-clear waters and scenic surroundings.",
     "rating": 4.4,
-    "cost": "Free",
-    "visit_duration": "4-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Restaurants",
       "Local shops"
@@ -2781,8 +2766,8 @@
     ],
     "description": "A popular beach with golden sand, part of a large tourist complex offering various amenities and activities like water sports.",
     "rating": 4.6,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Hotels",
       "Restaurants",
@@ -2799,7 +2784,7 @@
     ],
     "description": "A cape with a historic lighthouse, offering scenic views of the Mediterranean Sea.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Lighthouse",
@@ -2816,7 +2801,7 @@
     ],
     "description": "A scenic cape with beaches and natural beauty, known for its historic significance.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Limited"
@@ -2832,7 +2817,7 @@
     ],
     "description": "A cape with beaches and natural beauty, part of the El Kala National Park.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "National Park",
@@ -2849,8 +2834,8 @@
     ],
     "description": "A popular beach town with scenic views and historic sites.",
     "rating": 4.3,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaurants",
       "Local shops"
@@ -2866,7 +2851,7 @@
     ],
     "description": "A popular beach in Béjaïa, offering scenic views and local amenities.",
     "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -2883,7 +2868,7 @@
     ],
     "description": "A scenic beach in Collo, known for its natural beauty and local charm.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Limited"
@@ -2899,7 +2884,7 @@
     ],
     "description": "A traditional village known for its historical and cultural heritage.",
     "rating": 4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Unknown"
@@ -2947,7 +2932,7 @@
     ],
     "description": " a striking rock formation in Tizi Ouzou, known for its unique shape resembling a hand",
     "rating": 4.9,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Hiking Trails"
@@ -2963,7 +2948,7 @@
     ],
     "description": "A grotto carved into the rock, containing inscriptions in ancient Berber script.",
     "rating": 3.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Unknown"
@@ -2979,7 +2964,7 @@
     ],
     "description": "Traditional Kabyle villages.",
     "rating": 5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 Hours",
     "nearby_amenities": [
       "Unknown"
@@ -2995,7 +2980,7 @@
     ],
     "description": "Ancient Roman ruins",
     "rating": 3.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
@@ -3011,8 +2996,8 @@
     ],
     "description": "A beautiful beach on the northwestern coast of Azeffoun, ideal for relaxation.",
     "rating": 3.9,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaruants",
       "Hotels",
@@ -3029,8 +3014,8 @@
     ],
     "description": "A serene beach to the northeast of Azeffoun, known for its peaceful atmosphere.",
     "rating": 4.1,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaruants",
       "Hotels",
@@ -3047,8 +3032,8 @@
     ],
     "description": "A picturesque area offering beautiful natural views and serene surroundings.",
     "rating": 4.4,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaruants",
       "Hotels",
@@ -3065,7 +3050,7 @@
     ],
     "description": "",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Hiking Trails"
@@ -3081,8 +3066,8 @@
     ],
     "description": "A beach known for its beautiful coastline and clear waters.",
     "rating": 3.8,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaruants",
       "Hotels",
@@ -3099,26 +3084,8 @@
     ],
     "description": "A serene beach offering a peaceful atmosphere for visitors.",
     "rating": 4,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
-    "nearby_amenities": [
-      "Restaruants",
-      "Hotels",
-      "Cafes"
-    ]
-  },
-  {
-    "name": "Plage Souffleur",
-    "category": "Beach",
-    "city": "Boumerdès",
-    "gps": [
-      16.4251415253337,
-      -61.528508772726866
-    ],
-    "description": "A beautiful and well-known beach in Zemmouri with crystal-clear waters.",
-    "rating": 4.6,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaruants",
       "Hotels",
@@ -3135,8 +3102,8 @@
     ],
     "description": "A quiet beach known for its fig trees and tranquil environment.",
     "rating": 4,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Restaruants",
       "Hotels",
@@ -3153,7 +3120,7 @@
     ],
     "description": "A craft center with 22 workshops dedicated to various local art forms.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants"
@@ -3169,7 +3136,7 @@
     ],
     "description": "A historic house where key meetings of the Algerian revolution took place.",
     "rating": 5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -3186,7 +3153,7 @@
     ],
     "description": "A significant historical site related to Sheikh Ahddad, a major figure in the local history.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
@@ -3202,7 +3169,7 @@
     ],
     "description": " The final resting place of El Mokrani, a local hero",
     "rating": 4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
@@ -3218,7 +3185,7 @@
     ],
     "description": "a cultural and historical site known for its significance during the Algerian War",
     "rating": 4.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -3235,7 +3202,7 @@
     ],
     "description": "Ancient Roman ruins",
     "rating": 5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Picnic Areas"
@@ -3251,7 +3218,7 @@
     ],
     "description": " A natural spring that provides fresh water",
     "rating": 3.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -3268,8 +3235,8 @@
     ],
     "description": "A mysterious and beautiful lake nestled in the mountains",
     "rating": 4.6,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Hiking Trails",
       "Picnic Areas",
@@ -3286,7 +3253,7 @@
     ],
     "description": "a natural rock formations known for their deep cliffs and scenic views, popular for hiking and nature exploration",
     "rating": 5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Hiking Trails"
@@ -3302,7 +3269,7 @@
     ],
     "description": "A charming seaside area in Bejaia, perfect for a relaxing walk by the sea.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3320,7 +3287,7 @@
     ],
     "description": "A famous mountain in Bejaia, offering hiking trails and panoramic views of the city and the sea",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -3337,8 +3304,8 @@
     ],
     "description": "Known for their crystal-clear waters and picturesque views",
     "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "6-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "5-10 hours",
     "nearby_amenities": [
       "Restaurants",
       "Hotels",
@@ -3356,8 +3323,8 @@
     ],
     "description": "A stunning natural waterfall, ideal for nature lovers and those looking to escape into a tranquil environment.",
     "rating": 4.2,
-    "cost": "Free",
-    "visit_duration": "4-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Restaurants",
       "Picnic Areas",
@@ -3374,7 +3341,7 @@
     ],
     "description": "A central square in Bejaia, it holds historical significance and is a lively gathering place for locals and visitors alike.",
     "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3392,7 +3359,7 @@
     ],
     "description": "A significant historical gateway, representing the architectural and cultural heritage of Bejaia.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
@@ -3408,8 +3375,8 @@
     ],
     "description": "A popular hiking destination offering breathtaking views and known for its population of Barbary monkeys.",
     "rating": 4.7,
-    "cost": "Free",
-    "visit_duration": "4-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Picnic Areas"
     ]
@@ -3424,8 +3391,8 @@
     ],
     "description": "A beautiful beach in Tipaza, known for its crystal-clear waters and scenic views",
     "rating": 4.7,
-    "cost": "Free",
-    "visit_duration": "4-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Restaurants",
       "Hotels",
@@ -3442,7 +3409,7 @@
     ],
     "description": "Plage Saint-Cloud, also known as Plage Fellah Rachid, is a popular beach located north of Annaba, Algeria. Renowned for its expansive shoreline and scenic beauty, it attracts visitors year-round due to its convenient location and accessibility.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -3460,7 +3427,7 @@
     ],
     "description": "Plage Chapuis, also known as Rizzi Amor, is a popular beach in Annaba, featuring fine, high-quality sand stretching over several hundred meters. It is one of the four beautiful beaches located in the northern part of Annaba.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -3479,25 +3446,7 @@
     ],
     "description": "Plage Sable d'Or, located in Chetaïbi, Annaba,Visitors can enjoy sunbathing, swimming, and exploring the natural beauty of the area.",
     "rating": 4.1,
-    "cost": "Free",
-    "visit_duration": "2-4 hours",
-    "nearby_amenities": [
-      "Parking",
-      "Cafés",
-      "Restrooms"
-    ]
-  },
-  {
-    "name": "Plage Sable d'Or Chetaïbi",
-    "category": "Nature",
-    "city": "Annaba",
-    "gps": [
-      37.078838,
-      7.387577
-    ],
-    "description": "Plage Sable d'Or, located in Chetaïbi, Annaba,Visitors can enjoy sunbathing, swimming, and exploring the natural beauty of the area.",
-    "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -3515,8 +3464,8 @@
     ],
     "description": "El Marsa is a picturesque coastal village located approximately 60 kilometers east of Skikda. Once a simple fishing village, it has transformed into a popular tourist destination, attracting visitors with its expansive sandy beaches, charming pebble coves, and scenic calanques. ",
     "rating": 4.4,
-    "cost": "Free",
-    "visit_duration": "4-12 hours",
+    "cost": "0 DZD",
+    "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Parking",
       "Restrooms"
@@ -3532,7 +3481,7 @@
     ],
     "description": "Plage Vieille Calle, located in El Kala, El Tarf Province, is renowned for its extensive stretch of golden sand and clear blue waters. ",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -3550,7 +3499,7 @@
     ],
     "description": "Plage Echatt is a serene beach located in the town of Echatt, near Annaba, The beach is a popular spot among locals, especially during the summer months, providing a peaceful retreat from the bustling city life.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -3568,7 +3517,7 @@
     ],
     "description": "Plage Djenane El Bey, also known as Plage Oued Boqrat, is a serene beach located near Seraïdi in the Annaba province of Algeria.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -3585,7 +3534,7 @@
     ],
     "description": "Plage Bikini is a beach located near the village of Stora in Skikda, Algeria. It extends from the grand bend to the edge of the fishing port's jetty.",
     "rating": 3.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking",
@@ -3602,8 +3551,8 @@
     ],
     "description": "A compact beach adorned with rocks, offering opportunities for swimming, picnicking, and various recreational water activities.",
     "rating": 4.0,
-    "cost": "Free",
-    "visit_duration": "Variable",
+    "cost": "0 DZD",
+    "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Cafés",
       "Parking",
@@ -3621,8 +3570,8 @@
     ],
     "description": "A serene beach located in Boukhlidja, Gouraya, known for its natural beauty and tranquil atmosphere.",
     "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "Variable",
+    "cost": "0 DZD",
+    "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Cafés",
       "Parking",
@@ -3640,7 +3589,7 @@
     ],
     "description": "Established in 1858 during the French colonial era as Jardin Bizot, this historic garden was renamed in 1968 to honor Congolese independence leader Patrice Lumumba.",
     "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1.5 hours",
     "nearby_amenities": [
       "Cafés",
@@ -3678,7 +3627,7 @@
     ],
     "description": "The Jewish Cemetery of Blida stands as a testament to the city's once-thriving Jewish community. Although the Jewish population in Blida has significantly diminished since Algeria's independence, the cemetery remains a historical site reflecting the rich cultural tapestry of the region.",
     "rating": 4.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Cafés",
@@ -3696,7 +3645,7 @@
     ],
     "description": "Amoura, historically known as Sufasar, is a commune in Djelfa Province, Algeria. It holds significance as an ancient Roman town in the province of Mauretania Caesariensis.",
     "rating": 4.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2 hours",
     "nearby_amenities": [
       "Cafés",
@@ -3715,7 +3664,7 @@
     ],
     "description": "The Ain al-Naqah Rock Carvings are a nationally recognized archaeological site. The site comprises six stations featuring a total of 71 prehistoric rock engravings, offering valuable insights into the region's ancient history and art.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Local Cafés",
@@ -3734,7 +3683,7 @@
     ],
     "description": "Senalba Forest, located near Djelfa, Algeria, is a significant natural reserve known for its dense Aleppo pine (Pinus halepensis) woodlands.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Picnic Areas",
@@ -3753,7 +3702,7 @@
     ],
     "description": "Agoulmime Lake, also known as Tamda n Agoulmime, is a high-altitude alpine lake situated at approximately 1,700 meters in the Djurdjura Mountains of northern Algeria.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Hiking Trails",
@@ -3772,7 +3721,7 @@
     ],
     "description": "Petit Vichy Garden is Known for its lush greenery and tranquil ambiance, the garden offers visitors a peaceful retreat with well-maintained walking paths, shaded seating areas, and a variety of local flora.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Walking Trails",
@@ -3791,7 +3740,7 @@
     ],
     "description": "Mosquée Al-Houda serves as a central hub for the local Muslim community, hosting daily prayers and religious gatherings.",
     "rating": 4.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Parc",
@@ -3809,7 +3758,7 @@
     "description": "Dar Eddaya is a charming guest house located in the residential neighborhood of Hai Ennour in El Oued, Algeria.",
     "rating": 5.0,
     "cost": "Variable",
-    "visit_duration": "Overnight",
+    "visit_duration": "2-8 hours",
     "nearby_amenities": [
       "Local Markets",
       "Restaurants",
@@ -3826,7 +3775,7 @@
     ],
     "description": "Cap Figalo Beach is known for its rugged coastline and deep blue waters. Ideal for snorkeling and coastal walks, the area offers stunning views of the Mediterranean horizon.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3844,7 +3793,7 @@
     ],
     "description": "Sassel Beach is a popular family destination, appreciated for its calm waters and wide sandy areas. Local vendors often sell snacks and souvenirs near the entrance.",
     "rating": 4.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3862,7 +3811,7 @@
     ],
     "description": "Bou Zadjar Beach is admired for its clear waters and nearby hiking paths. It's a great location for a day trip combining swimming, exploration, and photography.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3880,7 +3829,7 @@
     ],
     "description": "Plage Rachgoun is one of the region's most iconic beaches, offering views of Rachgoun Island. It's perfect for sunrise walks and peaceful swims in crystal-clear waters.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3898,7 +3847,7 @@
     ],
     "description": "Sidi Djelloul Beach is tucked between rocky cliffs and is appreciated for its wild, untouched nature. It’s a hidden gem ideal for adventurers and nature lovers.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3916,7 +3865,7 @@
     ],
     "description": "Terga Beach offers a perfect balance between relaxation and activity. Its calm bay is great for swimming, and its promenade attracts families and tourists alike.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3934,7 +3883,7 @@
     ],
     "description": "Medegh 1 Beach stands out for its dramatic cliffs and natural beauty. It's less crowded than other beaches, offering a peaceful atmosphere for contemplation and seaside picnics.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Restaurants",
@@ -3952,7 +3901,7 @@
     ],
     "description": "Completed in 1912, the Sidi Rached Bridge is a multiple-span arch viaduct that crosses the Rhummel River gorge, connecting the Coudiat district to Constantine's train station. At the time of its construction, it was the tallest concrete bridge in the world, featuring 27 arches with the largest spanning 70 meters.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Parking",
@@ -3969,7 +3918,7 @@
     ],
     "description": "The El Kantara Bridge is the oldest in Constantine, originally serving as a Roman aqueduct. Reconstructed multiple times, the current concrete arch bridge was completed in the 19th century, spanning the Rhumel River gorge and connecting different parts of the city.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Parking",
@@ -3986,7 +3935,7 @@
     ],
     "description": "Opened in April 1925, the Mellah Slimane Bridge is a 125-meter-long suspension footbridge that stands approximately 110 meters above the Rhumel River. It connects the train station neighborhood to the old town center, offering pedestrians a thrilling crossing experience.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Restrooms"
@@ -4020,7 +3969,7 @@
     ],
     "description": "The Roman Aqueduct Garden offers a serene environment with lush greenery and historical significance. Located near the remnants of an ancient Roman aqueduct, it's an ideal spot for relaxation and leisurely walks.",
     "rating": 5.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Parking",
@@ -4037,7 +3986,7 @@
     ],
     "description": "Monts Chelia, also known as Djebel Chélia, is the highest peak in the Aurès Mountains and the second highest in Algeria, standing at 2,328 meters. Located west of Khenchela in Bouhmama county, it offers panoramic views and is a popular spot for hikers and nature enthusiasts.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-6 hours",
     "nearby_amenities": [
       "Parking",
@@ -4055,7 +4004,7 @@
     ],
     "description": "The Ghoufi Canyon, also known as the Balconies of Ghoufi, is a breathtaking site located in the Aurès region. This deep canyon features ancient cave dwellings carved into its cliffs and overlooks a lush oasis, offering a glimpse into the area's rich history and natural beauty.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Parking",
@@ -4072,7 +4021,7 @@
     ],
     "description": "Established in 2003, Djebel Aissa National Park spans 24,400 hectares in the Saharan Atlas region. It boasts diverse landscapes, including mountains, valleys, and forests, and is home to various endemic and endangered species, making it a haven for wildlife enthusiasts.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-5 hours",
     "nearby_amenities": [
       "Parking",
@@ -4090,7 +4039,7 @@
     ],
     "description": "Lac Agulmim, situated in the Tikejda region, is a serene mountain lake surrounded by lush greenery and rocky landscapes. It's a popular spot for picnics, nature walks, and offers stunning views, especially during sunrise and sunset.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking",
@@ -4107,8 +4056,8 @@
     ],
     "description": "Located in the commune of Sidi Lakhdar, this beach is renowned for its golden sands and clear waters, providing an ideal setting for swimming and water sports.",
     "rating": 4.4,
-    "cost": "Free",
-    "visit_duration": "full day",
+    "cost": "0 DZD",
+    "visit_duration": "3-10 hours",
     "nearby_amenities": [
       "Parking",
       "Restrooms"
@@ -4124,7 +4073,7 @@
     ],
     "description": "A beautiful and peaceful beach known for its golden sand, crystal-clear waters, and picturesque views, perfect for a relaxing day by the sea.",
     "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restrooms",
@@ -4134,25 +4083,7 @@
     ]
   },
   {
-    "name": "Hadjadj beach 2",
-    "category": "Nature",
-    "city": "Mostaganem",
-    "gps": [
-      36.14907526387925,
-      0.3045909200849971
-    ],
-    "description": "A serene beach known for its clear waters and tranquil environment, suitable for swimming and relaxation.",
-    "rating": 4.3,
-    "cost": "Free",
-    "visit_duration": "2-3 hours",
-    "nearby_amenities": [
-      "Parking",
-      "Restaurants",
-      "Cafes"
-    ]
-  },
-  {
-    "name": "Hadjadj beach 1",
+    "name": "Hadjadj beach",
     "category": "Nature",
     "city": "Mostaganem",
     "gps": [
@@ -4161,7 +4092,7 @@
     ],
     "description": "A serene beach known for its clear waters and tranquil environment, suitable for swimming and relaxation.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking"
@@ -4195,7 +4126,7 @@
     ],
     "description": "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region’s early civilizations.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Historical site",
@@ -4212,7 +4143,7 @@
     ],
     "description": "An iconic mosque with symbolic value, reflecting Algeria's historical struggle for independence.",
     "rating": 4.9,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Religious site",
@@ -4229,7 +4160,7 @@
     ],
     "description": "Ancient Roman military site featuring impressive ruins, including a theater, baths, and temple ruins.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Archaeological sites"
@@ -4245,7 +4176,7 @@
     ],
     "description": "A national park known for its rich biodiversity, lush forests, and serene hiking trails, ideal for nature lovers and wildlife enthusiasts.",
     "rating": 4.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Nature trails",
@@ -4262,7 +4193,7 @@
     ],
     "description": "A relaxing thermal spa located in a lush natural setting near Algiers, Hammam Melouane offers naturally heated pools, a spa center, and comfortable accommodations. It is ideal for stress relief and wellness therapy, especially during weekdays.",
     "rating": 4.3,
-    "cost": "Paid",
+    "cost": "2500 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Spa center",
@@ -4281,8 +4212,8 @@
     ],
     "description": "Djebel Messaâd is one of the highest points in the Hodna region and offers stunning panoramic views. A favorite among local hikers and nature lovers, it's an ideal spot for trekking and exploring the natural landscapes of M'Sila.",
     "rating": 4.3,
-    "cost": "Free",
-    "visit_duration": "Half-day",
+    "cost": "0 DZD",
+    "visit_duration": "2-6 hours",
     "nearby_amenities": [
       "Hiking trails",
       "Natural lookout points",
@@ -4300,7 +4231,7 @@
     ],
     "description": "A symbolic and cultural site believed to be inspired by the original Tomb of Tin Hinan. While not the original tomb, this local replica pays homage to the Berber queen and reflects M'Sila’s heritage and admiration of Amazigh history.",
     "rating": 3.8,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Local market",
@@ -4319,7 +4250,7 @@
     ],
     "description": "Chott El Hodna is a large seasonal salt lake located in the Hodna region. It is a vital wetland that attracts migratory birds and offers a unique desert-lake landscape perfect for nature photography and eco-tourism.",
     "rating": 4.0,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Bird-watching spots",
@@ -4376,7 +4307,7 @@
     ],
     "description": "Constructed in 1048, the Grande Mosquée de Ghardaïa stands as a central spiritual and communal hub. Its distinctive minaret and desert-adapted architecture symbolize the city's historical significance and religious devotion.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Historical sites",
@@ -4395,7 +4326,7 @@
     ],
     "description": "The old city of Ghardaïa offers a labyrinth of narrow alleys, traditional houses, and bustling markets. Visitors can immerse themselves in the daily life and customs of the Mozabite community.",
     "rating": 4.6,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Artisan workshops",
@@ -4433,7 +4364,7 @@
     ],
     "description": "Mosquée Al Ghofrane is a significant religious site in Ghardaïa, known for its serene ambiance and traditional design. It serves as a place of worship and community gatherings.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Prayer areas",
@@ -4452,7 +4383,7 @@
     ],
     "description": "Mosquée Badr is a notable mosque in Ghardaïa, reflecting the architectural heritage of the M'Zab Valley. It is a place of spiritual significance for the local community.",
     "rating": 4.2,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Prayer halls",
@@ -4471,7 +4402,7 @@
     ],
     "description": "Named after the second caliph of Islam, Mosquée Omar Ibn Al-Khattab is a significant mosque in Ghardaïa, known for its spiritual ambiance and community importance.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Prayer facilities",
@@ -4547,7 +4478,7 @@
     ],
     "description": "Imposing memorial honoring Bouira's martyrs from the Algerian Revolution, featuring striking modernist architecture.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Guided tours",
@@ -4573,25 +4504,6 @@
       "Certified guides",
       "Safety briefing area",
       "Parking"
-    ]
-  },
-  {
-    "name": "Aïn Chrichira",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.3928,
-      8.0925
-    ],
-    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
-    "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "1.5 hours",
-    "nearby_amenities": [
-      "Picnic tables",
-      "Walking trails",
-      "Natural swimming pools",
-      "Local cafes"
     ]
   },
   {
@@ -4623,7 +4535,7 @@
     ],
     "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1.5 hours",
     "nearby_amenities": [
       "Picnic tables",
@@ -4661,7 +4573,7 @@
     ],
     "description": "Dramatic limestone mountain offering challenging hikes to prehistoric cave dwellings with panoramic views of the Aurès Mountains.",
     "rating": 4.7,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "4-6 hours",
     "nearby_amenities": [
       "Mountain guides",
@@ -4680,7 +4592,7 @@
     ],
     "description": "A scenic off-road tour around Timimoun featuring oases, sand dunes, ksour like Ighzer, and picturesque Saharan views. Popular for 4×4 adventures.",
     "rating": 4.5,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Guided Tours",
@@ -4698,7 +4610,7 @@
     ],
     "description": "A historic citadel combined with a natural cave, offering insight into the region’s heritage and defense architecture.",
     "rating": 4.1,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Walking Trails",
@@ -4715,7 +4627,7 @@
     ],
     "description": "A traditional ksar showcasing desert architecture and community life, surrounded by palm trees and ancient irrigation systems.",
     "rating": 4.3,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Fougara System",
@@ -4732,30 +4644,11 @@
     ],
     "description": "An ancient underground water channeling system used for irrigation across the oasis. A unique and sustainable water solution.",
     "rating": 4.4,
-    "cost": "Free",
+    "cost": "0 DZD",
     "visit_duration": "45 minutes",
     "nearby_amenities": [
       "Palm Groves",
       "Cultural Tours"
-    ]
-  },
-  {
-    "name": "Aïn Chrichira",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.3928,
-      8.0925
-    ],
-    "description": "Picturesque natural spring surrounded by ancient olive groves, with crystal-clear waters emerging from Jurassic limestone formations.",
-    "rating": 4.5,
-    "cost": "Free",
-    "visit_duration": "1.5 hours",
-    "nearby_amenities": [
-      "Picnic tables",
-      "Walking trails",
-      "Natural swimming pools",
-      "Local cafes"
     ]
   }
 ]
