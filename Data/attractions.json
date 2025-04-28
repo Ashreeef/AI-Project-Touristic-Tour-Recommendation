@@ -400,6 +400,26 @@
     ]
   },
   {
+    "name": "Boulevard des Lions",
+    "category": "Shopping Mall",
+    "city": "Oran",
+    "gps": [
+      35.7,
+      -0.63
+    ],
+    "description": "A lively boulevard in Oran popular with families and groups of friends.",
+    "rating": 4.2,
+    "cost": "Variable",
+    "visit_duration": "2-3 hours",
+    "nearby_amenities": [
+      "Shopping Center",
+      "3D and 9D Cinemas",
+      "Trampoline Park",
+      "Ice Skating Rink",
+      "Various Restaurants"
+    ]
+  },
+  {
     "name": "Ahmed Zabana National Museum",
     "category": "Museum",
     "city": "Oran",
