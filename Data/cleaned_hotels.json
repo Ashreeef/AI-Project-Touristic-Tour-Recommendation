@@ -1,5 +1,1029 @@
 [
     {
+        "hotel": "Hotel Best Night 2",
+        "price": 69741,
+        "score": 8.8,
+        "avg review": "Fabulous",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Holiday Inn Algiers - Cheraga Tower by IHG",
+        "price": 99300,
+        "score": 7.7,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Hotel Best Night",
+        "price": 75676,
+        "score": 7.8,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "H\u00f4tel Sidi Yahia",
+        "price": 109956,
+        "score": 8.1,
+        "avg review": "Very good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Mercure Alger Palais Des Congres",
+        "price": 92400,
+        "score": 8.7,
+        "avg review": "Fabulous",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "AFRIC HOTEL- Casbah",
+        "price": 62300,
+        "score": 7.5,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "ibis Alger A\u00e9roport",
+        "price": 88920,
+        "score": 6.6,
+        "avg review": "Review score",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Lalla Doudja Hotel",
+        "price": 99400,
+        "score": 8.2,
+        "avg review": "Very good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Atlantis Alger",
+        "price": 91000,
+        "score": 9.0,
+        "avg review": "Superb",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Hotel Hammamet",
+        "price": 105000,
+        "score": 7.7,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Numidien Hotel",
+        "price": 73500,
+        "score": 7.0,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Golden Tulip Opera Alger",
+        "price": 113400,
+        "score": 8.6,
+        "avg review": "Fabulous",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Cozi et tr\u00e8s chaleureux",
+        "price": 47600,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "H\u00f4tel Zinou zm",
+        "price": 77000,
+        "score": 8.1,
+        "avg review": "Very good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "M Suite Hotel",
+        "price": 106780,
+        "score": 8.8,
+        "avg review": "Fabulous",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "AZ H\u00f4tels Kouba",
+        "price": 109200,
+        "score": 7.5,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "AZ H\u00f4tels Vieux Kouba",
+        "price": 147000,
+        "score": 7.4,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Algiers Marriott Hotel Bab Ezzouar",
+        "price": 164900,
+        "score": 7.0,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Residence Inn by Marriott Algiers Bab Ezzouar",
+        "price": 325500,
+        "score": 7.4,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Cosy apartment, central and peaceful",
+        "price": 68040,
+        "score": 10.0,
+        "avg review": "Exceptional",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Apartment dans villa avec Piscine",
+        "price": 142800,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Maisonnette Borj El Bahri",
+        "price": 37931,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Cosy house",
+        "price": 45062,
+        "score": 9.7,
+        "avg review": "Exceptional",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Coast Haven",
+        "price": 80920,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Hotel El Biar",
+        "price": 47775,
+        "score": 6.7,
+        "avg review": "Review score",
+        "city": "Algiers"
+    },
+    {
+        "hotel": "Rym El Djamil Hotel",
+        "price": 81900,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "MAJESTIC Hotel Annaba",
+        "price": 57225,
+        "score": 1.0,
+        "avg review": "Review score",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "F2 duplex proche corniches plages et promenades",
+        "price": 60588,
+        "score": 7.5,
+        "avg review": "Good",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "Azur",
+        "price": 78750,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "Azur",
+        "price": 78750,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "Hotel D'orient",
+        "price": 58800,
+        "score": 1.0,
+        "avg review": "Review score",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "Hotel Sabri",
+        "price": 86100,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "Jakasse",
+        "price": 28560,
+        "score": 7.4,
+        "avg review": "Good",
+        "city": "Annaba"
+    },
+    {
+        "hotel": "Hotel el Hayat",
+        "price": 32480,
+        "score": 7.8,
+        "avg review": "Good",
+        "city": "Batna"
+    },
+    {
+        "hotel": "HOTEL CHELIA",
+        "price": 41055,
+        "score": 4.5,
+        "avg review": "Review score",
+        "city": "Batna"
+    },
+    {
+        "hotel": "hotel brahimi batna",
+        "price": 35000,
+        "score": 7.6,
+        "avg review": "Good",
+        "city": "Batna"
+    },
+    {
+        "hotel": "Hotel Messaoudi",
+        "price": 98000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Batna"
+    },
+    {
+        "hotel": "HOTEL SALDAE",
+        "price": 8000,
+        "score": 9.3,
+        "avg review": "Superb",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Atlantis Bejaia A\u00e9roport",
+        "price": 12350,
+        "score": 8.3,
+        "avg review": "Very good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "HOTEL DU NORD",
+        "price": 7310,
+        "score": 7.9,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "BEJAIA Location Appartements de 39 \u00e0 69eur",
+        "price": 6950,
+        "score": 9.3,
+        "avg review": "Superb",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Kenzi appart",
+        "price": 5200,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "T4 douane",
+        "price": 7500,
+        "score": 8.0,
+        "avg review": "Very good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Kenzi appart",
+        "price": 4500,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Brahmi Hotel",
+        "price": 5175,
+        "score": 8.8,
+        "avg review": "Fabulous",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Golden H",
+        "price": 5175,
+        "score": 9.0,
+        "avg review": "Superb",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "L\u00e9a appart",
+        "price": 9000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "F2 bien \u00e9quip\u00e9 en plein centre-ville de B\u00e9ja\u00efa",
+        "price": 9600,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Bejaia city center",
+        "price": 3200,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Sofwar location",
+        "price": 6300,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "R\u00e9sidence Aslouni Aach El Vaz saket B\u00e9ja\u00efa",
+        "price": 11200,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Kenzi appart",
+        "price": 7000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "HOTEL DU LAC",
+        "price": 6230,
+        "score": 6.5,
+        "avg review": "Review score",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Super appartement de luxe T4 a la ville de Bejaia",
+        "price": 14000,
+        "score": 6.7,
+        "avg review": "Review score",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "R\u00e9sidence brahmi",
+        "price": 5120,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Appartement Bejaia centre Ville vue sur gouraya",
+        "price": 8000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "R\u00e9sidence riad kharfallah",
+        "price": 9750,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Appartement chic \u00e0 louer",
+        "price": 8000,
+        "score": 10.0,
+        "avg review": "Exceptional",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "T3 cit\u00e9 douani\u00e8re",
+        "price": 9500,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "LES HAMMADITES",
+        "price": 6970,
+        "score": 7.0,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Appartement chic \u00e0 louer",
+        "price": 7200,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Villa la cr\u00eate",
+        "price": 19125,
+        "score": 7.6,
+        "avg review": "Good",
+        "city": "B\u00e9jaia"
+    },
+    {
+        "hotel": "Ibis Constantine",
+        "price": 53010,
+        "score": 6.2,
+        "avg review": "Review score",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Novotel Constantine",
+        "price": 69849,
+        "score": 6.7,
+        "avg review": "Review score",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Hotel El Bey Constantine",
+        "price": 67200,
+        "score": 8.0,
+        "avg review": "Very good",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Hostel le Rhumel",
+        "price": 21000,
+        "score": 8.9,
+        "avg review": "Fabulous",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "El khayem Hotel",
+        "price": 59325,
+        "score": 9.0,
+        "avg review": "Superb",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Constantine Marriott Hotel",
+        "price": 158500,
+        "score": 8.7,
+        "avg review": "Fabulous",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Appartement F4 de Luxe",
+        "price": 63725,
+        "score": 9.1,
+        "avg review": "Superb",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Appartement meubl\u00e9",
+        "price": 28560,
+        "score": 9.5,
+        "avg review": "Exceptional",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Constantine Air-conditioned Parking near Parc Aquatiq",
+        "price": 119000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "r\u00e9sidence infinity",
+        "price": 23562,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Constantine"
+    },
+    {
+        "hotel": "Mirana Mayotte Hostel 47",
+        "price": 4000,
+        "score": 9.1,
+        "avg review": "Superb",
+        "city": "Ghardaia"
+    },
+    {
+        "hotel": "Charming Studio for Two Persons",
+        "price": 3528,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Ghardaia"
+    },
+    {
+        "hotel": "HABIB Farm",
+        "price": 10125,
+        "score": 9.0,
+        "avg review": "Superb",
+        "city": "Ghardaia"
+    },
+    {
+        "hotel": "Thanmirth Ghardaia",
+        "price": 19600,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Ghardaia"
+    },
+    {
+        "hotel": "Hotel Noumerat",
+        "price": 6500,
+        "score": 9.5,
+        "avg review": "Exceptional",
+        "city": "Ghardaia"
+    },
+    {
+        "hotel": "Hotel MEDINA",
+        "price": 56000,
+        "score": 8.1,
+        "avg review": "Very good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "LE PALME HOTEL",
+        "price": 81800,
+        "score": 8.9,
+        "avg review": "Fabulous",
+        "city": "Oran"
+    },
+    {
+        "hotel": "H\u00f4tel Ottoman - ORAN",
+        "price": 41412,
+        "score": 7.3,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "HOTEL IKRAM ORAN",
+        "price": 31014,
+        "score": 6.1,
+        "avg review": "Review score",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Hotel 2H",
+        "price": 1338750,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Le cheval blanc",
+        "price": 28350,
+        "score": 6.8,
+        "avg review": "Review score",
+        "city": "Oran"
+    },
+    {
+        "hotel": "T2 r\u00e9sidence le wencharis Oran",
+        "price": 38080,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Libert\u00e9 Hotels Oran",
+        "price": 68600,
+        "score": 7.1,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Melissa Hotel",
+        "price": 107800,
+        "score": 6.7,
+        "avg review": "Review score",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Appartement de luxe exceptionnel",
+        "price": 107100,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "H\u00f4tel privil\u00e8ge Oran",
+        "price": 33201,
+        "score": 6.7,
+        "avg review": "Review score",
+        "city": "Oran"
+    },
+    {
+        "hotel": "ONYX by luna",
+        "price": 87500,
+        "score": 8.9,
+        "avg review": "Fabulous",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Calypso",
+        "price": 59500,
+        "score": 8.3,
+        "avg review": "Very good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Hotel Les Ambassadeurs",
+        "price": 50400,
+        "score": 8.1,
+        "avg review": "Very good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Calypso Home Oran",
+        "price": 59500,
+        "score": 8.5,
+        "avg review": "Very good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Four Points by Sheraton Oran",
+        "price": 116800,
+        "score": 6.5,
+        "avg review": "Review score",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Le Meridien Oran Hotel",
+        "price": 153900,
+        "score": 7.4,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "2H Hotel",
+        "price": 227500,
+        "score": 7.9,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "\u00c0 oran centre ville dans la residence gharb mall",
+        "price": 38080,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Khawaja",
+        "price": 47600,
+        "score": 3.5,
+        "avg review": "Review score",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Charm El Cheikh Hotel",
+        "price": 41475,
+        "score": 8.4,
+        "avg review": "Very good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "appartement design face \u00e0 la mer",
+        "price": 368550,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "West khaw",
+        "price": 61880,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "superbe appartement F3 - 80m2",
+        "price": 32237,
+        "score": 10.0,
+        "avg review": "Exceptional",
+        "city": "Oran"
+    },
+    {
+        "hotel": "Belle vue \u00e0 Bel air",
+        "price": 50575,
+        "score": 7.5,
+        "avg review": "Good",
+        "city": "Oran"
+    },
+    {
+        "hotel": "dreamHome",
+        "price": 5000,
+        "score": 7.2,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Setif deplux",
+        "price": 8000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Appartement avec garage",
+        "price": 5700,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Chambre 1 \u00e0 6 personnes",
+        "price": 2250,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Chambre d'h\u00f4te S\u00e9tif tr\u00e8s bien plac\u00e9 2 \u00e0 6 personnes salle de bain privative",
+        "price": 3750,
+        "score": 9.0,
+        "avg review": "Superb",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Park Mall Hotel & Conference Center",
+        "price": 16361,
+        "score": 8.4,
+        "avg review": "Very good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "TADJ EL MAOUADA",
+        "price": 8160,
+        "score": 7.7,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "19000Setif rue khabchache embarek",
+        "price": 5120,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Chambres individuelles et collectives \u00e0 Setif",
+        "price": 3200,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Hotel Borsa",
+        "price": 6200,
+        "score": 8.1,
+        "avg review": "Very good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Guest apartment for a family or for family members",
+        "price": 6300,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "studio el karma",
+        "price": 5225,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "S\u00e9tif"
+    },
+    {
+        "hotel": "Tipaza ville",
+        "price": 26275,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "H\u00f4tel Ben Aouda & Spa",
+        "price": 121800,
+        "score": 9.0,
+        "avg review": "Superb",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Au bord de la mer",
+        "price": 76636,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Studio peirechahin",
+        "price": 23800,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Appartement proche plage",
+        "price": 52360,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Apart F3 in Tipaza, 10 mins from the beach",
+        "price": 35819,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Appartement Ruines Romaines tipasa",
+        "price": 78750,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Eagle nest",
+        "price": 35700,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Pieds dans l'eau",
+        "price": 81218,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Appartement proche plage",
+        "price": 71400,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Super Apparte avec vue sur m\u00e8r",
+        "price": 35700,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "bangalow sidrafood",
+        "price": 44621,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Villa pieds dans l'eau",
+        "price": 104720,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "Villa belle vue",
+        "price": 238000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tipasa"
+    },
+    {
+        "hotel": "ibis Tlemcen",
+        "price": 56345,
+        "score": 7.1,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "H\u00f4tel El Menzah Kazi",
+        "price": 32130,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "H\u00f4tel r\u00e9sidence pomaria",
+        "price": 29750,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "appartement royal",
+        "price": 37604,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Location Tlemcen",
+        "price": 17850,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "El Hartoune",
+        "price": 27846,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Appartement de lux",
+        "price": 32130,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "STAMBOULI",
+        "price": 41440,
+        "score": 10.0,
+        "avg review": "Exceptional",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "R\u00e9sidence EL-HANA",
+        "price": 57330,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "R\u00e9sidence EL-HANA",
+        "price": 73710,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Appartement \u00e0 louer \u00e0 Tlemcen",
+        "price": 57120,
+        "score": 9.1,
+        "avg review": "Superb",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Luxueux Appartement \u00e0 Tlemcen",
+        "price": 119000,
+        "score": 10.0,
+        "avg review": "Exceptional",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "R\u00e9sidence Sofia",
+        "price": 48195,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Villa avec piscine et jardin",
+        "price": 385000,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "appartement f6 haut standing",
+        "price": 928200,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Location appartement meubl\u00e9",
+        "price": 28350,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Location appartement meubl\u00e9",
+        "price": 47250,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+    {
+        "hotel": "Location de vacances",
+        "price": 36295,
+        "score": 7.81875,
+        "avg review": "Good",
+        "city": "Tlemcen"
+    },
+
+
+    {
         "hotel": "hotel techriret فندق تيشريرث",
         "price": 9900,
         "city": "Batna",
@@ -1432,7 +2456,7 @@
     {
         "hotel": "Hôtel KAMEL",
         "price": 9900,
-        "city": "place Guarguentah",
+        "city": "Oran",
         "gps": [
             35.699128,
             -0.649834
@@ -2342,7 +3366,7 @@
     {
         "hotel": "Hôtel Islam ll Tlemcen",
         "price": 6576,
-        "city": "Khamis",
+        "city": "Tlemcen",
         "gps": [
             34.8857118,
             -1.3134094
@@ -2442,7 +3466,7 @@
     {
         "hotel": "Hotel Meriem Tlemcen",
         "price": 9900,
-        "city": "Bab Zir",
+        "city": "Tlemcen",
         "gps": [
             34.8868481,
             -1.3068211
@@ -2482,7 +3506,7 @@
     {
         "hotel": "Soleil Tours Zelfana",
         "price": 15481,
-        "city": "Zelfana",
+        "city": "Tlemcen",
         "gps": [
             32.3909133,
             4.224035
@@ -2492,7 +3516,7 @@
     {
         "hotel": "فندق الطريق",
         "price": 5480,
-        "city": "Metlili",
+        "city": "Ghardaia",
         "gps": [
             32.3662694,
             3.7962105
