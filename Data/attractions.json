@@ -4670,5 +4670,590 @@
       "Palm Groves",
       "Cultural Tours"
     ]
-  }
+  },
+
+  {
+  "name": "El Amra Dam",
+  "category": "Scenic/Historical",
+  "city": "Aïn Defla",
+  "gps": [
+    36.20,
+    1.92
+  ],
+  "description": "A serene dam built during French colonial rule, ideal for picnics and nature walks.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1.5 hours",
+  "nearby_amenities": [
+    "Fishing spots",
+    "Food vendors"
+  ]
+},
+{
+  "name": "Ottoman Fort of Aïn Defla",
+  "category": "Historical",
+  "city": "Aïn Defla",
+  "gps": [
+    36.25,
+    1.95
+  ],
+  "description": "A 19th-century Ottoman-era fortress offering panoramic views of the city and surrounding hills.",
+  "rating": 4.2,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Park",
+    "Tea stalls"
+  ]
+},
+{
+  "name": "Aïn Defla Old Market (Souk El Hadjadj)",
+  "category": "Cultural",
+  "city": "Aïn Defla",
+  "gps": [
+    36.26,
+    1.96
+  ],
+  "description": "A bustling traditional market selling spices, handicrafts, and local produce.",
+  "rating": 3.9,
+  "cost": "Free to explore",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Cafés",
+    "Textile shops"
+  ]
+},
+{
+  "name": "Chrea National Park Extension",
+  "category": "Nature",
+  "city": "Aïn Defla",
+  "gps": [
+    36.25,
+    2.25
+  ],
+  "description": "A mountainous area with lush forests and hiking trails, extending from the Chrea National Park region.",
+  "rating": 4.2,
+  "cost": "Free",
+  "visit_duration": "3-5 hours",
+  "nearby_amenities": [
+    "Hiking trails",
+    "Picnic areas"
+  ]
+},
+{
+  "name": "Oued El Harrach Valley",
+  "category": "Nature",
+  "city": "Aïn Defla",
+  "gps": [
+    36.3,
+    2.2
+  ],
+  "description": "Scenic river valley with agricultural landscapes and traditional farming villages.",
+  "rating": 3.9,
+  "cost": "Free",
+  "visit_duration": "2-3 hours",
+  "nearby_amenities": [
+    "Local markets"
+  ]
+},
+{
+  "name": "Aïn Defla Thermal Springs",
+  "category": "Wellness",
+  "city": "Aïn Defla",
+  "gps": [
+    36.2667,
+    2.3
+  ],
+  "description": "Natural hot springs known for their therapeutic properties.",
+  "rating": 4.0,
+  "cost": "200 DZD",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Bath facilities"
+  ]
+},
+{
+  "name": "Grand Erg Occidental Dunes",
+  "category": "Nature",
+  "city": "Aïn Salah",
+  "gps": [
+    27.2,
+    2.48
+  ],
+  "description": "Expansive sand dunes offering classic Saharan landscapes and camel trekking opportunities.",
+  "rating": 4.5,
+  "cost": "Free",
+  "visit_duration": "2-4 hours",
+  "nearby_amenities": [
+    "Camel tours"
+  ]
+},
+{
+  "name": "Ksar of Aïn Salah",
+  "category": "Historical",
+  "city": "Aïn Salah",
+  "gps": [
+    27.25,
+    2.5
+  ],
+  "description": "Traditional fortified village showcasing Saharan architecture and oasis living.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Local guides"
+  ]
+},
+{
+  "name": "Aïn Salah Date Palm Oasis",
+  "category": "Nature",
+  "city": "Aïn Salah",
+  "gps": [
+    27.23,
+    2.52
+  ],
+  "description": "Lush palm grove contrasting with surrounding desert, demonstrating traditional irrigation systems.",
+  "rating": 4.1,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Date markets"
+  ]
+},
+{
+  "name": "Bordj Badji Mokhtar Fort",
+  "category": "Historical",
+  "city": "Bordj Badji Mokhtar",
+  "gps": [
+    21.32,
+    0.95
+  ],
+  "description": "Historic desert fort marking Algeria's southern border with Mali.",
+  "rating": 3.8,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Border viewpoint"
+  ]
+},
+{
+  "name": "Tanezrouft Desert Landscape",
+  "category": "Nature",
+  "city": "Bordj Badji Mokhtar",
+  "gps": [
+    21.5,
+    0.9
+  ],
+  "description": "Starkly beautiful desert plains known as one of the most extreme Saharan environments.",
+  "rating": 4.3,
+  "cost": "Free",
+  "visit_duration": "2-3 hours",
+  "nearby_amenities": [
+    "4x4 tours"
+  ]
+},
+{
+  "name": "Trans-Saharan Trade Route",
+  "category": "Historical",
+  "city": "Bordj Badji Mokhtar",
+  "gps": [
+    21.35,
+    0.98
+  ],
+  "description": "Ancient caravan route crossing the Sahara, with historical significance for salt and gold trade.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Historical markers"
+  ]
+},
+{
+  "name": "Chott Melrhir Salt Flats",
+  "category": "Nature",
+  "city": "El M'Ghair",
+  "gps": [
+    34.0,
+    5.5
+  ],
+  "description": "Seasonal salt lake creating surreal landscapes that change with the seasons.",
+  "rating": 4.1,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Viewing areas"
+  ]
+},
+{
+  "name": "El M'Ghair Oasis",
+  "category": "Nature",
+  "city": "El M'Ghair",
+  "gps": [
+    33.95,
+    5.55
+  ],
+  "description": "Lush palm grove in the desert region, showcasing traditional Saharan agriculture.",
+  "rating": 3.9,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Local farms"
+  ]
+},
+{
+  "name": "Nomadic Heritage Center",
+  "category": "Cultural",
+  "city": "El M'Ghair",
+  "gps": [
+    33.96,
+    5.53
+  ],
+  "description": "Small museum dedicated to preserving the nomadic traditions of the region.",
+  "rating": 3.7,
+  "cost": "100 DZD",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Handicrafts"
+  ]
+},
+{
+  "name": "El Menia Oasis",
+  "category": "Nature",
+  "city": "El Menia",
+  "gps": [
+    30.58,
+    2.88
+  ],
+  "description": "Beautiful desert oasis with palm groves and traditional irrigation systems.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Date markets"
+  ]
+},
+{
+  "name": "Ksar El Menia",
+  "category": "Historical",
+  "city": "El Menia",
+  "gps": [
+    30.6,
+    2.9
+  ],
+  "description": "Traditional fortified village with distinctive Saharan architecture.",
+  "rating": 3.9,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Local guides"
+  ]
+},
+{
+  "name": "Desert Star Observation",
+  "category": "Nature",
+  "city": "El Menia",
+  "gps": [
+    30.62,
+    2.85
+  ],
+  "description": "Excellent spot for stargazing due to minimal light pollution in the Sahara.",
+  "rating": 4.5,
+  "cost": "Free",
+  "visit_duration": "Evening",
+  "nearby_amenities": [
+    "Observation areas"
+  ]
+},
+{
+  "name": "Relizane City Park",
+  "category": "Garden",
+  "city": "Relizane",
+  "gps": [
+    35.74,
+    0.56
+  ],
+  "description": "Central urban park with walking paths, fountains, and family-friendly spaces.",
+  "rating": 3.8,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Cafés",
+    "Playgrounds"
+  ]
+},
+{
+  "name": "Oued Mina Valley",
+  "category": "Nature",
+  "city": "Relizane",
+  "gps": [
+    35.8,
+    0.6
+  ],
+  "description": "Picturesque river valley with agricultural landscapes and small villages.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "2-3 hours",
+  "nearby_amenities": [
+    "Picnic spots"
+  ]
+},
+{
+  "name": "Relizane Regional Museum",
+  "category": "Museum",
+  "city": "Relizane",
+  "gps": [
+    35.73,
+    0.55
+  ],
+  "description": "Local history museum showcasing artifacts from the region's past.",
+  "rating": 3.7,
+  "cost": "100 DZD",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Guided tours"
+  ]
+},
+{
+  "name": "Saïda Forest Park",
+  "category": "Nature",
+  "city": "Saïda",
+  "gps": [
+    34.85,
+    0.15
+  ],
+  "description": "Wooded recreational area with walking trails and picnic spots.",
+  "rating": 3.9,
+  "cost": "Free",
+  "visit_duration": "2-3 hours",
+  "nearby_amenities": [
+    "Picnic areas"
+  ]
+},
+{
+  "name": "Djebel Ouarkziz",
+  "category": "Nature",
+  "city": "Saïda",
+  "gps": [
+    34.9,
+    0.2
+  ],
+  "description": "Mountainous area offering hiking opportunities and scenic views.",
+  "rating": 4.1,
+  "cost": "Free",
+  "visit_duration": "3-4 hours",
+  "nearby_amenities": [
+    "Hiking trails"
+  ]
+},
+{
+  "name": "Saïda Old Town",
+  "category": "Historical",
+  "city": "Saïda",
+  "gps": [
+    34.83,
+    0.15
+  ],
+  "description": "Traditional quarter with colonial-era architecture and local markets.",
+  "rating": 3.8,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Souks",
+    "Cafés"
+  ]
+},
+{
+  "name": "Sidi Bel Abbès City Center",
+  "category": "Cultural",
+  "city": "Sidi Bel Abbès",
+  "gps": [
+    35.2,
+    -0.63
+  ],
+  "description": "Vibrant downtown area with colonial architecture and lively markets.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Restaurants",
+    "Shops"
+  ]
+},
+{
+  "name": "Mekerra River Park",
+  "category": "Nature",
+  "city": "Sidi Bel Abbès",
+  "gps": [
+    35.19,
+    -0.64
+  ],
+  "description": "Riverside green space with walking paths and recreational areas.",
+  "rating": 3.9,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Walking paths"
+  ]
+},
+{
+  "name": "Sidi Bel Abbès Museum",
+  "category": "Museum",
+  "city": "Sidi Bel Abbès",
+  "gps": [
+    35.21,
+    -0.62
+  ],
+  "description": "Regional museum showcasing local history and cultural artifacts.",
+  "rating": 3.8,
+  "cost": "100 DZD",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Guided tours"
+  ]
+},
+{
+  "name": "Tiaret Roman Ruins",
+  "category": "Historical",
+  "city": "Tiaret",
+  "gps": [
+    35.37,
+    1.32
+  ],
+  "description": "Remains of ancient Roman settlements in the region.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Historical markers"
+  ]
+},
+{
+  "name": "Djebel Nador",
+  "category": "Nature",
+  "city": "Tiaret",
+  "gps": [
+    35.4,
+    1.35
+  ],
+  "description": "Mountainous area offering hiking opportunities and panoramic views.",
+  "rating": 4.2,
+  "cost": "Free",
+  "visit_duration": "3-4 hours",
+  "nearby_amenities": [
+    "Hiking trails"
+  ]
+},
+{
+  "name": "Tiaret Grand Mosque",
+  "category": "Religious",
+  "city": "Tiaret",
+  "gps": [
+    35.37,
+    1.33
+  ],
+  "description": "Historic mosque with distinctive regional architecture.",
+  "rating": 4.1,
+  "cost": "Free",
+  "visit_duration": "30 minutes",
+  "nearby_amenities": [
+    "Prayer areas"
+  ]
+},
+{
+  "name": "Tindouf Museum",
+  "category": "Museum",
+  "city": "Tindouf",
+  "gps": [
+    27.68,
+    -8.15
+  ],
+  "description": "Museum showcasing Sahrawi culture and regional history.",
+  "rating": 3.9,
+  "cost": "100 DZD",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Cultural exhibits"
+  ]
+},
+{
+  "name": "Desert Landscape Viewpoints",
+  "category": "Nature",
+  "city": "Tindouf",
+  "gps": [
+    27.7,
+    -8.1
+  ],
+  "description": "Stunning Saharan vistas with dramatic rock formations.",
+  "rating": 4.3,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Photo spots"
+  ]
+},
+{
+  "name": "Tindouf Oasis",
+  "category": "Nature",
+  "city": "Tindouf",
+  "gps": [
+    27.67,
+    -8.13
+  ],
+  "description": "Lush palm grove providing shade and fresh dates in the desert.",
+  "rating": 4.0,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Date markets"
+  ]
+},
+{
+  "name": "Tissemsilt National Park",
+  "category": "Nature",
+  "city": "Tissemsilt",
+  "gps": [
+    35.6,
+    1.8
+  ],
+  "description": "Forested area with hiking trails and picnic spots in the Tell Atlas mountains.",
+  "rating": 4.1,
+  "cost": "Free",
+  "visit_duration": "2-3 hours",
+  "nearby_amenities": [
+    "Picnic areas"
+  ]
+},
+{
+  "name": "Tissemsilt Dam",
+  "category": "Nature",
+  "city": "Tissemsilt",
+  "gps": [
+    35.62,
+    1.82
+  ],
+  "description": "Scenic reservoir offering water activities and pleasant views.",
+  "rating": 3.9,
+  "cost": "Free",
+  "visit_duration": "1-2 hours",
+  "nearby_amenities": [
+    "Viewing areas"
+  ]
+},
+{
+  "name": "Old Town Quarter",
+  "category": "Historical",
+  "city": "Tissemsilt",
+  "gps": [
+    35.61,
+    1.81
+  ],
+  "description": "Traditional neighborhood with historic architecture and local markets.",
+  "rating": 3.8,
+  "cost": "Free",
+  "visit_duration": "1 hour",
+  "nearby_amenities": [
+    "Souks",
+    "Cafés"
+  ]
+}
 ]
