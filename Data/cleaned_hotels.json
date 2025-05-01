@@ -2,4145 +2,2564 @@
     {
         "hotel": "Hotel Best Night 2",
         "price": 69741,
-        "score": 8.8,
-        "avg review": "Fabulous",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.5
     },
     {
         "hotel": "Holiday Inn Algiers - Cheraga Tower by IHG",
         "price": 99300,
-        "score": 7.7,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel Best Night",
         "price": 75676,
-        "score": 7.8,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
-        "hotel": "H\u00f4tel Sidi Yahia",
+        "hotel": "Hôtel Sidi Yahia",
         "price": 109956,
-        "score": 8.1,
-        "avg review": "Very good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.2
     },
     {
         "hotel": "Mercure Alger Palais Des Congres",
         "price": 92400,
-        "score": 8.7,
-        "avg review": "Fabulous",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.5
     },
     {
         "hotel": "AFRIC HOTEL- Casbah",
         "price": 62300,
-        "score": 7.5,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
-        "hotel": "ibis Alger A\u00e9roport",
+        "hotel": "ibis Alger Aéroport",
         "price": 88920,
-        "score": 6.6,
-        "avg review": "Review score",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 3.0
     },
     {
         "hotel": "Lalla Doudja Hotel",
         "price": 99400,
-        "score": 8.2,
-        "avg review": "Very good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.2
     },
     {
         "hotel": "Atlantis Alger",
         "price": 91000,
-        "score": 9.0,
-        "avg review": "Superb",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.7
     },
     {
         "hotel": "Hotel Hammamet",
         "price": 105000,
-        "score": 7.7,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Numidien Hotel",
         "price": 73500,
-        "score": 7.0,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Golden Tulip Opera Alger",
         "price": 113400,
-        "score": 8.6,
-        "avg review": "Fabulous",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.5
     },
     {
-        "hotel": "Cozi et tr\u00e8s chaleureux",
+        "hotel": "Cozi et très chaleureux",
         "price": 47600,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
-        "hotel": "H\u00f4tel Zinou zm",
+        "hotel": "Hôtel Zinou zm",
         "price": 77000,
-        "score": 8.1,
-        "avg review": "Very good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.2
     },
     {
         "hotel": "M Suite Hotel",
         "price": 106780,
-        "score": 8.8,
-        "avg review": "Fabulous",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.5
     },
     {
-        "hotel": "AZ H\u00f4tels Kouba",
+        "hotel": "AZ Hôtels Kouba",
         "price": 109200,
-        "score": 7.5,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
-        "hotel": "AZ H\u00f4tels Vieux Kouba",
+        "hotel": "AZ Hôtels Vieux Kouba",
         "price": 147000,
-        "score": 7.4,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Algiers Marriott Hotel Bab Ezzouar",
         "price": 164900,
-        "score": 7.0,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Residence Inn by Marriott Algiers Bab Ezzouar",
         "price": 325500,
-        "score": 7.4,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Cosy apartment, central and peaceful",
         "price": 68040,
-        "score": 10.0,
-        "avg review": "Exceptional",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 5.0
     },
     {
         "hotel": "Apartment dans villa avec Piscine",
         "price": 142800,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Maisonnette Borj El Bahri",
         "price": 37931,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Cosy house",
         "price": 45062,
-        "score": 9.7,
-        "avg review": "Exceptional",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 5.0
     },
     {
         "hotel": "Coast Haven",
         "price": 80920,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel El Biar",
         "price": 47775,
-        "score": 6.7,
-        "avg review": "Review score",
-        "city": "Algiers"
+        "city": "Algiers",
+        "avg_review": 3.0
     },
     {
         "hotel": "Rym El Djamil Hotel",
         "price": 81900,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 4.0
     },
     {
         "hotel": "MAJESTIC Hotel Annaba",
         "price": 57225,
-        "score": 1.0,
-        "avg review": "Review score",
-        "city": "Annaba"
-    },
-    {
-        "hotel": "F2 duplex proche corniches plages et promenades",
-        "price": 60588,
-        "score": 7.5,
-        "avg review": "Good",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 3.0
     },
     {
         "hotel": "Azur",
         "price": 78750,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 4.0
     },
     {
         "hotel": "Azur",
         "price": 78750,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel D'orient",
         "price": 58800,
-        "score": 1.0,
-        "avg review": "Review score",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 3.0
     },
     {
         "hotel": "Hotel Sabri",
         "price": 86100,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 4.0
     },
     {
         "hotel": "Jakasse",
         "price": 28560,
-        "score": 7.4,
-        "avg review": "Good",
-        "city": "Annaba"
+        "city": "Annaba",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel el Hayat",
         "price": 32480,
-        "score": 7.8,
-        "avg review": "Good",
-        "city": "Batna"
+        "city": "Batna",
+        "avg_review": 4.0
     },
     {
         "hotel": "HOTEL CHELIA",
         "price": 41055,
-        "score": 4.5,
-        "avg review": "Review score",
-        "city": "Batna"
+        "city": "Batna",
+        "avg_review": 3.0
     },
     {
         "hotel": "hotel brahimi batna",
         "price": 35000,
-        "score": 7.6,
-        "avg review": "Good",
-        "city": "Batna"
+        "city": "Batna",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel Messaoudi",
         "price": 98000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Batna"
+        "city": "Batna",
+        "avg_review": 4.0
     },
     {
         "hotel": "HOTEL SALDAE",
         "price": 8000,
-        "score": 9.3,
-        "avg review": "Superb",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.7
     },
     {
-        "hotel": "Atlantis Bejaia A\u00e9roport",
+        "hotel": "Atlantis Béjaïa Aéroport",
         "price": 12350,
-        "score": 8.3,
-        "avg review": "Very good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.2
     },
     {
         "hotel": "HOTEL DU NORD",
         "price": 7310,
-        "score": 7.9,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
-    },
-    {
-        "hotel": "BEJAIA Location Appartements de 39 \u00e0 69eur",
-        "price": 6950,
-        "score": 9.3,
-        "avg review": "Superb",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Kenzi appart",
         "price": 5200,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "T4 douane",
         "price": 7500,
-        "score": 8.0,
-        "avg review": "Very good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.2
     },
     {
         "hotel": "Kenzi appart",
         "price": 4500,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Brahmi Hotel",
         "price": 5175,
-        "score": 8.8,
-        "avg review": "Fabulous",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.5
     },
     {
         "hotel": "Golden H",
         "price": 5175,
-        "score": 9.0,
-        "avg review": "Superb",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.7
     },
     {
-        "hotel": "L\u00e9a appart",
+        "hotel": "Léa appart",
         "price": 9000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "F2 bien \u00e9quip\u00e9 en plein centre-ville de B\u00e9ja\u00efa",
+        "hotel": "F2 bien équipé en plein centre-ville de Béjaïa",
         "price": 9600,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Bejaia city center",
+        "hotel": "Béjaïa city center",
         "price": 3200,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Sofwar location",
         "price": 6300,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "R\u00e9sidence Aslouni Aach El Vaz saket B\u00e9ja\u00efa",
+        "hotel": "Résidence Aslouni Aach El Vaz saket Béjaïa",
         "price": 11200,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Kenzi appart",
         "price": 7000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "HOTEL DU LAC",
         "price": 6230,
-        "score": 6.5,
-        "avg review": "Review score",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 3.0
     },
     {
-        "hotel": "Super appartement de luxe T4 a la ville de Bejaia",
-        "price": 14000,
-        "score": 6.7,
-        "avg review": "Review score",
-        "city": "B\u00e9jaia"
-    },
-    {
-        "hotel": "R\u00e9sidence brahmi",
+        "hotel": "Résidence brahmi",
         "price": 5120,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Appartement Bejaia centre Ville vue sur gouraya",
-        "price": 8000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
-    },
-    {
-        "hotel": "R\u00e9sidence riad kharfallah",
+        "hotel": "Résidence riad kharfallah",
         "price": 9750,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Appartement chic \u00e0 louer",
-        "price": 8000,
-        "score": 10.0,
-        "avg review": "Exceptional",
-        "city": "B\u00e9jaia"
-    },
-    {
-        "hotel": "T3 cit\u00e9 douani\u00e8re",
+        "hotel": "T3 cité douanière",
         "price": 9500,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "LES HAMMADITES",
         "price": 6970,
-        "score": 7.0,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Appartement chic \u00e0 louer",
-        "price": 7200,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
-    },
-    {
-        "hotel": "Villa la cr\u00eate",
+        "hotel": "Villa la crête",
         "price": 19125,
-        "score": 7.6,
-        "avg review": "Good",
-        "city": "B\u00e9jaia"
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Ibis Constantine",
         "price": 53010,
-        "score": 6.2,
-        "avg review": "Review score",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 3.0
     },
     {
         "hotel": "Novotel Constantine",
         "price": 69849,
-        "score": 6.7,
-        "avg review": "Review score",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 3.0
     },
     {
         "hotel": "Hotel El Bey Constantine",
         "price": 67200,
-        "score": 8.0,
-        "avg review": "Very good",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hostel le Rhumel",
         "price": 21000,
-        "score": 8.9,
-        "avg review": "Fabulous",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 4.5
     },
     {
         "hotel": "El khayem Hotel",
         "price": 59325,
-        "score": 9.0,
-        "avg review": "Superb",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 4.7
     },
     {
         "hotel": "Constantine Marriott Hotel",
         "price": 158500,
-        "score": 8.7,
-        "avg review": "Fabulous",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 4.5
     },
-    {
-        "hotel": "Appartement F4 de Luxe",
-        "price": 63725,
-        "score": 9.1,
-        "avg review": "Superb",
-        "city": "Constantine"
-    },
-    {
-        "hotel": "Appartement meubl\u00e9",
-        "price": 28560,
-        "score": 9.5,
-        "avg review": "Exceptional",
-        "city": "Constantine"
-    },
+
     {
         "hotel": "Constantine Air-conditioned Parking near Parc Aquatiq",
         "price": 119000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 4.0
     },
     {
-        "hotel": "r\u00e9sidence infinity",
+        "hotel": "résidence infinity",
         "price": 23562,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Constantine"
+        "city": "Constantine",
+        "avg_review": 4.0
     },
     {
         "hotel": "Mirana Mayotte Hostel 47",
         "price": 4000,
-        "score": 9.1,
-        "avg review": "Superb",
-        "city": "Ghardaia"
+        "city": "Ghardaïa",
+        "avg_review": 4.7
     },
     {
         "hotel": "Charming Studio for Two Persons",
         "price": 3528,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Ghardaia"
+        "city": "Ghardaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "HABIB Farm",
         "price": 10125,
-        "score": 9.0,
-        "avg review": "Superb",
-        "city": "Ghardaia"
+        "city": "Ghardaïa",
+        "avg_review": 4.7
     },
     {
-        "hotel": "Thanmirth Ghardaia",
+        "hotel": "Thanmirth Ghardaïa",
         "price": 19600,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Ghardaia"
+        "city": "Ghardaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel Noumerat",
         "price": 6500,
-        "score": 9.5,
-        "avg review": "Exceptional",
-        "city": "Ghardaia"
+        "city": "Ghardaïa",
+        "avg_review": 5.0
     },
     {
         "hotel": "Hotel MEDINA",
         "price": 56000,
-        "score": 8.1,
-        "avg review": "Very good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.2
     },
     {
         "hotel": "LE PALME HOTEL",
         "price": 81800,
-        "score": 8.9,
-        "avg review": "Fabulous",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.5
     },
     {
-        "hotel": "H\u00f4tel Ottoman - ORAN",
+        "hotel": "Hôtel Ottoman - ORAN",
         "price": 41412,
-        "score": 7.3,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
         "hotel": "HOTEL IKRAM ORAN",
         "price": 31014,
-        "score": 6.1,
-        "avg review": "Review score",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 3.0
     },
     {
         "hotel": "Hotel 2H",
         "price": 1338750,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
         "hotel": "Le cheval blanc",
         "price": 28350,
-        "score": 6.8,
-        "avg review": "Review score",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 3.0
     },
     {
-        "hotel": "T2 r\u00e9sidence le wencharis Oran",
+        "hotel": "T2 résidence le wencharis Oran",
         "price": 38080,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Libert\u00e9 Hotels Oran",
+        "hotel": "Liberté Hotels Oran",
         "price": 68600,
-        "score": 7.1,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
         "hotel": "Melissa Hotel",
         "price": 107800,
-        "score": 6.7,
-        "avg review": "Review score",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 3.0
     },
     {
-        "hotel": "Appartement de luxe exceptionnel",
-        "price": 107100,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Oran"
-    },
-    {
-        "hotel": "H\u00f4tel privil\u00e8ge Oran",
+        "hotel": "Hôtel privilège Oran",
         "price": 33201,
-        "score": 6.7,
-        "avg review": "Review score",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 3.0
     },
     {
         "hotel": "ONYX by luna",
         "price": 87500,
-        "score": 8.9,
-        "avg review": "Fabulous",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.5
     },
     {
         "hotel": "Calypso",
         "price": 59500,
-        "score": 8.3,
-        "avg review": "Very good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hotel Les Ambassadeurs",
         "price": 50400,
-        "score": 8.1,
-        "avg review": "Very good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.2
     },
     {
         "hotel": "Calypso Home Oran",
         "price": 59500,
-        "score": 8.5,
-        "avg review": "Very good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.2
     },
     {
         "hotel": "Four Points by Sheraton Oran",
         "price": 116800,
-        "score": 6.5,
-        "avg review": "Review score",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 3.0
     },
     {
         "hotel": "Le Meridien Oran Hotel",
         "price": 153900,
-        "score": 7.4,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
         "hotel": "2H Hotel",
         "price": 227500,
-        "score": 7.9,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
-        "hotel": "\u00c0 oran centre ville dans la residence gharb mall",
+        "hotel": "À oran centre ville dans la residence gharb mall",
         "price": 38080,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
         "hotel": "Khawaja",
         "price": 47600,
-        "score": 3.5,
-        "avg review": "Review score",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 3.0
     },
     {
         "hotel": "Charm El Cheikh Hotel",
         "price": 41475,
-        "score": 8.4,
-        "avg review": "Very good",
-        "city": "Oran"
-    },
-    {
-        "hotel": "appartement design face \u00e0 la mer",
-        "price": 368550,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.2
     },
     {
         "hotel": "West khaw",
         "price": 61880,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Oran"
-    },
-    {
-        "hotel": "superbe appartement F3 - 80m2",
-        "price": 32237,
-        "score": 10.0,
-        "avg review": "Exceptional",
-        "city": "Oran"
-    },
-    {
-        "hotel": "Belle vue \u00e0 Bel air",
-        "price": 50575,
-        "score": 7.5,
-        "avg review": "Good",
-        "city": "Oran"
+        "city": "Oran",
+        "avg_review": 4.0
     },
     {
         "hotel": "dreamHome",
         "price": 5000,
-        "score": 7.2,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Setif deplux",
+        "hotel": "Sétif deplux",
         "price": 8000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
-    },
-    {
-        "hotel": "Appartement avec garage",
-        "price": 5700,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
-    },
-    {
-        "hotel": "Chambre 1 \u00e0 6 personnes",
-        "price": 2250,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
-    },
-    {
-        "hotel": "Chambre d'h\u00f4te S\u00e9tif tr\u00e8s bien plac\u00e9 2 \u00e0 6 personnes salle de bain privative",
-        "price": 3750,
-        "score": 9.0,
-        "avg review": "Superb",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.0
     },
     {
         "hotel": "Park Mall Hotel & Conference Center",
         "price": 16361,
-        "score": 8.4,
-        "avg review": "Very good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.2
     },
     {
         "hotel": "TADJ EL MAOUADA",
         "price": 8160,
-        "score": 7.7,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.0
     },
     {
-        "hotel": "19000Setif rue khabchache embarek",
+        "hotel": "19000Sétif rue khabchache embarek",
         "price": 5120,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
-    },
-    {
-        "hotel": "Chambres individuelles et collectives \u00e0 Setif",
-        "price": 3200,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel Borsa",
         "price": 6200,
-        "score": 8.1,
-        "avg review": "Very good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.2
     },
     {
         "hotel": "Guest apartment for a family or for family members",
         "price": 6300,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.0
     },
     {
         "hotel": "studio el karma",
         "price": 5225,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "S\u00e9tif"
+        "city": "Sétif",
+        "avg_review": 4.0
     },
     {
         "hotel": "Tipaza ville",
         "price": 26275,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.0
     },
     {
-        "hotel": "H\u00f4tel Ben Aouda & Spa",
+        "hotel": "Hôtel Ben Aouda & Spa",
         "price": 121800,
-        "score": 9.0,
-        "avg review": "Superb",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.7
     },
     {
         "hotel": "Au bord de la mer",
         "price": 76636,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Studio peirechahin",
         "price": 23800,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "Appartement proche plage",
-        "price": 52360,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Apart F3 in Tipaza, 10 mins from the beach",
         "price": 35819,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "Appartement Ruines Romaines tipasa",
-        "price": 78750,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Eagle nest",
         "price": 35700,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Pieds dans l'eau",
         "price": 81218,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "Appartement proche plage",
-        "price": 71400,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "Super Apparte avec vue sur m\u00e8r",
-        "price": 35700,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "bangalow sidrafood",
-        "price": 44621,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "Villa pieds dans l'eau",
-        "price": 104720,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
-    },
-    {
-        "hotel": "Villa belle vue",
-        "price": 238000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tipasa"
+        "city": "Tipasa",
+        "avg_review": 4.0
     },
     {
         "hotel": "ibis Tlemcen",
         "price": 56345,
-        "score": 7.1,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
-        "hotel": "H\u00f4tel El Menzah Kazi",
+        "hotel": "Hôtel El Menzah Kazi",
         "price": 32130,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
-        "hotel": "H\u00f4tel r\u00e9sidence pomaria",
+        "hotel": "Hôtel résidence pomaria",
         "price": 29750,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "appartement royal",
-        "price": 37604,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
         "hotel": "Location Tlemcen",
         "price": 17850,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
         "hotel": "El Hartoune",
         "price": 27846,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "Appartement de lux",
-        "price": 32130,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
         "hotel": "STAMBOULI",
         "price": 41440,
-        "score": 10.0,
-        "avg review": "Exceptional",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 5.0
     },
     {
-        "hotel": "R\u00e9sidence EL-HANA",
+        "hotel": "Résidence EL-HANA",
         "price": 57330,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
-        "hotel": "R\u00e9sidence EL-HANA",
+        "hotel": "Résidence EL-HANA",
         "price": 73710,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
-        "hotel": "Appartement \u00e0 louer \u00e0 Tlemcen",
-        "price": 57120,
-        "score": 9.1,
-        "avg review": "Superb",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "Luxueux Appartement \u00e0 Tlemcen",
-        "price": 119000,
-        "score": 10.0,
-        "avg review": "Exceptional",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "R\u00e9sidence Sofia",
+        "hotel": "Résidence Sofia",
         "price": 48195,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
     {
         "hotel": "Villa avec piscine et jardin",
         "price": 385000,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
+        "city": "Tlemcen",
+        "avg_review": 4.0
     },
-    {
-        "hotel": "appartement f6 haut standing",
-        "price": 928200,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "Location appartement meubl\u00e9",
-        "price": 28350,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "Location appartement meubl\u00e9",
-        "price": 47250,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
-    },
-    {
-        "hotel": "Location de vacances",
-        "price": 36295,
-        "score": 7.81875,
-        "avg review": "Good",
-        "city": "Tlemcen"
-    },
-
-
     {
         "hotel": "hotel techriret فندق تيشريرث",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.673567,
-            5.654875
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "فندق محطة خدمات أولاد سي سليمان",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.619495,
-            5.6358572
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel El Hayat",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.5540393,
-            6.1757195
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Hotel chaabani",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.136557,
-            6.3074837
-        ],
-        "average review": 1
+        "avg_review": 1.0
     },
     {
         "hotel": "Hôtel Messaoudi",
         "price": 12420,
         "city": "Batna",
-        "gps": [
-            35.5346408,
-            6.1476273
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "فندق براهيمي",
         "price": 4590,
         "city": "Batna",
-        "gps": [
-            35.5543101,
-            6.1474458
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel CH Chaker",
         "price": 10125,
         "city": "Batna",
-        "gps": [
-            35.5538106,
-            6.1777472
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Chelia Batna Hotel",
         "price": 7020,
         "city": "Batna",
-        "gps": [
-            35.5580517,
-            6.1742792
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "TIMGAD HÔTEL HAZEM",
         "price": 6345,
         "city": "Batna",
-        "gps": [
-            35.5566648,
-            6.179055
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel Guettafi",
         "price": 6345,
         "city": "Batna",
-        "gps": [
-            35.5467135,
-            6.1797358
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hotel elmadera",
         "price": 5670,
         "city": "Batna",
-        "gps": [
-            35.521882,
-            6.2112293
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel Kourtel",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.5388048,
-            6.1356769
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "فندق سليم",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.5347737,
-            6.1487147
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "hôtel résidence el mahdi",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.5562004,
-            6.1741627
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "HOTEL MESSAOUI BARIKA",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.3870609,
-            5.3713901
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Timgad Trajan Hotel",
         "price": 6885,
         "city": "Batna",
-        "gps": [
-            35.4896955,
-            6.4683489
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "MOFATIS Hotel",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.6308037,
-            6.2674526
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "hotel mont chélia فندق الهواء النقي شليا",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.2967128,
-            6.6028033
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "مرقد لمهنوي hotel mhnawi",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.3864128,
-            5.3515723
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "HOTEL MIZOU",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.3680159,
-            5.3623012
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hotel Transatlantique - Ghoufi",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.0505067,
-            6.1698837
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "HOTEL AMINE نزل أمين",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.3772509,
-            5.8932749
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Gold Hotel",
         "price": 9900,
         "city": "Batna",
-        "gps": [
-            35.3836216,
-            5.9048195
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
-        "hotel": "Atlantis Hôtel Bejaia",
+        "hotel": "Atlantis Hôtel Béjaïa",
         "price": 12690,
-        "city": "Bejaia",
-        "gps": [
-            36.7219809,
-            5.0627865
-        ],
-        "average review": 4.1
+        "city": "Béjaïa",
+        "avg_review": 4.1
     },
     {
-        "hotel": "Hôtel Golden  Bejaia",
+        "hotel": "Hôtel Golden  Béjaïa",
         "price": 5940,
-        "city": "Bejaia",
-        "gps": [
-            36.7408814,
-            5.0593254
-        ],
-        "average review": 4.4
+        "city": "Béjaïa",
+        "avg_review": 4.4
     },
     {
         "hotel": "Hôtel du Lac",
         "price": 7155,
-        "city": "Bejaia",
-        "gps": [
-            36.7511214,
-            5.0525521
-        ],
-        "average review": 4.4
+        "city": "Béjaïa",
+        "avg_review": 4.4
     },
     {
         "hotel": "Saldae Hotel",
         "price": 15255,
-        "city": "Bejaia",
-        "gps": [
-            36.7550862,
-            5.0886595
-        ],
-        "average review": 4
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hôtel Brahmi",
         "price": 6615,
-        "city": "Bejaia",
-        "gps": [
-            36.7528102,
-            5.0727501
-        ],
-        "average review": 4.1
+        "city": "Béjaïa",
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Cristal",
         "price": 7020,
-        "city": "Bejaia",
-        "gps": [
-            36.7557148,
-            5.0566805
-        ],
-        "average review": 3.8
+        "city": "Béjaïa",
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel de l'Étoile",
         "price": 8505,
-        "city": "Bejaia",
-        "gps": [
-            36.7524515,
-            5.085308
-        ],
-        "average review": 4.8
+        "city": "Béjaïa",
+        "avg_review": 4.8
     },
     {
         "hotel": "Hôtel La Bravoure",
         "price": 5670,
-        "city": "Bejaia",
-        "gps": [
-            36.7543005,
-            5.0794202
-        ],
-        "average review": 4.2
+        "city": "Béjaïa",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel Royal",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7449222,
-            5.041348
-        ],
-        "average review": 3.5
+        "city": "Béjaïa",
+        "avg_review": 3.5
     },
     {
         "hotel": "Hôtel Le Zéphyr",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7465102,
-            5.050861
-        ],
-        "average review": 3.7
+        "city": "Béjaïa",
+        "avg_review": 3.7
     },
     {
         "hotel": "Hotel Chrea",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7487188,
-            5.0539336
-        ],
-        "average review": 3.7
+        "city": "Béjaïa",
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel du Nord",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7550895,
-            5.0804112
-        ],
-        "average review": 4.1
+        "city": "Béjaïa",
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Le Sarrasin",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7377804,
-            5.0652086
-        ],
-        "average review": 3.7
+        "city": "Béjaïa",
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Le Palace",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.755859,
-            5.057696
-        ],
-        "average review": 3.7
+        "city": "Béjaïa",
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Madala",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7507257,
-            5.0485534
-        ],
-        "average review": 3.5
+        "city": "Béjaïa",
+        "avg_review": 3.5
     },
     {
         "hotel": "Hôtel Providentia",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7527174,
-            5.0457794
-        ],
-        "average review": 3.8
+        "city": "Béjaïa",
+        "avg_review": 3.8
     },
     {
         "hotel": "Hotel Ou Autre",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7508053,
-            5.0567081
-        ],
-        "average review": 4
+        "city": "Béjaïa",
+        "avg_review": 4.0
     },
     {
         "hotel": "Hôtel",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7497316,
-            5.050447
-        ],
-        "average review": 2.5
+        "city": "Béjaïa",
+        "avg_review": 2.5
     },
     {
         "hotel": "Hôtel taïs",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7514502,
-            5.0557713
-        ],
-        "average review": 3.8
+        "city": "Béjaïa",
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel Essalem",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7294239,
-            5.0597485
-        ],
-        "average review": 4.1
+        "city": "Béjaïa",
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Thiziri",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7408679,
-            5.0592638
-        ],
-        "average review": 3.9
+        "city": "Béjaïa",
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel Delphine",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.8103244,
-            4.9892421
-        ],
-        "average review": 2.7
+        "city": "Béjaïa",
+        "avg_review": 2.7
     },
     {
         "hotel": "Hôtel Cap Carbon",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7605974,
-            5.0910125
-        ],
-        "average review": 4.2
+        "city": "Béjaïa",
+        "avg_review": 4.2
     },
     {
         "hotel": "Le Belvédère Hôtel",
         "price": 9900,
-        "city": "Bejaia",
-        "gps": [
-            36.7610063,
-            5.0889287
-        ],
-        "average review": 5
+        "city": "Béjaïa",
+        "avg_review": 5.0
     },
     {
         "hotel": "Afric Hotel",
         "price": 6075,
         "city": "Algiers",
-        "gps": [
-            36.7803563,
-            3.058772
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel El Aurassi",
         "price": 12825,
         "city": "Algiers",
-        "gps": [
-            36.7764399,
-            3.0509035
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Nelson Hotel",
         "price": 6480,
         "city": "Algiers",
-        "gps": [
-            36.7900927,
-            3.0601361
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel Saint Eugène",
         "price": 15255,
         "city": "Algiers",
-        "gps": [
-            36.7967598,
-            3.0477974
-        ],
-        "average review": 4.7
+        "avg_review": 4.7
     },
     {
         "hotel": "The Post Hotel",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7802054,
-            3.0605697
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Hôtel RALF",
         "price": 15255,
         "city": "Algiers",
-        "gps": [
-            36.768639,
-            3.049401
-        ],
-        "average review": 4.7
+        "avg_review": 4.7
     },
     {
         "hotel": "Oasis Hotel",
         "price": 4185,
         "city": "Algiers",
-        "gps": [
-            36.7410913,
-            3.0917937
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel Audin",
         "price": 7830,
         "city": "Algiers",
-        "gps": [
-            36.7686374,
-            3.0540299
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "City Hotel Algiers",
         "price": 5535,
         "city": "Algiers",
-        "gps": [
-            36.7626114,
-            3.0564456
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Space Telemly Hotel",
         "price": 8370,
         "city": "Algiers",
-        "gps": [
-            36.7697274,
-            3.0506393
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Atlantis Hotel - Algiers",
         "price": 11880,
         "city": "Algiers",
-        "gps": [
-            36.7753121,
-            3.0112195
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "The Legacy Luxury Hotel",
         "price": 12150,
         "city": "Algiers",
-        "gps": [
-            36.7517764,
-            3.0189749
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel Suisse",
         "price": 8640,
         "city": "Algiers",
-        "gps": [
-            36.7676807,
-            3.0528687
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hotel El Djazair",
         "price": 10530,
         "city": "Algiers",
-        "gps": [
-            36.7539677,
-            3.0462679
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Sidi Yahia Hotel",
         "price": 12690,
         "city": "Algiers",
-        "gps": [
-            36.7393836,
-            3.0367565
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Hôtel Elghanami",
         "price": 11070,
         "city": "Algiers",
-        "gps": [
-            36.7592291,
-            3.0554404
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "AD Hotel Hydra",
         "price": 11880,
         "city": "Algiers",
-        "gps": [
-            36.7517345,
-            3.0398417
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Hôtel des Etrangers - Square Port Said",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7803397,
-            3.0598174
-        ],
-        "average review": 2.4
+        "avg_review": 2.4
     },
     {
         "hotel": "El Kettani Hotel",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7920189,
-            3.0605936
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "Terminus Hotel",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7803614,
-            3.0613358
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Hôtel El Badr",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7829314,
-            3.061025
-        ],
-        "average review": 2.6
+        "avg_review": 2.6
     },
     {
         "hotel": "Hotel Astrid",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7806912,
-            3.0595992
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Hotel Amirouche",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.780406,
-            3.0580583
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hôtel Tunis",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7820131,
-            3.0608908
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Grand Hôtel des étrangers",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7806316,
-            3.0600924
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "HOTEL LA FAMILLE",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7897492,
-            3.0599637
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hydra Hotel",
         "price": 4455,
         "city": "Algiers",
-        "gps": [
-            36.7382034,
-            3.0300499
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hotel Saray",
         "price": 9045,
         "city": "Algiers",
-        "gps": [
-            36.73476,
-            3.053754
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Ikram El Dhayf",
         "price": 9990,
         "city": "Algiers",
-        "gps": [
-            36.7503132,
-            3.0583151
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "AD Hotel, Hydra",
         "price": 16200,
         "city": "Algiers",
-        "gps": [
-            36.7506706,
-            3.0229354
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "Hôtel du Val",
         "price": 14040,
         "city": "Algiers",
-        "gps": [
-            36.7585526,
-            3.0258206
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Plaza Hotel Algiers",
         "price": 6480,
         "city": "Algiers",
-        "gps": [
-            36.7551362,
-            3.0596954
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hotel Dar Diaf",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7513889,
-            3.0517932
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Hotel restaurant le 103",
         "price": 9900,
         "city": "Algiers",
-        "gps": [
-            36.7391177,
-            3.0344332
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "El Bey Hotel - Jijel",
         "price": 11205,
         "city": "Jijel",
-        "gps": [
-            36.811768,
-            5.777539
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "BARBAROUS Royal Hotel",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8086325,
-            5.772312
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Le Convivial",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8110357,
-            5.7783613
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Hôtel la Résidence",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8168289,
-            5.7722176
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel sultan jijel",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8118208,
-            5.7781471
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Dar El Aaz",
         "price": 7965,
         "city": "Jijel",
-        "gps": [
-            36.8229186,
-            5.7550801
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Hôtel Taghrast",
         "price": 7020,
         "city": "Jijel",
-        "gps": [
-            36.8216666,
-            5.7686695
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel de la Plage d'or jijel",
         "price": 4590,
         "city": "Jijel",
-        "gps": [
-            36.8189086,
-            5.7088266
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Rouikha Meriem ep Zaimen",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.819052,
-            5.706786
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "BABA AROUJ Hotel",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8174414,
-            5.7713262
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Residence Hôtelière El Macif",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.814039,
-            5.6982104
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel les emeraudes",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8098669,
-            5.8406985
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel Barbarouse",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8098223,
-            5.8426742
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "فندق الزمرد",
         "price": 9900,
         "city": "Jijel",
-        "gps": [
-            36.8098528,
-            5.8405654
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Mongorno - Berrouaghia",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            36.1323079,
-            2.9173331
-        ],
-        "average review": 4.2
+        "city": "Médéa",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel El Andalous",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            36.137135,
-            2.9135435
-        ],
-        "average review": 4.7
+        "city": "Médéa",
+        "avg_review": 4.7
     },
     {
         "hotel": "Hotel boughezoul",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            35.7042925,
-            2.8397566
-        ],
-        "average review": 4.7
+        "city": "Médéa",
+        "avg_review": 4.7
     },
     {
         "hotel": "Hotel Marhba نزل مرحبا",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            35.8715327,
-            2.7535729
-        ],
-        "average review": 4.2
+        "city": "Médéa",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hotel MBC",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            35.7013902,
-            2.8459166
-        ],
-        "average review": 4.3
+        "city": "Médéa",
+        "avg_review": 4.3
     },
     {
         "hotel": "Hotel sekhri",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            35.7041035,
-            2.8396973
-        ],
-        "average review": 3.4
+        "city": "Médéa",
+        "avg_review": 3.4
     },
     {
         "hotel": "Hotel boughezoul 2",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            35.703101,
-            2.8405742
-        ],
-        "average review": 3
+        "city": "Médéa",
+        "avg_review": 3.0
     },
     {
         "hotel": "فندق النور",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            35.7044493,
-            2.8437267
-        ],
-        "average review": 4.3
+        "city": "Médéa",
+        "avg_review": 4.3
     },
     {
         "hotel": "HOTEL LE RAVIN BLEU",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            36.139268,
-            2.9202484
-        ],
-        "average review": 3.9
+        "city": "Médéa",
+        "avg_review": 3.9
     },
     {
         "hotel": "Hotel happiness",
         "price": 9900,
-        "city": "Medea",
-        "gps": [
-            36.4234125,
-            3.1002031
-        ],
-        "average review": 4.3
+        "city": "Médéa",
+        "avg_review": 4.3
     },
     {
         "hotel": "Royal Hotel Oran-MGallery",
         "price": 14580,
         "city": "Oran",
-        "gps": [
-            35.7032656,
-            -0.6477597
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Best Western Hotel Colombe Oran",
         "price": 8100,
         "city": "Oran",
-        "gps": [
-            35.6937079,
-            -0.630017
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Hôtel le Cheval Blanc",
         "price": 4995,
         "city": "Oran",
-        "gps": [
-            35.70036,
-            -0.638033
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "ASSALA HOTEL",
         "price": 10800,
         "city": "Oran",
-        "gps": [
-            35.6981172,
-            -0.6507136
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "MH HOTEL",
         "price": 5670,
         "city": "Oran",
-        "gps": [
-            35.6932568,
-            -0.6509683
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Charme El Cheikh Hotel",
         "price": 6210,
         "city": "Oran",
-        "gps": [
-            35.6962083,
-            -0.6458546
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Le Palme Hotel Oran",
         "price": 10800,
         "city": "Oran",
-        "gps": [
-            35.6850745,
-            -0.6468509
-        ],
-        "average review": 4.7
+        "avg_review": 4.7
     },
     {
         "hotel": "Melissa Hotel",
         "price": 11475,
         "city": "Oran",
-        "gps": [
-            35.7054711,
-            -0.6434277
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "Hotel II Horloges Oran",
         "price": 6615,
         "city": "Oran",
-        "gps": [
-            35.7002679,
-            -0.6494708
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "2H Hotel",
         "price": 24165,
         "city": "Oran",
-        "gps": [
-            35.7048426,
-            -0.6325642
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Medina Hotel Oran",
         "price": 7425,
         "city": "Oran",
-        "gps": [
-            35.6943678,
-            -0.653354
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Plaza Hotel Oran",
         "price": 9315,
         "city": "Oran",
-        "gps": [
-            35.7093148,
-            -0.6273225
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Le Méridien Oran Hotel & Convention Centre",
         "price": 16065,
         "city": "Oran",
-        "gps": [
-            35.7264888,
-            -0.5919311
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "RODINA Hotel & SPA",
         "price": 12285,
         "city": "Oran",
-        "gps": [
-            35.6706055,
-            -0.6383101
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Ibiris Hotel",
         "price": 7695,
         "city": "Oran",
-        "gps": [
-            35.709833,
-            -0.612295
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "Hôtel Bay Oran",
         "price": 18360,
         "city": "Oran",
-        "gps": [
-            35.7153985,
-            -0.6095628
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Fantazia Hotel Oran",
         "price": 7425,
         "city": "Oran",
-        "gps": [
-            35.7140643,
-            -0.6172048
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "Hôtel El Ksar",
         "price": 6480,
         "city": "Oran",
-        "gps": [
-            35.7043667,
-            -0.635729
-        ],
-        "average review": 2.6
+        "avg_review": 2.6
     },
     {
         "hotel": "Liberty Hotel",
         "price": 11070,
         "city": "Oran",
-        "gps": [
-            35.6990304,
-            -0.5990661
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hotel Onyx By Luna",
         "price": 12960,
         "city": "Oran",
-        "gps": [
-            35.694531,
-            -0.6050509
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "Hôtel Adef",
         "price": 10530,
         "city": "Oran",
-        "gps": [
-            35.7052715,
-            -0.6422358
-        ],
-        "average review": 2.9
+        "avg_review": 2.9
     },
     {
         "hotel": "Hotel Grand Horloge",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6965886,
-            -0.6409868
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "HÔTEL RHOUFI",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6917516,
-            -0.6497993
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Hotel MZ",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6937801,
-            -0.6456979
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hotel Talbi",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6950445,
-            -0.6463698
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel bouaza",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6903225,
-            -0.6498405
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Sidi Khattab Hotel",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6988587,
-            -0.6398204
-        ],
-        "average review": 2.9
+        "avg_review": 2.9
     },
     {
         "hotel": "Hôtel Houna",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6923904,
-            -0.6351568
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Hotel Charem Echikh",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6956234,
-            -0.6456916
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hotel Mansour",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.700141,
-            -0.6414124
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel NADJAH",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6968363,
-            -0.6445567
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Hotel President 2",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6970697,
-            -0.6307988
-        ],
-        "average review": 2.8
+        "avg_review": 2.8
     },
     {
         "hotel": "Hôtel du Jardin",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6875937,
-            -0.6451058
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "Hôtel tahtaha وهران",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6965172,
-            -0.6479898
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Hôtel Andalous",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6984428,
-            -0.6407898
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hôtel l'Alhambra",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6952789,
-            -0.6481574
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Bel Air",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.7001157,
-            -0.6285904
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "HOTEL HAYATT REGENCY BARKI ORAN",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6988026,
-            -0.6348483
-        ],
-        "average review": 4.9
+        "avg_review": 4.9
     },
     {
         "hotel": "Hôtel KAMEL",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.699128,
-            -0.649834
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Hotel RIAD",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6980304,
-            -0.6401631
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Africa Hotel",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6932402,
-            -0.6455219
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "SH Hotel",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6880261,
-            -0.6444408
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "Hôtel le Majestic Oran",
         "price": 9900,
         "city": "Oran",
-        "gps": [
-            35.6999266,
-            -0.6420901
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Constantine Marriott Hotel",
         "price": 19845,
         "city": "Constantine",
-        "gps": [
-            36.3473514,
-            6.616838
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "El Bey Hotel - Constantine",
         "price": 8100,
         "city": "Constantine",
-        "gps": [
-            36.3376724,
-            6.6503689
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Grand Hotel Cirta",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3633013,
-            6.6092511
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Grand Hotel",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3657144,
-            6.6107417
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Eucalyptus Hotel",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3187077,
-            6.6173635
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Remes Hotel",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3426103,
-            6.6449589
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel el-Hawa Talk",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3678842,
-            6.6160531
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "Hotel Des Prince",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3614615,
-            6.6076484
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "فندق بلقيس",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3190285,
-            6.6172554
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel Dali Constantine",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3008237,
-            6.6181261
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Nassim",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.3500173,
-            6.6000107
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "L'escale hotel aéroport Constantine",
         "price": 9900,
         "city": "Constantine",
-        "gps": [
-            36.2889157,
-            6.6172188
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Park Mall Hotel & Conference Center",
         "price": 10395,
-        "city": "Setif",
-        "gps": [
-            36.1909922,
-            5.4090147
-        ],
-        "average review": 4.3
+        "city": "Sétif",
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Frantz Fanon",
         "price": 4455,
-        "city": "Setif",
-        "gps": [
-            36.1880451,
-            5.4045101
-        ],
-        "average review": 4.1
+        "city": "Sétif",
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Zidane",
         "price": 10530,
-        "city": "Setif",
-        "gps": [
-            36.2006129,
-            5.4128965
-        ],
-        "average review": 3.5
+        "city": "Sétif",
+        "avg_review": 3.5
     },
     {
-        "hotel": "Hotel & Restaurant Setif",
+        "hotel": "Hotel & Restaurant Sétif",
         "price": 8505,
-        "city": "Setif",
-        "gps": [
-            36.1894,
-            5.419071
-        ],
-        "average review": 4.3
+        "city": "Sétif",
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Azdif",
         "price": 11070,
-        "city": "Setif",
-        "gps": [
-            36.1903115,
-            5.4048251
-        ],
-        "average review": 4.3
+        "city": "Sétif",
+        "avg_review": 4.3
     },
     {
         "hotel": "Golden Rose Hôtel & Spa",
         "price": 11610,
-        "city": "Setif",
-        "gps": [
-            36.1893868,
-            5.3991513
-        ],
-        "average review": 3.9
+        "city": "Sétif",
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel Rue D'or",
         "price": 6885,
-        "city": "Setif",
-        "gps": [
-            36.1884432,
-            5.4058657
-        ],
-        "average review": 4.3
+        "city": "Sétif",
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel Ferdi",
         "price": 7425,
-        "city": "Setif",
-        "gps": [
-            36.1851083,
-            5.4060889
-        ],
-        "average review": 3.9
+        "city": "Sétif",
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel El-Kenz",
         "price": 9720,
-        "city": "Setif",
-        "gps": [
-            36.1901107,
-            5.4075
-        ],
-        "average review": 4.1
+        "city": "Sétif",
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Tadj el Mouada",
         "price": 8775,
-        "city": "Setif",
-        "gps": [
-            36.1901837,
-            5.407562
-        ],
-        "average review": 4.2
+        "city": "Sétif",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hotel Nova",
         "price": 9045,
-        "city": "Setif",
-        "gps": [
-            36.1894345,
-            5.3987287
-        ],
-        "average review": 3.9
+        "city": "Sétif",
+        "avg_review": 3.9
     },
     {
         "hotel": "HÔTEL BAYAZID",
         "price": 12285,
-        "city": "Setif",
-        "gps": [
-            36.1998232,
-            5.3850255
-        ],
-        "average review": 4.1
+        "city": "Sétif",
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel el hidhab",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1934865,
-            5.408215
-        ],
-        "average review": 3.1
+        "city": "Sétif",
+        "avg_review": 3.1
     },
     {
         "hotel": "Hôtel Hamdani",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1945858,
-            5.4140401
-        ],
-        "average review": 4.3
+        "city": "Sétif",
+        "avg_review": 4.3
     },
     {
         "hotel": "Dar El Sultan Hôtel",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1845006,
-            5.4134701
-        ],
-        "average review": 4.2
+        "city": "Sétif",
+        "avg_review": 4.2
     },
     {
         "hotel": "Hôtel El-Rabie",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1888935,
-            5.4045196
-        ],
-        "average review": 3.7
+        "city": "Sétif",
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel El Bachir",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1894719,
-            5.404893
-        ],
-        "average review": 3.2
+        "city": "Sétif",
+        "avg_review": 3.2
     },
     {
-        "hotel": "SETIFIS Hôtel",
+        "hotel": "SétifIS Hôtel",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1896496,
-            5.3931393
-        ],
-        "average review": 3.6
+        "city": "Sétif",
+        "avg_review": 3.6
     },
     {
         "hotel": "Hôtel el Fouara",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1898002,
-            5.4048991
-        ],
-        "average review": 2.7
+        "city": "Sétif",
+        "avg_review": 2.7
     },
     {
         "hotel": "Hôtel Tassili",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.186421,
-            5.4076878
-        ],
-        "average review": 2.8
+        "city": "Sétif",
+        "avg_review": 2.8
     },
     {
         "hotel": "Hôtel Rif",
         "price": 9900,
-        "city": "Setif",
-        "gps": [
-            36.1897593,
-            5.4107984
-        ],
-        "average review": 4.3
+        "city": "Sétif",
+        "avg_review": 4.3
     },
     {
         "hotel": "Ben Aouda Hotel",
         "price": 13230,
         "city": "Tipaza",
-        "gps": [
-            36.5989195,
-            2.4110682
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Cesaria Hotel",
         "price": 10260,
         "city": "Tipaza",
-        "gps": [
-            36.6078971,
-            2.1917044
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel La Côte Turquoise",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.5924396,
-            2.4502968
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Munatec",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.5880967,
-            2.4465486
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "Hôtel Namymas - Berard",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.6032161,
-            2.6067694
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel Es-salem فندق السلام",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.6391341,
-            2.6842992
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "Hôtel Fouka",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.6446029,
-            2.7527622
-        ],
-        "average review": 3
+        "avg_review": 3.0
     },
     {
         "hotel": "hotel l'étoile de la mediterranne 2",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.6818305,
-            2.7822227
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "فندق السلام",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.6428412,
-            2.6900001
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "فندق نسيب",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.6077656,
-            2.1913034
-        ],
-        "average review": 3
+        "avg_review": 3.0
     },
     {
         "hotel": "COMPLEXE GOUNINI",
         "price": 9900,
         "city": "Tipaza",
-        "gps": [
-            36.5687866,
-            2.0267556
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Sheraton Annaba Hotel",
         "price": 19305,
         "city": "Annaba",
-        "gps": [
-            36.9024131,
-            7.7622351
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "Hotel Royal Elisa Annaba",
         "price": 11880,
         "city": "Annaba",
-        "gps": [
-            36.908611,
-            7.7466315
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Le Majestic Hotel",
         "price": 6075,
         "city": "Annaba",
-        "gps": [
-            36.9060598,
-            7.7601344
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "El Nour Hotel",
         "price": 5535,
         "city": "Annaba",
-        "gps": [
-            36.8939825,
-            7.7575791
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "HOTEL TÉLÉPHÉRIQUE ANNABA",
         "price": 5805,
         "city": "Annaba",
-        "gps": [
-            36.8957975,
-            7.7217579
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Seybouse international hotel",
         "price": 19845,
         "city": "Annaba",
-        "gps": [
-            36.9039358,
-            7.7611095
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Sidi Brahim",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8867966,
-            7.7454555
-        ],
-        "average review": 3
+        "avg_review": 3.0
     },
     {
         "hotel": "HÔTEL SINDIBAD",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8874344,
-            7.7505627
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "فندق دار لياس",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8999111,
-            7.7503088
-        ],
-        "average review": 3
+        "avg_review": 3.0
     },
     {
         "hotel": "فندق تامانارت",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8990517,
-            7.7484206
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel El Mouna",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9196278,
-            7.7639785
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Safsaf",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8993125,
-            7.7619375
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Andalous",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.900944,
-            7.761809
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hôtel El Hana",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9008128,
-            7.7626267
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "فندق تورينغ",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9003736,
-            7.7596136
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel Résidence Hippone",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9244444,
-            7.7602778
-        ],
-        "average review": 2.8
+        "avg_review": 2.8
     },
     {
         "hotel": "Hôtel Marignan",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9005133,
-            7.7527124
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel Splendid",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9000625,
-            7.7573402
-        ],
-        "average review": 2.8
+        "avg_review": 2.8
     },
     {
         "hotel": "Sabri hotel",
         "price": 4320,
         "city": "Annaba",
-        "gps": [
-            36.93849,
-            7.766487
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Rym El Djamil Hotel",
         "price": 6615,
         "city": "Annaba",
-        "gps": [
-            36.9480646,
-            7.7723146
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "Hôtel Nassim",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.945,
-            7.7633333
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hôtel Dar Chadli",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8974009,
-            7.7521249
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hotel anaba",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8941875,
-            7.7572726
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "Hotel Cirta",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8992311,
-            7.7562536
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "Hôtel Hoggar",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9009577,
-            7.7587248
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Mondial",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9013476,
-            7.7632273
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "HÔTEL NOUZHA",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8967628,
-            7.7581069
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "فندق الحرية",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8987758,
-            7.7610813
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hotel International",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8998221,
-            7.76214
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "Hôtel Familial Marhaba",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9473736,
-            7.7707037
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Hôtel El Ahram",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9009592,
-            7.7528099
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "فندق رشراش",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9016745,
-            7.7507523
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "Hôtel Alexandria",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.9014264,
-            7.7588532
-        ],
-        "average review": 3
+        "avg_review": 3.0
     },
     {
         "hotel": "HÔTEL DE NICE",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8992229,
-            7.759413
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "فندق حريم السلطان",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8973007,
-            7.7500931
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "hôtel bizoc",
         "price": 9900,
         "city": "Annaba",
-        "gps": [
-            36.8973007,
-            7.7500931
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Renaissance Tlemcen Hotel",
         "price": 19454,
         "city": "Tlemcen",
-        "gps": [
-            34.866878,
-            -1.316167
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hôtel Les Zianides",
         "price": 7124,
         "city": "Tlemcen",
-        "gps": [
-            34.8803043,
-            -1.3021008
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel Stambouli",
         "price": 3425,
         "city": "Tlemcen",
-        "gps": [
-            34.8823546,
-            -1.3035217
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "ibis Tlemcen",
         "price": 7672,
         "city": "Tlemcen",
-        "gps": [
-            34.8893585,
-            -1.3353105
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Relax Hotel",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8756366,
-            -1.2900326
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "El menzah kazi Hotel",
         "price": 3973,
         "city": "Tlemcen",
-        "gps": [
-            34.8801861,
-            -1.3271803
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "Hôtel Islam ll Tlemcen",
         "price": 6576,
         "city": "Tlemcen",
-        "gps": [
-            34.8857118,
-            -1.3134094
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel ELMAFROUCHE restaurant salle polyvalente",
         "price": 3973,
         "city": "Tlemcen",
-        "gps": [
-            34.8646746,
-            -1.3227995
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "Hôtel Grand Bassin Tlemcen",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8793388,
-            -1.3172201
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel la perle",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8862448,
-            -1.3219542
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Shrine Belkaid",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8854938,
-            -1.3051281
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Venisia Hotel Tlemcen",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8983103,
-            -1.3057411
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel KZ Tlemcen",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8979277,
-            -1.3070757
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "Hotel Tlemcen Medina فندق تلمسان المدينة",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8834133,
-            -1.3125392
-        ],
-        "average review": 4.7
+        "avg_review": 4.7
     },
     {
         "hotel": "Hotel Majestic",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8832115,
-            -1.3075125
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Maghreb",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8824539,
-            -1.3086586
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "Hotel Meriem Tlemcen",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8868481,
-            -1.3068211
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hôtel hamid",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8853446,
-            -1.3055223
-        ],
-        "average review": 2.5
+        "avg_review": 2.5
     },
     {
         "hotel": "Ghouti",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8849632,
-            -1.3108381
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "citè des jardins batimentA",
         "price": 9900,
         "city": "Tlemcen",
-        "gps": [
-            34.8810095,
-            -1.2981712
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Soleil Tours Zelfana",
         "price": 15481,
         "city": "Tlemcen",
-        "gps": [
-            32.3909133,
-            4.224035
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "فندق الطريق",
         "price": 5480,
-        "city": "Ghardaia",
-        "gps": [
-            32.3662694,
-            3.7962105
-        ],
-        "average review": 3.8
+        "city": "Ghardaïa",
+        "avg_review": 3.8
     },
     {
         "hotel": "M'zab Hotel",
         "price": 11234,
-        "city": "Ghardaia",
-        "gps": [
-            32.4843716,
-            3.6762879
-        ],
-        "average review": 3.3
+        "city": "Ghardaïa",
+        "avg_review": 3.3
     },
     {
         "hotel": "Belvedere hotel",
         "price": 10686,
-        "city": "Ghardaia",
-        "gps": [
-            32.4934258,
-            3.6905131
-        ],
-        "average review": 3.8
+        "city": "Ghardaïa",
+        "avg_review": 3.8
     },
     {
         "hotel": "Hotel El djanoub",
         "price": 6987,
-        "city": "Ghardaia",
-        "gps": [
-            32.4953456,
-            3.6806712
-        ],
-        "average review": 3.1
+        "city": "Ghardaïa",
+        "avg_review": 3.1
     },
     {
         "hotel": "Résidence Aghlen Paradise",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4308541,
-            3.6137937
-        ],
-        "average review": 3.9
+        "city": "Ghardaïa",
+        "avg_review": 3.9
     },
     {
         "hotel": "Maison d'hôtes Taskift",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4631273,
-            3.6629849
-        ],
-        "average review": 4.7
+        "city": "Ghardaïa",
+        "avg_review": 4.7
     },
     {
         "hotel": "Gîte TARIST",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4627482,
-            3.6611583
-        ],
-        "average review": 4.6
+        "city": "Ghardaïa",
+        "avg_review": 4.6
     },
     {
         "hotel": "Les Deux Tours",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4599076,
-            3.6860826
-        ],
-        "average review": 3.8
+        "city": "Ghardaïa",
+        "avg_review": 3.8
     },
     {
         "hotel": "Maison traditionnelle Akham",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4651763,
-            3.6694575
-        ],
-        "average review": 4.1
+        "city": "Ghardaïa",
+        "avg_review": 4.1
     },
     {
         "hotel": "Résidence maison d'hôte TAJAMI",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4646875,
-            3.6629375
-        ],
-        "average review": 4.2
+        "city": "Ghardaïa",
+        "avg_review": 4.2
     },
     {
         "hotel": "Caravansérail Ghardaïa",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4651753,
-            3.6679558
-        ],
-        "average review": 4.1
+        "city": "Ghardaïa",
+        "avg_review": 4.1
     },
     {
         "hotel": "Dar El Diaf",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4937333,
-            3.6817205
-        ],
-        "average review": 4.1
+        "city": "Ghardaïa",
+        "avg_review": 4.1
     },
     {
         "hotel": "Résidence Al Riyadh Land",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4848448,
-            3.681016
-        ],
-        "average review": 4.3
+        "city": "Ghardaïa",
+        "avg_review": 4.3
     },
     {
         "hotel": "Mzab Hotel Tagherdayt",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4943741,
-            3.64446
-        ],
-        "average review": 3.9
+        "city": "Ghardaïa",
+        "avg_review": 3.9
     },
     {
         "hotel": "HOTEL PARADISE",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.576177,
-            3.6907206
-        ],
-        "average review": 5
+        "city": "Ghardaïa",
+        "avg_review": 5.0
     },
     {
-        "hotel": "Hotel Ghardaia",
+        "hotel": "Hotel Ghardaïa",
         "price": 9900,
-        "city": "Ghardaia",
-        "gps": [
-            32.4843713,
-            3.6762851
-        ],
-        "average review": 4.3
+        "city": "Ghardaïa",
+        "avg_review": 4.3
     },
     {
         "hotel": "Ziban Hotel",
         "price": 6850,
         "city": "Biskra",
-        "gps": [
-            34.8428877,
-            5.7353699
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Hôtel Vescera sud",
         "price": 12741,
         "city": "Biskra",
-        "gps": [
-            34.8532603,
-            5.7280366
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Hammam Salihine",
         "price": 6165,
         "city": "Biskra",
-        "gps": [
-            34.8575292,
-            5.708187
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "Hotel Cristal",
         "price": 5069,
         "city": "Biskra",
-        "gps": [
-            34.8546393,
-            5.7279516
-        ],
-        "average review": 4.6
+        "avg_review": 4.6
     },
     {
         "hotel": "Complexe touristiques thermal Sidi Yahia - Biskra",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8654094,
-            5.6942296
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Hôtel Maurice Laban",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8450629,
-            5.7057128
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "AN Hôtel",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8506628,
-            5.7298522
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "JB HÔTEL BISKRA",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8536823,
-            5.7275624
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hôtel Palace Biskra",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8548781,
-            5.7306737
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel Royal",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8572599,
-            5.7151132
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "Hôtel Bab Sahara",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8674318,
-            5.7148262
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Hôtel El Qods",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8486306,
-            5.7277561
-        ],
-        "average review": 3.7
+        "avg_review": 3.7
     },
     {
         "hotel": "hotel nail zakaria",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8711119,
-            5.7187399
-        ],
-        "average review": 4.2
+        "avg_review": 4.2
     },
     {
         "hotel": "HOTEL ET RESTAURANT SELAMI",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8582874,
-            5.7417297
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "complexe sidi yahya",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8653989,
-            5.6941124
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel Oasis",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8599563,
-            5.7194668
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel PTT",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8599881,
-            5.7084795
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "Hôtel Ennakhil",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8565109,
-            5.7087698
-        ],
-        "average review": 2.9
+        "avg_review": 2.9
     },
     {
         "hotel": "Le Grand Hôtel",
         "price": 9900,
         "city": "Biskra",
-        "gps": [
-            34.8588591,
-            5.7092653
-        ],
-        "average review": 2.7
+        "avg_review": 2.7
     },
     {
         "hotel": "HOTEL YOUCEF",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4633375,
-            7.0939309
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Oasis de seïar",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            34.8381153,
-            7.0333203
-        ],
-        "average review": 4.7
+        "avg_review": 4.7
     },
     {
         "hotel": "فندق دار الضياف",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4255526,
-            7.1474507
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel des PTT khenchela MGPTT",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4432985,
-            7.0826893
-        ],
-        "average review": 2.9
+        "avg_review": 2.9
     },
     {
         "hotel": "Complexe Touristique Bouzidi",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4414986,
-            7.0861739
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "فندق بوزيدي",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4412835,
-            7.0859069
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "Hôtel remila (houssin)",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4903149,
-            6.9324042
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "فندق ايث عزوز",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.2483821,
-            7.3631512
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hotel des finances",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.0408767,
-            7.0049933
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Hotel El Kahina",
         "price": 9900,
         "city": "Khenchela",
-        "gps": [
-            35.4329908,
-            7.1448361
-        ],
-        "average review": 2.6
+        "avg_review": 2.6
     },
     {
         "hotel": "Hotel Hana",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            33.6819074,
-            1.0148713
-        ],
-        "average review": 5
+        "avg_review": 5.0
     },
     {
         "hotel": "Hotel El Hidhab",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            33.6835787,
-            1.013163
-        ],
-        "average review": 2.8
+        "avg_review": 2.8
     },
     {
         "hotel": "Hôtel doaa",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            33.6844154,
-            1.0116801
-        ],
-        "average review": 4.1
+        "avg_review": 4.1
     },
     {
         "hotel": "Hotel BOURENANE",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            33.6916714,
-            1.0189196
-        ],
-        "average review": 3.8
+        "avg_review": 3.8
     },
     {
         "hotel": "Hôtel Fahmi KSEL",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            33.6828574,
-            1.0148121
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "Hôtel Nadjem",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            33.6757133,
-            1.0266222
-        ],
-        "average review": 3.6
+        "avg_review": 3.6
     },
     {
         "hotel": "Hotel Sidi Sheikh",
         "price": 9900,
         "city": "El Bayadh",
-        "gps": [
-            32.8968314,
-            0.5488771
-        ],
-        "average review": 3.4
+        "avg_review": 3.4
     },
     {
         "hotel": "HOTEL EL BESSEM",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3337514,
-            3.687402
-        ],
-        "average review": 4
+        "avg_review": 4.0
     },
     {
         "hotel": "AB Hôtel",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.384827,
-            3.8743126
-        ],
-        "average review": 4.5
+        "avg_review": 4.5
     },
     {
         "hotel": "Hotel Al Mokhtar",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.2616416,
-            3.5874365
-        ],
-        "average review": 4.4
+        "avg_review": 4.4
     },
     {
         "hotel": "Hôtel Errich",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3911553,
-            3.9010658
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Hôtel Le Royal - Bouira",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3791762,
-            3.899513
-        ],
-        "average review": 3.3
+        "avg_review": 3.3
     },
     {
         "hotel": "Hôtel Résidence Mekdouh",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3711795,
-            3.903944
-        ],
-        "average review": 3.2
+        "avg_review": 3.2
     },
     {
         "hotel": "Sofy Hotel",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3800206,
-            3.8922345
-        ],
-        "average review": 3.5
+        "avg_review": 3.5
     },
     {
         "hotel": "El ATTIK BOUIRA HOTEL",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3734276,
-            3.8998286
-        ],
-        "average review": 3.1
+        "avg_review": 3.1
     },
     {
         "hotel": "Dortoir bouira",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3739873,
-            3.9027548
-        ],
-        "average review": 3.9
+        "avg_review": 3.9
     },
     {
         "hotel": "Dortoir hôtel ouest",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3756386,
-            3.8922802
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     },
     {
         "hotel": "Dortoire FLORIDA",
         "price": 9900,
         "city": "Bouira",
-        "gps": [
-            36.3737714,
-            3.897351
-        ],
-        "average review": 4.3
+        "avg_review": 4.3
     }
 ]
