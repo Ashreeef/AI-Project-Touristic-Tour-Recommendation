@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ItineraryPage from "./pages/Home"; 
-import Result from "./pages/Result"; // Your target page component
+import Result from "./pages/Result"; 
 
 function App() {
   return (

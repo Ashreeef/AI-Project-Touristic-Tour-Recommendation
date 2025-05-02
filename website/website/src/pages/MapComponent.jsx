@@ -1,13 +1,19 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-// Initialize Mapbox GL JS
-mapboxgl.accessToken = "pk.eyJ1IjoiYXg2NjZyYWYiLCJhIjoiY21hNXF6bjI2MGtudDJpc2drMjRxd3E5byJ9.0tbI898wuudgvn9gsWVUPg";
+// Add Card component (or import it if it's in another file)
+const Card = ({ className, children, ...props }) => (
+  <div className={`rounded-lg border bg-white shadow-sm ${className}`} {...props}>
+    {children}
+  </div>
+);
+
+// Initialize Mapbox GL JS - replace with your valid token
+mapboxgl.accessToken = "pk.eyJ1IjoiYXg2NjZyYWYiLCJhIjoiY21hNmpuNTFrMHEzaTJpczZ3aGZqNXU4ZiJ9.7KAdWkaTbfSIesH_C3wxsA";
 
 const MapComponent = ({ 
-  locations = [], // Default empty array
+  locations = [], 
   onLocationSelect,
   selectedLocationId 
 }) => {
@@ -146,7 +152,7 @@ const MapComponent = ({
     <div className="w-full h-full min-h-[400px] relative">
       <div 
         ref={mapContainer} 
-        className="absolute inset-0 rounded-lg"
+        className="absolute inset-0 rounded-lg w-full h-full"
         style={{ visibility: isLoading ? 'hidden' : 'visible' }}
       />
       {isLoading && (
@@ -159,4 +165,3 @@ const MapComponent = ({
 };
 
 export default MapComponent;
-
