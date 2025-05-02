@@ -16,10 +16,12 @@ import {
   Instagram, 
   Mail, 
   ArrowRight,
-  Car 
+  Car,
+  AlertCircle 
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
+
 const Home = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [hotelsExpanded, setHotelsExpanded] = useState(false);
@@ -29,6 +31,16 @@ const Home = () => {
   const [hasCar, setHasCar] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedActivities, setSelectedActivities] = useState([]);
+  const [formErrors, setFormErrors] = useState({});
+  const [formData, setFormData] = useState({
+    wilaya: '',
+    location: '',
+    when: '',
+    budget: '',
+    hotelStars: '3',
+    maxAttractions: '2',
+    maxTravelHours: '4'
+  });
 
   // Animation variants
   const titleVariants = {
@@ -46,7 +58,22 @@ const Home = () => {
       }
     }
   };
-
+  const isValidGPS = (input) => {
+    const trimmedInput = input.trim();
+    const patterns = [
+      // Decimal degrees (DD) format: e.g., 36.7538, 3.0588
+      /^-?\d{1,3}(?:\.\d+)?,\s*-?\d{1,3}(?:\.\d+)?$/,
+      
+      // Degrees, minutes, seconds (DMS) format: e.g., 36°45'13.7"N 3°03'31.7"E
+      /^\d{1,3}°\d{1,2}'\d{1,2}(?:\.\d+)?"[NS]\s*\d{1,3}°\d{1,2}'\d{1,2}(?:\.\d+)?"[EW]$/i,
+      
+      // Degrees and decimal minutes (DMM) format: e.g., 36 45.2283, 3 3.5283
+      /^\d{1,3}\s\d{1,2}\.\d+,\s*\d{1,3}\s\d{1,2}\.\d+$/
+    ];
+  
+    // Check if input matches any of the patterns
+    return patterns.some(pattern => pattern.test(input.trim()));
+  };
   const imageVariants = {
     hidden: { 
       opacity: 0,
@@ -90,6 +117,80 @@ const Home = () => {
     "Shopping Mall", "Lake", "Resort"
   ];
 
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const validateForm = () => {
+    const errors = {};
+    let isValid = true;
+
+    // Required fields validation
+    if (!formData.wilaya.trim()) {
+      errors.wilaya = 'Wilaya is required';
+      isValid = false;
+    }
+
+    if (!formData.location.trim()) {
+      errors.location = 'Location is required';
+      isValid = false;
+    } else if (!isValidGPS(formData.location)) {
+      errors.location = 'Please enter valid GPS coordinates (e.g., 36.7538, 3.0588 or 36°45\'13.7"N 3°03\'31.7"E)';
+      isValid = false;
+    }
+
+    if (!formData.when) {
+      errors.when = 'Date is required';
+      isValid = false;
+    }
+
+    if (selectedActivities.length === 0) {
+      errors.activities = 'At least one activity is required';
+      isValid = false;
+    }
+
+    // Budget validation
+    if (!formData.budget) {
+      errors.budget = 'Budget is required';
+      isValid = false;
+    } else if (isNaN(formData.budget)) {
+      errors.budget = 'Budget must be a number';
+      isValid = false;
+    } else if (Number(formData.budget) <= 0) {
+      errors.budget = 'Budget must be greater than 0';
+      isValid = false;
+    }
+
+    setFormErrors(errors);
+    return isValid;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validateForm()) {
+      // Form is valid, proceed with submission
+      console.log('Form submitted:', { ...formData, activities: selectedActivities, hasCar });
+      // You can navigate to the result page here or perform other actions
+    }
+  };
+
+  const isFormValid = () => {
+    return (
+      formData.wilaya.trim() && 
+      formData.location.trim() && 
+      isValidGPS(formData.location) && 
+      formData.when && 
+      selectedActivities.length > 0 && 
+      formData.budget && 
+      !isNaN(formData.budget) && 
+      Number(formData.budget) > 0
+    );
+  };
+
   useEffect(() => {
     const revealElements = document.querySelectorAll('.reveal');
     
@@ -109,7 +210,7 @@ const Home = () => {
   }, []);
 
   const images = {
-    logo: 'src/Imgs/Logo/logo.svg',
+    logo: 'src/Imgs/Logo/LogoPNG.png',
     algeria: 'src/Imgs/Logo/algeria.jpg',
     locationIcon: 'src/Imgs/icons/location.png',
     activitiesIcon: 'src/Imgs/icons/activities.png',
@@ -132,14 +233,14 @@ const Home = () => {
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581790061118-2cd9a40164b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80')" }}>
         
         {/* Header */}
-        <header className="w-[73%] mx-auto pt-12 mb-40 flex justify-between items-center reveal md:grid md:grid-cols-[1fr_2fr_1fr]">
-          <div className="logo">
+        <header className="w-[73%] mx-auto pt-4 mb-40 flex justify-between items-center reveal md:grid md:grid-cols-[1fr_2fr_1fr]">
+          <div className="logo w-[60%]">
             <img src={images.logo} alt="2rism" />
           </div>
 
           <nav className={`navbar ${navOpen ? 'navlistOn' : ''} hidden md:block`}>
             <ul className="flex justify-between items-center text-sm font-light">
-              {['Home', 'Hotels', 'Restaurants', 'Tours', 'Destinations', 'Activities', 'Contact'].map((item, index) => (
+              {[ 'Hotels', 'Restaurants', 'Tours', 'Destinations', 'Activities', 'Contact'].map((item, index) => (
                 <li key={index} className="navlist">
                   <a href={`#${item.toLowerCase()}`} className="text-white opacity-70 hover:opacity-100">{item}</a>
                 </li>
@@ -176,66 +277,102 @@ const Home = () => {
           >
             Your Perfect Algeria Itinerary, Powered by AI
           </motion.h2>
-          <Link to="/result"
-            className="inline-flex justify-between items-center gap-4 bg-[#7b61ff] py-4 px-6 rounded-xl text-lg hover:opacity-90">
+          <Link 
+            to={isFormValid() ? "/result" : "#"} 
+            onClick={(e) => !isFormValid() && e.preventDefault()}
+            className={`inline-flex justify-between items-center gap-4 py-4 px-6 rounded-xl text-lg ${
+              isFormValid() 
+                ? 'bg-[#7b61ff] hover:opacity-90' 
+                : 'bg-gray-400 cursor-not-allowed'
+            }`}
+          >
             <Globe size={24} /> Generate My Itinerary
           </Link>
+          {!isFormValid() && (
+            <div className="mt-4 text-sm text-red-200 flex items-center justify-center gap-2">
+              <AlertCircle size={16} />
+              Please fill all required fields correctly
+            </div>
+          )}
         </div>
 
-        <div className="showcase-search w-[90%] md:w-[80%] max-w-[1200px] mx-auto bg-white p-5 md:p-8 rounded-2xl mt-16 md:mt-[150px] shadow-lg reveal border border-gray-100">
+        <form onSubmit={handleSubmit} className="showcase-search w-[90%] md:w-[80%] max-w-[1200px] mx-auto bg-white p-5 md:p-8 rounded-2xl mt-16 md:mt-[150px] shadow-lg reveal border border-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-            {/* Location */}
+            {/* Wilaya */}
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.locationIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Wilaya</h4>
+                <h4 className="text-sm font-medium text-gray-700">Wilaya*</h4>
               </div>
               <input 
                 type="text" 
-                id="startLocation" 
+                name="wilaya"
+                value={formData.wilaya}
+                onChange={handleInputChange}
                 placeholder="Your wilaya" 
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all"
+                className={`w-full p-3 border ${
+                  formErrors.wilaya ? 'border-red-500' : 'border-gray-200'
+                } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
               />
+              {formErrors.wilaya && (
+                <p className="text-red-500 text-xs mt-1">{formErrors.wilaya}</p>
+              )}
             </div>
 
             {/* Location */}
             <div className="filter space-y-2">
-              <div className="flex items-center gap-2">
-                <img src={images.locationIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Location</h4>
-              </div>
-              <input 
-                type="text" 
-                id="startLocation" 
-                placeholder="Your location" 
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all"
-              />
-            </div>
+  <div className="flex items-center gap-2">
+    <img src={images.locationIcon} alt="" className="w-5 h-5" />
+    <h4 className="text-sm font-medium text-gray-700">Location</h4>
+  </div>
+  <input 
+    type="text" 
+    name="location"
+    value={formData.location}
+    onChange={handleInputChange}
+    placeholder="GPS coordinates (e.g., 36.7538, 3.0588)" 
+    className={`w-full p-3 border ${
+      formErrors.location ? 'border-red-500' : 'border-gray-200'
+    } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
+  />
+  {formErrors.location && (
+    <p className="text-red-500 text-xs mt-1">{formErrors.location}</p>
+  )}
+</div>
             
             {/* when */}
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.calendarIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">When</h4>
+                <h4 className="text-sm font-medium text-gray-700">When*</h4>
               </div>
               <input 
                 type="date" 
-                id="travelDate" 
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all"
+                name="when"
+                value={formData.when}
+                onChange={handleInputChange}
+                className={`w-full p-3 border ${
+                  formErrors.when ? 'border-red-500' : 'border-gray-200'
+                } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
               />
+              {formErrors.when && (
+                <p className="text-red-500 text-xs mt-1">{formErrors.when}</p>
+              )}
             </div>
 
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.activitiesIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Activity</h4>
+                <h4 className="text-sm font-medium text-gray-700">Activity*</h4>
               </div>
 
               {/* Custom dropdown container */}
               <div className="relative">
                 {/* Input box showing selected tags */}
                 <div 
-                  className="w-full p-3 border border-gray-200 rounded-lg text-sm cursor-pointer flex flex-wrap gap-2 min-h-[44px]"
+                  className={`w-full p-3 border ${
+                    formErrors.activities ? 'border-red-500' : 'border-gray-200'
+                  } rounded-lg text-sm cursor-pointer flex flex-wrap gap-2 min-h-[44px]`}
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 >
                   {selectedActivities.length === 0 ? (
@@ -257,6 +394,9 @@ const Home = () => {
                     ))
                   )}
                 </div>
+                {formErrors.activities && (
+                  <p className="text-red-500 text-xs mt-1">{formErrors.activities}</p>
+                )}
 
                 {/* Dropdown with checkboxes */}
                 {isDropdownOpen && (
@@ -284,14 +424,22 @@ const Home = () => {
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.budgetIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Budget</h4>
+                <h4 className="text-sm font-medium text-gray-700">Budget (DZD)*</h4>
               </div>
               <input 
                 type="number" 
-                id="budget" 
+                name="budget"
+                value={formData.budget}
+                onChange={handleInputChange}
                 placeholder="Max budget (DZD)" 
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all"
+                min="1"
+                className={`w-full p-3 border ${
+                  formErrors.budget ? 'border-red-500' : 'border-gray-200'
+                } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
               />
+              {formErrors.budget && (
+                <p className="text-red-500 text-xs mt-1">{formErrors.budget}</p>
+              )}
             </div>
 
             {/* Hotel Stars */}
@@ -301,7 +449,9 @@ const Home = () => {
                 <h4 className="text-sm font-medium text-gray-700">Hotel Stars</h4>
               </div>
               <select 
-                id="hotelStars" 
+                name="hotelStars"
+                value={formData.hotelStars}
+                onChange={handleInputChange}
                 className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
               >
                 {[1, 2, 3, 4, 5].map(star => (
@@ -313,14 +463,16 @@ const Home = () => {
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.activitiesIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">max attractions per day</h4>
+                <h4 className="text-sm font-medium text-gray-700">Max attractions per day</h4>
               </div>
               <select 
-                id="hotelStars" 
+                name="maxAttractions"
+                value={formData.maxAttractions}
+                onChange={handleInputChange}
                 className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
               >
-                {[1, 2, 3].map(star => (
-                  <option key={star} value={star}>{star} {star === 1 ? 'attraction' : 'attractions'}</option>
+                {[1, 2, 3].map(num => (
+                  <option key={num} value={num}>{num} {num === 1 ? 'attraction' : 'attractions'}</option>
                 ))}
               </select>
             </div>
@@ -328,14 +480,16 @@ const Home = () => {
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.hourIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">max travel hours per day</h4>
+                <h4 className="text-sm font-medium text-gray-700">Max travel hours per day</h4>
               </div>
               <select 
-                id="hotelStars" 
+                name="maxTravelHours"
+                value={formData.maxTravelHours}
+                onChange={handleInputChange}
                 className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
               >
-                {[1, 2, 3,4,5,6,7,8].map(star => (
-                  <option key={star} value={star}>{star} {star === 1 ? 'hour' : 'hours'}</option>
+                {[1, 2, 3, 4, 5, 6, 7, 8].map(hour => (
+                  <option key={hour} value={hour}>{hour} {hour === 1 ? 'hour' : 'hours'}</option>
                 ))}
               </select>
             </div>
@@ -383,11 +537,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </form>
       </main>
 
       {/* Popular Destinations */}
-<section id="destinations" className="destinations px-4 md:px-0">
+<section id="destinations" className="destinations mx-4 md:px-0">
   <div className="container max-w-[1378px] mx-auto">
     <motion.h2
       className="leading-tight section-title text-2xl md:text-[32px] font-bold mt-24 md:mt-48 mb-16 reveal"
@@ -465,7 +619,7 @@ const Home = () => {
 </section>
 
       {/* Hotels And Restaurants */}
-      <section id="restaurants" className="hotel-restaurants">
+      <section id="restaurants" className="hotel-restaurants mx-4">
         <div className="container max-w-[1378px] mx-auto">
           <div className="title-container flex items-center justify-between p-4 md:p-0">
             <motion.h2
@@ -576,7 +730,7 @@ const Home = () => {
 
       {/* Travel Tips and Advice */}
       <section id="tours" className="py-2 bg-white">
-        <div className="container max-w-6xl mx-auto px-4">
+        <div className="container max-w-6xl mx-auto">
           <div className="flex justify-between items-center mb-4">
             <motion.h2
               className="leading-tight section-title text-2xl md:text-[32px] font-bold mt-24 md:mt-48 mb-16 reveal"
@@ -670,7 +824,7 @@ const Home = () => {
         </div>
       </section>
       {/* Activities with Hover Effects */}
-<section id="activities">
+<section id="activities" className=' mx-4'>
   <div className="container max-w-[1378px] mx-auto">
     <div className="title-container flex items-center justify-between p-4 md:p-0">
       <motion.h2
@@ -782,12 +936,12 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#f5f1f1] pt-16 pb-16 mt-24">
+      <footer className="bg-[#f5f1f1]  p-16 mt-24">
         <div className="container max-w-[1378px] mx-auto">
           <div className="footer-sections grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 p-4 md:p-0">
             <div className="footer-section">
-              <img src={images.kk} alt="2rism" />
-              <p className="text-sm leading-relaxed my-4 text-gray-600 max-w-[354px]">
+            <img src={images.logo} className="w-[45%] h-[50%]" alt="2rism" />
+              <p className="text-sm leading-relaxed mb-4 text-gray-600 max-w-[354px]">
                 We always make our customers happy by providing as many choices as possible
               </p>
               <div className="footer-social-icons flex gap-6">
@@ -797,7 +951,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="footer-section">
+            <div className="footer-section pt-8">
               <h3 className="text-lg font-medium">About</h3>
               <ul className="mt-4 space-y-2">
                 {['About Us', 'Features', 'News', 'Menu'].map((item, i) => (
@@ -808,10 +962,10 @@ const Home = () => {
               </ul>
             </div>
 
-            <div className="footer-section">
+            <div className="footer-section pt-8">
               <h3 className="text-lg font-medium">Company</h3>
               <ul className="mt-4 space-y-2">
-                {['Why 2rism', 'Partner with us', 'FAQ', 'Blog'].map((item, i) => (
+                {['Why 7wess', 'Partner with us', 'FAQ', 'Blog'].map((item, i) => (
                   <li key={i}>
                     <a href="#" className="text-sm text-gray-600 hover:text-gray-800">{item}</a>
                   </li>
@@ -819,7 +973,7 @@ const Home = () => {
               </ul>
             </div>
 
-            <div className="footer-section">
+            <div className="footer-section pt-8">
               <h3 className="text-lg font-medium">Support</h3>
               <ul className="mt-4 space-y-2">
                 {['Account', 'Support Center', 'Feedback', 'Contact Us'].map((item, i) => (
@@ -830,12 +984,12 @@ const Home = () => {
               </ul>
             </div>
 
-            <div className="footer-section">
+            <div className="footer-section pt-8">
               <h3 className="text-lg font-medium">Contact</h3>
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center gap-2">
                   <Mail className="text-gray-600" size={18} />
-                  <span className="text-sm text-gray-600">contact@2rism.com</span>
+                  <span className="text-sm text-gray-600">contact@7wess.com</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <img src="src/Imgs/icons/location.png" alt="Location" className="w-4 h-4" />
@@ -861,7 +1015,7 @@ const Home = () => {
           </div>
 
           <div className="border-t border-gray-200 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center px-4 md:px-0">
-            <p className="text-sm text-gray-600">© 2023 2rism. All rights reserved</p>
+            <p className="text-sm text-gray-600">© 2025 7wess. All rights reserved</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="text-sm text-gray-600 hover:text-gray-800">Privacy Policy</a>
               <a href="#" className="text-sm text-gray-600 hover:text-gray-800">Terms of Service</a>
