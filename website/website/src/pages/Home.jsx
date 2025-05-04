@@ -21,6 +21,139 @@ import {
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
+const images = {
+  logo: 'src/Imgs/Logo/LogoPNG.png',
+  algeria: 'src/Imgs/Logo/algeria.jpg',
+  locationIcon: 'src/Imgs/icons/location.png',
+  activitiesIcon: 'src/Imgs/icons/activities.png',
+  calendarIcon: 'src/Imgs/icons/calendar.png',
+  budgetIcon: 'src/Imgs/icons/budget.png',
+  starIcon: 'src/Imgs/icons/star.png',
+  userIcon: 'src/Imgs/icons/user.png',
+  messageIcon: 'src/Imgs/icons/message.png',
+  aboutImg: 'src/Imgs/about img.png',
+  kk: 'src/Imgs/Logo/logoblack.svg',
+  phoneIcon: 'src/Imgs/icons/phone.png',
+  hourIcon: 'src/Imgs/icons/clock.png',
+  bleftIcon: 'src/Imgs/icons/arrow-right.png'
+};
+const ALGERIAN_WILAYAS = [
+  "Adrar", "Chlef", "Laghouat", "Oum El Bouaghi", "Batna", "Béjaïa", "Biskra",
+  "Béchar", "Blida", "Bouira", "Tamanrasset", "Tébessa", "Tlemcen", "Tiaret",
+  "Tizi Ouzou", "Algiers", "Djelfa", "Jijel", "Sétif", "Saïda", "Skikda",
+  "Sidi Bel Abbès", "Annaba", "Guelma", "Constantine", "Médéa", "Mostaganem",
+  "M'Sila", "Mascara", "Ouargla", "Oran", "El Bayadh", "Illizi", "Bordj Bou Arréridj",
+  "Boumerdès", "El Tarf", "Tindouf", "Tissemsilt", "El Oued", "Khenchela",
+  "Souk Ahras", "Tipaza", "Mila", "Aïn Defla", "Naâma", "Aïn Témouchent",
+  "Ghardaïa", "Relizane"
+];
+
+const WilayaInput = ({ formData, formErrors, onInputChange }) => {
+  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [activeSuggestion, setActiveSuggestion] = useState(0);
+
+  const handleWilayaInput = (e) => {
+    const value = e.target.value;
+    
+    // First update the input value through the parent's handler
+    onInputChange(e);
+    
+    // Then handle suggestions
+    if (value.length > 0) {
+      const filtered = ALGERIAN_WILAYAS.filter(wilaya =>
+        wilaya.toLowerCase().includes(value.toLowerCase())
+      );
+      setSuggestions(filtered);
+      setShowSuggestions(true);
+      setActiveSuggestion(0); // Reset active suggestion when typing
+    } else {
+      setSuggestions([]);
+      setShowSuggestions(false);
+    }
+  };
+
+  const handleSuggestionClick = (wilaya) => {
+    // Update the input value through the parent's handler
+    onInputChange({
+      target: {
+        name: "wilaya",
+        value: wilaya
+      }
+    });
+    setShowSuggestions(false);
+  };
+
+  const handleKeyDown = (e) => {
+    if (showSuggestions) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setActiveSuggestion(prev => 
+          prev < suggestions.length - 1 ? prev + 1 : prev
+        );
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setActiveSuggestion(prev => 
+          prev > 0 ? prev - 1 : 0
+        );
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (suggestions.length > 0) {
+          onInputChange({
+            target: {
+              name: "wilaya",
+              value: suggestions[activeSuggestion]
+            }
+          });
+          setShowSuggestions(false);
+        }
+      }
+    }
+  };
+
+  return (
+    <div className="filter space-y-2 relative">
+      <div className="flex items-center gap-2">
+      <img src={images.locationIcon} alt="Location icon" className="w-5 h-5" />
+        <h4 className="text-sm font-medium text-gray-700">Wilaya</h4>
+      </div>
+      <input 
+        type="text" 
+        name="wilaya"
+        value={formData.wilaya}  
+        onChange={handleWilayaInput}
+        onKeyDown={handleKeyDown}
+        onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+        onFocus={() => formData.wilaya.length > 0 && setShowSuggestions(true)}
+        placeholder="Your wilaya" 
+        className={`w-full p-3 border ${
+          formErrors.wilaya ? 'border-red-500' : 'border-gray-200'
+        } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
+        autoComplete="off"
+      />
+      {formErrors.wilaya && (
+        <p className="text-red-500 text-xs mt-1">{formErrors.wilaya}</p>
+      )}
+      
+      {showSuggestions && suggestions.length > 0 && (
+        <ul className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-60 overflow-auto">
+          {suggestions.map((wilaya, index) => (
+            <li
+              key={wilaya}
+              className={`p-2 cursor-pointer hover:bg-gray-100 ${
+                index === activeSuggestion ? 'bg-gray-100' : ''
+              }`}
+              onClick={() => handleSuggestionClick(wilaya)}
+              onMouseDown={(e) => e.preventDefault()} // Prevent blur before click
+            >
+              {wilaya}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
 
 const Home = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -37,7 +170,8 @@ const Home = () => {
     location: '',
     when: '',
     budget: '',
-    hotelStars: '3',
+    minHotelStars: '3',
+    maxHotelStars: '5',
     maxAttractions: '2',
     maxTravelHours: '4'
   });
@@ -58,6 +192,7 @@ const Home = () => {
       }
     }
   };
+
   const isValidGPS = (input) => {
     const trimmedInput = input.trim();
     const patterns = [
@@ -74,6 +209,7 @@ const Home = () => {
     // Check if input matches any of the patterns
     return patterns.some(pattern => pattern.test(input.trim()));
   };
+
   const imageVariants = {
     hidden: { 
       opacity: 0,
@@ -129,11 +265,14 @@ const Home = () => {
     const errors = {};
     let isValid = true;
 
-    // Required fields validation
-    if (!formData.wilaya.trim()) {
-      errors.wilaya = 'Wilaya is required';
-      isValid = false;
-    }
+     const trimmedWilaya = formData.wilaya.trim();
+  if (!trimmedWilaya) {
+    errors.wilaya = 'Wilaya is required';
+    isValid = false;
+  } else if (!ALGERIAN_WILAYAS.includes(trimmedWilaya)) {
+    errors.wilaya = 'Please select a valid Algerian wilaya from the list';
+    isValid = false;
+  }
 
     if (!formData.location.trim()) {
       errors.location = 'Location is required';
@@ -209,22 +348,6 @@ const Home = () => {
     };
   }, []);
 
-  const images = {
-    logo: 'src/Imgs/Logo/LogoPNG.png',
-    algeria: 'src/Imgs/Logo/algeria.jpg',
-    locationIcon: 'src/Imgs/icons/location.png',
-    activitiesIcon: 'src/Imgs/icons/activities.png',
-    calendarIcon: 'src/Imgs/icons/calendar.png',
-    budgetIcon: 'src/Imgs/icons/budget.png',
-    starIcon: 'src/Imgs/icons/star.png',
-    userIcon: 'src/Imgs/icons/user.png',
-    messageIcon: 'src/Imgs/icons/message.png',
-    aboutImg: 'src/Imgs/about img.png',
-    kk: 'src/Imgs/Logo/logoblack.svg',
-    phoneIcon: 'src/Imgs/icons/phone.png',
-    hourIcon: 'src/Imgs/icons/clock.png',
-    bleftIcon: 'src/Imgs/icons/arrow-right.png'
-  };
 
   return (
     <div className="font-sans overflow-x-hidden" style={{ fontFamily: 'Arial, sans-serif' }}>
@@ -298,26 +421,12 @@ const Home = () => {
 
         <form onSubmit={handleSubmit} className="showcase-search w-[90%] md:w-[80%] max-w-[1200px] mx-auto bg-white p-5 md:p-8 rounded-2xl mt-16 md:mt-[150px] shadow-lg reveal border border-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-            {/* Wilaya */}
-            <div className="filter space-y-2">
-              <div className="flex items-center gap-2">
-                <img src={images.locationIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Wilaya*</h4>
-              </div>
-              <input 
-                type="text" 
-                name="wilaya"
-                value={formData.wilaya}
-                onChange={handleInputChange}
-                placeholder="Your wilaya" 
-                className={`w-full p-3 border ${
-                  formErrors.wilaya ? 'border-red-500' : 'border-gray-200'
-                } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
-              />
-              {formErrors.wilaya && (
-                <p className="text-red-500 text-xs mt-1">{formErrors.wilaya}</p>
-              )}
-            </div>
+            {/* Wilaya Input */}
+<WilayaInput 
+  formData={formData}
+  formErrors={formErrors}
+  onInputChange={handleInputChange}
+/>
 
             {/* Location */}
             <div className="filter space-y-2">
@@ -442,23 +551,45 @@ const Home = () => {
               )}
             </div>
 
-            {/* Hotel Stars */}
-            <div className="filter space-y-2">
-              <div className="flex items-center gap-2">
-                <img src={images.starIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Hotel Stars</h4>
-              </div>
-              <select 
-                name="hotelStars"
-                value={formData.hotelStars}
-                onChange={handleInputChange}
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
-              >
-                {[1, 2, 3, 4, 5].map(star => (
-                  <option key={star} value={star}>{star} {star === 1 ? 'Star' : 'Stars'}</option>
-                ))}
-              </select>
-            </div>
+            {/* Min Hotel Stars */}
+<div className="filter space-y-2">
+  <div className="flex items-center gap-2">
+    <img src={images.starIcon} alt="" className="w-5 h-5" />
+    <h4 className="text-sm font-medium text-gray-700">Min Hotel Stars</h4>
+  </div>
+  <select 
+    name="minHotelStars"
+    value={formData.minHotelStars}
+    onChange={handleInputChange}
+    className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
+  >
+    {[1, 2, 3, 4, 5].map(star => (
+      <option key={`min-${star}`} value={star}>
+        {star} {star === 1 ? 'Star' : 'Stars'}
+      </option>
+    ))}
+  </select>
+</div>
+
+{/* Max Hotel Stars */}
+<div className="filter space-y-2">
+  <div className="flex items-center gap-2">
+    <img src={images.starIcon} alt="" className="w-5 h-5" />
+    <h4 className="text-sm font-medium text-gray-700">Max Hotel Stars</h4>
+  </div>
+  <select 
+    name="maxHotelStars"
+    value={formData.maxHotelStars}
+    onChange={handleInputChange}
+    className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
+  >
+    {[1, 2, 3, 4, 5].map(star => (
+      <option key={`max-${star}`} value={star}>
+        {star} {star === 1 ? 'Star' : 'Stars'}
+      </option>
+    ))}
+  </select>
+</div>
 
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
