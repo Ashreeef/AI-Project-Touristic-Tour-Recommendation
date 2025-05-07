@@ -365,7 +365,6 @@
         "city": "Constantine",
         "avg_review": 4.5
     },
-
     {
         "hotel": "Constantine Air-conditioned Parking near Parc Aquatiq",
         "price": 119000,
@@ -585,43 +584,43 @@
     {
         "hotel": "Tipaza ville",
         "price": 26275,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.0
     },
     {
         "hotel": "Hôtel Ben Aouda & Spa",
         "price": 121800,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.7
     },
     {
         "hotel": "Au bord de la mer",
         "price": 76636,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.0
     },
     {
         "hotel": "Studio peirechahin",
         "price": 23800,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.0
     },
     {
         "hotel": "Apart F3 in Tipaza, 10 mins from the beach",
         "price": 35819,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.0
     },
     {
         "hotel": "Eagle nest",
         "price": 35700,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.0
     },
     {
         "hotel": "Pieds dans l'eau",
         "price": 81218,
-        "city": "Tipasa",
+        "city": "Tipaza",
         "avg_review": 4.0
     },
     {
@@ -2555,5 +2554,1535 @@
         "price": 9900,
         "city": "Bouira",
         "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel Touat",
+        "price": 20000,
+        "city": "Adrar",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Mraguen Hotel",
+        "price": 8000,
+        "city": "Adrar",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hôtel Gourara",
+        "price": 10000,
+        "city": "Timimoun",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Takialt",
+        "price": 9500,
+        "city": "Adrar",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Mirador Palace",
+        "price": 12000,
+        "city": "Chlef",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel Castellum",
+        "price": 7000,
+        "city": "Chlef",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hôtel de La Vallée",
+        "price": 9000,
+        "city": "Chlef",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Ben Osman",
+        "price": 5500,
+        "city": "Tébessa",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hôtel Tarek",
+        "price": 5000,
+        "city": "Tébessa",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Les Pyramides",
+        "price": 4500,
+        "city": "Tébessa",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hôtel Belloua",
+        "price": 8500,
+        "city": "Tizi Ouzou",
+        "avg_review": 4.4
+    },
+    {
+        "hotel": "Hotel Nord-Est",
+        "price": 7000,
+        "city": "Tizi Ouzou",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hôtel Abzim",
+        "price": 6500,
+        "city": "Tizi Ouzou",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Ittourar Hotel",
+        "price": 6000,
+        "city": "Tizi Ouzou",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hôtel Le Relais Vert",
+        "price": 7500,
+        "city": "Tizi Ouzou",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hôtel Amraoua",
+        "price": 7000,
+        "city": "Tizi Ouzou",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hôtel Sindibad",
+        "price": 5000,
+        "city": "Oum El Bouaghi",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hôtel El Chourafaa",
+        "price": 4800,
+        "city": "Oum El Bouaghi",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hôtel Makomadess",
+        "price": 4500,
+        "city": "Oum El Bouaghi",
+        "avg_review": 3.3
+    },
+    {
+        "hotel": "Hôtel Madjid’s 1",
+        "price": 5500,
+        "city": "Oum El Bouaghi",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hôtel Madjid’s 2",
+        "price": 5000,
+        "city": "Oum El Bouaghi",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hôtel Sidi Brahim",
+        "price": 5200,
+        "city": "Ain El Beida",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Motel Salem Fateh et Frères",
+        "price": 4800,
+        "city": "Ain El Beida",
+        "avg_review": 3.3
+    },
+    {
+        "hotel": "Kasbah Tizimi",
+        "price": 12000,
+        "city": "Adrar",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Chez Le Pacha",
+        "price": 11000,
+        "city": "Adrar",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "La Perle du Draa",
+        "price": 11500,
+        "city": "Adrar",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Medina",
+        "price": 8000,
+        "city": "Chlef",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Amane",
+        "price": 8500,
+        "city": "Chlef",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Nour",
+        "price": 7500,
+        "city": "Chlef",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 7800,
+        "city": "Chlef",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Caracalla Hotel",
+        "price": 6000,
+        "city": "Tébessa",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel El Kahina",
+        "price": 5200,
+        "city": "Tébessa",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 4800,
+        "city": "Tébessa",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel El Bordj",
+        "price": 6000,
+        "city": "Biskra",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Les Zibans",
+        "price": 7000,
+        "city": "Biskra",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Vescera",
+        "price": 6500,
+        "city": "Biskra",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Oued",
+        "price": 6200,
+        "city": "Biskra",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Oasis",
+        "price": 6800,
+        "city": "Biskra",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Sahara",
+        "price": 7100,
+        "city": "Biskra",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel Palmier",
+        "price": 6300,
+        "city": "Biskra",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Aurès",
+        "price": 5500,
+        "city": "Khenchela",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 6000,
+        "city": "Khenchela",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 5800,
+        "city": "Khenchela",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 5700,
+        "city": "Khenchela",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Khroub",
+        "price": 5900,
+        "city": "Khenchela",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Kalaa",
+        "price": 5600,
+        "city": "Khenchela",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6100,
+        "city": "Khenchela",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Bayadh",
+        "price": 5000,
+        "city": "El Bayadh",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Sahara",
+        "price": 5200,
+        "city": "El Bayadh",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Oasis",
+        "price": 5100,
+        "city": "El Bayadh",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 5400,
+        "city": "El Bayadh",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 5500,
+        "city": "El Bayadh",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 5600,
+        "city": "El Bayadh",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Bouira",
+        "price": 5800,
+        "city": "Bouira",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Khroub",
+        "price": 5900,
+        "city": "Bouira",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 6100,
+        "city": "Bouira",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 6200,
+        "city": "Bouira",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 6300,
+        "city": "Bouira",
+        "avg_review": 4.4
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6400,
+        "city": "Bouira",
+        "avg_review": 4.5
+    },
+    {
+        "hotel": "Hotel El Amane",
+        "price": 6000,
+        "city": "Aïn Defla",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 6500,
+        "city": "Aïn Defla",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 7000,
+        "city": "Aïn Defla",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6200,
+        "city": "Aïn Defla",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 6800,
+        "city": "Aïn Defla",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 7100,
+        "city": "Aïn Defla",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 6300,
+        "city": "Aïn Defla",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Bahia",
+        "price": 7500,
+        "city": "Aïn Témouchent",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 7000,
+        "city": "Aïn Témouchent",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 7200,
+        "city": "Aïn Témouchent",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 6800,
+        "city": "Aïn Témouchent",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 7300,
+        "city": "Aïn Témouchent",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 6900,
+        "city": "Aïn Témouchent",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 7100,
+        "city": "Aïn Témouchent",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Khaouni",
+        "price": 6500,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 6200,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6400,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 6000,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 6600,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 6100,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 6300,
+        "city": "Bordj Bou Arréridj",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 7000,
+        "city": "Boumerdès",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 7200,
+        "city": "Boumerdès",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 6800,
+        "city": "Boumerdès",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 7300,
+        "city": "Boumerdès",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 6900,
+        "city": "Boumerdès",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 7100,
+        "city": "Boumerdès",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Bahia",
+        "price": 7500,
+        "city": "Boumerdès",
+        "avg_review": 4.4
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 6000,
+        "city": "Djelfa",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6200,
+        "city": "Djelfa",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 5800,
+        "city": "Djelfa",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 6300,
+        "city": "Djelfa",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 5900,
+        "city": "Djelfa",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 6100,
+        "city": "Djelfa",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Bahia",
+        "price": 6500,
+        "city": "Djelfa",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Royal Tulip Skikda",
+        "price": 10800,
+        "city": "Skikda",
+        "avg_review": 5.4
+    },
+    {
+        "hotel": "Résidence Plage Oued Tanger",
+        "price": 9500,
+        "city": "Skikda",
+        "avg_review": 6.8
+    },
+    {
+        "hotel": "Golden GbS",
+        "price": 9000,
+        "city": "Skikda",
+        "avg_review": 7.0
+    },
+    {
+        "hotel": "Rusica Park",
+        "price": 8500,
+        "city": "Skikda",
+        "avg_review": 6.8
+    },
+    {
+        "hotel": "Hôtel Le Paquebot",
+        "price": 8000,
+        "city": "Skikda",
+        "avg_review": 7.2
+    },
+    {
+        "hotel": "Hôtel Mon Royaume",
+        "price": 7500,
+        "city": "Skikda",
+        "avg_review": 7.4
+    },
+    {
+        "hotel": "Hotel Boulefkhad",
+        "price": 7000,
+        "city": "Skikda",
+        "avg_review": 7.5
+    },
+    {
+        "hotel": "Lynatel Palace",
+        "price": 12000,
+        "city": "Ouargla",
+        "avg_review": 4.5
+    },
+    {
+        "hotel": "HOTEL AIFA",
+        "price": 11000,
+        "city": "Ouargla",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Anis Residence",
+        "price": 10000,
+        "city": "Ouargla",
+        "avg_review": 4.4
+    },
+    {
+        "hotel": "Euro Japan Residence",
+        "price": 9500,
+        "city": "Ouargla",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Sahara Ouargla",
+        "price": 9000,
+        "city": "Ouargla",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 8500,
+        "city": "Ouargla",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 8000,
+        "city": "Ouargla",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Kalaa",
+        "price": 7000,
+        "city": "M'Sila",
+        "avg_review": 2.8
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 6500,
+        "city": "M'Sila",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6000,
+        "city": "M'Sila",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 5500,
+        "city": "M'Sila",
+        "avg_review": 3.3
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 5000,
+        "city": "M'Sila",
+        "avg_review": 3.2
+    },
+    {
+        "hotel": "Hotel El Mouggar",
+        "price": 4500,
+        "city": "M'Sila",
+        "avg_review": 3.1
+    },
+    {
+        "hotel": "Hotel El Manar",
+        "price": 4000,
+        "city": "M'Sila",
+        "avg_review": 3.0
+    },
+    {
+        "hotel": "Hotel In Salah",
+        "price": 8000,
+        "city": "In Salah",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Oasis",
+        "price": 7500,
+        "city": "In Salah",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Sahara",
+        "price": 7000,
+        "city": "In Salah",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Waha",
+        "price": 6500,
+        "city": "In Salah",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6000,
+        "city": "In Salah",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Tassili",
+        "price": 5500,
+        "city": "In Salah",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 5000,
+        "city": "In Salah",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel El Ghoula",
+        "price": 6500,
+        "city": "Laghouat",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Résidence Tizghen",
+        "price": 5500,
+        "city": "Laghouat",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Djebel Amour",
+        "price": 6000,
+        "city": "Laghouat",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Oasis Laghouat",
+        "price": 7000,
+        "city": "Laghouat",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Baraka",
+        "price": 5800,
+        "city": "Laghouat",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Les Zibans",
+        "price": 6200,
+        "city": "Laghouat",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Sahara Club",
+        "price": 7500,
+        "city": "Laghouat",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Saoura",
+        "price": 7000,
+        "city": "Béchar",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Kenadsa",
+        "price": 6000,
+        "city": "Béchar",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Grand Erg",
+        "price": 7200,
+        "city": "Béchar",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Oasis Rouge",
+        "price": 6500,
+        "city": "Béchar",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Mordjane",
+        "price": 6800,
+        "city": "Béchar",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Tindouf Road",
+        "price": 5500,
+        "city": "Béchar",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel Béchar Plaza",
+        "price": 8000,
+        "city": "Béchar",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Chréa",
+        "price": 8000,
+        "city": "Blida",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Kef",
+        "price": 7500,
+        "city": "Blida",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Mitidja",
+        "price": 8500,
+        "city": "Blida",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Les Oranges",
+        "price": 7800,
+        "city": "Blida",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Annasser",
+        "price": 7000,
+        "city": "Blida",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Atlas",
+        "price": 7200,
+        "city": "Blida",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Blida Plaza",
+        "price": 9000,
+        "city": "Blida",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel Tahat",
+        "price": 9000,
+        "city": "Tamanrasset",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Assekrem",
+        "price": 8500,
+        "city": "Tamanrasset",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Hoggar",
+        "price": 9500,
+        "city": "Tamanrasset",
+        "avg_review": 4.3
+    },
+    {
+        "hotel": "Hotel Tamanrasset Inn",
+        "price": 8000,
+        "city": "Tamanrasset",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Désert Rose",
+        "price": 8800,
+        "city": "Tamanrasset",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Tin Hinan",
+        "price": 9200,
+        "city": "Tamanrasset",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Sahara Lodge",
+        "price": 8700,
+        "city": "Tamanrasset",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Tagdempt",
+        "price": 6000,
+        "city": "Tiaret",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Wahat",
+        "price": 5500,
+        "city": "Tiaret",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Tiaret Plaza",
+        "price": 7000,
+        "city": "Tiaret",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Les Oliviers",
+        "price": 6500,
+        "city": "Tiaret",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Djebel",
+        "price": 6200,
+        "city": "Tiaret",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Numidia Tiaret",
+        "price": 6800,
+        "city": "Tiaret",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Zianides",
+        "price": 7200,
+        "city": "Tiaret",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Youdi",
+        "price": 5000,
+        "city": "Saïda",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel Djebel Ouarkziz",
+        "price": 4500,
+        "city": "Saïda",
+        "avg_review": 3.2
+    },
+    {
+        "hotel": "Hotel Saïda Center",
+        "price": 5500,
+        "city": "Saïda",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Les Pins",
+        "price": 6000,
+        "city": "Saïda",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Mountazah",
+        "price": 5200,
+        "city": "Saïda",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Hammam Rabbi",
+        "price": 5800,
+        "city": "Saïda",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Saïda Plaza",
+        "price": 6500,
+        "city": "Saïda",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Mekerra",
+        "price": 5800,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Sidi Brahim",
+        "price": 5200,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Bel Abbès Inn",
+        "price": 6000,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel El Qods",
+        "price": 5500,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Les Glycines",
+        "price": 6200,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Medina",
+        "price": 6500,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Ziri Ibn Atiya",
+        "price": 7000,
+        "city": "Sidi Bel Abbès",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Hammam Debagh",
+        "price": 6200,
+        "city": "Guelma",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Numidie",
+        "price": 5700,
+        "city": "Guelma",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Guelma Plaza",
+        "price": 6800,
+        "city": "Guelma",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Hachimia",
+        "price": 6000,
+        "city": "Guelma",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Les Thermes",
+        "price": 6500,
+        "city": "Guelma",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Calama",
+        "price": 7000,
+        "city": "Guelma",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Djenina",
+        "price": 5500,
+        "city": "Guelma",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Rym",
+        "price": 7500,
+        "city": "Mostaganem",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Les Sablettes",
+        "price": 7000,
+        "city": "Mostaganem",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Mostaganem Beach",
+        "price": 8000,
+        "city": "Mostaganem",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel El Marsa",
+        "price": 7200,
+        "city": "Mostaganem",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Sidi Lakhdar",
+        "price": 6800,
+        "city": "Mostaganem",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Oued El Kheir",
+        "price": 6500,
+        "city": "Mostaganem",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Mazagran",
+        "price": 7800,
+        "city": "Mostaganem",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Emir Abdelkader",
+        "price": 6500,
+        "city": "Mascara",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Mokrani",
+        "price": 6000,
+        "city": "Mascara",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Mascara Plaza",
+        "price": 7000,
+        "city": "Mascara",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6800,
+        "city": "Mascara",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Les Oliviers",
+        "price": 6200,
+        "city": "Mascara",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Sidi Kada",
+        "price": 5800,
+        "city": "Mascara",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Ghriss",
+        "price": 7200,
+        "city": "Mascara",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Djanet",
+        "price": 9500,
+        "city": "Illizi",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Tassili N'Ajjer",
+        "price": 8500,
+        "city": "Illizi",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Illizi Safari",
+        "price": 9000,
+        "city": "Illizi",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Tadrart",
+        "price": 8800,
+        "city": "Illizi",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Oasis Illizi",
+        "price": 8200,
+        "city": "Illizi",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Erg Admer",
+        "price": 9200,
+        "city": "Illizi",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Tin Alkoum",
+        "price": 8700,
+        "city": "Illizi",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel La Cigale",
+        "price": 7200,
+        "city": "El Tarf",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Les Plages",
+        "price": 6800,
+        "city": "El Tarf",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Kala",
+        "price": 7500,
+        "city": "El Tarf",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Lac des Oiseaux",
+        "price": 7000,
+        "city": "El Tarf",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Cap Rosa",
+        "price": 7800,
+        "city": "El Tarf",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Les Palmiers",
+        "price": 6500,
+        "city": "El Tarf",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Tarf Plaza",
+        "price": 8000,
+        "city": "El Tarf",
+        "avg_review": 4.2
+    },
+    {
+        "hotel": "Hotel Oasis Rouge",
+        "price": 8000,
+        "city": "Tindouf",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Reggane",
+        "price": 7500,
+        "city": "Tindouf",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Tindouf Plaza",
+        "price": 8500,
+        "city": "Tindouf",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Hamada",
+        "price": 7800,
+        "city": "Tindouf",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Sahara Lodge",
+        "price": 8200,
+        "city": "Tindouf",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Bordj Badji Mokhtar",
+        "price": 7000,
+        "city": "Tindouf",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Les Dunes",
+        "price": 8800,
+        "city": "Tindouf",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Boucheligua",
+        "price": 5500,
+        "city": "Tissemsilt",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel El Medad",
+        "price": 5000,
+        "city": "Tissemsilt",
+        "avg_review": 3.3
+    },
+    {
+        "hotel": "Hotel Tissemsilt Inn",
+        "price": 6000,
+        "city": "Tissemsilt",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Les Cèdres",
+        "price": 5800,
+        "city": "Tissemsilt",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Theniet El Had",
+        "price": 5200,
+        "city": "Tissemsilt",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel Oued Hallail",
+        "price": 6200,
+        "city": "Tissemsilt",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Tissemsilt Plaza",
+        "price": 6500,
+        "city": "Tissemsilt",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Souf",
+        "price": 7000,
+        "city": "El Oued",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Les Dunes",
+        "price": 6500,
+        "city": "El Oued",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Oued Plaza",
+        "price": 7500,
+        "city": "El Oued",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Ghouta",
+        "price": 6800,
+        "city": "El Oued",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Oasis El Oued",
+        "price": 7200,
+        "city": "El Oued",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel El Nakhla",
+        "price": 6000,
+        "city": "El Oued",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Sahara Inn",
+        "price": 7800,
+        "city": "El Oued",
+        "avg_review": 4.1
+    },
+    {
+        "hotel": "Hotel Thagaste",
+        "price": 6000,
+        "city": "Souk Ahras",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Saint Augustin",
+        "price": 5800,
+        "city": "Souk Ahras",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Souk Ahras Plaza",
+        "price": 6500,
+        "city": "Souk Ahras",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Numidia",
+        "price": 6200,
+        "city": "Souk Ahras",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Tiffech",
+        "price": 5500,
+        "city": "Souk Ahras",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Les Oliviers",
+        "price": 6800,
+        "city": "Souk Ahras",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Khemissa",
+        "price": 7000,
+        "city": "Souk Ahras",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Zighoud Youcef",
+        "price": 6200,
+        "city": "Mila",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Ferdjioua",
+        "price": 5700,
+        "city": "Mila",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Mila Plaza",
+        "price": 6800,
+        "city": "Mila",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Grarem",
+        "price": 6000,
+        "city": "Mila",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Tassadane",
+        "price": 6500,
+        "city": "Mila",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel El Athmania",
+        "price": 5800,
+        "city": "Mila",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Sidi Merouane",
+        "price": 7000,
+        "city": "Mila",
+        "avg_review": 4.0
+    },
+    {
+        "hotel": "Hotel Aïn Sefra",
+        "price": 5500,
+        "city": "Naâma",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Djebel Mekter",
+        "price": 5000,
+        "city": "Naâma",
+        "avg_review": 3.4
+    },
+    {
+        "hotel": "Hotel Naâma Inn",
+        "price": 6000,
+        "city": "Naâma",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Les Dunes",
+        "price": 5800,
+        "city": "Naâma",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel El Mouilah",
+        "price": 5200,
+        "city": "Naâma",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Oasis Naâma",
+        "price": 6200,
+        "city": "Naâma",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Naâma Plaza",
+        "price": 6500,
+        "city": "Naâma",
+        "avg_review": 3.9
+    },
+    {
+        "hotel": "Hotel Mina",
+        "price": 5800,
+        "city": "Relizane",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Oued Rhiou",
+        "price": 5300,
+        "city": "Relizane",
+        "avg_review": 3.5
+    },
+    {
+        "hotel": "Hotel Relizane Plaza",
+        "price": 6500,
+        "city": "Relizane",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel El Amir",
+        "price": 6000,
+        "city": "Relizane",
+        "avg_review": 3.7
+    },
+    {
+        "hotel": "Hotel Les Oliviers",
+        "price": 6200,
+        "city": "Relizane",
+        "avg_review": 3.8
+    },
+    {
+        "hotel": "Hotel Sidi M'Hamed",
+        "price": 5500,
+        "city": "Relizane",
+        "avg_review": 3.6
+    },
+    {
+        "hotel": "Hotel Relizane Inn",
+        "price": 6800,
+        "city": "Relizane",
+        "avg_review": 3.9
     }
 ]
