@@ -23,7 +23,7 @@ import { motion } from 'framer-motion';
 import { Link } from "react-router-dom";
 const images = {
   logo: 'src/Imgs/Logo/LogoPNG.png',
-  algeria: 'src/Imgs/Logo/algeria.jpg',
+  algeria: 'src/Imgs/Logo/picc.png',
   locationIcon: 'src/Imgs/icons/location.png',
   activitiesIcon: 'src/Imgs/icons/activities.png',
   calendarIcon: 'src/Imgs/icons/calendar.png',
@@ -353,7 +353,7 @@ const Home = () => {
     <div className="font-sans overflow-x-hidden" style={{ fontFamily: 'Arial, sans-serif' }}>
       {/* Main Banner */}
       <main id="home" className="relative bg-cover bg-center bg-no-repeat rounded-b-[50px] min-h-[800px]" 
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1581790061118-2cd9a40164b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80')" }}>
+        style={{ backgroundImage: `url(${images.algeria})` }}>
         
         {/* Header */}
         <header className="w-[73%] mx-auto pt-4 mb-40 flex justify-between items-center reveal md:grid md:grid-cols-[1fr_2fr_1fr]">
@@ -405,7 +405,7 @@ const Home = () => {
             onClick={(e) => !isFormValid() && e.preventDefault()}
             className={`inline-flex justify-between items-center gap-4 py-4 px-6 rounded-xl text-lg ${
               isFormValid() 
-                ? 'bg-[#7b61ff] hover:opacity-90' 
+                ? 'bg-[#eb6b3f] hover:opacity-90' 
                 : 'bg-gray-400 cursor-not-allowed'
             }`}
           >
@@ -859,101 +859,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Travel Tips and Advice */}
-      <section id="tours" className="py-2 bg-white">
-        <div className="container max-w-6xl mx-auto">
-          <div className="flex justify-between items-center mb-4">
-            <motion.h2
-              className="leading-tight section-title text-2xl md:text-[32px] font-bold mt-24 md:mt-48 mb-16 reveal"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ margin: "-20% 0px -20% 0px" }}
-              variants={titleVariants}
-            >
-              Travel Tips and Advice
-            </motion.h2>
-            
-          </div>
-          
-          {/* Horizontal Scrolling Container */}
-          <div className="relative">
-            <div className="flex overflow-x-auto pb-2 -mx-4 px-4 scrollbar-hide">
-              <div className="flex space-x-8">
-                {[
-                  {
-                    img: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-                    title: "East Village Ice Cream Crawl",
-                    desc: "We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour.",
-                    date: "Today",
-                    author: "Avenger Initiative",
-                    comments: 2
-                  },
-                  {
-                    img: "https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-                    title: "Brooklyn Bridge Cinematic Photo Walk",
-                    desc: "This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge.",
-                    date: "Today",
-                    author: "Ager Pagla",
-                    comments: 12
-                  },
-                  {
-                    img: "https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-                    title: "Brooklyn Bridge Cinematic Photo Walk",
-                    desc: "This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge.",
-                    date: "Today",
-                    author: "Ager Pagla",
-                    comments: 12
-                  },
-                ].map((tour, index) => (
-                  <motion.div 
-                    key={index}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-20% 0px -20% 0px" }}
-                    variants={cardVariants}
-                    custom={index}
-                    className="flex-shrink-0 w-[300px] md:w-[350px] bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
-                  >
-                    <div className="relative h-48 md:h-56">
-                      <img 
-                        src={tour.img} 
-                        alt={tour.title}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-                    </div>
-                    
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-3 text-gray-900">{tour.title}</h3>
-                      <p className="text-gray-600 mb-4 leading-relaxed line-clamp-2">
-                        {tour.desc}
-                      </p>
-                      
-                      <div className="flex items-center justify-between text-sm text-gray-500 border-t pt-4">
-                        <div className="flex items-center space-x-4">
-                          <span className="flex items-center">
-                            <Calendar size={16} className="mr-1" />
-                            {tour.date}
-                          </span>
-                          <span className="flex items-center">
-                            <img src={images.userIcon} alt="Author" className="w-4 h-4 mr-1" />
-                            {tour.author}
-                          </span>
-                        </div>
-                        <span className="flex items-center">
-                          <img src={images.messageIcon} alt="Comments" className="w-4 h-4 mr-1" />
-                          {tour.comments} comments
-                        </span>
-                      </div>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/* Activities with Hover Effects */}
 <section id="activities" className=' mx-4'>
   <div className="container max-w-[1378px] mx-auto">
