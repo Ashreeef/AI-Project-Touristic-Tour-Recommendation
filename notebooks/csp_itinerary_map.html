@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5b7916a5defc1c030fff103b02e90e8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d5b7916a5defc1c030fff103b02e90e8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d5b7916a5defc1c030fff103b02e90e8 = L.map(
+                "map_d5b7916a5defc1c030fff103b02e90e8",
+                {
+                    center: [36.7525, 3.04197],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00aaf2da5bc33ab8680997f4fffeaa88 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_00aaf2da5bc33ab8680997f4fffeaa88.addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            var marker_cluster_b64f5049a578b78584be8c056a93b5f4 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_86ae73ef12b141614acabdf6f4e205a0 = L.marker(
+                [36.7345, 3.0915],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_f4213db627b3e37d75551f216efbfc6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36f1040529faa497ecf6bd01c51171ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be86e6cf4a86687bf4d0353355f3a8a0 = $(`<div id="html_be86e6cf4a86687bf4d0353355f3a8a0" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Villa Boulkine<br><b>Category:</b> Historical<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_36f1040529faa497ecf6bd01c51171ec.setContent(html_be86e6cf4a86687bf4d0353355f3a8a0);
+            
+        
+
+        marker_86ae73ef12b141614acabdf6f4e205a0.bindPopup(popup_36f1040529faa497ecf6bd01c51171ec)
+        ;
+
+        
+    
+    
+            marker_86ae73ef12b141614acabdf6f4e205a0.bindTooltip(
+                `<div>
+                     Day 1: Villa Boulkine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86ae73ef12b141614acabdf6f4e205a0.setIcon(icon_f4213db627b3e37d75551f216efbfc6d);
+            
+    
+            var marker_c90d997acf8b5b475a60b6aaaa457838 = L.marker(
+                [36.748, 3.076],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_2805490e8349fecff33fc300cb2ea800 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60e47787b4ceb7271c3d6e6de91b82b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80c3821cd52083f4688259ac554d0e25 = $(`<div id="html_80c3821cd52083f4688259ac554d0e25" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Musée des Beaux-Arts d'Alger<br><b>Category:</b> Museum<br><b>Cost:</b> 200 DZD</div>`)[0];
+                popup_60e47787b4ceb7271c3d6e6de91b82b5.setContent(html_80c3821cd52083f4688259ac554d0e25);
+            
+        
+
+        marker_c90d997acf8b5b475a60b6aaaa457838.bindPopup(popup_60e47787b4ceb7271c3d6e6de91b82b5)
+        ;
+
+        
+    
+    
+            marker_c90d997acf8b5b475a60b6aaaa457838.bindTooltip(
+                `<div>
+                     Day 1: Musée des Beaux-Arts d'Alger
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c90d997acf8b5b475a60b6aaaa457838.setIcon(icon_2805490e8349fecff33fc300cb2ea800);
+            
+    
+            var marker_f5f450325765f939f319019a3503d20e = L.marker(
+                [36.74504, 3.0733],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_58034ee7f0ccb4d62227e04a2b1d96ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aed32ea8c330adda9b9f55ac200c8548 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cbefeca51db8dfd5c7f51f2b445b5fe = $(`<div id="html_5cbefeca51db8dfd5c7f51f2b445b5fe" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Villa Abd-el-Tif<br><b>Category:</b> Museum<br><b>Cost:</b> 150 DZD</div>`)[0];
+                popup_aed32ea8c330adda9b9f55ac200c8548.setContent(html_5cbefeca51db8dfd5c7f51f2b445b5fe);
+            
+        
+
+        marker_f5f450325765f939f319019a3503d20e.bindPopup(popup_aed32ea8c330adda9b9f55ac200c8548)
+        ;
+
+        
+    
+    
+            marker_f5f450325765f939f319019a3503d20e.bindTooltip(
+                `<div>
+                     Day 1: Villa Abd-el-Tif
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5f450325765f939f319019a3503d20e.setIcon(icon_58034ee7f0ccb4d62227e04a2b1d96ec);
+            
+    
+            var marker_00a81b1c82f81e4952efe02516c38283 = L.marker(
+                [36.76139, 3.04611],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_4490378d8742259aff4b9030aa972b1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_541c66d3f2c176788142379330e44dbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9861c6b029539dc62ba0447cdb560c24 = $(`<div id="html_9861c6b029539dc62ba0447cdb560c24" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> National Museum of Antiquities of Algiers<br><b>Category:</b> Museum<br><b>Cost:</b> 200 DZD</div>`)[0];
+                popup_541c66d3f2c176788142379330e44dbd.setContent(html_9861c6b029539dc62ba0447cdb560c24);
+            
+        
+
+        marker_00a81b1c82f81e4952efe02516c38283.bindPopup(popup_541c66d3f2c176788142379330e44dbd)
+        ;
+
+        
+    
+    
+            marker_00a81b1c82f81e4952efe02516c38283.bindTooltip(
+                `<div>
+                     Day 1: National Museum of Antiquities of Algiers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_00a81b1c82f81e4952efe02516c38283.setIcon(icon_4490378d8742259aff4b9030aa972b1c);
+            
+    
+            var marker_169ed447cd3b8842078d26d0b559484d = L.marker(
+                [36.74305, 2.9724],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_cb3a6b9b55c10ebf79990d3c81069636 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_506bdcba6295fdca072b4047fc48cb14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c285f7a85b31e17ee5f659f85bed14d6 = $(`<div id="html_c285f7a85b31e17ee5f659f85bed14d6" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Dounia Parc<br><b>Category:</b> Nature<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_506bdcba6295fdca072b4047fc48cb14.setContent(html_c285f7a85b31e17ee5f659f85bed14d6);
+            
+        
+
+        marker_169ed447cd3b8842078d26d0b559484d.bindPopup(popup_506bdcba6295fdca072b4047fc48cb14)
+        ;
+
+        
+    
+    
+            marker_169ed447cd3b8842078d26d0b559484d.bindTooltip(
+                `<div>
+                     Day 1: Dounia Parc
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_169ed447cd3b8842078d26d0b559484d.setIcon(icon_cb3a6b9b55c10ebf79990d3c81069636);
+            
+    
+            var marker_535bfd2999aaf247ee48452cccf3b740 = L.marker(
+                [36.764, 3.0577],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_9b751b0fd7d844927869a98c0f3b8724 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f629bdb5c140e3acb4d423041f1e572 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4727f7b3143d9fe554edf25c7493040a = $(`<div id="html_4727f7b3143d9fe554edf25c7493040a" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Bardo Museum<br><b>Category:</b> Museum<br><b>Cost:</b> 300 DZD</div>`)[0];
+                popup_6f629bdb5c140e3acb4d423041f1e572.setContent(html_4727f7b3143d9fe554edf25c7493040a);
+            
+        
+
+        marker_535bfd2999aaf247ee48452cccf3b740.bindPopup(popup_6f629bdb5c140e3acb4d423041f1e572)
+        ;
+
+        
+    
+    
+            marker_535bfd2999aaf247ee48452cccf3b740.bindTooltip(
+                `<div>
+                     Day 1: Bardo Museum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_535bfd2999aaf247ee48452cccf3b740.setIcon(icon_9b751b0fd7d844927869a98c0f3b8724);
+            
+    
+            var marker_fdaa9e1f348ed8b3beb12be9d39e9574 = L.marker(
+                [36.7742, 3.0703],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_7a8be94523800c486de66078640c3726 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7f5d093bc0d4f30e90be8ed21296820 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f698e4725f7225509bd1adffd5f66a2a = $(`<div id="html_f698e4725f7225509bd1adffd5f66a2a" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Martyrs' Memorial (Maqam Echahid)<br><b>Category:</b> Historical<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_c7f5d093bc0d4f30e90be8ed21296820.setContent(html_f698e4725f7225509bd1adffd5f66a2a);
+            
+        
+
+        marker_fdaa9e1f348ed8b3beb12be9d39e9574.bindPopup(popup_c7f5d093bc0d4f30e90be8ed21296820)
+        ;
+
+        
+    
+    
+            marker_fdaa9e1f348ed8b3beb12be9d39e9574.bindTooltip(
+                `<div>
+                     Day 1: Martyrs' Memorial (Maqam Echahid)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fdaa9e1f348ed8b3beb12be9d39e9574.setIcon(icon_7a8be94523800c486de66078640c3726);
+            
+    
+            var marker_a3fdd4d559138e4af752599d03137cb8 = L.marker(
+                [36.7848, 3.06],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_b2e3d6395481769ace909d24e177036f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f112b34ecb6a258bed17ab9464cdfee9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c89745d197d76e0df6dc5333853a317b = $(`<div id="html_c89745d197d76e0df6dc5333853a317b" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Casbah of Algiers<br><b>Category:</b> Historical<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_f112b34ecb6a258bed17ab9464cdfee9.setContent(html_c89745d197d76e0df6dc5333853a317b);
+            
+        
+
+        marker_a3fdd4d559138e4af752599d03137cb8.bindPopup(popup_f112b34ecb6a258bed17ab9464cdfee9)
+        ;
+
+        
+    
+    
+            marker_a3fdd4d559138e4af752599d03137cb8.bindTooltip(
+                `<div>
+                     Day 1: Casbah of Algiers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a3fdd4d559138e4af752599d03137cb8.setIcon(icon_b2e3d6395481769ace909d24e177036f);
+            
+    
+            var marker_058812be2247b8d8ad0c82085f2afa25 = L.marker(
+                [36.476018, 2.839571],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_3739bda3a0353ee98070417632f9b9b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c8ab3d253421cf49d6976b9ea844cfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f878864666cfcbb46909f63186f4ee7f = $(`<div id="html_f878864666cfcbb46909f63186f4ee7f" style="width: 100.0%; height: 100.0%;"><b>Day 2:</b> Jewish Cemetery of Blida<br><b>Category:</b> Historical<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_6c8ab3d253421cf49d6976b9ea844cfa.setContent(html_f878864666cfcbb46909f63186f4ee7f);
+            
+        
+
+        marker_058812be2247b8d8ad0c82085f2afa25.bindPopup(popup_6c8ab3d253421cf49d6976b9ea844cfa)
+        ;
+
+        
+    
+    
+            marker_058812be2247b8d8ad0c82085f2afa25.bindTooltip(
+                `<div>
+                     Day 2: Jewish Cemetery of Blida
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_058812be2247b8d8ad0c82085f2afa25.setIcon(icon_3739bda3a0353ee98070417632f9b9b5);
+            
+    
+            var marker_62c541af43a7c32a0c1db048e75bcea3 = L.marker(
+                [36.4282, 2.8339],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_c602a42bf78e72c28a7ec8c496901ee2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63a39a14baff189f3affdaa5895cfc90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6d70c6fb9c7e7a1fb19d223942c9e44 = $(`<div id="html_c6d70c6fb9c7e7a1fb19d223942c9e44" style="width: 100.0%; height: 100.0%;"><b>Day 2:</b> Hammam Melouane<br><b>Category:</b> Nature<br><b>Cost:</b> 2500 DZD</div>`)[0];
+                popup_63a39a14baff189f3affdaa5895cfc90.setContent(html_c6d70c6fb9c7e7a1fb19d223942c9e44);
+            
+        
+
+        marker_62c541af43a7c32a0c1db048e75bcea3.bindPopup(popup_63a39a14baff189f3affdaa5895cfc90)
+        ;
+
+        
+    
+    
+            marker_62c541af43a7c32a0c1db048e75bcea3.bindTooltip(
+                `<div>
+                     Day 2: Hammam Melouane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_62c541af43a7c32a0c1db048e75bcea3.setIcon(icon_c602a42bf78e72c28a7ec8c496901ee2);
+            
+    
+            var marker_8cd0abcca852916ef3976c8f49b3bc46 = L.marker(
+                [36.428455, 2.879427],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_a801ac8680ff029ef2820bcc933b3452 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aafbdc852d44cdfc55c33eb594674171 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9409f70c34f8543e3a275e7a65fc783 = $(`<div id="html_b9409f70c34f8543e3a275e7a65fc783" style="width: 100.0%; height: 100.0%;"><b>Day 2:</b> Chréa Mountains<br><b>Category:</b> Nature<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_aafbdc852d44cdfc55c33eb594674171.setContent(html_b9409f70c34f8543e3a275e7a65fc783);
+            
+        
+
+        marker_8cd0abcca852916ef3976c8f49b3bc46.bindPopup(popup_aafbdc852d44cdfc55c33eb594674171)
+        ;
+
+        
+    
+    
+            marker_8cd0abcca852916ef3976c8f49b3bc46.bindTooltip(
+                `<div>
+                     Day 2: Chréa Mountains
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cd0abcca852916ef3976c8f49b3bc46.setIcon(icon_a801ac8680ff029ef2820bcc933b3452);
+            
+    
+            var marker_ee041ce2dac15008036661e1e2d5e9d4 = L.marker(
+                [36.3493, 2.8018],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_2c185ed4cffdc0e0d1770e874ff9ae7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65cf6d29536e9af71980dc9ce4f3ffdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb79e6870ea4d2470e9e020560ddbccf = $(`<div id="html_eb79e6870ea4d2470e9e020560ddbccf" style="width: 100.0%; height: 100.0%;"><b>Day 3:</b> Cascade Zonday (Zonday Waterfalls)<br><b>Category:</b> Nature<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_65cf6d29536e9af71980dc9ce4f3ffdd.setContent(html_eb79e6870ea4d2470e9e020560ddbccf);
+            
+        
+
+        marker_ee041ce2dac15008036661e1e2d5e9d4.bindPopup(popup_65cf6d29536e9af71980dc9ce4f3ffdd)
+        ;
+
+        
+    
+    
+            marker_ee041ce2dac15008036661e1e2d5e9d4.bindTooltip(
+                `<div>
+                     Day 3: Cascade Zonday (Zonday Waterfalls)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee041ce2dac15008036661e1e2d5e9d4.setIcon(icon_2c185ed4cffdc0e0d1770e874ff9ae7c);
+            
+    
+            var marker_049e09c10f9080b2ff12d961f51a6eab = L.marker(
+                [36.5894, 2.55],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_6a37cb0992da5a3b50c42bcfbcb688a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00d4dfe8af55c720e941f0c9237fcfe5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d3bc46406bb06dd26abe3dee1e5a763 = $(`<div id="html_0d3bc46406bb06dd26abe3dee1e5a763" style="width: 100.0%; height: 100.0%;"><b>Day 4:</b> Tipaza Roman Ruins<br><b>Category:</b> Historical<br><b>Cost:</b> 400 DZD</div>`)[0];
+                popup_00d4dfe8af55c720e941f0c9237fcfe5.setContent(html_0d3bc46406bb06dd26abe3dee1e5a763);
+            
+        
+
+        marker_049e09c10f9080b2ff12d961f51a6eab.bindPopup(popup_00d4dfe8af55c720e941f0c9237fcfe5)
+        ;
+
+        
+    
+    
+            marker_049e09c10f9080b2ff12d961f51a6eab.bindTooltip(
+                `<div>
+                     Day 4: Tipaza Roman Ruins
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_049e09c10f9080b2ff12d961f51a6eab.setIcon(icon_6a37cb0992da5a3b50c42bcfbcb688a6);
+            
+    
+            var marker_43a055c8a21189b43af71f94c9a7f104 = L.marker(
+                [36.6, 2.45],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_d9f01d2e24840485c87d502728165db0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e04045f4493697df9673e633e5f8d1e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a54740cb0dda3c79102db3fee677e0fe = $(`<div id="html_a54740cb0dda3c79102db3fee677e0fe" style="width: 100.0%; height: 100.0%;"><b>Day 4:</b> Royal Mausoleum of Mauretania (Kbour-er-Roumia)<br><b>Category:</b> Historical<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_e04045f4493697df9673e633e5f8d1e8.setContent(html_a54740cb0dda3c79102db3fee677e0fe);
+            
+        
+
+        marker_43a055c8a21189b43af71f94c9a7f104.bindPopup(popup_e04045f4493697df9673e633e5f8d1e8)
+        ;
+
+        
+    
+    
+            marker_43a055c8a21189b43af71f94c9a7f104.bindTooltip(
+                `<div>
+                     Day 4: Royal Mausoleum of Mauretania (Kbour-er-Roumia)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_43a055c8a21189b43af71f94c9a7f104.setIcon(icon_d9f01d2e24840485c87d502728165db0);
+            
+    
+            var marker_4bc99eb2afdbff4652a8fe1c863e99c5 = L.marker(
+                [36.60260469072381, 2.4128991659261496],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_4651c0af5c4e365d24fed7ca69d96354 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36a027e97c1f27394f3abc8ee07e154e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0424b82852b92cc89791defa12c01632 = $(`<div id="html_0424b82852b92cc89791defa12c01632" style="width: 100.0%; height: 100.0%;"><b>Day 4:</b> Chenoua Beach (Plage de Chenoua)<br><b>Category:</b> Nature<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_36a027e97c1f27394f3abc8ee07e154e.setContent(html_0424b82852b92cc89791defa12c01632);
+            
+        
+
+        marker_4bc99eb2afdbff4652a8fe1c863e99c5.bindPopup(popup_36a027e97c1f27394f3abc8ee07e154e)
+        ;
+
+        
+    
+    
+            marker_4bc99eb2afdbff4652a8fe1c863e99c5.bindTooltip(
+                `<div>
+                     Day 4: Chenoua Beach (Plage de Chenoua)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4bc99eb2afdbff4652a8fe1c863e99c5.setIcon(icon_4651c0af5c4e365d24fed7ca69d96354);
+            
+    
+            var marker_266808e85c440d4237c7ef088d96bfbc = L.marker(
+                [36.25, 1.95],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_a5a50e8e106b596c899b9c7f86b3aeb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1e907f7b1fe9f3344820e4912dfe844 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95bf7ecc819aaf88b8d9bb7a0e9d1802 = $(`<div id="html_95bf7ecc819aaf88b8d9bb7a0e9d1802" style="width: 100.0%; height: 100.0%;"><b>Day 5:</b> Ottoman Fort of Aïn Defla<br><b>Category:</b> Historical<br><b>Cost:</b> Free</div>`)[0];
+                popup_b1e907f7b1fe9f3344820e4912dfe844.setContent(html_95bf7ecc819aaf88b8d9bb7a0e9d1802);
+            
+        
+
+        marker_266808e85c440d4237c7ef088d96bfbc.bindPopup(popup_b1e907f7b1fe9f3344820e4912dfe844)
+        ;
+
+        
+    
+    
+            marker_266808e85c440d4237c7ef088d96bfbc.bindTooltip(
+                `<div>
+                     Day 5: Ottoman Fort of Aïn Defla
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_266808e85c440d4237c7ef088d96bfbc.setIcon(icon_a5a50e8e106b596c899b9c7f86b3aeb3);
+            
+    
+            var marker_d352daffe5b21d48337d846863a10302 = L.marker(
+                [36.2, 1.92],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_6e38f574e6b91bd278d12312e2d00921 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19c1fcf94a1b50c8e14dda6038f7ea02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_271353003afba1b867780b93dee15ed0 = $(`<div id="html_271353003afba1b867780b93dee15ed0" style="width: 100.0%; height: 100.0%;"><b>Day 5:</b> El Amra Dam<br><b>Category:</b> Historical<br><b>Cost:</b> Free</div>`)[0];
+                popup_19c1fcf94a1b50c8e14dda6038f7ea02.setContent(html_271353003afba1b867780b93dee15ed0);
+            
+        
+
+        marker_d352daffe5b21d48337d846863a10302.bindPopup(popup_19c1fcf94a1b50c8e14dda6038f7ea02)
+        ;
+
+        
+    
+    
+            marker_d352daffe5b21d48337d846863a10302.bindTooltip(
+                `<div>
+                     Day 5: El Amra Dam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d352daffe5b21d48337d846863a10302.setIcon(icon_6e38f574e6b91bd278d12312e2d00921);
+            
+    
+            var marker_15c19fab4a0f42914840604b112aef78 = L.marker(
+                [35.62, 1.82],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_b58a34163280e2e065aad423bffc6854 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f134908f0d93e14ffae6decaf16c7f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_689dcf00d8ffc3f069e6418b8ae47268 = $(`<div id="html_689dcf00d8ffc3f069e6418b8ae47268" style="width: 100.0%; height: 100.0%;"><b>Day 6:</b> Tissemsilt Dam<br><b>Category:</b> Nature<br><b>Cost:</b> Free</div>`)[0];
+                popup_6f134908f0d93e14ffae6decaf16c7f5.setContent(html_689dcf00d8ffc3f069e6418b8ae47268);
+            
+        
+
+        marker_15c19fab4a0f42914840604b112aef78.bindPopup(popup_6f134908f0d93e14ffae6decaf16c7f5)
+        ;
+
+        
+    
+    
+            marker_15c19fab4a0f42914840604b112aef78.bindTooltip(
+                `<div>
+                     Day 6: Tissemsilt Dam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_15c19fab4a0f42914840604b112aef78.setIcon(icon_b58a34163280e2e065aad423bffc6854);
+            
+    
+            var marker_cc3f63898660b8eae1ff636a0aaf90f9 = L.marker(
+                [35.61, 1.81],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_271d3919c6fb753a8ce2bea837a4d00d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61770f9977a7baa6d5658caaa5ea5ed6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d14a90f47929ea1f545bce0fee1f9415 = $(`<div id="html_d14a90f47929ea1f545bce0fee1f9415" style="width: 100.0%; height: 100.0%;"><b>Day 6:</b> Old Town Quarter<br><b>Category:</b> Historical<br><b>Cost:</b> Free</div>`)[0];
+                popup_61770f9977a7baa6d5658caaa5ea5ed6.setContent(html_d14a90f47929ea1f545bce0fee1f9415);
+            
+        
+
+        marker_cc3f63898660b8eae1ff636a0aaf90f9.bindPopup(popup_61770f9977a7baa6d5658caaa5ea5ed6)
+        ;
+
+        
+    
+    
+            marker_cc3f63898660b8eae1ff636a0aaf90f9.bindTooltip(
+                `<div>
+                     Day 6: Old Town Quarter
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cc3f63898660b8eae1ff636a0aaf90f9.setIcon(icon_271d3919c6fb753a8ce2bea837a4d00d);
+            
+    
+            var marker_921d9ce0bb4722819aeee3a412f086ba = L.marker(
+                [35.6, 1.8],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_db4a04c63fb57952d2649b242233ffd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_009217f21f0a29002e4b17ebc0b7e610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c25911b8207dcde75f8d6203bd51ab3 = $(`<div id="html_6c25911b8207dcde75f8d6203bd51ab3" style="width: 100.0%; height: 100.0%;"><b>Day 6:</b> Tissemsilt National Park<br><b>Category:</b> Nature<br><b>Cost:</b> Free</div>`)[0];
+                popup_009217f21f0a29002e4b17ebc0b7e610.setContent(html_6c25911b8207dcde75f8d6203bd51ab3);
+            
+        
+
+        marker_921d9ce0bb4722819aeee3a412f086ba.bindPopup(popup_009217f21f0a29002e4b17ebc0b7e610)
+        ;
+
+        
+    
+    
+            marker_921d9ce0bb4722819aeee3a412f086ba.bindTooltip(
+                `<div>
+                     Day 6: Tissemsilt National Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_921d9ce0bb4722819aeee3a412f086ba.setIcon(icon_db4a04c63fb57952d2649b242233ffd5);
+            
+    
+            var marker_c69026b4415839aaa02645a485b1677f = L.marker(
+                [35.4, 1.35],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_c6b5ab34df4ea2c0e6133e11648b79ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e461f85042a063fbf2292051c3d3317 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55de63009076d942c1345e96b450d271 = $(`<div id="html_55de63009076d942c1345e96b450d271" style="width: 100.0%; height: 100.0%;"><b>Day 7:</b> Djebel Nador<br><b>Category:</b> Nature<br><b>Cost:</b> Free</div>`)[0];
+                popup_5e461f85042a063fbf2292051c3d3317.setContent(html_55de63009076d942c1345e96b450d271);
+            
+        
+
+        marker_c69026b4415839aaa02645a485b1677f.bindPopup(popup_5e461f85042a063fbf2292051c3d3317)
+        ;
+
+        
+    
+    
+            marker_c69026b4415839aaa02645a485b1677f.bindTooltip(
+                `<div>
+                     Day 7: Djebel Nador
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c69026b4415839aaa02645a485b1677f.setIcon(icon_c6b5ab34df4ea2c0e6133e11648b79ec);
+            
+    
+            var marker_162a82e6e80047d436b81053fde58375 = L.marker(
+                [35.7096, -0.643],
+                {
+}
+            ).addTo(marker_cluster_b64f5049a578b78584be8c056a93b5f4);
+        
+    
+            var icon_e333386e2510ee6a9a93087db75042e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_084be82ec27655a4a312bb5ab13cde19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e5e44b7c660b49ae0acd773b2276b4e = $(`<div id="html_8e5e44b7c660b49ae0acd773b2276b4e" style="width: 100.0%; height: 100.0%;"><b>Day 7:</b> Oran Sea Front<br><b>Category:</b> Nature<br><b>Cost:</b> 0 DZD</div>`)[0];
+                popup_084be82ec27655a4a312bb5ab13cde19.setContent(html_8e5e44b7c660b49ae0acd773b2276b4e);
+            
+        
+
+        marker_162a82e6e80047d436b81053fde58375.bindPopup(popup_084be82ec27655a4a312bb5ab13cde19)
+        ;
+
+        
+    
+    
+            marker_162a82e6e80047d436b81053fde58375.bindTooltip(
+                `<div>
+                     Day 7: Oran Sea Front
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_162a82e6e80047d436b81053fde58375.setIcon(icon_e333386e2510ee6a9a93087db75042e8);
+            
+    
+            marker_cluster_b64f5049a578b78584be8c056a93b5f4.addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            var marker_cluster_67b39fac14f676d02af43413756f3ec1 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_8f7eacde864ec13dfbec01e37f5c2a94 = L.marker(
+                [36.7345, 3.0915],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_b46836fa031aa1d7d05b84677dec2268 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e0c6c5c85c65c12acb5950b9d980a7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56911e77d976f8e44b4d6b0dbbe6adee = $(`<div id="html_56911e77d976f8e44b4d6b0dbbe6adee" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Oasis Hotel<br><b>Rating:</b> 3.3★<br><b>Price:</b> 4185 DZD/night</div>`)[0];
+                popup_0e0c6c5c85c65c12acb5950b9d980a7f.setContent(html_56911e77d976f8e44b4d6b0dbbe6adee);
+            
+        
+
+        marker_8f7eacde864ec13dfbec01e37f5c2a94.bindPopup(popup_0e0c6c5c85c65c12acb5950b9d980a7f)
+        ;
+
+        
+    
+    
+            marker_8f7eacde864ec13dfbec01e37f5c2a94.bindTooltip(
+                `<div>
+                     Day 1 Hotel: Oasis Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8f7eacde864ec13dfbec01e37f5c2a94.setIcon(icon_b46836fa031aa1d7d05b84677dec2268);
+            
+    
+            var marker_5a8a49dfe7e5725c3a210d05db22cd2d = L.marker(
+                [36.7345, 3.0915],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_dbe5178eca34c508964264954596b848 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b090c0f1401b440151af4edc476c7d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a078990f78594900621c059a79ba295 = $(`<div id="html_4a078990f78594900621c059a79ba295" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> Grand Hôtel des étrangers<br><b>Rating:</b> 5.0★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_6b090c0f1401b440151af4edc476c7d5.setContent(html_4a078990f78594900621c059a79ba295);
+            
+        
+
+        marker_5a8a49dfe7e5725c3a210d05db22cd2d.bindPopup(popup_6b090c0f1401b440151af4edc476c7d5)
+        ;
+
+        
+    
+    
+            marker_5a8a49dfe7e5725c3a210d05db22cd2d.bindTooltip(
+                `<div>
+                     Day 1 Hotel: Grand Hôtel des étrangers
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a8a49dfe7e5725c3a210d05db22cd2d.setIcon(icon_dbe5178eca34c508964264954596b848);
+            
+    
+            var marker_41ede86d43d9999478396278475a7af4 = L.marker(
+                [36.7345, 3.0915],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_a562bde9edb3459f6148bbf44b15b10c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8287fa0696a4aa4ff97093b53183c2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96bbcf07ed7b45696ac63d9b8d4263dd = $(`<div id="html_96bbcf07ed7b45696ac63d9b8d4263dd" style="width: 100.0%; height: 100.0%;"><b>Day 1:</b> AD Hotel, Hydra<br><b>Rating:</b> 4.5★<br><b>Price:</b> 16200 DZD/night</div>`)[0];
+                popup_a8287fa0696a4aa4ff97093b53183c2c.setContent(html_96bbcf07ed7b45696ac63d9b8d4263dd);
+            
+        
+
+        marker_41ede86d43d9999478396278475a7af4.bindPopup(popup_a8287fa0696a4aa4ff97093b53183c2c)
+        ;
+
+        
+    
+    
+            marker_41ede86d43d9999478396278475a7af4.bindTooltip(
+                `<div>
+                     Day 1 Hotel: AD Hotel, Hydra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_41ede86d43d9999478396278475a7af4.setIcon(icon_a562bde9edb3459f6148bbf44b15b10c);
+            
+    
+            var marker_9d4e11d2c177fbb32af0802a6e8124bd = L.marker(
+                [36.476018, 2.839571],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_0e90f94700f94e630735077a2d4aaa78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99a75d81d6e9f5668d8b9f0f88edb7af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86a373e6af39ebe99faf23b695559aaa = $(`<div id="html_86a373e6af39ebe99faf23b695559aaa" style="width: 100.0%; height: 100.0%;"><b>Day 2:</b> Hotel El Annasser<br><b>Rating:</b> 3.8★<br><b>Price:</b> 7000 DZD/night</div>`)[0];
+                popup_99a75d81d6e9f5668d8b9f0f88edb7af.setContent(html_86a373e6af39ebe99faf23b695559aaa);
+            
+        
+
+        marker_9d4e11d2c177fbb32af0802a6e8124bd.bindPopup(popup_99a75d81d6e9f5668d8b9f0f88edb7af)
+        ;
+
+        
+    
+    
+            marker_9d4e11d2c177fbb32af0802a6e8124bd.bindTooltip(
+                `<div>
+                     Day 2 Hotel: Hotel El Annasser
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9d4e11d2c177fbb32af0802a6e8124bd.setIcon(icon_0e90f94700f94e630735077a2d4aaa78);
+            
+    
+            var marker_c9956097d7f645f66ebdfa2ac97eb98a = L.marker(
+                [36.476018, 2.839571],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_cf61dc2299ab3962270b7765d680e524 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4aa34003379c03b0fe48f3b0ecf0d44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88eeea13c19e10094208fc4fff7c104f = $(`<div id="html_88eeea13c19e10094208fc4fff7c104f" style="width: 100.0%; height: 100.0%;"><b>Day 2:</b> Hotel Les Oranges<br><b>Rating:</b> 4.0★<br><b>Price:</b> 7800 DZD/night</div>`)[0];
+                popup_d4aa34003379c03b0fe48f3b0ecf0d44.setContent(html_88eeea13c19e10094208fc4fff7c104f);
+            
+        
+
+        marker_c9956097d7f645f66ebdfa2ac97eb98a.bindPopup(popup_d4aa34003379c03b0fe48f3b0ecf0d44)
+        ;
+
+        
+    
+    
+            marker_c9956097d7f645f66ebdfa2ac97eb98a.bindTooltip(
+                `<div>
+                     Day 2 Hotel: Hotel Les Oranges
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c9956097d7f645f66ebdfa2ac97eb98a.setIcon(icon_cf61dc2299ab3962270b7765d680e524);
+            
+    
+            var marker_2d624acca134a87745f8e172e6a7341f = L.marker(
+                [36.476018, 2.839571],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_47809f1d2d1bf0c12bdd9e7f735ab6eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee29731d4124064a9a22a146b62692a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f59b4857e9c814af90176523866f35db = $(`<div id="html_f59b4857e9c814af90176523866f35db" style="width: 100.0%; height: 100.0%;"><b>Day 2:</b> Hotel Blida Plaza<br><b>Rating:</b> 4.3★<br><b>Price:</b> 9000 DZD/night</div>`)[0];
+                popup_ee29731d4124064a9a22a146b62692a3.setContent(html_f59b4857e9c814af90176523866f35db);
+            
+        
+
+        marker_2d624acca134a87745f8e172e6a7341f.bindPopup(popup_ee29731d4124064a9a22a146b62692a3)
+        ;
+
+        
+    
+    
+            marker_2d624acca134a87745f8e172e6a7341f.bindTooltip(
+                `<div>
+                     Day 2 Hotel: Hotel Blida Plaza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2d624acca134a87745f8e172e6a7341f.setIcon(icon_47809f1d2d1bf0c12bdd9e7f735ab6eb);
+            
+    
+            var marker_40eed713cda41166a1a7d4466e18bab1 = L.marker(
+                [36.3493, 2.8018],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_929798fdf57349fe02cea9546a436011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4abe41f41b7e4733c969432617f44e66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_036498576716adf08bfb2aba55fb1b23 = $(`<div id="html_036498576716adf08bfb2aba55fb1b23" style="width: 100.0%; height: 100.0%;"><b>Day 3:</b> Hôtel Mongorno - Berrouaghia<br><b>Rating:</b> 4.2★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_4abe41f41b7e4733c969432617f44e66.setContent(html_036498576716adf08bfb2aba55fb1b23);
+            
+        
+
+        marker_40eed713cda41166a1a7d4466e18bab1.bindPopup(popup_4abe41f41b7e4733c969432617f44e66)
+        ;
+
+        
+    
+    
+            marker_40eed713cda41166a1a7d4466e18bab1.bindTooltip(
+                `<div>
+                     Day 3 Hotel: Hôtel Mongorno - Berrouaghia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_40eed713cda41166a1a7d4466e18bab1.setIcon(icon_929798fdf57349fe02cea9546a436011);
+            
+    
+            var marker_07e02786fd3a73ec5237d9209ccc45aa = L.marker(
+                [36.3493, 2.8018],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_c1ac3f9c9f577115216573d51161f5bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_515839cd2f12c40458d2172bf4d0b3cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc70bd48c5eb1aea9586570dd5c905bb = $(`<div id="html_cc70bd48c5eb1aea9586570dd5c905bb" style="width: 100.0%; height: 100.0%;"><b>Day 3:</b> Hotel sekhri<br><b>Rating:</b> 3.4★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_515839cd2f12c40458d2172bf4d0b3cf.setContent(html_cc70bd48c5eb1aea9586570dd5c905bb);
+            
+        
+
+        marker_07e02786fd3a73ec5237d9209ccc45aa.bindPopup(popup_515839cd2f12c40458d2172bf4d0b3cf)
+        ;
+
+        
+    
+    
+            marker_07e02786fd3a73ec5237d9209ccc45aa.bindTooltip(
+                `<div>
+                     Day 3 Hotel: Hotel sekhri
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07e02786fd3a73ec5237d9209ccc45aa.setIcon(icon_c1ac3f9c9f577115216573d51161f5bf);
+            
+    
+            var marker_46b4b72ada428735ef68b698980a1a3f = L.marker(
+                [36.3493, 2.8018],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_f4d040621314f2e054c2953c21a65348 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef3454e43b489f55f914427c5e515916 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eae8331d2b312ef5bc4adb5ef3b60b8 = $(`<div id="html_5eae8331d2b312ef5bc4adb5ef3b60b8" style="width: 100.0%; height: 100.0%;"><b>Day 3:</b> Hotel happiness<br><b>Rating:</b> 4.3★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_ef3454e43b489f55f914427c5e515916.setContent(html_5eae8331d2b312ef5bc4adb5ef3b60b8);
+            
+        
+
+        marker_46b4b72ada428735ef68b698980a1a3f.bindPopup(popup_ef3454e43b489f55f914427c5e515916)
+        ;
+
+        
+    
+    
+            marker_46b4b72ada428735ef68b698980a1a3f.bindTooltip(
+                `<div>
+                     Day 3 Hotel: Hotel happiness
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_46b4b72ada428735ef68b698980a1a3f.setIcon(icon_f4d040621314f2e054c2953c21a65348);
+            
+    
+            var marker_400c77e2c6f98c72c4425fea81608820 = L.marker(
+                [36.5894, 2.55],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_65c71dd759310b366837a22cd05ba15c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4079c3b92a7e67952f9fa81ef2bfaa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59210ef55621c004ac2354bf30dbf01e = $(`<div id="html_59210ef55621c004ac2354bf30dbf01e" style="width: 100.0%; height: 100.0%;"><b>Day 4:</b> Hotel La Côte Turquoise<br><b>Rating:</b> 3.7★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_e4079c3b92a7e67952f9fa81ef2bfaa5.setContent(html_59210ef55621c004ac2354bf30dbf01e);
+            
+        
+
+        marker_400c77e2c6f98c72c4425fea81608820.bindPopup(popup_e4079c3b92a7e67952f9fa81ef2bfaa5)
+        ;
+
+        
+    
+    
+            marker_400c77e2c6f98c72c4425fea81608820.bindTooltip(
+                `<div>
+                     Day 4 Hotel: Hotel La Côte Turquoise
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_400c77e2c6f98c72c4425fea81608820.setIcon(icon_65c71dd759310b366837a22cd05ba15c);
+            
+    
+            var marker_3ca0c9b16a7344947790c872aa24bc0d = L.marker(
+                [36.5894, 2.55],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_e319457c526a241d1904258c2fb9a63b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85c74a0a1d037e1f3e7682d1ba9b0799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1953866945d42ecd5bfe845140f94ee = $(`<div id="html_b1953866945d42ecd5bfe845140f94ee" style="width: 100.0%; height: 100.0%;"><b>Day 4:</b> hotel l'étoile de la mediterranne 2<br><b>Rating:</b> 4.1★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_85c74a0a1d037e1f3e7682d1ba9b0799.setContent(html_b1953866945d42ecd5bfe845140f94ee);
+            
+        
+
+        marker_3ca0c9b16a7344947790c872aa24bc0d.bindPopup(popup_85c74a0a1d037e1f3e7682d1ba9b0799)
+        ;
+
+        
+    
+    
+            marker_3ca0c9b16a7344947790c872aa24bc0d.bindTooltip(
+                `<div>
+                     Day 4 Hotel: hotel l'étoile de la mediterranne 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3ca0c9b16a7344947790c872aa24bc0d.setIcon(icon_e319457c526a241d1904258c2fb9a63b);
+            
+    
+            var marker_1b36aae56300905ea360699372c10047 = L.marker(
+                [36.5894, 2.55],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_baed60eaf15651898782814ffcbf83a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fca7292898fdb70b7602560f426ce826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_159943c9a3c37270dfdeca86b73a7ae4 = $(`<div id="html_159943c9a3c37270dfdeca86b73a7ae4" style="width: 100.0%; height: 100.0%;"><b>Day 4:</b> Ben Aouda Hotel<br><b>Rating:</b> 4.4★<br><b>Price:</b> 13230 DZD/night</div>`)[0];
+                popup_fca7292898fdb70b7602560f426ce826.setContent(html_159943c9a3c37270dfdeca86b73a7ae4);
+            
+        
+
+        marker_1b36aae56300905ea360699372c10047.bindPopup(popup_fca7292898fdb70b7602560f426ce826)
+        ;
+
+        
+    
+    
+            marker_1b36aae56300905ea360699372c10047.bindTooltip(
+                `<div>
+                     Day 4 Hotel: Ben Aouda Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b36aae56300905ea360699372c10047.setIcon(icon_baed60eaf15651898782814ffcbf83a6);
+            
+    
+            var marker_0f760d1da86cca4bef7d2b72f940393e = L.marker(
+                [36.25, 1.95],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_d0779965a18319629ba502eb8c4627b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27cdd17819d2178a4859a54117973ead = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_853361fbed0526f312b8da203224f24e = $(`<div id="html_853361fbed0526f312b8da203224f24e" style="width: 100.0%; height: 100.0%;"><b>Day 5:</b> Hotel El Amane<br><b>Rating:</b> 4.0★<br><b>Price:</b> 6000 DZD/night</div>`)[0];
+                popup_27cdd17819d2178a4859a54117973ead.setContent(html_853361fbed0526f312b8da203224f24e);
+            
+        
+
+        marker_0f760d1da86cca4bef7d2b72f940393e.bindPopup(popup_27cdd17819d2178a4859a54117973ead)
+        ;
+
+        
+    
+    
+            marker_0f760d1da86cca4bef7d2b72f940393e.bindTooltip(
+                `<div>
+                     Day 5 Hotel: Hotel El Amane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f760d1da86cca4bef7d2b72f940393e.setIcon(icon_d0779965a18319629ba502eb8c4627b5);
+            
+    
+            var marker_809a164448c9ebf1057f35ffe95dfb85 = L.marker(
+                [36.25, 1.95],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_836615da7c188fc90889614552eeb897 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4f4f4b6b8cf18f5e484946edc6c9884 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30cb38e4ed53f0b8340b3198bde8f692 = $(`<div id="html_30cb38e4ed53f0b8340b3198bde8f692" style="width: 100.0%; height: 100.0%;"><b>Day 5:</b> Hotel El Waha<br><b>Rating:</b> 3.8★<br><b>Price:</b> 6500 DZD/night</div>`)[0];
+                popup_a4f4f4b6b8cf18f5e484946edc6c9884.setContent(html_30cb38e4ed53f0b8340b3198bde8f692);
+            
+        
+
+        marker_809a164448c9ebf1057f35ffe95dfb85.bindPopup(popup_a4f4f4b6b8cf18f5e484946edc6c9884)
+        ;
+
+        
+    
+    
+            marker_809a164448c9ebf1057f35ffe95dfb85.bindTooltip(
+                `<div>
+                     Day 5 Hotel: Hotel El Waha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_809a164448c9ebf1057f35ffe95dfb85.setIcon(icon_836615da7c188fc90889614552eeb897);
+            
+    
+            var marker_ef8276d868961dfd6928ad3b93e2f489 = L.marker(
+                [36.25, 1.95],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_774ae7216eb7a0e7bd9f80af2daab165 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ba9e26d5da6e21137e9651992489ce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efe632c5b3f9bb764c670b9e7e4aec22 = $(`<div id="html_efe632c5b3f9bb764c670b9e7e4aec22" style="width: 100.0%; height: 100.0%;"><b>Day 5:</b> Hotel Numidia<br><b>Rating:</b> 4.0★<br><b>Price:</b> 7100 DZD/night</div>`)[0];
+                popup_7ba9e26d5da6e21137e9651992489ce7.setContent(html_efe632c5b3f9bb764c670b9e7e4aec22);
+            
+        
+
+        marker_ef8276d868961dfd6928ad3b93e2f489.bindPopup(popup_7ba9e26d5da6e21137e9651992489ce7)
+        ;
+
+        
+    
+    
+            marker_ef8276d868961dfd6928ad3b93e2f489.bindTooltip(
+                `<div>
+                     Day 5 Hotel: Hotel Numidia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ef8276d868961dfd6928ad3b93e2f489.setIcon(icon_774ae7216eb7a0e7bd9f80af2daab165);
+            
+    
+            var marker_07dfdba938e68f7f98259e533457eb3a = L.marker(
+                [35.62, 1.82],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_dbf401520eaa2aa1ef6a192f7266f2c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_deb826107d23feb04e15ef9e040ecacf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79c9ccf00965feacc3dbe579090e687a = $(`<div id="html_79c9ccf00965feacc3dbe579090e687a" style="width: 100.0%; height: 100.0%;"><b>Day 6:</b> Hotel El Medad<br><b>Rating:</b> 3.3★<br><b>Price:</b> 5000 DZD/night</div>`)[0];
+                popup_deb826107d23feb04e15ef9e040ecacf.setContent(html_79c9ccf00965feacc3dbe579090e687a);
+            
+        
+
+        marker_07dfdba938e68f7f98259e533457eb3a.bindPopup(popup_deb826107d23feb04e15ef9e040ecacf)
+        ;
+
+        
+    
+    
+            marker_07dfdba938e68f7f98259e533457eb3a.bindTooltip(
+                `<div>
+                     Day 6 Hotel: Hotel El Medad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07dfdba938e68f7f98259e533457eb3a.setIcon(icon_dbf401520eaa2aa1ef6a192f7266f2c1);
+            
+    
+            var marker_00dbd79a5c9dbb293c128a51f312bc10 = L.marker(
+                [35.62, 1.82],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_712fab8cdae5ff2ab33c3dd6086aa791 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4430c1b1b9547c3a05e9b56db756e300 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_428d1c216c6cfcecd549dd0d7c0cb715 = $(`<div id="html_428d1c216c6cfcecd549dd0d7c0cb715" style="width: 100.0%; height: 100.0%;"><b>Day 6:</b> Hotel Les Cèdres<br><b>Rating:</b> 3.5★<br><b>Price:</b> 5800 DZD/night</div>`)[0];
+                popup_4430c1b1b9547c3a05e9b56db756e300.setContent(html_428d1c216c6cfcecd549dd0d7c0cb715);
+            
+        
+
+        marker_00dbd79a5c9dbb293c128a51f312bc10.bindPopup(popup_4430c1b1b9547c3a05e9b56db756e300)
+        ;
+
+        
+    
+    
+            marker_00dbd79a5c9dbb293c128a51f312bc10.bindTooltip(
+                `<div>
+                     Day 6 Hotel: Hotel Les Cèdres
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_00dbd79a5c9dbb293c128a51f312bc10.setIcon(icon_712fab8cdae5ff2ab33c3dd6086aa791);
+            
+    
+            var marker_b10b558ae277f6229f3973c01aba6b08 = L.marker(
+                [35.62, 1.82],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_0bbdae2f82bbfdc35d1a9b848ccdda77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71957c5e4b993d186eb0b9a15b19e42f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3f49dbc97a397ce6536a87f1e3c59eb = $(`<div id="html_b3f49dbc97a397ce6536a87f1e3c59eb" style="width: 100.0%; height: 100.0%;"><b>Day 6:</b> Hotel Tissemsilt Plaza<br><b>Rating:</b> 3.8★<br><b>Price:</b> 6500 DZD/night</div>`)[0];
+                popup_71957c5e4b993d186eb0b9a15b19e42f.setContent(html_b3f49dbc97a397ce6536a87f1e3c59eb);
+            
+        
+
+        marker_b10b558ae277f6229f3973c01aba6b08.bindPopup(popup_71957c5e4b993d186eb0b9a15b19e42f)
+        ;
+
+        
+    
+    
+            marker_b10b558ae277f6229f3973c01aba6b08.bindTooltip(
+                `<div>
+                     Day 6 Hotel: Hotel Tissemsilt Plaza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b10b558ae277f6229f3973c01aba6b08.setIcon(icon_0bbdae2f82bbfdc35d1a9b848ccdda77);
+            
+    
+            var marker_4e22ac902060833993fe0afb786584e7 = L.marker(
+                [35.4, 1.35],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_e483bd60d023c57eff3704efa9341d2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f369a66d25c3293e944eeac7635a25f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecd78ede74f06589441c0084d199bf41 = $(`<div id="html_ecd78ede74f06589441c0084d199bf41" style="width: 100.0%; height: 100.0%;"><b>Day 7:</b> Hôtel le Cheval Blanc<br><b>Rating:</b> 3.8★<br><b>Price:</b> 4995 DZD/night</div>`)[0];
+                popup_f369a66d25c3293e944eeac7635a25f1.setContent(html_ecd78ede74f06589441c0084d199bf41);
+            
+        
+
+        marker_4e22ac902060833993fe0afb786584e7.bindPopup(popup_f369a66d25c3293e944eeac7635a25f1)
+        ;
+
+        
+    
+    
+            marker_4e22ac902060833993fe0afb786584e7.bindTooltip(
+                `<div>
+                     Day 7 Hotel: Hôtel le Cheval Blanc
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4e22ac902060833993fe0afb786584e7.setIcon(icon_e483bd60d023c57eff3704efa9341d2c);
+            
+    
+            var marker_b57e5f9d9a874955fa498b0f80a3f4f2 = L.marker(
+                [35.4, 1.35],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_2b2ad79cf7fd63662e028e0a90b8dd7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_784b28c16d4b0d3469addd7fd0da97cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_215e8ef749d82ca5a1a77635ebebb873 = $(`<div id="html_215e8ef749d82ca5a1a77635ebebb873" style="width: 100.0%; height: 100.0%;"><b>Day 7:</b> Hôtel tahtaha وهران<br><b>Rating:</b> 4.0★<br><b>Price:</b> 9900 DZD/night</div>`)[0];
+                popup_784b28c16d4b0d3469addd7fd0da97cc.setContent(html_215e8ef749d82ca5a1a77635ebebb873);
+            
+        
+
+        marker_b57e5f9d9a874955fa498b0f80a3f4f2.bindPopup(popup_784b28c16d4b0d3469addd7fd0da97cc)
+        ;
+
+        
+    
+    
+            marker_b57e5f9d9a874955fa498b0f80a3f4f2.bindTooltip(
+                `<div>
+                     Day 7 Hotel: Hôtel tahtaha وهران
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b57e5f9d9a874955fa498b0f80a3f4f2.setIcon(icon_2b2ad79cf7fd63662e028e0a90b8dd7c);
+            
+    
+            var marker_ea33a321cf7dc9d6f1a2d13a4514d9f0 = L.marker(
+                [35.4, 1.35],
+                {
+}
+            ).addTo(marker_cluster_67b39fac14f676d02af43413756f3ec1);
+        
+    
+            var icon_276768a607c1d2a11f25304a4a28cadc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6f082d2a17f129673fbf57507a0fc68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64c268318d30365ddd60ce86d4aae53d = $(`<div id="html_64c268318d30365ddd60ce86d4aae53d" style="width: 100.0%; height: 100.0%;"><b>Day 7:</b> Hôtel Bay Oran<br><b>Rating:</b> 4.1★<br><b>Price:</b> 18360 DZD/night</div>`)[0];
+                popup_f6f082d2a17f129673fbf57507a0fc68.setContent(html_64c268318d30365ddd60ce86d4aae53d);
+            
+        
+
+        marker_ea33a321cf7dc9d6f1a2d13a4514d9f0.bindPopup(popup_f6f082d2a17f129673fbf57507a0fc68)
+        ;
+
+        
+    
+    
+            marker_ea33a321cf7dc9d6f1a2d13a4514d9f0.bindTooltip(
+                `<div>
+                     Day 7 Hotel: Hôtel Bay Oran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ea33a321cf7dc9d6f1a2d13a4514d9f0.setIcon(icon_276768a607c1d2a11f25304a4a28cadc);
+            
+    
+            marker_cluster_67b39fac14f676d02af43413756f3ec1.addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            var poly_line_7daf18483a1e4ed6f661435c368b9345 = L.polyline(
+                [[36.7345, 3.0915], [36.748, 3.076], [36.74504, 3.0733], [36.76139, 3.04611], [36.74305, 2.9724], [36.764, 3.0577], [36.7742, 3.0703], [36.7848, 3.06]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            poly_line_7daf18483a1e4ed6f661435c368b9345.bindTooltip(
+                `<div>
+                     Day 1 Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b4bb39b34e0387a641ee7256132fb9b6 = L.polyline(
+                [[36.476018, 2.839571], [36.4282, 2.8339], [36.428455, 2.879427]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            poly_line_b4bb39b34e0387a641ee7256132fb9b6.bindTooltip(
+                `<div>
+                     Day 2 Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5224fbf0e259d942cb6fabfc0c4dfc0c = L.polyline(
+                [[36.5894, 2.55], [36.6, 2.45], [36.60260469072381, 2.4128991659261496]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            poly_line_5224fbf0e259d942cb6fabfc0c4dfc0c.bindTooltip(
+                `<div>
+                     Day 4 Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8d7371fb8827a3b81602d6ec4b4fb7af = L.polyline(
+                [[36.25, 1.95], [36.2, 1.92]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            poly_line_8d7371fb8827a3b81602d6ec4b4fb7af.bindTooltip(
+                `<div>
+                     Day 5 Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_26dad81720abaa81a502a51d9d5e7764 = L.polyline(
+                [[35.62, 1.82], [35.61, 1.81], [35.6, 1.8]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            poly_line_26dad81720abaa81a502a51d9d5e7764.bindTooltip(
+                `<div>
+                     Day 6 Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_53b3ffdc133f7a801b3ff560ee19cf54 = L.polyline(
+                [[35.4, 1.35], [35.7096, -0.643]],
+                {"bubblingMouseEvents": true, "color": "lightred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+        
+    
+            poly_line_53b3ffdc133f7a801b3ff560ee19cf54.bindTooltip(
+                `<div>
+                     Day 7 Route
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var layer_control_97f203791edef923a90ea89f6545f2de_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_00aaf2da5bc33ab8680997f4fffeaa88,
+                },
+                overlays :  {
+                    "Attractions" : marker_cluster_b64f5049a578b78584be8c056a93b5f4,
+                    "Hotels" : marker_cluster_67b39fac14f676d02af43413756f3ec1,
+                },
+            };
+            let layer_control_97f203791edef923a90ea89f6545f2de = L.control.layers(
+                layer_control_97f203791edef923a90ea89f6545f2de_layers.base_layers,
+                layer_control_97f203791edef923a90ea89f6545f2de_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_d5b7916a5defc1c030fff103b02e90e8);
+
+        
+</script>
+</html>
