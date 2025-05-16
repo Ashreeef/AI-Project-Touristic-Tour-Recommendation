@@ -1,10 +1,8 @@
-
 import { ArrowLeft, ArrowRight, Map as MapIcon } from "lucide-react";
-
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
 import MapComponent from "./MapComponent";
+
 const useIsMobile = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   
@@ -19,6 +17,7 @@ const useIsMobile = () => {
   
   return isMobile;
 };
+
 const Card = ({ className, children, ...props }) => (
   <div className={`rounded-lg border bg-white shadow-sm ${className}`} {...props}>
     {children}
@@ -60,6 +59,7 @@ const Badge = ({ className, children, variant = 'default', ...props }) => {
     </span>
   );
 };
+
 const Button = ({ className, variant = 'default', size = 'default', children, ...props }) => {
   const variantClasses = {
     default: 'bg-gray-900 text-white hover:bg-gray-800',
@@ -85,145 +85,78 @@ const Button = ({ className, variant = 'default', size = 'default', children, ..
   );
 };
 
-const itineraryData = {
-  title: "Explore Algeria: 7-Days Cultural & Nature Adventure",
-  summary: "A perfect blend of cultural exploration and natural wonders across Algeria's most beautiful regions.",
-  days: [
-    {
-      day: 1,
-      title: "Algiers: Cultural Heritage",
-      location: "Algiers",
-      coordinates:[3.0588, 36.7538 ], // Correct order for Mapbox: lng, lat
-     // longitude, latitude
-      activities: [
-        { time: "09:00", title: "Bardo Museum", description: "Housed in a 19th-century Ottoman palace, showcases prehistoric artifacts, traditional costumes, and Roman mosaics. Highlights include Berber jewelry collections." },
-        { time: "13:00", title: "Casbah of Algiers", description: "UNESCO World Heritage Site with Ottoman-era palaces, mosques, and labyrinthine streets." },
-        { time: "15:00", title: "Martyrs' Memorial (Maqam Echahid)", description: "A monument commemorating Algeria's independence struggle, featuring three palm leaves and an eternal flame." }
-        
-      ],
-      accommodation: {
-        name: "Hôtel El Aurassi",
-        type: "4-star hotel",
-        amenities: ["Public Transport", "Traditional Tea Houses", "Restaurant"]
-      }
-    },
-    {
-      day: 2,
-      title: "Algiers: Cultural Heritage",
-      location: "Algiers",
-      coordinates:[3.1825,36.7236], // Correct order for Mapbox: lng, lat
-     // longitude, latitude
-      activities: [
-        { time: "09:00", title: "Beb Ezzouar Shopping Mall", description: "A large shopping mall offering a variety of international and local retail stores, entertainment options, and dining facilities." },
-        { time: "13:00", title: "Musée des Beaux-Arts d'Alger", description: "Features a diverse collection of Algerian and international art, including works from the 19th and 20th centuries." },
-        { time: "15:00", title: "National Museum of Antiquities of Algiers", description: "The oldest museum in Algeria and Africa, showcasing a vast collection of classical antiquities and Islamic art from various Arab-Muslim dynasties, located in Algiers' Freedom Park." }
-       
-      ],
-      accommodation: {
-        name: "Algiers Marriott Hotel Bab Ezzouar",
-        type: "4-star hotel",
-        amenities: ["Cinema", "Public Transport", "Restaurant"]
-      }
-    },
-    {
-      day: 3,
-      title: "Algiers: Cultural Heritage",
-      location: "Algiers",
-      coordinates:[2.9517,36.7507], // Correct order for Mapbox: lng, lat
-     // longitude, latitude
-      activities: [
-        { time: "09:00", title: "Garden City Mall", description: "A premier shopping and entertainment hub in Dély Ibrahim, Algiers. It features a diverse range of retail outlets from international brands to local boutiques. The mall provides various dining options and recreational facilities including cinemas and play areas for children." },
-        { time: "13:00", title: "Tipaza Roman Ruins", description: "Coastal UNESCO site with 3rd-century Christian basilica, Roman theater, and thermal baths. Notable for Phoenician-Roman fusion architecture." }
-        
-      ],
-      accommodation: {
-        name: "Holiday Inn Algiers - Cheraga Tower by IHG",
-        type: "4-star hotel",
-        amenities: ["Play areas", "Beach Access",
-      "Archaeological Museum", "Restaurant"]
-      }
-    },
-    {
-      day: 4,
-      title: "Algiers: Cultural Heritage",
-      location: "Algiers",
-      coordinates:[3.0733,36.74504], 
-      activities: [
-        { time: "09:00", title: "Royal Mausoleum of Mauretania (Kbour-er-Roumia)", description: "Ancient mausoleum believed to be the tomb of King Juba II and Queen Cleopatra Selene." },
-        { time: "13:00", title: " Villa Abd-el-Tif", description: "A historic villa in Algiers, known for its Moorish architecture and artistic legacy, once home to the Abd-el-Tif Prize laureates, fostering creativity and cultural exchange." },
-        { time: "15:00", title: "Villa Boulkine", description: "A 19th-century architectural gem in Hussein Dey, Algiers, once the secondary residence of Dey Hussein, now serving as the temporary home for the Grand Museum of Africa." }
-      ],
-      accommodation: {
-        name: "Hôtel El Djazaïr",
-        type: "4-star hotel",
-        amenities: ["Public Restrooms",
-      "Scenic Viewpoints"]
-      }
-    },
-    {
-      day: 5,
-      title: "Sétif: Cultural Heritage",
-      location: "Sétif",
-      coordinates:[5.409908696237017,36.192186258904], 
-      activities: [
-        { time: "09:00", title: "Sétif Archaeological Museum", description: "Museum housing artifacts from the Roman and Byzantine periods." }
-      ],
-      accommodation: {
-        name: "Park Mall Hotel & Conference Center",
-        type: "4-star hotel",
-        amenities: ["Gift Shop",
-      "Guided Tours", "Restaurant"]
-      }
-    },
-    {
-      day: 6,
-      title: "Batna: Cultural Heritage",
-      location: "Batna",
-      coordinates:[6.4681,35.4875], // Correct order for Mapbox: lng, lat
-     // longitude, latitude
-      activities: [
-        { time: "09:00", title: "Timgad Ruins", description: "Complete Roman grid city (100 AD) with 3,500-seat theater, Trajan's Arch, and advanced drainage systems. Called 'Algerian Pompeii'." }
-      ],
-      accommodation: {
-        name: "Hôtel El Hayat",
-        type: "3-star hotel",
-        amenities: ["Visitor Center",
-      "Guided Tours", "Restaurant"]
-      }
-    },
-    {
-      day: 7,
-      title: "Batna: Cultural Heritage",
-      location: "Batna",
-      coordinates:[6.434999172605006 ,35.70788061410484], // Correct order for Mapbox: lng, lat
-     // longitude, latitude
-      activities: [
-        { time: "09:00", title: "Mausoleum of Medghacen", description: "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region’s early civilizations." }
-      ],
-      accommodation: {
-        name: "Hôtel Messaoudi",
-        type: "4-star hotel",
-        amenities: ["Historical site", "Restaurant"]
-      }
-    },
-    
-    
-  ]
-};
-
 const Results = () => {
   const [selectedDay, setSelectedDay] = useState(1);
+  const [itineraryData, setItineraryData] = useState(null);
+  const [loading, setLoading] = useState(true);
   const isMobile = useIsMobile();
   
-  // Map location data - removed TypeScript type annotation
+  useEffect(() => {
+  // Try to get itinerary data from sessionStorage
+  const storedData = sessionStorage.getItem('itineraryData');
+  
+  if (storedData) {
+    try {
+      const parsedData = JSON.parse(storedData);
+      
+      // Transform the data to match your component's expected format
+      const transformedData = {
+        title: parsedData.title,
+        summary: parsedData.summary,
+        totalBudget: parsedData.totalBudget,
+        days: parsedData.days.map(day => ({
+          day: day.day,
+          title: day.title,
+          location: day.location,
+          coordinates: day.coordinates,
+          activities: day.activities,
+          accommodation: day.accommodation
+        }))
+      };
+      
+      setItineraryData(transformedData);
+    } catch (error) {
+      console.error('Error parsing stored itinerary data:', error);
+      setItineraryData(sampleItineraryData); // fallback to sample data
+    }
+  } else {
+    setItineraryData(sampleItineraryData); // fallback to sample data
+  }
+  
+  setLoading(false);
+}, []);
+  
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      </div>
+    );
+  }
+  
+  if (!itineraryData) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">No itinerary data found</h2>
+          <p className="mb-4">Please go back and fill out the form to generate an itinerary.</p>
+          <Link to="/" className="text-blue-600 hover:underline">
+            Return to home
+          </Link>
+        </div>
+      </div>
+    );
+  }
+  
+  // Map location data from itinerary
   const mapLocations = itineraryData.days.map(day => ({
     id: day.day,
     name: day.location,
-    coordinates: day.coordinates, // no type assertion
+    coordinates: day.coordinates,
     day: day.day
   }));
 
-  const selectedDayData = itineraryData.days.find(day => day.day === selectedDay) || itineraryData.days[0]
+  const selectedDayData = itineraryData.days.find(day => day.day === selectedDay) || itineraryData.days[0];
   
   const handleNext = () => {
     if (selectedDay < itineraryData.days.length) {
@@ -251,7 +184,6 @@ const Results = () => {
             <p className="text-gray-600 mt-2 text-lg">{itineraryData.summary}</p>
           </div>
           <div className="flex gap-2">
-            
             <Button>Share</Button>
           </div>
         </div>
@@ -292,6 +224,10 @@ const Results = () => {
                       </Badge>
                     ))}
                   </div>
+                </div>
+                <div>
+                  <h3 className="text-sm font-medium text-gray-500">Budget</h3>
+                  <p className="font-medium">{itineraryData.totalBudget.toLocaleString()} DZD</p>
                 </div>
                 <div>
                   <h3 className="text-sm font-medium text-gray-500">Highlights</h3>
@@ -444,6 +380,122 @@ const Results = () => {
       </div>
     </div>
   );
+};
+
+// Sample itinerary data as fallback
+const sampleItineraryData = {
+  title: "Explore Algeria: 7-Days Cultural & Nature Adventure",
+  summary: "A perfect blend of cultural exploration and natural wonders across Algeria's most beautiful regions.",
+  totalBudget: 150000,
+  startDate: "2023-06-01T00:00:00.000Z",
+  days: [
+    {
+      day: 1,
+      title: "Algiers: Cultural Heritage",
+      location: "Algiers",
+      coordinates: [3.0588, 36.7538],
+      activities: [
+        { time: "09:00", title: "Bardo Museum", description: "Housed in a 19th-century Ottoman palace, showcases prehistoric artifacts, traditional costumes, and Roman mosaics. Highlights include Berber jewelry collections." },
+        { time: "13:00", title: "Casbah of Algiers", description: "UNESCO World Heritage Site with Ottoman-era palaces, mosques, and labyrinthine streets." },
+        { time: "15:00", title: "Martyrs' Memorial (Maqam Echahid)", description: "A monument commemorating Algeria's independence struggle, featuring three palm leaves and an eternal flame." }
+      ],
+      accommodation: {
+        name: "Hôtel El Aurassi",
+        type: "4-star hotel",
+        amenities: ["Restaurant", "WiFi", "Swimming Pool", "Public Transport"]
+      }
+    },
+    {
+      day: 2,
+      title: "Algiers: Modern Exploration",
+      location: "Algiers",
+      coordinates: [3.1825, 36.7236],
+      activities: [
+        { time: "09:00", title: "Beb Ezzouar Shopping Mall", description: "A large shopping mall offering a variety of international and local retail stores, entertainment options, and dining facilities." },
+        { time: "13:00", title: "Musée des Beaux-Arts d'Alger", description: "Features a diverse collection of Algerian and international art, including works from the 19th and 20th centuries." },
+        { time: "15:00", title: "National Museum of Antiquities of Algiers", description: "The oldest museum in Algeria and Africa, showcasing a vast collection of classical antiquities and Islamic art from various Arab-Muslim dynasties, located in Algiers' Freedom Park." }
+      ],
+      accommodation: {
+        name: "Algiers Marriott Hotel Bab Ezzouar",
+        type: "4-star hotel",
+        amenities: ["Cinema", "Public Transport", "Restaurant"]
+      }
+    },
+    // Days 3-7 similarly structured
+    {
+      day: 3,
+      title: "Coastal Exploration",
+      location: "Tipaza",
+      coordinates: [2.9517, 36.7507],
+      activities: [
+        { time: "09:00", title: "Tipaza Roman Ruins", description: "Coastal UNESCO site with 3rd-century Christian basilica, Roman theater, and thermal baths. Notable for Phoenician-Roman fusion architecture." },
+        { time: "14:00", title: "Garden City Mall", description: "A premier shopping and entertainment hub in Dély Ibrahim, Algiers, featuring international brands and local boutiques." }
+      ],
+      accommodation: {
+        name: "Holiday Inn Algiers - Cheraga Tower",
+        type: "4-star hotel",
+        amenities: ["Restaurant", "WiFi", "Fitness Center", "Play areas"]
+      }
+    },
+    {
+      day: 4,
+      title: "Historical Sites",
+      location: "Algiers",
+      coordinates: [3.0733, 36.7450],
+      activities: [
+        { time: "09:00", title: "Royal Mausoleum of Mauretania", description: "Ancient mausoleum believed to be the tomb of King Juba II and Queen Cleopatra Selene." },
+        { time: "13:00", title: "Villa Abd-el-Tif", description: "A historic villa known for its Moorish architecture and artistic legacy." },
+        { time: "15:00", title: "Villa Boulkine", description: "A 19th-century architectural gem in Hussein Dey, once the secondary residence of Dey Hussein." }
+      ],
+      accommodation: {
+        name: "Hôtel El Djazaïr",
+        type: "4-star hotel",
+        amenities: ["Restaurant", "WiFi", "Public Restrooms", "Scenic Viewpoints"]
+      }
+    },
+    {
+      day: 5,
+      title: "Sétif Exploration",
+      location: "Sétif",
+      coordinates: [5.4099, 36.1922],
+      activities: [
+        { time: "09:00", title: "Sétif Archaeological Museum", description: "Museum housing artifacts from the Roman and Byzantine periods." }
+      ],
+      accommodation: {
+        name: "Park Mall Hotel & Conference Center",
+        type: "4-star hotel",
+        amenities: ["Restaurant", "WiFi", "Gift Shop", "Guided Tours"]
+      }
+    },
+    {
+      day: 6,
+      title: "Batna: Ancient Ruins",
+      location: "Batna",
+      coordinates: [6.4681, 35.4875],
+      activities: [
+        { time: "09:00", title: "Timgad Ruins", description: "Complete Roman grid city (100 AD) with 3,500-seat theater, Trajan's Arch, and advanced drainage systems. Called 'Algerian Pompeii'." }
+      ],
+      accommodation: {
+        name: "Hôtel El Hayat",
+        type: "3-star hotel",
+        amenities: ["Restaurant", "WiFi", "Visitor Center", "Guided Tours"]
+      }
+    },
+    {
+      day: 7,
+      title: "Batna: Historical Sites",
+      location: "Batna",
+      coordinates: [6.4350, 35.7079],
+      activities: [
+        { time: "09:00", title: "Mausoleum of Medghacen", description: "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region's early civilizations." }
+      ],
+      accommodation: {
+        name: "Hôtel Messaoudi",
+        type: "4-star hotel",
+        amenities: ["Restaurant", "WiFi", "Historical site"]
+      }
+    }
+  ]
 };
 
 export default Results;
