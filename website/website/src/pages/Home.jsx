@@ -321,7 +321,6 @@ const Home = () => {
 
   const isFormValid = () => {
     return (
-      formData.wilaya.trim() && 
       formData.location.trim() && 
       isValidGPS(formData.location) && 
       formData.when && 
