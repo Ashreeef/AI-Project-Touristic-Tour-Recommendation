@@ -20,8 +20,8 @@ import {
   AlertCircle 
 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 const images = {
   logo: 'src/Imgs/Logo/LogoPNG.png',
   algeria: 'src/Imgs/Logo/picc.png',
@@ -38,7 +38,6 @@ const images = {
   hourIcon: 'src/Imgs/icons/clock.png',
   bleftIcon: 'src/Imgs/icons/arrow-right.png'
 };
-
 const ALGERIAN_WILAYAS = [
   "Adrar", "Chlef", "Laghouat", "Oum El Bouaghi", "Batna", "Béjaïa", "Biskra",
   "Béchar", "Blida", "Bouira", "Tamanrasset", "Tébessa", "Tlemcen", "Tiaret",
@@ -158,7 +157,6 @@ const WilayaInput = ({ formData, formErrors, onInputChange }) => {
 };
 
 const Home = () => {
-  const navigate = useNavigate();
   const [navOpen, setNavOpen] = useState(false);
   const [hotelsExpanded, setHotelsExpanded] = useState(false);
   const [toursExpanded, setToursExpanded] = useState(false);
@@ -168,7 +166,6 @@ const Home = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedActivities, setSelectedActivities] = useState([]);
   const [formErrors, setFormErrors] = useState({});
-  const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     wilaya: '',
     location: '',
@@ -250,7 +247,8 @@ const Home = () => {
         : [...prev, activity]
     );
   };
-
+  const [isGenerating, setIsGenerating] = useState(false);
+  const navigate = useNavigate();
   const activities = [
     "Nature", "Historical", "Religious", "Garden", 
     "Museums", "Cultural", "Beaches", "Amusement Park", 
@@ -269,14 +267,14 @@ const Home = () => {
     const errors = {};
     let isValid = true;
 
-    const trimmedWilaya = formData.wilaya.trim();
-    if (!trimmedWilaya) {
-      errors.wilaya = 'Wilaya is required';
-      isValid = false;
-    } else if (!ALGERIAN_WILAYAS.includes(trimmedWilaya)) {
-      errors.wilaya = 'Please select a valid Algerian wilaya from the list';
-      isValid = false;
-    }
+     const trimmedWilaya = formData.wilaya.trim();
+  if (!trimmedWilaya) {
+    errors.wilaya = 'Wilaya is required';
+    isValid = false;
+  } else if (!ALGERIAN_WILAYAS.includes(trimmedWilaya)) {
+    errors.wilaya = 'Please select a valid Algerian wilaya from the list';
+    isValid = false;
+  }
 
     if (!formData.location.trim()) {
       errors.location = 'Location is required';
@@ -312,55 +310,14 @@ const Home = () => {
     return isValid;
   };
 
-  const handleSubmit = async (e) => {
-  e.preventDefault();
-  if (validateForm()) {
-    try {
-      setIsLoading(true);
-      
-      // Build the request payload
-      const requestData = {
-        wilaya: formData.wilaya.trim(),
-        location: formData.location.trim(),
-        when: formData.when,
-        activities: selectedActivities,
-        budget: parseFloat(formData.budget),
-        minHotelStars: parseInt(formData.minHotelStars),
-        maxHotelStars: parseInt(formData.maxHotelStars),
-        maxAttractions: parseInt(formData.maxAttractions),
-        maxTravelHours: parseInt(formData.maxTravelHours),
-        hasCar: hasCar
-      };
-      
-      // Send data to backend API
-      const response = await fetch('http://localhost:5000/api/itinerary/generate', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestData),
-      });
-      
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || 'Error generating itinerary');
-      }
-      
-      const responseData = await response.json();
-      
-      // Store the itinerary data in sessionStorage
-      sessionStorage.setItem('itineraryData', JSON.stringify(responseData.data));
-      
-      // Navigate to results page
-      navigate('/result');
-    } catch (error) {
-      console.error('Error:', error);
-      alert(`Failed to generate itinerary: ${error.message}`);
-    } finally {
-      setIsLoading(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validateForm()) {
+      // Form is valid, proceed with submission
+      console.log('Form submitted:', { ...formData, activities: selectedActivities, hasCar });
+      // You can navigate to the result page here or perform other actions
     }
-  }
-};
+  };
 
   const isFormValid = () => {
     return (
@@ -373,6 +330,24 @@ const Home = () => {
       !isNaN(formData.budget) && 
       Number(formData.budget) > 0
     );
+  };
+  const handleGenerateClick = async (e) => {
+    if (!isFormValid()) {
+      e.preventDefault();
+      return;
+    }
+
+    e.preventDefault();
+    setIsGenerating(true);
+    
+    try {
+      // Simulate loading/processing delay (replace with actual API call if needed)
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      
+      navigate("/result");
+    } finally {
+      setIsGenerating(false);
+    }
   };
 
   useEffect(() => {
@@ -392,6 +367,7 @@ const Home = () => {
       revealElements.forEach(el => observer.unobserve(el));
     };
   }, []);
+
 
   return (
     <div className="font-sans overflow-x-hidden" style={{ fontFamily: 'Arial, sans-serif' }}>
@@ -444,26 +420,26 @@ const Home = () => {
           >
             Your Perfect Algeria Itinerary, Powered by AI
           </motion.h2>
-          <button 
-            onClick={handleSubmit}
-            disabled={!isFormValid() || isLoading}
-            className={`inline-flex justify-between items-center gap-4 py-4 px-6 rounded-xl text-lg ${
-              isFormValid() && !isLoading
-                ? 'bg-[#eb6b3f] hover:opacity-90' 
-                : 'bg-gray-400 cursor-not-allowed'
-            }`}
-          >
-            {isLoading ? (
-              <>
-                <span className="animate-spin mr-2 h-5 w-5 border-t-2 border-b-2 border-white rounded-full"></span>
-                Generating...
-              </>
-            ) : (
-              <>
-                <Globe size={24} /> Generate My Itinerary
-              </>
-            )}
-          </button>
+           <Link
+      to={isFormValid() ? "/result" : "#"}
+      onClick={handleGenerateClick}
+      className={`inline-flex justify-between items-center gap-4 py-4 px-6 rounded-xl text-lg ${
+        isFormValid() 
+          ? 'bg-[#eb6b3f] hover:opacity-90' 
+          : 'bg-gray-400 cursor-not-allowed'
+      } relative overflow-hidden`}
+      disabled={isGenerating}
+    >
+      {isGenerating && (
+        <div className="absolute inset-0 bg-[#eb6b3f] opacity-70 flex items-center justify-center">
+          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white"></div>
+        </div>
+      )}
+      <Globe size={24} />
+      <span className={isGenerating ? 'opacity-0' : 'opacity-100'}>
+        Generate My Itinerary
+      </span>
+    </Link>
           {!isFormValid() && (
             <div className="mt-4 text-sm text-red-200 flex items-center justify-center gap-2">
               <AlertCircle size={16} />
@@ -474,39 +450,34 @@ const Home = () => {
 
         <form onSubmit={handleSubmit} className="showcase-search w-[90%] md:w-[80%] max-w-[1200px] mx-auto bg-white p-5 md:p-8 rounded-2xl mt-16 md:mt-[150px] shadow-lg reveal border border-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-            {/* Wilaya Input */}
-            <WilayaInput 
-              formData={formData}
-              formErrors={formErrors}
-              onInputChange={handleInputChange}
-            />
+          
 
             {/* Location */}
             <div className="filter space-y-2">
-              <div className="flex items-center gap-2">
-                <img src={images.locationIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Location</h4>
-              </div>
-              <input 
-                type="text" 
-                name="location"
-                value={formData.location}
-                onChange={handleInputChange}
-                placeholder="GPS coordinates (e.g., 36.7538, 3.0588)" 
-                className={`w-full p-3 border ${
-                  formErrors.location ? 'border-red-500' : 'border-gray-200'
-                } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
-              />
-              {formErrors.location && (
-                <p className="text-red-500 text-xs mt-1">{formErrors.location}</p>
-              )}
-            </div>
+  <div className="flex items-center gap-2">
+    <img src={images.locationIcon} alt="" className="w-5 h-5" />
+    <h4 className="text-sm font-medium text-gray-700">Current Location</h4>
+  </div>
+  <input 
+    type="text" 
+    name="location"
+    value={formData.location}
+    onChange={handleInputChange}
+    placeholder="GPS coordinates (e.g., 36.7538, 3.0588)" 
+    className={`w-full p-3 border ${
+      formErrors.location ? 'border-red-500' : 'border-gray-200'
+    } rounded-lg text-sm focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] transition-all`}
+  />
+  {formErrors.location && (
+    <p className="text-red-500 text-xs mt-1">{formErrors.location}</p>
+  )}
+</div>
             
             {/* when */}
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.calendarIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">When*</h4>
+                <h4 className="text-sm font-medium text-gray-700">When</h4>
               </div>
               <input 
                 type="date" 
@@ -525,7 +496,7 @@ const Home = () => {
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.activitiesIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Activity*</h4>
+                <h4 className="text-sm font-medium text-gray-700">Activity</h4>
               </div>
 
               {/* Custom dropdown container */}
@@ -586,7 +557,7 @@ const Home = () => {
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
                 <img src={images.budgetIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Budget (DZD)*</h4>
+                <h4 className="text-sm font-medium text-gray-700">Budget (DZD)</h4>
               </div>
               <input 
                 type="number" 
@@ -605,44 +576,44 @@ const Home = () => {
             </div>
 
             {/* Min Hotel Stars */}
-            <div className="filter space-y-2">
-              <div className="flex items-center gap-2">
-                <img src={images.starIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Min Hotel Stars</h4>
-              </div>
-              <select 
-                name="minHotelStars"
-                value={formData.minHotelStars}
-                onChange={handleInputChange}
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
-              >
-                {[1, 2, 3, 4, 5].map(star => (
-                  <option key={`min-${star}`} value={star}>
-                    {star} {star === 1 ? 'Star' : 'Stars'}
-                  </option>
-                ))}
-              </select>
-            </div>
+<div className="filter space-y-2">
+  <div className="flex items-center gap-2">
+    <img src={images.starIcon} alt="" className="w-5 h-5" />
+    <h4 className="text-sm font-medium text-gray-700">Min Hotel Stars</h4>
+  </div>
+  <select 
+    name="minHotelStars"
+    value={formData.minHotelStars}
+    onChange={handleInputChange}
+    className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
+  >
+    {[1, 2, 3, 4, 5].map(star => (
+      <option key={`min-${star}`} value={star}>
+        {star} {star === 1 ? 'Star' : 'Stars'}
+      </option>
+    ))}
+  </select>
+</div>
 
-            {/* Max Hotel Stars */}
-            <div className="filter space-y-2">
-              <div className="flex items-center gap-2">
-                <img src={images.starIcon} alt="" className="w-5 h-5" />
-                <h4 className="text-sm font-medium text-gray-700">Max Hotel Stars</h4>
-              </div>
-              <select 
-                name="maxHotelStars"
-                value={formData.maxHotelStars}
-                onChange={handleInputChange}
-                className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
-              >
-                {[1, 2, 3, 4, 5].map(star => (
-                  <option key={`max-${star}`} value={star}>
-                    {star} {star === 1 ? 'Star' : 'Stars'}
-                  </option>
-                ))}
-              </select>
-            </div>
+{/* Max Hotel Stars */}
+<div className="filter space-y-2">
+  <div className="flex items-center gap-2">
+    <img src={images.starIcon} alt="" className="w-5 h-5" />
+    <h4 className="text-sm font-medium text-gray-700">Max Hotel Stars</h4>
+  </div>
+  <select 
+    name="maxHotelStars"
+    value={formData.maxHotelStars}
+    onChange={handleInputChange}
+    className="w-full p-3 border border-gray-200 rounded-lg text-sm appearance-none cursor-pointer focus:border-[#7b61ff] focus:outline-none focus:ring-1 focus:ring-[#7b61ff] bg-white transition-all"
+  >
+    {[1, 2, 3, 4, 5].map(star => (
+      <option key={`max-${star}`} value={star}>
+        {star} {star === 1 ? 'Star' : 'Stars'}
+      </option>
+    ))}
+  </select>
+</div>
 
             <div className="filter space-y-2">
               <div className="flex items-center gap-2">
@@ -1013,10 +984,13 @@ const Home = () => {
         <div className="about-content z-10 backdrop-blur-md bg-white/30 p-6 rounded-lg reveal">
           <h2 className="text-2xl md:text-[32px] font-bold">About US</h2>
           <p className="mt-6 text-base md:text-lg max-w-[556px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            Welcome to 7WESS, an innovative AI-driven application designed to
+simplify and enhance your travel planning experience in Algeria. Our
+system generates personalized 7-day itineraries that are meticulously
+tailored to align with your preferences, budget, and location.
           </p>
           <div className="section-button flex items-center justify-center gap-1 p-2 bg-[#f6f4ff] rounded-xl cursor-pointer text-sm mt-6 w-[130px]">
-            Read More <img src={images.bleftIcon} alt="" />
+            <img src={images.bleftIcon} alt="" />
           </div>
         </div>
 
