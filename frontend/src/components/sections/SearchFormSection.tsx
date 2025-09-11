@@ -6,6 +6,7 @@ import { Label } from '../ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 import { Switch } from '../ui/switch';
 import { Card, CardContent } from '../ui/card';
+import { Checkbox } from '../ui/checkbox';
 import { 
   MapPin, 
   Calendar, 
@@ -17,7 +18,8 @@ import {
   Search,
   Loader2,
   AlertCircle,
-  CheckCircle
+  CheckCircle,
+  ChevronDown
 } from 'lucide-react';
 import { useItinerary } from '../../hooks/useItinerary';
 import { ItineraryRequest, generateItinerary as apiGenerateItinerary } from '../../services/api';
@@ -25,7 +27,7 @@ import { ItineraryRequest, generateItinerary as apiGenerateItinerary } from '../
 interface SearchFormData {
   currentLocation: string;
   travelDate: string;
-  preferredActivity: string;
+  preferredActivities: string[];
   budget: string;
   minHotelStars: string;
   maxHotelStars: string;
@@ -39,7 +41,7 @@ export const SearchFormSection: React.FC = () => {
   const [formData, setFormData] = useState<SearchFormData>({
     currentLocation: '',
     travelDate: '',
-    preferredActivity: '',
+    preferredActivities: [],
     budget: '',
     minHotelStars: '',
     maxHotelStars: '',
@@ -47,6 +49,8 @@ export const SearchFormSection: React.FC = () => {
     maxTravelHoursPerDay: '',
     hasCar: false,
   });
+
+  const [isActivitiesOpen, setIsActivitiesOpen] = useState(false);
 
   const {
     isGenerating,
@@ -67,15 +71,21 @@ export const SearchFormSection: React.FC = () => {
     loadWilayas();
   }, [loadCategories, loadWilayas]);
 
-  // (debug logging removed)
-
-  const handleInputChange = (field: keyof SearchFormData, value: string | boolean) => {
+  const handleInputChange = (field: keyof SearchFormData, value: string | boolean | string[]) => {
     setFormData(prev => ({ ...prev, [field]: value }));
     
     // Validate location in real-time
     if (field === 'currentLocation' && typeof value === 'string') {
       validateLocation(value);
     }
+  };
+
+  const handleActivityChange = (activity: string, checked: boolean) => {
+    const updatedActivities = checked
+      ? [...formData.preferredActivities, activity]
+      : formData.preferredActivities.filter(a => a !== activity);
+    
+    handleInputChange('preferredActivities', updatedActivities);
   };
 
   const validateLocation = async (location: string) => {
@@ -133,8 +143,8 @@ export const SearchFormSection: React.FC = () => {
       validationErrors.push('Please enter a valid budget amount');
     }
     
-    if (!formData.preferredActivity) {
-      validationErrors.push('Preferred Activity is required');
+    if (formData.preferredActivities.length === 0) { 
+      validationErrors.push('At least one preferred activity is required');
     }
 
     // Validate hotel star ratings
@@ -171,7 +181,7 @@ export const SearchFormSection: React.FC = () => {
       const request: ItineraryRequest = {
         wilaya: formData.currentLocation, // For now, using location as wilaya - this should be improved
         location: formData.currentLocation,
-        activities: [formData.preferredActivity],
+        activities: formData.preferredActivities, 
         budget: parseFloat(formData.budget),
         minHotelStars: formData.minHotelStars ? parseInt(formData.minHotelStars) : undefined,
         maxHotelStars: formData.maxHotelStars ? parseInt(formData.maxHotelStars) : undefined,
@@ -192,6 +202,11 @@ export const SearchFormSection: React.FC = () => {
     }
   };
 
+  const availableActivities = categories.length > 0 ? categories : [
+    'Historical', 'Museum', 'Cultural', 'Nature', 'Beach', 'Religious', 
+    'Garden', 'Amusement Park', 'Shopping Mall', 'Lake'
+  ];
+
   const formFields = [
     {
       icon: MapPin,
@@ -210,11 +225,10 @@ export const SearchFormSection: React.FC = () => {
     },
     {
       icon: Activity,
-      label: 'Preferred Activity',
-      field: 'preferredActivity' as keyof SearchFormData,
-      type: 'select',
-      placeholder: 'Select activity type',
-      options: categories.length > 0 ? categories : ['Historical', 'Museum', 'Cultural', 'Nature', 'Beach', 'Religious', 'Garden', 'Amusement Park', 'Shopping Mall', 'Lake'],
+      label: 'Preferred Activities',
+      field: 'preferredActivities' as keyof SearchFormData,
+      type: 'activities',
+      placeholder: 'Select activity types',
     },
     {
       icon: DollarSign,
@@ -374,6 +388,44 @@ export const SearchFormSection: React.FC = () => {
                               )}
                             </SelectContent>
                           </Select>
+                        ) : field.type === 'activities' ? (
+                          <div className="relative">
+                            <button
+                              type="button"
+                              onClick={() => setIsActivitiesOpen(!isActivitiesOpen)}
+                              className="w-full h-12 sm:h-14 bg-transparent border-2 border-white text-white rounded-xl text-base sm:text-lg [font-family:'Outfit',Helvetica] transition-all duration-300 hover:border-gray-300 px-4 flex items-center justify-between"
+                            >
+                              <span className={formData.preferredActivities.length === 0 ? 'text-gray-400' : 'text-white'}>
+                                {formData.preferredActivities.length === 0 
+                                  ? field.placeholder
+                                  : `${formData.preferredActivities.length} activities selected`
+                                }
+                              </span>
+                              <ChevronDown className={`w-5 h-5 transition-transform duration-200 ${isActivitiesOpen ? 'rotate-180' : ''}`} />
+                            </button>
+                            
+                            {isActivitiesOpen && (
+                              <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-xl shadow-lg z-50 max-h-48 overflow-y-auto">
+                                <div className="p-2 space-y-1">
+                                  {availableActivities.map((activity) => (
+                                    <label
+                                      key={activity}
+                                      className="flex items-center space-x-3 p-2 hover:bg-gray-50 rounded-lg cursor-pointer"
+                                    >
+                                      <Checkbox
+                                        checked={formData.preferredActivities.includes(activity)}
+                                        onCheckedChange={(checked) => handleActivityChange(activity, checked as boolean)}
+                                        className="data-[state=checked]:bg-[#1e6f9f] data-[state=checked]:border-[#1e6f9f]"
+                                      />
+                                      <span className="text-gray-700 text-sm [font-family:'Outfit',Helvetica]">
+                                        {activity}
+                                      </span>
+                                    </label>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+                          </div>
                         ) : null}
                       </div>
                     );
