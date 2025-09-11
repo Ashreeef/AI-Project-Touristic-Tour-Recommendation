@@ -600,8 +600,8 @@ from typing import List, Tuple, Dict
 import json
 def load_attractions(json_file: str) -> List[Dict]:
     """Load attractions from JSON file"""
-    with open(json_file) as f:
-        return json.load(f)   #not needed 
+    with open(json_file, encoding="utf-8") as f:
+        return json.load(f) 
 
 def create_initial_state(start_location: Tuple[float, float], user_prefs: Dict) -> Dict:
     """Create initial state dictionary"""
@@ -878,9 +878,284 @@ def heuristic(problem: TourPlanningProblem, state: Dict) -> float:
     
     return total_h
 
-def state_to_key(state: Dict) -> str:
+def state_to_key(state: Dict) -> Tuple:
     """
     Generate a unique key for the given state. The key should be a tuple of
     the current day and the itinerary, which is unique to each planning state.
+    
+    Args:
+        state: The state dictionary
+        
+    Returns:
+        A tuple that uniquely identifies the state
     """
     return (state['curr_day'], tuple(tuple(day) for day in state['itinerary']))
+
+# ============================================================================================
+# CSP-style constructive planner (time-limited greedy with constraints)
+
+import time
+import itertools
+import collections
+
+class TourCSP:
+    def __init__(self, *, start_location, attractions, constraints, user_prefs):
+        self.start_loc = start_location
+        self.atts_full = attractions
+        self.Kmax = constraints["max_attractions_per_day"]
+        self.T_day_max = constraints["max_daily_time"]
+        self.B_week_max = constraints["max_total_budget"]
+        self.rate_km = 6.0 if constraints.get("has_car", False) else 10.0
+        self.user_prefs = user_prefs
+
+        # Quick look-ups
+        self.coords = {a["name"]: a["gps"] for a in self.atts_full}
+        self.visH = {a["name"]: self._parse_duration(a["visit_duration"]) for a in self.atts_full}
+        self.ticket = {a["name"]: self._parse_cost(a["cost"]) for a in self.atts_full}
+        self.rating = {a["name"]: a.get("rating", 3.0) for a in self.atts_full}
+        self.category = {a["name"]: a.get("category", "Unknown") for a in self.atts_full}
+
+        # Restrict POIs to preferred categories
+        pref_cats = set(user_prefs.get("categories", []))
+        self.pool = [a["name"] for a in self.atts_full if not pref_cats or a["category"] in pref_cats]
+        
+        # If too few attractions, add some others
+        if len(self.pool) < 14:
+            other_attractions = [a["name"] for a in self.atts_full if a["name"] not in self.pool]
+            other_atts_sorted = sorted(other_attractions, key=lambda n: self.rating[n], reverse=True)
+            self.pool.extend(other_atts_sorted[:14 - len(self.pool)])
+
+        # Distance cache
+        self.dist = {}
+        names = list(self.pool)
+        for i, n1 in enumerate(names):
+            for n2 in names[i+1:]:
+                d = self._haversine(self.coords[n1], self.coords[n2])
+                self.dist[(n1, n2)] = d
+                self.dist[(n2, n1)] = d
+            self.dist[(None, n1)] = self.dist[(n1, None)] = self._haversine(self.start_loc, self.coords[n1])
+
+        # Pre-compute domain tuples
+        self.domain_template = self._build_domain_tuples()
+        self.domain_template.sort(key=self._tuple_value, reverse=True)
+
+    def _haversine(self, c1, c2):
+        lat1, lon1 = map(math.radians, c1)
+        lat2, lon2 = map(math.radians, c2)
+        dlat, dlon = lat2 - lat1, lon2 - lon1
+        a = math.sin(dlat / 2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2)**2
+        return 6371 * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+
+    def _parse_duration(self, txt: str) -> float:
+        txt = txt.lower()
+        m = re.match(r"(\d+(?:\.\d+)?)(?:-(\d+(?:\.\d+)?))?\s*(?:h|hour|hrs?)", txt)
+        if not m:
+            return 2.0
+        lo = float(m.group(1))
+        hi = float(m.group(2)) if m.group(2) else lo
+        return (lo + hi) / 2.0
+
+    def _parse_cost(self, txt: str) -> float:
+        txt = txt.lower()
+        if "free" in txt or "variable" in txt:
+            return 0.0
+        m = re.search(r"(\d+(?:\.\d+)?)", txt)
+        return float(m.group(1)) if m else 0.0
+
+    def _tuple_metrics(self, seq):
+        """Return (internal_time, internal_cost, internal_distance) of an ordered POI sequence."""
+        if not seq:
+            return 0.0, 0.0, 0.0
+        t = sum(self.visH[a] for a in seq)
+        c = sum(self.ticket[a] for a in seq)
+        dist = 0.0
+        for i in range(1, len(seq)):
+            d = self.dist.get((seq[i-1], seq[i]), 0.0)
+            t += d / 50.0
+            c += d * self.rate_km
+            dist += d
+        return t, c, dist
+
+    def _tuple_value(self, tup):
+        length_value = len(tup["seq"]) * 1000
+        rating_value = sum(self.rating[name] for name in tup["seq"]) * 100
+        pref_cats = set(self.user_prefs.get("categories", []))
+        category_value = sum(50 if self.category[name] in pref_cats else 0 for name in tup["seq"])
+        efficiency = len(tup["seq"]) / (tup["time"] + 1e-6) * 200
+        return length_value + rating_value + category_value + efficiency
+
+    def _build_domain_tuples(self):
+        tuples = []
+        attractions_by_city = collections.defaultdict(list)
+        for name in self.pool:
+            city = next((a["city"] for a in self.atts_full if a["name"] == name), "Unknown")
+            attractions_by_city[city].append(name)
+        
+        for city, city_attractions in attractions_by_city.items():
+            for k in range(1, min(self.Kmax + 1, len(city_attractions) + 1)):
+                if k <= 3 or len(city_attractions) <= 5:
+                    for seq in itertools.permutations(city_attractions, k):
+                        time_h, cost, dist = self._tuple_metrics(seq)
+                        if time_h <= self.T_day_max:
+                            tuples.append({
+                                "seq": seq,
+                                "set": set(seq),
+                                "time": time_h,
+                                "cost": cost,
+                                "distance": dist
+                            })
+                else:
+                    for _ in range(min(100, math.factorial(len(city_attractions)) // math.factorial(len(city_attractions) - k))):
+                        seq = tuple(random.sample(city_attractions, k))
+                        time_h, cost, dist = self._tuple_metrics(seq)
+                        if time_h <= self.T_day_max:
+                            tuples.append({
+                                "seq": seq,
+                                "set": set(seq),
+                                "time": time_h,
+                                "cost": cost,
+                                "distance": dist
+                            })
+        
+        if len(attractions_by_city) > 1:
+            for k in range(2, self.Kmax + 1):
+                for _ in range(min(200, len(self.pool)**2)):
+                    seq = tuple(random.sample(self.pool, k))
+                    time_h, cost, dist = self._tuple_metrics(seq)
+                    if time_h <= self.T_day_max:
+                        tuples.append({
+                            "seq": seq,
+                            "set": set(seq),
+                            "time": time_h,
+                            "cost": cost,
+                            "distance": dist
+                        })
+        
+        return tuples
+
+    def solve(self):
+        assignment = [None] * 7
+        domains = [self.domain_template[:] for _ in range(7)]
+        used = set()
+        spent = 0.0
+        current_location = self.start_loc
+
+        def backtrack(depth, spent, used, current_location):
+            if depth == 7:
+                return assignment, spent
+
+            unassigned = [d for d in range(7) if assignment[d] is None]
+            day = min(unassigned, key=lambda d: len(domains[d]))
+
+            sorted_dom = sorted(domains[day], key=lambda t: self._haversine(current_location, self.coords[t["seq"][0]]) if t["seq"] else float('inf'))
+
+            for tup in sorted_dom:
+                if tup["set"] & used:
+                    continue
+
+                first_attr = tup["seq"][0] if tup["seq"] else None
+                if first_attr:
+                    travel_dist = self._haversine(current_location, self.coords[first_attr])
+                    travel_time = travel_dist / 50.0
+                    travel_cost = travel_dist * self.rate_km
+                    total_time_d = travel_time + tup["time"]
+                    total_cost_d = travel_cost + tup["cost"]
+                else:
+                    total_time_d = 0.0
+                    total_cost_d = 0.0
+
+                if total_time_d > self.T_day_max:
+                    continue
+                if spent + total_cost_d > self.B_week_max:
+                    continue
+
+                assignment[day] = tup
+                new_spent = spent + total_cost_d
+                new_used = used | tup["set"]
+                new_current_location = self.coords[tup["seq"][-1]] if tup["seq"] else current_location
+
+                new_domains = [list(filter(lambda t: not (t["set"] & tup["set"]), domains[d])) for d in range(7)]
+                if all(new_domains[d] or assignment[d] is not None for d in range(7)):
+                    result = backtrack(depth + 1, new_spent, new_used, new_current_location)
+                    if result:
+                        return result
+
+                assignment[day] = None
+
+            return None
+
+        result = backtrack(0, 0.0, set(), current_location)
+        if result:
+            assign, spent_total = result
+            itinerary = [tup["seq"] for tup in assign]
+            daily_time = [self._calculate_daily_time(tup, assign[i-1] if i > 0 else None) for i, tup in enumerate(assign)]
+            daily_distance = [self._calculate_daily_distance(tup, assign[i-1] if i > 0 else None) for i, tup in enumerate(assign)]
+            return {
+                "current_location": self.start_loc,
+                "itinerary": itinerary,
+                "curr_day": 7,
+                "total_cost": spent_total,
+                "total_time": sum(daily_time),
+                "daily_time": daily_time,
+                "daily_distance": daily_distance
+            }
+        return None
+
+    def _calculate_daily_time(self, tup, prev_tup):
+        if not tup["seq"]:
+            return 0.0
+        start_loc = self.start_loc if prev_tup is None else self.coords[prev_tup["seq"][-1]]
+        travel_time = self._haversine(start_loc, self.coords[tup["seq"][0]]) / 50.0
+        return travel_time + tup["time"]
+
+    def _calculate_daily_distance(self, tup, prev_tup):
+        if not tup["seq"]:
+            return 0.0
+        start_loc = self.start_loc if prev_tup is None else self.coords[prev_tup["seq"][-1]]
+        travel_dist = self._haversine(start_loc, self.coords[tup["seq"][0]])
+        return travel_dist + tup["distance"]
+
+def csp_constructive_plan(problem: TourPlanningProblem, time_limit_sec: float = 10.0) -> Node:
+    """
+    Build a feasible 7-day itinerary using the full CSP algorithm with time limiting.
+    Falls back to A* if CSP takes too long or fails to find a solution.
+    
+    Args:
+        problem: The tour planning problem instance
+        time_limit_sec: Maximum time to spend on CSP before falling back to A*
+        
+    Returns:
+        Node with complete itinerary or None if no solution found
+    """
+    start_time = time.time()
+    
+    try:
+        # Create CSP instance
+        csp = TourCSP(
+            start_location=problem.initial_state['current_location'],
+            attractions=problem.attractions,
+            constraints=problem.constraints,
+            user_prefs=problem.user_prefs
+        )
+        
+        # Try CSP solve with time limit
+        csp_result = csp.solve()
+        
+        if csp_result and (time.time() - start_time) < time_limit_sec:
+            # Convert CSP result to Node format
+            node = Node(
+                state=csp_result,
+                parent=None,
+                action=None,
+                path_cost=csp_result['total_cost']
+            )
+            node.value = problem.value(csp_result)
+            return node
+        else:
+            # CSP took too long or failed, fall back to A*
+            print(f"CSP took too long or failed, falling back to A* after {time.time() - start_time:.2f}s")
+            return None
+            
+    except Exception as e:
+        print(f"CSP failed with error: {e}, falling back to A*")
+        return None
