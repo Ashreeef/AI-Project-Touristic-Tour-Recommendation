@@ -827,7 +827,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Ferry Terminal"
-    ]
+    ],
+    "image": "Cap_Carbon.jpg"
   },
   {
     "name": "Constantine",
@@ -2118,7 +2119,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "benibelaid.jpg"
   },
   {
     "name": "Lake of Beni Belaid",
@@ -2135,7 +2137,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "Lake_of_Beni_Belaid.jpg"
   },
   {
     "name": "Plage Rocher aux Moules",
@@ -2152,7 +2155,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "Plage_Rocher_aux_Moules.jpg"
   },
   {
     "name": "El Djenah",
@@ -2169,7 +2173,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "El_Djenah.jpg"
   },
   {
     "name": "Plage Kotama",
@@ -2186,7 +2191,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "plage_kotama.jpg"
   },
   {
     "name": "Grand Phare",
@@ -2203,7 +2209,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "Grand_Phare.jpg"
   },
   {
     "name": "Zouai",
@@ -2220,7 +2227,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "Zouai.jpg"
   },
   {
     "name": "Rabta",
@@ -2237,7 +2245,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "Rabta.jpg"
   },
   {
     "name": "La Crique",
@@ -2254,7 +2263,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "La_Crique.jpg"
   },
   {
     "name": "Plage d'Ouled Bounnar",
@@ -2271,7 +2281,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Hotels"
-    ]
+    ],
+    "image": "Plage_d'Ouled_Bounnar.jpg"
   },
   {
     "name": "Taza National Park",
@@ -2288,7 +2299,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Taza_National_Park.jpg"
   },
   {
     "name": "Caves of Jijel (Grottes Merveilleuses)",
@@ -2305,7 +2317,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Gift Shop"
-    ]
+    ],
+    "image": "Caves_of_jijel_Grottes_Merveilleuses.jpg"
   },
   {
     "name": "Îles Cavallo",
@@ -2322,7 +2335,8 @@
     "nearby_amenities": [
       "Boat Rentals",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Îles_Cavallo.JPG"
   },
   {
     "name": "Grand Phare (Great Lighthouse)",
@@ -2339,7 +2353,8 @@
     "nearby_amenities": [
       "Parking",
       "Viewing Platforms"
-    ]
+    ],
+    "image": "Grand_Phare_Great_Lighthouse.jpg"
   },
   {
     "name": "Kotama Museum",
@@ -2356,7 +2371,8 @@
     "nearby_amenities": [
       "Restrooms",
       "Guided Tours"
-    ]
+    ],
+    "image": "Museum_of_Ifri.jpg"
   },
   {
     "name": "Animal Park - Kissir El Aouana",
@@ -2373,7 +2389,8 @@
     "nearby_amenities": [
       "Cafeteria",
       "Playground"
-    ]
+    ],
+    "image": "Animal_Park_Kissir_El_Aouana.jpg"
   },
   {
     "name": "Baba Arroudj Fortress",
@@ -2390,7 +2407,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Cafes"
-    ]
+    ],
+    "image": "Baba_Arroudj_Fortress.jpg"
   },
   {
     "name": "Ziama Mansouriah Coastal Town",
@@ -2407,7 +2425,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Shops"
-    ]
+    ],
+    "image": "Ziama_Mansouriah_Coastal_Town.jpg"
   },
   {
     "name": "Ouled Djellal Sand Dunes",
@@ -2915,7 +2934,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Local shops"
-    ]
+    ],
+    "image": "Tichy_Beach.jpg"
   },
   {
     "name": "Collo Beach",
@@ -3183,7 +3203,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Restaurants"
-    ]
+    ],
+    "image": "Aokas_Craftsmanship_Center.jpg"
   },
   {
     "name": "House of the Soummam Congress (Maison du Congrès de la Soummam)",
@@ -3200,7 +3221,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Wildlife Observation Points"
-    ]
+    ],
+    "image": "House_of_the_Soummam_Congress.jpg"
   },
   {
     "name": "Tomb of Sheikh Ahddad (Tombeau de Chikh Ahddad)",
@@ -3216,7 +3238,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Tomb_of_Sheikh_Ahddad.jpg"
   },
   {
     "name": "Tomb of El Mokrani (Tombeau d'El Mokrani)",
@@ -3232,7 +3255,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Tomb_of_El_Mokrani.jpg"
   },
   {
     "name": "Museum of Ifri ",
@@ -3249,7 +3273,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Wildlife Observation Points"
-    ]
+    ],
+    "image": "Museum_of_Ifri.jpg"
   },
   {
     "name": "Roman Ruins of Tiklate (Les Ruines Romaines de Tiklate)",
@@ -3265,7 +3290,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Picnic Areas"
-    ]
+    ],
+    "image": "Roman_Ruins_of_Tiklate.jpg"
   },
   {
     "name": "Touja Spring (Source de l'Eau Touja)",
@@ -3282,7 +3308,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Hiking Trails"
-    ]
+    ],
+    "image": "Touja_Spring.jpg"
   },
   {
     "name": "Black Lake of Akfadou (Le Lac Noir Akfadou)",
@@ -3300,7 +3327,8 @@
       "Hiking Trails",
       "Picnic Areas",
       "Wildlife Observation Points"
-    ]
+    ],
+    "image": "Black_Lake_of_Akfadou.jpg"
   },
   {
     "name": "Kherrata Gorges (Les Gorges de Kherrata)",
@@ -3316,7 +3344,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Hiking Trails"
-    ]
+    ],
+    "image": "Kherrata_Gorges.jpg"
   },
   {
     "name": "Brise de Mer",
@@ -3334,7 +3363,8 @@
       "Restaurants",
       "Beach Access",
       "Cafés"
-    ]
+    ],
+    "image": "Brise_de_Mer.jpg"
   },
   {
     "name": "Yemma Gouraya",
@@ -3351,7 +3381,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Beach Access"
-    ]
+    ],
+    "image": "Yemma_Gouraya.jpg"
   },
   {
     "name": "Aiguades Beaches (Plages les Aiguades)",
@@ -3370,7 +3401,8 @@
       "Hotels",
       "Parking",
       "Cafes"
-    ]
+    ],
+    "image": "Aiguades_Beaches.jpg"
   },
   {
     "name": "Kefrida Waterfall (Cascade de Kefrida)",
@@ -3388,7 +3420,8 @@
       "Restaurants",
       "Picnic Areas",
       "Restrooms"
-    ]
+    ],
+    "image": "Kefrida_Waterfall.jpg"
   },
   {
     "name": "Place du 1er Novembre",
@@ -3406,7 +3439,8 @@
       "Restaurants",
       "Cafes",
       "Hotels"
-    ]
+    ],
+    "image": "Place_du_1er_Novembre.jpg"
   },
   {
     "name": "Bab El Fouka",
@@ -3422,7 +3456,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Bab_El_Fouka.jpg"
   },
   {
     "name": "Monkey Peak (Pic des Singes)",
@@ -3438,7 +3473,8 @@
     "visit_duration": "4-10 hours",
     "nearby_amenities": [
       "Picnic Areas"
-    ]
+    ],
+    "image": "Monkey_Peak.jpg"
   },
   {
     "name": "Chenoua Beach (Plage de Chenoua)",
