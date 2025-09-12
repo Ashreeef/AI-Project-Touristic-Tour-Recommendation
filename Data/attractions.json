@@ -4968,7 +4968,8 @@
     "nearby_amenities": [
       "Cafés",
       "Playgrounds"
-    ]
+    ],
+    "image": "relizane_city_park.jpg"
   },
   {
     "name": "Oued Mina Valley",
@@ -4984,7 +4985,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Picnic spots"
-    ]
+    ],
+    "image": "oued_mina_valley.jpg"
   },
   {
     "name": "Relizane Regional Museum",
@@ -5000,7 +5002,8 @@
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Guided tours"
-    ]
+    ],
+    "image": "relizane_regional_museum.jpg"
   },
   {
     "name": "Saïda Forest Park",
@@ -5016,7 +5019,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Picnic areas"
-    ]
+    ],
+    "image": "saida_forest_park.jpg"
   },
   {
     "name": "Djebel Ouarkziz",
@@ -5032,7 +5036,8 @@
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Hiking trails"
-    ]
+    ],
+    "image": "djebel_ouarkziz.jpg"
   },
   {
     "name": "Saïda Old Town",
@@ -5049,7 +5054,8 @@
     "nearby_amenities": [
       "Souks",
       "Cafés"
-    ]
+    ],
+    "image": "saida_old_town.jpg"
   },
   {
     "name": "Sidi Bel Abbès City Center",
@@ -5066,7 +5072,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Shops"
-    ]
+    ],
+    "image": "sidi_bel_abbes_city_center.jpg"
   },
   {
     "name": "Mekerra River Park",
@@ -5082,7 +5089,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Walking paths"
-    ]
+    ],
+    "image": "mekerra_river_park.jpg"
   },
   {
     "name": "Sidi Bel Abbès Museum",
@@ -5098,7 +5106,8 @@
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Guided tours"
-    ]
+    ],
+    "image": "sidi_bel_abbes_museum.jpg"
   },
   {
     "name": "Tiaret Roman Ruins",
@@ -5114,7 +5123,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Historical markers"
-    ]
+    ],
+    "image": "tiaret_roman_ruins.jpg"
   },
   {
     "name": "Djebel Nador",
@@ -5130,7 +5140,8 @@
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Hiking trails"
-    ]
+    ],
+    "image": "djebel_nador.jpg"
   },
   {
     "name": "Tiaret Grand Mosque",
@@ -5146,23 +5157,8 @@
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Prayer areas"
-    ]
-  },
-  {
-    "name": "Tindouf Museum",
-    "category": "Museum",
-    "city": "Tindouf",
-    "gps": [
-      27.68,
-      -8.15
     ],
-    "description": "Museum showcasing Sahrawi culture and regional history.",
-    "rating": 3.9,
-    "cost": "100 DZD",
-    "visit_duration": "1 hour",
-    "nearby_amenities": [
-      "Cultural exhibits"
-    ]
+    "image": "tiaret_grand_mosque.jpg"
   },
   {
     "name": "Tindouf Oasis",
@@ -5178,7 +5174,8 @@
     "visit_duration": "2-6 hour",
     "nearby_amenities": [
       "Date markets"
-    ]
+    ],
+    "image": "tindouf_oasis.jpg"
   },
   {
     "name": "Tissemsilt National Park",
@@ -5194,7 +5191,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Picnic areas"
-    ]
+    ],
+    "image": "tissemsilt_national_park.jpg"
   },
   {
     "name": "Tissemsilt Dam",
@@ -5210,7 +5208,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Viewing areas"
-    ]
+    ],
+    "image": "tissemsilt_dam.jpg"
   },
   {
     "name": "Old Town Quarter",
@@ -5227,7 +5226,8 @@
     "nearby_amenities": [
       "Souks",
       "Cafés"
-    ]
+    ],
+    "image": "tissemsilt_old_town.jpg"
   },
   {
     "name": "Al-Murabitin Garden",
@@ -5245,7 +5245,8 @@
       "Cafes",
       "Rest Areas",
       "Tea Shops"
-    ]
+    ],
+    "image": "al_murabitin_garden.jpg"
   },
   {
     "name": "Megarine Lake",
@@ -5262,7 +5263,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Bird Watching Zones"
-    ]
+    ],
+    "image": "megarine_lake.jpg"
   },
   {
     "name": "Massoudi Park",
@@ -5279,7 +5281,8 @@
     "nearby_amenities": [
       "Children's Playground",
       "Snack Kiosks"
-    ]
+    ],
+    "image": "massoudi_park.jpg"
   },
   {
     "name": "Erg Admer",
@@ -5296,7 +5299,8 @@
     "nearby_amenities": [
       "Desert Camps",
       "Camel Trekking"
-    ]
+    ],
+    "image": "erg_admer.jpg"
   },
   {
     "name": "Guelta d'Afilal",
@@ -5313,7 +5317,8 @@
     "nearby_amenities": [
       "Nomadic Camps",
       "Hiking Trails"
-    ]
+    ],
+    "image": "guelta_d_afilal.jpg"
   },
   {
     "name": "Fadnoun Plateau",
@@ -5330,7 +5335,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Wildlife Spotting"
-    ]
+    ],
+    "image": "fadnoun_plateau.jpg"
   },
   {
     "name": "In Guezzam Dunes",
@@ -5347,23 +5353,8 @@
     "nearby_amenities": [
       "4x4 Tours",
       "Camel Trekking"
-    ]
-  },
-  {
-    "name": "Paradise Palm",
-    "category": "Nature",
-    "city": "In Guezzam",
-    "gps": [
-      19.5361,
-      5.7843
     ],
-    "description": "Remote Saharan oasis with a thriving palm grove, demonstrating desert ecosystem resilience. Offers rare shaded respite in Algeria's southern border region.",
-    "rating": 4,
-    "cost": "0 DZD",
-    "visit_duration": "2-3 hours",
-    "nearby_amenities": [
-      "No formal amenities"
-    ]
+    "image": "in_guezzam_dunes.jpg"
   },
   {
     "name": "Ksar Badjouda",
@@ -5380,7 +5371,8 @@
     "nearby_amenities": [
       "Local Shops",
       "Traditional Market"
-    ]
+    ],
+    "image": "ksar_badjouda.jpg"
   },
   {
     "name": "Grand Erg Occidental",
@@ -5397,7 +5389,8 @@
     "nearby_amenities": [
       "Camel Tours",
       "Dune Camping"
-    ]
+    ],
+    "image": "grand_erg_occidental_in_salah.jpg"
   },
   {
     "name": "Djebel Amour",
@@ -5414,7 +5407,8 @@
     "nearby_amenities": [
       "Hiking Trails",
       "4x4 Access Points"
-    ]
+    ],
+    "image": "djebel_amour.jpg"
   },
   {
     "name": "Kheneg",
@@ -5430,7 +5424,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "No formal amenities"
-    ]
+    ],
+    "image": "kheneg_canyon.jpg"
   },
   {
     "name": "Beni Haroun Dam",
@@ -5447,7 +5442,8 @@
     "nearby_amenities": [
       "Fishing Access",
       "Cafés"
-    ]
+    ],
+    "image": "beni_haroun_dam.jpg"
   },
   {
     "name": "Fontaine Antique d’Ain El-Bled",
@@ -5464,7 +5460,8 @@
     "nearby_amenities": [
       "Historic City Walls",
       "Local Shops"
-    ]
+    ],
+    "image": "fontaine_ain_el_bled.jpg"
   },
   {
     "name": "Old Ksar of Ouargla",
@@ -5481,7 +5478,8 @@
     "nearby_amenities": [
       "Local Guides",
       "Traditional Tea Houses"
-    ]
+    ],
+    "image": "old_ksar_ouargla.jpg"
   },
   {
     "name": "Souk d’Ouargla",
@@ -5498,7 +5496,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Handicraft Stalls"
-    ]
+    ],
+    "image": "souk_ouargla.jpg"
   },
   {
     "name": "Bordj M'krani",
@@ -5515,7 +5514,8 @@
     "nearby_amenities": [
       "City Center Parking",
       "Local Cafes"
-    ]
+    ],
+    "image": "bordj_mkrani.jpg"
   },
   {
     "name": "Djebel Mansoura",
@@ -5532,7 +5532,8 @@
     "nearby_amenities": [
       "Hiking Paths",
       "Picnic Spots"
-    ]
+    ],
+    "image": "djebel_mansoura.jpg"
   },
   {
     "name": "Grand Erg Occidental (Adrar Section)",
@@ -5549,7 +5550,8 @@
     "nearby_amenities": [
       "Desert Camps",
       "4x4 Rentals"
-    ]
+    ],
+    "image": "grand_erg_occidental_adrar.jpg"
   },
   {
     "name": "Ksar of Tamantit",
@@ -5566,6 +5568,7 @@
     "nearby_amenities": [
       "Local Craft Shops",
       "Guided Tours"
-    ]
+    ],
+    "image": "ksar_tamantit.jpg"
   }
 ]
