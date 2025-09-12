@@ -3,7 +3,10 @@ import { PageHeader } from '../components/common/PageHeader';
 import { HotelsGrid } from '../components/hotels/HotelsGrid';
 import { HotelFilters } from '../components/hotels/HotelFilters';
 import { Button } from '../components/ui/button';
-import { Loader2, RefreshCw, AlertCircle } from 'lucide-react';
+import { Loader2, RefreshCw } from 'lucide-react';
+
+
+// Loading all hotels from the database with pagination
 
 export const HotelsPage: React.FC = () => {
   const [filters, setFilters] = useState({
@@ -18,7 +21,7 @@ export const HotelsPage: React.FC = () => {
 
   const handleRefresh = () => {
     setIsLoading(true);
-    // Simulate refresh - in real app, this would reload data
+    
     setTimeout(() => setIsLoading(false), 1000);
   };
 
@@ -64,15 +67,6 @@ export const HotelsPage: React.FC = () => {
               ratingRange={filters.ratingRange}
             />
             
-            <div className="mt-8 text-center">
-              <p className="text-sm text-gray-500 [font-family:'Outfit',Helvetica] mb-4">
-                Discover the best hotels and accommodations across Algeria. Use filters to find your perfect stay.
-              </p>
-              <div className="flex items-center justify-center gap-2 text-xs text-gray-400">
-                <AlertCircle className="w-4 h-4" />
-                <span>Data is loaded from our comprehensive database of Algerian hotels</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
