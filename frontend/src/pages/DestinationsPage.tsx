@@ -4,7 +4,7 @@ import { DestinationsGrid } from '../components/destinations/DestinationsGrid';
 import { FilterSidebar } from '../components/destinations/FilterSidebar';
 import { useItinerary } from '../hooks/useItinerary';
 import { Button } from '../components/ui/button';
-import { Loader2, RefreshCw, AlertCircle } from 'lucide-react';
+import { Loader2, RefreshCw } from 'lucide-react';
 
 export const DestinationsPage: React.FC = () => {
   const [filters, setFilters] = useState({
@@ -76,15 +76,6 @@ export const DestinationsPage: React.FC = () => {
               ratingRange={filters.ratingRange}
             />
             
-            <div className="mt-8 text-center">
-              <p className="text-sm text-gray-500 [font-family:'Outfit',Helvetica] mb-4">
-                Showing attractions and destinations across Algeria. Use filters to narrow down your search.
-              </p>
-              <div className="flex items-center justify-center gap-2 text-xs text-gray-400">
-                <AlertCircle className="w-4 h-4" />
-                <span>Data is loaded from our comprehensive database of Algerian attractions</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

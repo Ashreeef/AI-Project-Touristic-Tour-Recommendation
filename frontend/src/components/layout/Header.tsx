@@ -6,7 +6,7 @@ const navigationItems = [
   { label: 'Home', href: '/' },
   { label: 'Destinations', href: '/destinations' },
   { label: 'Hotels', href: '/hotels' },
-  { label: 'About Us', href: '#about' },
+  { label: 'About Us', href: '/about' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -36,13 +36,21 @@ export const Header: React.FC = () => {
 
   const handleNavClick = (href: string) => {
     if (href.startsWith('#')) {
-      // Navigate to home first, then scroll to section
-      if (location.pathname !== '/') {
-        window.location.href = `/${href}`;
-      } else {
+      // For contact section, scroll to footer on current page
+      if (href === '#contact') {
         const element = document.querySelector(href);
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else {
+        // For other sections, navigate to home first, then scroll to section
+        if (location.pathname !== '/') {
+          window.location.href = `/${href}`;
+        } else {
+          const element = document.querySelector(href);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
         }
       }
     }

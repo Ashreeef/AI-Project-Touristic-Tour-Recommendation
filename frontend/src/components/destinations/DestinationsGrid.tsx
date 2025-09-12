@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from '../ui/card';
 import { Button } from '../ui/button';
-import { MapPin, Star, Grid, List } from 'lucide-react';
+import { MapPin, Star, Grid, List, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 import { getAttractions } from '../../services/api';
 import { Attraction } from '../../services/api';
 
@@ -136,11 +136,14 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
   const [sortBy, setSortBy] = useState<'rating' | 'name'>('rating');
   const [attractions, setAttractions] = useState<Attraction[]>([]);
   const [loading, setLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [goToPage, setGoToPage] = useState('');
+  const itemsPerPage = 12;
 
   useEffect(() => {
     const loadAttractions = async () => {
       try {
-        const response = await getAttractions({ limit: 20 });
+        const response = await getAttractions();
         setAttractions(response.attractions);
       } catch (error) {
         console.error('Error loading attractions:', error);
@@ -169,6 +172,60 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
         return 0;
     }
   });
+
+  // Pagination logic
+  const totalPages = Math.ceil(sortedAttractions.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedAttractions = sortedAttractions.slice(startIndex, endIndex);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategories, ratingRange]);
+
+  // Helper function to generate pagination numbers with ellipses
+  const getPaginationNumbers = () => {
+    const delta = 2; // Number of pages to show around current page
+    const range = [];
+    const rangeWithDots = [];
+
+    for (let i = Math.max(2, currentPage - delta); i <= Math.min(totalPages - 1, currentPage + delta); i++) {
+      range.push(i);
+    }
+
+    if (currentPage - delta > 2) {
+      rangeWithDots.push(1, '...');
+    } else {
+      rangeWithDots.push(1);
+    }
+
+    rangeWithDots.push(...range);
+
+    if (currentPage + delta < totalPages - 1) {
+      rangeWithDots.push('...', totalPages);
+    } else if (totalPages > 1) {
+      rangeWithDots.push(totalPages);
+    }
+
+    return rangeWithDots;
+  };
+
+  // Handle go to page
+  const handleGoToPage = () => {
+    const page = parseInt(goToPage);
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+      setGoToPage('');
+    }
+  };
+
+  // Handle enter key in go to page input
+  const handleGoToPageKeyPress = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      handleGoToPage();
+    }
+  };
 
   if (loading) {
     return (
@@ -206,14 +263,17 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
 
         <div className="flex items-center gap-2 sm:gap-4">
           <span className="text-sm text-gray-600">Sort by:</span>
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as any)}
-            className="border border-gray-300 rounded-lg px-3 py-2 text-sm w-full sm:w-auto"
-          >
-            <option value="rating">Rating</option>
-            <option value="name">Name</option>
-          </select>
+          <div className="relative">
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as any)}
+              className="border border-gray-300 rounded-lg px-3 py-2 text-sm w-full sm:w-auto appearance-none bg-white pr-8 focus:outline-none focus:ring-2 focus:ring-[#1e6f9f] focus:border-transparent"
+            >
+              <option value="rating">Rating</option>
+              <option value="name">Name</option>
+            </select>
+            <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
+          </div>
         </div>
       </div>
 
@@ -223,7 +283,7 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
           ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6'
           : 'space-y-4'
       }>
-        {sortedAttractions.map((attraction) => (
+        {paginatedAttractions.map((attraction) => (
           <Card
             key={attraction.name}
             className={`group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
@@ -278,6 +338,119 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
             </CardContent>
           </Card>
         ))}
+      </div>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="mt-8">
+          {/* Desktop Pagination */}
+          <div className="hidden sm:flex items-center justify-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              <ChevronLeft className="w-4 h-4 mr-1" />
+              Previous
+            </Button>
+            
+            <div className="flex items-center gap-1">
+              {getPaginationNumbers().map((page, index) => (
+                page === '...' ? (
+                  <span key={`dots-${index}`} className="px-2 py-1 text-gray-500">
+                    ...
+                  </span>
+                ) : (
+                  <Button
+                    key={page}
+                    variant={currentPage === page ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => setCurrentPage(page as number)}
+                    className={`px-3 py-2 min-w-[40px] transition-all ${
+                      currentPage === page 
+                        ? 'bg-[#1e6f9f] text-white border-[#1e6f9f] rounded-full font-semibold' 
+                        : 'hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] hover:rounded-full'
+                    }`}
+                  >
+                    {page}
+                  </Button>
+                )
+              ))}
+            </div>
+            
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              Next
+              <ChevronRight className="w-4 h-4 ml-1" />
+            </Button>
+          </div>
+
+          {/* Mobile Pagination */}
+          <div className="sm:hidden flex items-center justify-center gap-3">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </Button>
+            
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-600 [font-family:'Outfit',Helvetica]">
+                Page {currentPage} of {totalPages}
+              </span>
+            </div>
+            
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </Button>
+          </div>
+
+          {/* Go to page (for large datasets) */}
+          {totalPages > 10 && (
+            <div className="flex items-center justify-center gap-2 mt-4">
+              <span className="text-sm text-gray-600 [font-family:'Outfit',Helvetica]">Go to page:</span>
+              <input
+                type="number"
+                min="1"
+                max={totalPages}
+                value={goToPage}
+                onChange={(e) => setGoToPage(e.target.value)}
+                onKeyPress={handleGoToPageKeyPress}
+                className="w-16 px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e6f9f] focus:border-transparent"
+                placeholder="Page"
+              />
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleGoToPage}
+                className="px-3 py-1 text-sm hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+              >
+                Go
+              </Button>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Results info */}
+      <div className="text-center mt-4 text-sm text-gray-600 [font-family:'Outfit',Helvetica]">
+        Showing {startIndex + 1}-{Math.min(endIndex, sortedAttractions.length)} of {sortedAttractions.length} attractions
       </div>
 
     </div>
