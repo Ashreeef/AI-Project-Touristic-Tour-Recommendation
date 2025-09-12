@@ -5,41 +5,15 @@ import { Star, MapPin, Grid, List, ChevronLeft, ChevronRight, ChevronDown } from
 import { getHotels } from '../../services/api';
 import { Hotel } from '../../services/api';
 
-// Map hotel names to images in public/Hotels
-const hotelImageMap: Record<string, string> = {
-  'hotel el djazair': '/Hotels/hotel-el-djazair.jpg',
-  'sheraton oran hotel': '/Hotels/sheraton_hotel.jpg',
-  'hotel cirta': '/Hotels/hotel_citra.jpg',
-  'hotel sabri': '/Hotels/hotel_sabri.jpeg',
-  'hotel zianides': '/Hotels/hotel_ziandies.jpg',
-  'novotel constantine': '/Hotels/novotel_hotel.jpg',
-  'az hotel vague d\'or': '/Hotels/AZ_hotel.jpg',
-  'holiday inn cheraga': '/Hotels/holiday_inn.avif',
-  'hyatt regency algiers': '/Hotels/hyatt_hotel.jpg',
-  'renaissance tlemcen': '/Hotels/renaissance_hotel.jpg',
-  'four points oran': '/Hotels/four_points_hotel.avif',
-  'le méridien oran': '/Hotels/le_meridien_hotel.jpg',
-  'ibis tlemcen': '/Hotels/ibis_Tlemcen_hotel.jpg',
-  'sheraton annaba': '/Hotels/sheraton_annaba_hotel.jpg',
-  'az hotel vieux kouba': '/Hotels/AZ_Hotel_Vieux_Kouba.jpg',
-  'el aurassi': '/Hotels/EL_Aurassi.jpg',
-  'hotel oasis tipaza': '/Hotels/Hotel_Oasis.jpg',
-  'hotel jijel plage': '/Hotels/hotel_la_plage_jijel.jpg',
-  'hotel sidi fredj': '/Hotels/hotel_sidi_fredj.jpg',
-  'az hotel zeralda': '/Hotels/AZ_hotel_zeralda.jpg',
+// Default image fallback
+const DEFAULT_HOTEL_IMAGE = '/image-1.png';
+
+const getHotelImage = (hotel: Hotel): string => {
+  if (hotel.image) {
+    return `/Hotels/${hotel.image}`;
+  }
+  return DEFAULT_HOTEL_IMAGE;
 };
-
-function normalizeHotelName(name: string): string {
-  return name
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
-}
-
-// Use placeholder image for hotels not in mapping
-const PLACEHOLDER_IMAGE = '/image-1.png';
 
 interface HotelsGridProps {
   priceRange?: [number, number];
@@ -227,9 +201,12 @@ export const HotelsGrid: React.FC<HotelsGridProps> = ({
                     viewMode === 'list' ? 'w-32 sm:w-48 h-24 sm:h-32' : 'w-full h-40 sm:h-48'
                   }`}>
                     <img
-                      src={hotelImageMap[normalizeHotelName(hotel.hotel)] || PLACEHOLDER_IMAGE}
+                      src={getHotelImage(hotel)}
                       alt={`${hotel.hotel} hotel`}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      onError={(e) => {
+                        e.currentTarget.src = DEFAULT_HOTEL_IMAGE;
+                      }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                     

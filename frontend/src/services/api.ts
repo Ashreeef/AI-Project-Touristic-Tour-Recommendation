@@ -19,6 +19,7 @@ export interface Attraction {
   visit_duration: string;
   rating: number;
   description: string;
+  image?: string;
 }
 
 export interface Hotel {
@@ -29,6 +30,7 @@ export interface Hotel {
   price: number;
   type?: string;
   amenities?: string[];
+  image?: string; 
 }
 
 export interface Activity {

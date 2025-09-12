@@ -5,123 +5,15 @@ import { MapPin, Star, Grid, List, ChevronLeft, ChevronRight, ChevronDown } from
 import { getAttractions } from '../../services/api';
 import { Attraction } from '../../services/api';
 
-//this component is used to display the destinations grid
+// Default image fallback
+const DEFAULT_ATTRACTION_IMAGE = '/image-1.png';
 
-// Map destination/attraction names to images in public/destinations
-// Keys should be normalized via normalizeName(name)
-const destinationImageMap: Record<string, string> = {
-  // Djamaa El Djazair
-  'djamaa el djazair': '/destinations/Grande-mosquée-Alger.jpg',
-  'great mosque of algiers': '/destinations/Grande-mosquée-Alger.jpg',
-  'grande mosquee alger': '/destinations/Grande-mosquée-Alger.jpg',
-
-  // Jardin d'Essai / Hamma
-  'jardin d essai': '/destinations/Hamma-Algeirs.jpg',
-  'jardin d essai du hamma' : '/destinations/Hamma-Algeirs.jpg',
-  'le jardin d essai du hamma' : '/destinations/Hamma-Algeirs.jpg',
-  'jardin dessai': '/destinations/Hamma-Algeirs.jpg',
-  'jardin dessai du hamma': '/destinations/Hamma-Algeirs.jpg',
-  'hamma garden': '/destinations/Hamma-Algeirs.jpg',
-
-  // Casbah
-  'casbah': '/destinations/La-casbah-dAlger.jpg',
-  'la casbah dalger': '/destinations/La-casbah-dAlger.jpg',
-  'casbah of algiers': '/destinations/La-casbah-dAlger.jpg',
-
-
-
-// Martyrs' Memorial (Maqam Echahid)
-'martyrs': '/destinations/memorial-du-martyr.jpg',
-'martyrs memorial': '/destinations/memorial-du-martyr.jpg',
-'martyrs memorial maqam echahid': '/destinations/memorial-du-martyr.jpg',
-'maqam echahid': '/destinations/memorial-du-martyr.jpg',
-
-// Grande Poste (typos)
-'la grnade poste': '/destinations/La_Grande_post.jpg',
-'grande poste': '/destinations/La_Grande_post.jpg',
-
-// Teri Park (typo)
-'teri park': '/destinations/Teri_park.jpg',
-'reri park': '/destinations/Teri_park.jpg',
-
-// Royal Mausoleum of Mauretania (aliases)
-'royal mausoleum of mauretania': '/destinations/Royal_Mausoleum_of_Mauretania.jpg',
-'royal mausoleum of mauretania kbour er roumia': '/destinations/Royal_Mausoleum_of_Mauretania.jpg',
-'kbour er roumia': '/destinations/Royal_Mausoleum_of_Mauretania.jpg',
-'kbor er roumia': '/destinations/Royal_Mausoleum_of_Mauretania.jpg',
-
-
- 
-  'memorial du martyr': '/destinations/memorial-du-martyr.jpg',
-
- 
-  'la grande poste': '/destinations/La_Grande_post.jpg',
-  'la grande poste d alger': '/destinations/La_Grande_post.jpg',
- 
-  'la grande post': '/destinations/La_Grande_post.jpg',
-
-  // Bardo Museum
-  'bardo': '/destinations/bardo.jpg',
-  'bardo museum': '/destinations/bardo.jpg',
-
-  // Palais des Rais (Bastion 23)
-  'palais des rais': '/destinations/Palais_des_Raisr.jpg',
-  'bastion 23': '/destinations/Palais_des_Raisr.jpg',
-
-  // Royal Mausoleum of Mauretania
-  
-  'mauretania royal mausoleum': '/destinations/Royal_Mausoleum_of_Mauretania.jpg',
-  'maurtiana royal mausolem': '/destinations/Royal_Mausoleum_of_Mauretania.jpg',
- 
-  // Chrea Mountains
-  'chrea mountains': '/destinations/cherea_mountains.jpg',
-  'cherea mountains': '/destinations/cherea_mountains.jpg',
-
-  // Monastère de Tibhirine
-  'monastere de tibhirine': '/destinations/Monastère_de_Tibhirine.jpg',
-  'monastère de tibhirine': '/destinations/Monastère_de_Tibhirine.jpg',
-
-  // Bab Ezzouar (file is .jpg in folder)
-  'bab ezzouar': '/destinations/bab_ezzouar.jpg',
-  'beb ezzouar shopping mall': '/destinations/bab_ezzouar.jpg',
-
-  // Port de Sidi Fredj
-  'port sidi fredj': '/destinations/Port_de_Sidi_Fredj.jpg',
-  'port de sidi fredj': '/destinations/Port_de_Sidi_Fredj.jpg',
-
-  // Lac Dhya
-  'lac dhya': '/destinations/lac_dhya.jpg',
-  'lac dhaya': '/destinations/lac_dhya.jpg',
-
-  // Musée des Beaux-Arts
-  'musee des beaux arts': '/destinations/Musee-des-beaux-arts.jpg',
-  'musee des beaux arts d alger': '/destinations/Musee-des-beaux-arts.jpg',
-
-  // Notre Dame d'Afrique
-  'notre dame d afrique': '/destinations/NotreDameDafrique.jpg',
-  "notre dame d afrique basilique": '/destinations/NotreDameDafrique.jpg',
-
-  // Ketchaoua Mosque
-  'ketchaoua mosque': '/destinations/ketchaoua-mosque.jpg',
-
-  // Tipaza Roman Ruins
-  'tipaza roman ruins': '/destinations/Tipaza_Romain_ruins.jpg',
-  // Teri Park common typo
- 
-
-  // Extras kept
-  'garden city mall': '/destinations/Garden_City_Mall.jpeg',
-  'garden of prague': '/destinations/Garden_of_Prague.jpg',
+const getAttractionImage = (attraction: Attraction): string => {
+  if (attraction.image) {
+    return `/destinations/${attraction.image}`;
+  }
+  return DEFAULT_ATTRACTION_IMAGE;
 };
-
-function normalizeName(name: string): string {
-  return name
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
-}
 
 interface DestinationsGridProps {
   selectedCategories?: string[];
@@ -296,9 +188,12 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
                   viewMode === 'list' ? 'w-32 sm:w-48 h-24 sm:h-32' : 'w-full h-40 sm:h-48'
                 }`}>
                   <img
-                    src={destinationImageMap[normalizeName(attraction.name)] || '/image-1.png'}
+                    src={getAttractionImage(attraction)}
                     alt={`${attraction.name} attraction`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    onError={(e) => {
+                      e.currentTarget.src = DEFAULT_ATTRACTION_IMAGE;
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                   

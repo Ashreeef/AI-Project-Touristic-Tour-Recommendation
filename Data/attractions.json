@@ -15,7 +15,8 @@
       "Restaurants",
       "Metro Station",
       "Museum of Fine Arts"
-    ]
+    ],
+    "image": "Hamma-Algeirs.jpg"
   },
   {
     "name": "Bardo Museum",
@@ -33,7 +34,8 @@
       "Cafes",
       "Public Transport",
       "Casbah"
-    ]
+    ],
+    "image": "bardo.jpg"
   },
   {
     "name": "Notre Dame d'Afrique",
@@ -50,7 +52,8 @@
     "nearby_amenities": [
       "Cable Car Station",
       "Souvenir Shops"
-    ]
+    ],
+    "image": "NotreDameDafrique.jpg"
   },
   {
     "name": "Casbah of Algiers",
@@ -68,7 +71,8 @@
       "Traditional Tea Houses",
       "Carpet Workshops",
       "Guided Tour Offices"
-    ]
+    ],
+    "image": "La-casbah-dAlger.jpg"
   },
   {
     "name": "Martyrs' Memorial (Maqam Echahid)",
@@ -85,7 +89,8 @@
     "nearby_amenities": [
       "Public Transport",
       "Restaurants"
-    ]
+    ],
+    "image": "memorial-du-martyr.jpg"
   },
   {
     "name": "Ketchaoua Mosque",
@@ -102,7 +107,8 @@
     "nearby_amenities": [
       "Casbah",
       "Restaurants"
-    ]
+    ],
+    "image": "ketchaoua-mosque.jpg"
   },
   {
     "name": "Palais des Raïs",
@@ -119,7 +125,8 @@
     "nearby_amenities": [
       "Casbah",
       "Restaurants"
-    ]
+    ],
+    "image": "Palais_des_Raisr.jpg"
   },
   {
     "name": "Garden of Prague",
@@ -136,7 +143,8 @@
     "nearby_amenities": [
       "Public Transport",
       "Cafes"
-    ]
+    ],
+    "image": "Garden_of_Prague.jpg"
   },
   {
     "name": "Djamaâ El-Djazaïr",
@@ -154,7 +162,8 @@
       "Public Transport",
       "Restaurants",
       "Shopping Centers"
-    ]
+    ],
+    "image": "Grande-mosquée-Alger.jpg"
   },
   {
     "name": "La Grande Poste d'Alger",
@@ -173,7 +182,8 @@
       "Restaurants",
       "Casbah"
     ],
-    "unique_feature": "Historical significance as a colonial-era post office."
+    "unique_feature": "Historical significance as a colonial-era post office.",
+    "image": "La_Grande_post.jpg"
   },
   {
     "name": "Teri Park",
@@ -190,7 +200,8 @@
     "nearby_amenities": [
       "Food Court",
       "Secure Parking"
-    ]
+    ],
+    "image": "Teri_park.jpg"
   },
   {
     "name": "Beb Ezzouar Shopping Mall",
@@ -208,7 +219,8 @@
       "Cinema",
       "Food Court",
       "Parking"
-    ]
+    ],
+    "image": "bab_ezzouar.jpg"
   },
   {
     "name": "Musée des Beaux-Arts d'Alger",
@@ -225,7 +237,8 @@
     "nearby_amenities": [
       "Jardin d'Essai du Hamma",
       "Public Transport"
-    ]
+    ],
+    "image": "Musee-des-beaux-arts.jpg"
   },
   {
     "name": "Port Sidi Fredj",
@@ -242,7 +255,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Beach Access"
-    ]
+    ],
+    "image": "Port_de_Sidi_Fredj.jpg"
   },
   {
     "name": "Garden City Mall",
@@ -261,7 +275,8 @@
       "Cinemas",
       "Play areas",
       "Parking"
-    ]
+    ],
+    "image": "Garden_City_Mall.jpeg"
   },
   {
     "name": "Tipaza Roman Ruins",
@@ -278,7 +293,8 @@
     "nearby_amenities": [
       "Beach Access",
       "Archaeological Museum"
-    ]
+    ],
+    "image": "Tipaza_Romain_ruins.jpg"
   },
   {
     "name": "Royal Mausoleum of Mauretania (Kbour-er-Roumia)",
@@ -296,7 +312,8 @@
       "Scenic Views",
       "Local Guides"
     ],
-    "tourist_type": "Archaeology Enthusiasts"
+    "tourist_type": "Archaeology Enthusiasts",
+    "image": "Royal_Mausoleum_of_Mauretania.jpg"
   },
   {
     "name": "Chréa Mountains",
@@ -314,7 +331,8 @@
       "Hiking trails",
       "Picnic spots",
       "Lookout points"
-    ]
+    ],
+    "image": "cherea_mountains.jpg"
   },
   {
     "name": "Monastère de Tibhirine",
@@ -330,7 +348,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Limited"
-    ]
+    ],
+    "image": "Monastère_de_Tibhirine.jpg"
   },
   {
     "name": "Lac Dhaya",
@@ -346,7 +365,8 @@
     "visit_duration": "3-5 hours",
     "nearby_amenities": [
       "Limited"
-    ]
+    ],
+    "image": "lac_dhya.jpg"
   },
   {
     "name": "Cascade Zonday (Zonday Waterfalls)",

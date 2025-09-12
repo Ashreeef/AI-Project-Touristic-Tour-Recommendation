@@ -9,7 +9,8 @@
         "hotel": "Holiday Inn Algiers - Cheraga Tower by IHG",
         "price": 99300,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "holiday_inn.avif"
     },
     {
         "hotel": "Hotel Best Night",
@@ -99,7 +100,8 @@
         "hotel": "AZ Hôtels Vieux Kouba",
         "price": 147000,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "AZ_Hotel_Vieux_Kouba.jpg"
     },
     {
         "hotel": "Algiers Marriott Hotel Bab Ezzouar",
@@ -177,7 +179,8 @@
         "hotel": "Hotel Sabri",
         "price": 86100,
         "city": "Annaba",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "hotel_sabri.jpg"
     },
     {
         "hotel": "Jakasse",
@@ -339,7 +342,8 @@
         "hotel": "Novotel Constantine",
         "price": 69849,
         "city": "Constantine",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "novotel_hotel.jpg"
     },
     {
         "hotel": "Hotel El Bey Constantine",
@@ -429,7 +433,8 @@
         "hotel": "HOTEL IKRAM ORAN",
         "price": 31014,
         "city": "Oran",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "hotel_ikram_oran.jpg"
     },
     {
         "hotel": "Hotel 2H",
@@ -495,13 +500,15 @@
         "hotel": "Four Points by Sheraton Oran",
         "price": 116800,
         "city": "Oran",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "four_points_hotel.avif"
     },
     {
         "hotel": "Le Meridien Oran Hotel",
         "price": 153900,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "le_meridien_hotel.jpg"
     },
     {
         "hotel": "2H Hotel",
@@ -531,7 +538,8 @@
         "hotel": "West khaw",
         "price": 61880,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "west_khaw.jpg"
     },
     {
         "hotel": "dreamHome",
@@ -627,7 +635,8 @@
         "hotel": "ibis Tlemcen",
         "price": 56345,
         "city": "Tlemcen",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "ibis_Tlemcen_hotel.jpg"
     },
     {
         "hotel": "Hôtel El Menzah Kazi",
@@ -975,7 +984,8 @@
         "hotel": "Hôtel El Aurassi",
         "price": 12825,
         "city": "Algiers",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "EL_Aurassi.jpg"
     },
     {
         "hotel": "Nelson Hotel",
@@ -1047,7 +1057,8 @@
         "hotel": "Hotel El Djazair",
         "price": 10530,
         "city": "Algiers",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "hotel_el_djazair.jpg"
     },
     {
         "hotel": "Sidi Yahia Hotel",
@@ -1215,7 +1226,8 @@
         "hotel": "Hôtel de la Plage d'or jijel",
         "price": 4590,
         "city": "Jijel",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "hotel_la_plage_jijel.jpg"
     },
     {
         "hotel": "Hôtel Rouikha Meriem ep Zaimen",
@@ -1539,7 +1551,8 @@
         "hotel": "HOTEL HAYATT REGENCY BARKI ORAN",
         "price": 9900,
         "city": "Oran",
-        "avg_review": 4.9
+        "avg_review": 4.9,
+        "image": "hyatt_hotel.jpg"
     },
     {
         "hotel": "Hôtel KAMEL",
@@ -1563,7 +1576,8 @@
         "hotel": "SH Hotel",
         "price": 9900,
         "city": "Oran",
-        "avg_review": 5.0
+        "avg_review": 5.0,
+        "image": "SH_hotel.jpg"
     },
     {
         "hotel": "Hôtel le Majestic Oran",
@@ -1587,7 +1601,8 @@
         "hotel": "Grand Hotel Cirta",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 3.6
+        "avg_review": 3.6,
+        "image": "hotel_citra.jpg"
     },
     {
         "hotel": "Grand Hotel",
@@ -1797,7 +1812,8 @@
         "hotel": "Hôtel Namymas - Berard",
         "price": 9900,
         "city": "Tipaza",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Hôtel_Namymas.jpg"
     },
     {
         "hotel": "Hotel Es-salem فندق السلام",
@@ -1839,7 +1855,8 @@
         "hotel": "Sheraton Annaba Hotel",
         "price": 19305,
         "city": "Annaba",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "sheraton_annaba_hotel.jpg"
     },
     {
         "hotel": "Hotel Royal Elisa Annaba",
@@ -2055,13 +2072,15 @@
         "hotel": "Renaissance Tlemcen Hotel",
         "price": 19454,
         "city": "Tlemcen",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "renaissance_hotel.jpg"
     },
     {
         "hotel": "Hôtel Les Zianides",
         "price": 7124,
         "city": "Tlemcen",
-        "avg_review": 3.3
+        "avg_review": 3.3,
+        "image": "hotel_ziandies.jpg"
     },
     {
         "hotel": "Hôtel Stambouli",
@@ -2367,7 +2386,8 @@
         "hotel": "Hôtel Oasis",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.3
+        "avg_review": 3.3,
+        "image": "Hotel_Oasis.jpg"
     },
     {
         "hotel": "Hôtel PTT",
