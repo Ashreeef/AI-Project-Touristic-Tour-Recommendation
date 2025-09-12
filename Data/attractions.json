@@ -382,7 +382,8 @@
     "visit_duration": "5-8 hours",
     "nearby_amenities": [
       "Hiking trails"
-    ]
+    ],
+    "image": "cascade_zonday.jpg"
   },
   {
     "name": "Fort Santa Cruz",
@@ -399,7 +400,8 @@
     "nearby_amenities": [
       "Cable Car to Bey's Palace",
       "Seafood Restaurants"
-    ]
+    ],
+    "image": "fort_santa_cruz.jpg"
   },
   {
     "name": "Bey's Palace",
@@ -417,7 +419,8 @@
       "Sidi El Houari District",
       "Restaurants",
       "Cable Car Station"
-    ]
+    ],
+    "image": "beys_palace_oran.jpg"
   },
   {
     "name": "Boulevard des Lions",
@@ -437,7 +440,8 @@
       "Trampoline Park",
       "Ice Skating Rink",
       "Various Restaurants"
-    ]
+    ],
+    "image": "boulevard_des_lions.jpg"
   },
   {
     "name": "Ahmed Zabana National Museum",
@@ -455,7 +459,8 @@
       "Public Transport",
       "Restaurants",
       "Cultural Center"
-    ]
+    ],
+    "image": "ahmed_zabana_museum.jpg"
   },
   {
     "name": "Cathedral of the Sacred Heart of Oran",
@@ -473,7 +478,8 @@
       "Restaurants",
       "Public Transport",
       "Bookstores"
-    ]
+    ],
+    "image": "cathedral_sacred_heart_oran.jpg"
   },
   {
     "name": "Oran Sea Front",
@@ -491,7 +497,8 @@
       "Restaurants",
       "Ice Cream Parlors",
       "Beachside Cafes"
-    ]
+    ],
+    "image": "oran_sea_front.jpg"
   },
   {
     "name": "Canastel Forest",
@@ -508,7 +515,8 @@
     "nearby_amenities": [
       "Picnic Areas",
       "Hiking Trails"
-    ]
+    ],
+    "image": "canastel_forest.jpg"
   },
   {
     "name": "Regional Theater of Oran",
@@ -526,7 +534,8 @@
       "Restaurants",
       "Public Transport",
       "Cultural Center"
-    ]
+    ],
+    "image": "regional_theater_oran.jpg"
   },
   {
     "name": "Centre Commercial et de Loisirs Es-Senia",
@@ -544,7 +553,8 @@
       "Parking for 2000 vehicles",
       "Public Transport",
       "Restaurants"
-    ]
+    ],
+    "image": "centre_commercial_es_senia.jpg"
   },
   {
     "name": "AZ Mall Grand Oran",
@@ -562,7 +572,8 @@
       "Restaurants",
       "Public Transport",
       "Parking"
-    ]
+    ],
+    "image": "az_mall_grand_oran.jpg"
   },
   {
     "name": "Abdelhamid Ben Badis Mosque",
@@ -579,7 +590,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Public Transport"
-    ]
+    ],
+    "image": "abdelhamid_ben_badis_mosque.jpg"
   },
   {
     "name": "Arènes d'Oran",
@@ -596,7 +608,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Public Transport"
-    ]
+    ],
+    "image": "arenes_oran.jpg"
   },
   {
     "name": "Disco Maghreb",
@@ -613,7 +626,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Public Transport"
-    ]
+    ],
+    "image": "disco_maghreb.jpg"
   },
   {
     "name": "Sebkha of Oran",
@@ -630,7 +644,8 @@
     "nearby_amenities": [
       "Limited",
       "Agricultural areas"
-    ]
+    ],
+    "image": "sebkha_oran.jpg"
   },
   {
     "name": "Great Mosque of Tlemcen",
@@ -647,7 +662,8 @@
     "nearby_amenities": [
       "City Center",
       "Restaurants"
-    ]
+    ],
+    "image": "great_mosque_tlemcen.jpg"
   },
   {
     "name": "Al Mechouar Palace",
@@ -664,7 +680,8 @@
     "nearby_amenities": [
       "City Center",
       "Public Transport"
-    ]
+    ],
+    "image": "al_mechouar_palace.jpg"
   },
   {
     "name": "Mansourah Ruins",
@@ -681,7 +698,8 @@
     "nearby_amenities": [
       "Public Transport",
       "Restaurants"
-    ]
+    ],
+    "image": "mansourah_ruins.jpg"
   },
   {
     "name": "Lalla Setti Plateau",
@@ -698,7 +716,8 @@
     "nearby_amenities": [
       "Public Transport",
       "Restaurants"
-    ]
+    ],
+    "image": "lalla_setti_plateau.jpg"
   },
   {
     "name": "Beni Add Cave",
@@ -715,7 +734,8 @@
     "nearby_amenities": [
       "Public Transport",
       "Picnic Areas"
-    ]
+    ],
+    "image": "beni_add_cave.jpg"
   },
   {
     "name": "El Ourit Waterfalls",
@@ -732,7 +752,8 @@
     "nearby_amenities": [
       "Hiking Trails",
       "Picnic Areas"
-    ]
+    ],
+    "image": "el_ourit_waterfalls.jpg"
   },
   {
     "name": "Marsa Ben M'hidi Beach",
@@ -753,7 +774,8 @@
       "Restrooms",
       "Restaurants",
       "Cafes"
-    ]
+    ],
+    "image": "marsa_ben_mhidi_beach.jpg"
   },
   {
     "name": "Mosquée Sidi Boumediene",
@@ -771,7 +793,7 @@
       "Restaurants",
       "Public Transport"
     ],
-    "unique_feature": "Part of a complex that includes a madrasa, a small palace, a zaouia, a hammam, and latrines."
+    "image": "mosquee_sidi_boumediene.jpg"
   },
   {
     "name": "Timgad Ruins",
