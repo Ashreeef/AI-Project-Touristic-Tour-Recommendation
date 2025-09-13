@@ -4455,7 +4455,8 @@
       "Local eateries",
       "Souvenir shops",
       "Cultural exhibitions"
-    ]
+    ],
+    "image": "grande_mosquee_ghardaia.jpg"
   },
   {
     "name": "Ancienne Cité de Ghardaïa",
@@ -4474,7 +4475,8 @@
       "Traditional cafés",
       "Local guides",
       "Cultural landmarks"
-    ]
+    ],
+    "image": "ancienne_cite_ghardaia.jpg"
   },
   {
     "name": "Reptiles Zoo",
@@ -4493,64 +4495,8 @@
       "Educational exhibits",
       "Refreshment stands",
       "Parking facilities"
-    ]
-  },
-  {
-    "name": "Mosquée Al Ghofrane",
-    "category": "Religious",
-    "city": "Ghardaïa",
-    "gps": [
-      32.496468,
-      3.642989
     ],
-    "description": "Mosquée Al Ghofrane is a significant religious site in Ghardaïa, known for its serene ambiance and traditional design. It serves as a place of worship and community gatherings.",
-    "rating": 4.3,
-    "cost": "0 DZD",
-    "visit_duration": "30 minutes",
-    "nearby_amenities": [
-      "Prayer areas",
-      "Cultural centers",
-      "Local shops",
-      "Public restrooms"
-    ]
-  },
-  {
-    "name": "Mosquée Badr",
-    "category": "Religious",
-    "city": "Ghardaïa",
-    "gps": [
-      32.47704,
-      3.69007
-    ],
-    "description": "Mosquée Badr is a notable mosque in Ghardaïa, reflecting the architectural heritage of the M'Zab Valley. It is a place of spiritual significance for the local community.",
-    "rating": 4.2,
-    "cost": "0 DZD",
-    "visit_duration": "30 minutes",
-    "nearby_amenities": [
-      "Prayer halls",
-      "Community centers",
-      "Nearby cafés",
-      "Parking facilities"
-    ]
-  },
-  {
-    "name": "Mosquée Omar Ibn Al-Khattab",
-    "category": "Religious",
-    "city": "Ghardaïa",
-    "gps": [
-      32.479091,
-      3.680431
-    ],
-    "description": "Named after the second caliph of Islam, Mosquée Omar Ibn Al-Khattab is a significant mosque in Ghardaïa, known for its spiritual ambiance and community importance.",
-    "rating": 4.4,
-    "cost": "0 DZD",
-    "visit_duration": "30 minutes",
-    "nearby_amenities": [
-      "Prayer facilities",
-      "Educational centers",
-      "Nearby eateries",
-      "Public transportation access"
-    ]
+    "image": "reptiles_zoo_ghardaia.jpg"
   },
   {
     "name": "Grotte de Cervantes",
@@ -4569,64 +4515,8 @@
       "Guided tours",
       "Parking area",
       "Viewing platforms"
-    ]
-  },
-  {
-    "name": "Souk El Had Bouira",
-    "category": "Cultural",
-    "city": "Bouira",
-    "gps": [
-      36.3749,
-      3.9026
     ],
-    "description": "Vibrant weekly market showcasing traditional Kabyle crafts, local produce, and authentic Algerian street food.",
-    "rating": 4.3,
-    "cost": "Variable",
-    "visit_duration": "2-3 hours",
-    "nearby_amenities": [
-      "Handicraft stalls",
-      "Food vendors",
-      "Currency exchange",
-      "Public restrooms"
-    ]
-  },
-  {
-    "name": "Aïn Bessem Hot Springs",
-    "category": "Resort",
-    "city": "Bouira",
-    "gps": [
-      36.2936,
-      3.6731
-    ],
-    "description": "Natural thermal springs renowned for therapeutic properties, with mineral-rich waters averaging 47°C year-round.",
-    "rating": 4.5,
-    "cost": "200 DZD",
-    "visit_duration": "1-2 hours",
-    "nearby_amenities": [
-      "Changing rooms",
-      "Therapy centers",
-      "Cafeteria",
-      "Gardens"
-    ]
-  },
-  {
-    "name": "Monument des Martyrs",
-    "category": "Historical",
-    "city": "Bouira",
-    "gps": [
-      36.3765,
-      3.9003
-    ],
-    "description": "Imposing memorial honoring Bouira's martyrs from the Algerian Revolution, featuring striking modernist architecture.",
-    "rating": 4.4,
-    "cost": "0 DZD",
-    "visit_duration": "30 minutes",
-    "nearby_amenities": [
-      "Guided tours",
-      "Park benches",
-      "Illuminated at night",
-      "City center access"
-    ]
+    "image": "grotte_de_cervantes.jpg"
   },
   {
     "name": "Tala Guilef Cave",
@@ -4645,26 +4535,8 @@
       "Certified guides",
       "Safety briefing area",
       "Parking"
-    ]
-  },
-  {
-    "name": "Grotte de l'Ours",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.4417,
-      8.1569
     ],
-    "description": "Prehistoric cave system with Neolithic rock art depicting hunting scenes and ancient bear habitats, accessible with specialized guides.",
-    "rating": 4.6,
-    "cost": "600 DZD (with equipment)",
-    "visit_duration": "3 hours",
-    "nearby_amenities": [
-      "Helmet rentals",
-      "Archaeological briefings",
-      "Safety equipment",
-      "Prehistoric tool replicas"
-    ]
+    "image": "tala_guilef_cave.jpg"
   },
   {
     "name": "Aïn Chrichira",
@@ -4683,7 +4555,8 @@
       "Walking trails",
       "Natural swimming pools",
       "Local cafes"
-    ]
+    ],
+    "image": "ain_chrichira.jpg"
   },
   {
     "name": "Byzantine Walls",
@@ -4702,26 +4575,8 @@
       "Walking path",
       "Historical markers",
       "Panoramic viewpoints"
-    ]
-  },
-  {
-    "name": "Djebel Doukane",
-    "category": "Nature",
-    "city": "Tébessa",
-    "gps": [
-      35.3583,
-      8.0836
     ],
-    "description": "Dramatic limestone mountain offering challenging hikes to prehistoric cave dwellings with panoramic views of the Aurès Mountains.",
-    "rating": 4.7,
-    "cost": "0 DZD",
-    "visit_duration": "4-6 hours",
-    "nearby_amenities": [
-      "Mountain guides",
-      "Rock climbing routes",
-      "Emergency shelters",
-      "Spring water sources"
-    ]
+    "image": "byzantine_walls_tebessa.jpg"
   },
   {
     "name": "Sebkha Circuit",
@@ -4739,7 +4594,8 @@
       "Guided Tours",
       "Photo Spots",
       "Local Markets"
-    ]
+    ],
+    "image": "sebkha_circuit.jpg"
   },
   {
     "name": "Ighzer Citadel and Cave",
@@ -4756,7 +4612,8 @@
     "nearby_amenities": [
       "Walking Trails",
       "Panoramic Views"
-    ]
+    ],
+    "image": "ighzer_citadel_and_cave.jpg"
   },
   {
     "name": "Ksar Faoun",
@@ -4773,7 +4630,8 @@
     "nearby_amenities": [
       "Fougara System",
       "Palm Groves"
-    ]
+    ],
+    "image": "ksar_faoun.jpg"
   },
   {
     "name": "Fougara Irrigation System",
@@ -4790,7 +4648,8 @@
     "nearby_amenities": [
       "Palm Groves",
       "Cultural Tours"
-    ]
+    ],
+    "image": "fougara_irrigation_system.jpeg"
   },
   {
     "name": "El Amra Dam",
@@ -4807,7 +4666,8 @@
     "nearby_amenities": [
       "Fishing spots",
       "Food vendors"
-    ]
+    ],
+    "image": "el_amra_dam.jpg"
   },
   {
     "name": "Ottoman Fort of Aïn Defla",
@@ -4824,24 +4684,8 @@
     "nearby_amenities": [
       "Park",
       "Tea stalls"
-    ]
-  },
-  {
-    "name": "Aïn Defla Old Market (Souk El Hadjadj)",
-    "category": "Cultural",
-    "city": "Aïn Defla",
-    "gps": [
-      36.26,
-      1.96
     ],
-    "description": "A bustling traditional market selling spices, handicrafts, and local produce.",
-    "rating": 3.9,
-    "cost": "Free to explore",
-    "visit_duration": "1 hour",
-    "nearby_amenities": [
-      "Cafés",
-      "Textile shops"
-    ]
+    "image": "ottoman_fort_ain_defla.jpg"
   },
   {
     "name": "Grand Erg Occidental Dunes",
@@ -4857,7 +4701,8 @@
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Camel tours"
-    ]
+    ],
+    "image": "grand_erg_occidental_dunes.jpg"
   },
   {
     "name": "Ksar of Aïn Salah",
@@ -4873,7 +4718,8 @@
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Local guides"
-    ]
+    ],
+    "image": "ksar_ain_salah.jpeg"
   },
   {
     "name": "Aïn Salah Date Palm Oasis",
@@ -4889,23 +4735,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Date markets"
-    ]
-  },
-  {
-    "name": "Bordj Badji Mokhtar Fort",
-    "category": "Historical",
-    "city": "Bordj Badji Mokhtar",
-    "gps": [
-      21.32,
-      0.95
     ],
-    "description": "Historic desert fort marking Algeria's southern border with Mali.",
-    "rating": 3.8,
-    "cost": "Free",
-    "visit_duration": "1 hour",
-    "nearby_amenities": [
-      "Border viewpoint"
-    ]
+    "image": "ain_salah_date_palm_oasis.jpg"
   },
   {
     "name": "Tanezrouft Desert Landscape",
@@ -4921,23 +4752,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "4x4 tours"
-    ]
-  },
-  {
-    "name": "Trans-Saharan Trade Route",
-    "category": "Historical",
-    "city": "Bordj Badji Mokhtar",
-    "gps": [
-      21.35,
-      0.98
     ],
-    "description": "Ancient caravan route crossing the Sahara, with historical significance for salt and gold trade.",
-    "rating": 4,
-    "cost": "Free",
-    "visit_duration": "1 hour",
-    "nearby_amenities": [
-      "Historical markers"
-    ]
+    "image": "tanezrouft_desert_landscape.jpg"
   },
   {
     "name": "Chott Melrhir Salt Flats",
@@ -4953,7 +4769,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Viewing areas"
-    ]
+    ],
+    "image": "chott_melrhir_salt_flats.jpg"
   },
   {
     "name": "El M'Ghair Oasis",
@@ -4969,7 +4786,8 @@
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Local farms"
-    ]
+    ],
+    "image": "el_mghair_oasis.jpg"
   },
   {
     "name": "Nomadic Heritage Center",
@@ -4985,7 +4803,8 @@
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Handicrafts"
-    ]
+    ],
+    "image": "nomadic_heritage_center.jpg"
   },
   {
     "name": "El Menia Oasis",
@@ -5001,7 +4820,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Date markets"
-    ]
+    ],
+    "image": "el_menia_oasis.jpg"
   },
   {
     "name": "Ksar El Menia",
@@ -5017,7 +4837,8 @@
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Local guides"
-    ]
+    ],
+    "image": "ksar_el_menia.jpg"
   },
   {
     "name": "Desert Star Observation",
@@ -5033,7 +4854,8 @@
     "visit_duration": "Evening",
     "nearby_amenities": [
       "Observation areas"
-    ]
+    ],
+    "image": "desert_star_observation.jpg"
   },
   {
     "name": "Relizane City Park",
