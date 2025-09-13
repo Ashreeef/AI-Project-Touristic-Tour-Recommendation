@@ -210,6 +210,13 @@ export async function getWilayas(): Promise<WilayasResponse> {
 }
 
 /**
+ * Get all available cities (same as wilayas for this implementation)
+ */
+export async function getCities(): Promise<WilayasResponse> {
+  return apiRequest<WilayasResponse>('/wilayas');
+}
+
+/**
  * Get hotels with optional filtering
  */
 export async function getHotels(

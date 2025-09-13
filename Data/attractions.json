@@ -810,7 +810,8 @@
     "nearby_amenities": [
       "Visitor Center",
       "Guided Tours"
-    ]
+    ],
+    "image": "Timgad_Ruins.jpg"
   },
   {
     "name": "Cap Carbon",
@@ -831,21 +832,22 @@
     "image": "Cap_Carbon.jpg"
   },
   {
-    "name": "Constantine",
+    "name": "Constantine Bridge",
     "category": "Cultural",
     "city": "Constantine",
     "gps": [
       36.365,
       6.6147
     ],
-    "description": "‘City of Bridges’ featuring Sidi M’Cid suspension bridge (1912) and Palais d'Ahmed Bey. Historic Jewish quarter with Ottoman architecture.",
+    "description": "'City of Bridges' featuring Sidi M'Cid suspension bridge (1912) and Palais d'Ahmed Bey. Historic Jewish quarter with Ottoman architecture.",
     "rating": 4.6,
     "cost": "0 DZD",
     "visit_duration": "3 hours",
     "nearby_amenities": [
       "Cable Cars",
       "Traditional Bakeries"
-    ]
+    ],
+    "image": "Constantine_Bridge.jpg"
   },
   {
     "name": "Cirta Museum",
@@ -862,7 +864,8 @@
     "nearby_amenities": [
       "Museum Cafe",
       "Gift Shop"
-    ]
+    ],
+    "image": "Cirta_Museum.jpg"
   },
   {
     "name": "Tassili n'Ajjer",
@@ -1016,7 +1019,8 @@
     "nearby_amenities": [
       "Archaeological Museum",
       "Hiking Trails"
-    ]
+    ],
+    "image": "Djemila.jpg"
   },
   {
     "name": "Basilique Saint Augustin",
@@ -1035,7 +1039,8 @@
       "Public Restrooms",
       "Museum",
       "Archaeological Site"
-    ]
+    ],
+    "image": "Basilique_Saint_Augustin.jpg"
   },
   {
     "name": "Musee des Ruines d' Hippone",
@@ -1055,7 +1060,8 @@
       "Gift Shop",
       "Guided Tours",
       "Information Center"
-    ]
+    ],
+    "image": "Musee_des_Ruines_d'Hippone.jpg"
   },
   {
     "name": "Farouk Land",
@@ -1075,7 +1081,8 @@
       "Gift Shop",
       "Picnic Areas",
       "First Aid Stations"
-    ]
+    ],
+    "image": "Farouk_Land.jpg"
   },
   {
     "name": "Seraidi Forest",
@@ -1094,7 +1101,8 @@
       "Public Restrooms",
       "Hiking Trails",
       "Scenic Viewpoints"
-    ]
+    ],
+    "image": "Seraidi_Forest.jpg"
   },
   {
     "name": "Hammam Debagh Hot Springs",
@@ -1268,7 +1276,8 @@
     "nearby_amenities": [
       "Cafés",
       "Shops"
-    ]
+    ],
+    "image": "Ain_El_Fouara_Fountain.jpg"
   },
   {
     "name": "Sétif Archaeological Museum",
@@ -1285,7 +1294,8 @@
     "nearby_amenities": [
       "Gift Shop",
       "Guided Tours"
-    ]
+    ],
+    "image": "Sétif_Archaeological_Museum.jpg"
   },
   {
     "name": "Park Mall Sétif",
@@ -1303,7 +1313,8 @@
       "Food Court",
       "parking",
       "prayer Areas"
-    ]
+    ],
+    "image": "Park_Mall_Sétif.jpg"
   },
   {
     "name": "Emir Abdelkader Mosque",
@@ -1320,7 +1331,8 @@
     "nearby_amenities": [
       "Prayer Areas",
       "Shops"
-    ]
+    ],
+    "image": "Emir_Abdelkader_Mosque.jpg"
   },
   {
     "name": "Pont Sidi M'Cid",
@@ -1338,7 +1350,8 @@
       "Photo Spots",
       "Benches",
       "Viewpoints"
-    ]
+    ],
+    "image": "Pont_Sidi_M'Cid.jpg"
   },
   {
     "name": "Monument aux Morts",
@@ -1355,7 +1368,8 @@
     "nearby_amenities": [
       "Viewpoints",
       "Benches"
-    ]
+    ],
+    "image": "Monument_aux_Morts.jpg"
   },
   {
     "name": "Palais d'Ahmed Bey",
@@ -1372,7 +1386,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Gift Shop"
-    ]
+    ],
+    "image": "Palais_d'Ahmed_Bey.jpg"
   },
   {
     "name": "Hoggar Mountains",
@@ -2461,7 +2476,8 @@
       "Picnic Areas",
       "Hiking Trails",
       "Camping"
-    ]
+    ],
+    "image": "Oued_El_Bared.jpg"
   },
   {
     "name": "El Firma Club",
@@ -2479,7 +2495,8 @@
       "Restaurants",
       "Sports Facilities",
       "Playgrounds"
-    ]
+    ],
+    "image": "El_Firma_Club.jpg"
   },
   {
     "name": "Ain Droj Fountain",
@@ -2496,7 +2513,8 @@
     "nearby_amenities": [
       "Rest Areas",
       "Local Cafés"
-    ]
+    ],
+    "image": "Ain_Droj_Fountain.jpg"
   },
   {
     "name": "Al Moujahidin Museum",
@@ -2506,7 +2524,7 @@
       36.1913,
       5.4115
     ],
-    "description": "A museum dedicated to the history of Algeria’s independence movement, featuring artifacts and documents from the war.",
+    "description": "A museum dedicated to the history of Algeria's independence movement, featuring artifacts and documents from the war.",
     "rating": 4.7,
     "cost": "300 DZD",
     "visit_duration": "1-2 hours",
@@ -2514,7 +2532,8 @@
       "Guided Tours",
       "Parking",
       "Gift Shop"
-    ]
+    ],
+    "image": "Al_Moujahidin_Museum.jpg"
   },
   {
     "name": "Bougaa Mountains",
@@ -2532,7 +2551,8 @@
       "Camping",
       "Hiking Trails",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Bougaa_Mountains.jpg"
   },
   {
     "name": "Megress Mountains",
@@ -2550,7 +2570,8 @@
       "Camping",
       "Hiking Trails",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Megress_Mountains.jpg"
   },
   {
     "name": "Hammam Sokhna",
@@ -2568,7 +2589,8 @@
       "Hotels",
       "Restaurants",
       "Thermal Baths"
-    ]
+    ],
+    "image": "Hammam_Sokhna.jpg"
   },
   {
     "name": "Hammam Guergour",
@@ -2586,7 +2608,8 @@
       "Hotels",
       "Restaurants",
       "Thermal Baths"
-    ]
+    ],
+    "image": "Hammam_Guergour.jpg"
   },
   {
     "name": "Aïn L'Hanech Archaeological Site",
@@ -2604,7 +2627,8 @@
       "Guided Tours",
       "Educational Panels",
       "Parking"
-    ]
+    ],
+    "image": "Aïn_L'Hanech_Archaeological_Site.jpg"
   },
   {
     "name": "Aïn Salah Sand Dunes",
@@ -3492,7 +3516,8 @@
       "Restaurants",
       "Hotels",
       "Cafes"
-    ]
+    ],
+    "image": "Chenoua_Beach.jpg"
   },
   {
     "name": "Plage Saint-Cloud",
@@ -3510,7 +3535,8 @@
       "Parking",
       "Shops",
       "Restrooms"
-    ]
+    ],
+    "image": "Plage_Saint_Cloud.jpg"
   },
   {
     "name": "Plage Chapuis (Rizzi Amor)",
@@ -3529,7 +3555,8 @@
       "Cafés",
       "Restrooms",
       "Shops"
-    ]
+    ],
+    "image": "Plage_Chapuis.jpg"
   },
   {
     "name": "Plage Sable d'Or Chetaïbi",
@@ -3547,7 +3574,8 @@
       "Parking",
       "Cafés",
       "Restrooms"
-    ]
+    ],
+    "image": "Plage_Sable_d'Or_Chetaïbi.jpg"
   },
   {
     "name": "plage El Marsa",
@@ -3600,7 +3628,8 @@
       "Parking",
       "Cafés",
       "Restrooms"
-    ]
+    ],
+    "image": "Plage_Echatt.jpg"
   },
   {
     "name": "Plage Djenane El Bey",
@@ -3617,7 +3646,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "Plage_Djenane_El_Bey.jpg"
   },
   {
     "name": "Plage Bikini",
@@ -3653,7 +3683,8 @@
       "Parking",
       "Boat Rentals",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Plage_Bleu_2.jpg"
   },
   {
     "name": "Plage Sacrée Gouraya",
@@ -3672,7 +3703,8 @@
       "Parking",
       "Picnic Areas",
       "Boat Rentals"
-    ]
+    ],
+    "image": "Plage_Sacrée_Gouraya.jpg"
   },
   {
     "name": "Patrice Lumumba Garden",
@@ -3691,7 +3723,8 @@
       "Restaurants",
       "Mosque",
       "Cultural Center"
-    ]
+    ],
+    "image": "Patrice_Lumumba_Garden.jpg"
   },
   {
     "name": "Iron Park",
@@ -3710,7 +3743,8 @@
       "Restaurants",
       "Parking",
       "Public Transport Access"
-    ]
+    ],
+    "image": "Iron_Park.jpg"
   },
   {
     "name": "Jewish Cemetery of Blida",
@@ -3728,7 +3762,8 @@
       "Cafés",
       "Restaurants",
       "Public Transport Access"
-    ]
+    ],
+    "image": "Jewish_Cemetery_of_Blida.jpg"
   },
   {
     "name": "Amoura",
@@ -4001,7 +4036,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "Pont_Sidi_Rached.jpg"
   },
   {
     "name": "Pont El Kantara",
@@ -4018,7 +4054,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "Pont_El_Kantara.jpg"
   },
   {
     "name": "Pont Mellah Slimane",
@@ -4034,7 +4071,8 @@
     "visit_duration": "30 minutes",
     "nearby_amenities": [
       "Restrooms"
-    ]
+    ],
+    "image": "Pont_Mellah_Slimane.jpg"
   },
   {
     "name": "Théâtre Régional Mohamed Tahar Fergani",
@@ -4052,7 +4090,8 @@
       "Parking",
       "Restrooms",
       "Cafes"
-    ]
+    ],
+    "image": "Théâtre_Régional_Mohamed_Tahar_Fergani.jpg"
   },
   {
     "name": "Jardin de l'Aqueduc Romain",
@@ -4069,7 +4108,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "Jardin_de_l'Aqueduc_Romain.jpg"
   },
   {
     "name": "Monts Chelia",
@@ -4104,7 +4144,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "Canyon_de_Ghoufi.jpg"
   },
   {
     "name": "Parc National de Djebel Aissa",
@@ -4219,14 +4260,15 @@
       35.70788061410484,
       6.434999172605006
     ],
-    "description": "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region’s early civilizations.",
+    "description": "A royal Numidian mausoleum, a symbol of Algeria's ancient heritage, offering insights into the region's early civilizations.",
     "rating": 4.5,
     "cost": "0 DZD",
     "visit_duration": "1 hour",
     "nearby_amenities": [
       "Historical site",
       "Cultural tours"
-    ]
+    ],
+    "image": "Mausoleum_of_Medghacen.jpg"
   },
   {
     "name": "1st November Mosque",
@@ -4243,7 +4285,8 @@
     "nearby_amenities": [
       "Religious site",
       "Guided tours"
-    ]
+    ],
+    "image": "1st_November_Mosque.jpg"
   },
   {
     "name": "Lambaesis Ruins",
@@ -4259,7 +4302,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Archaeological sites"
-    ]
+    ],
+    "image": "Lambaesis_Ruins.jpg"
   },
   {
     "name": "Belezma National Park",
@@ -4276,7 +4320,8 @@
     "nearby_amenities": [
       "Nature trails",
       "Wildlife watching"
-    ]
+    ],
+    "image": "Belezma_National_Park.jpg"
   },
   {
     "name": "Hammam Melouane",
@@ -4295,7 +4340,8 @@
       "Restaurant",
       "Hotels",
       "Playground"
-    ]
+    ],
+    "image": "Hammam_Melouane.jpg"
   },
   {
     "name": "Djebel Messaâd",

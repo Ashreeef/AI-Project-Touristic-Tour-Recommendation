@@ -18,11 +18,13 @@ const getAttractionImage = (attraction: Attraction): string => {
 interface DestinationsGridProps {
   selectedCategories?: string[];
   ratingRange?: [number, number];
+  selectedCities?: string[];
 }
 
 export const DestinationsGrid: React.FC<DestinationsGridProps> = ({ 
   selectedCategories = [], 
-  ratingRange = [1, 5] 
+  ratingRange = [1, 5],
+  selectedCities = []
 }) => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [sortBy, setSortBy] = useState<'rating' | 'name'>('rating');
@@ -47,11 +49,12 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
     loadAttractions();
   }, []);
 
-  // Filter attractions based on selected categories and rating range
+  // Filter attractions based on selected categories, rating range, and cities
   const filteredAttractions = attractions.filter(attraction => {
     const categoryMatch = selectedCategories.length === 0 || selectedCategories.includes(attraction.category);
     const ratingMatch = attraction.rating >= ratingRange[0] && attraction.rating <= ratingRange[1];
-    return categoryMatch && ratingMatch;
+    const cityMatch = selectedCities.length === 0 || selectedCities.includes(attraction.city);
+    return categoryMatch && ratingMatch && cityMatch;
   });
 
   const sortedAttractions = [...filteredAttractions].sort((a, b) => {
@@ -74,7 +77,7 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
   // Reset to first page when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [selectedCategories, ratingRange]);
+  }, [selectedCategories, ratingRange, selectedCities]);
 
   // Helper function to generate pagination numbers with ellipses
   const getPaginationNumbers = () => {
