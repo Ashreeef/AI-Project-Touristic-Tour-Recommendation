@@ -211,10 +211,10 @@ export const DestinationsGrid: React.FC<DestinationsGridProps> = ({
                 <div className={`p-4 sm:p-6 space-y-3 sm:space-y-4 ${viewMode === 'list' ? 'flex-1' : ''}`}>
                   <div>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2">
-                      <h3 className="text-lg sm:text-xl font-bold text-[#062546]">
+                      <h3 className="text-lg sm:text-xl font-bold text-[#062546] leading-tight flex-1">
                         {attraction.name}
                       </h3>
-                      <span className="bg-[#1e6f9f] text-white text-xs px-2 py-1 rounded-full w-fit">
+                      <span className="bg-[#1e6f9f] text-white text-xs px-2 py-1 rounded-full w-fit flex-shrink-0">
                         {attraction.category}
                       </span>
                     </div>

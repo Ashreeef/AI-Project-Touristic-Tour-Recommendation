@@ -163,7 +163,7 @@
       "Restaurants",
       "Shopping Centers"
     ],
-    "image": "Grande-mosquée-Alger.jpg"
+    "image": "Djamaâ_El-Djazaïr.jpg"
   },
   {
     "name": "La Grande Poste d'Alger",
@@ -775,7 +775,7 @@
       "Restaurants",
       "Cafes"
     ],
-    "image": "marsa_ben_mhidi_beach.jpg"
+    "image": "Marsa_Ben_M'hidi_Beach.jpg"
   },
   {
     "name": "Mosquée Sidi Boumediene",
@@ -1161,7 +1161,8 @@
       "Visitor Center",
       "Wildlife Observation Areas",
       "Public Restrooms"
-    ]
+    ],
+    "image": "Parc_National_El_Kala.jpg"
   },
   {
     "name": "National Museum of Antiquities of Algiers",
@@ -1179,7 +1180,8 @@
       "Restaurants",
       "Public Restrooms",
       "Library"
-    ]
+    ],
+    "image": "National_Museum_of_Antiquities_of_Algiers.jpg"
   },
   {
     "name": "Dounia Parc",
@@ -1201,7 +1203,8 @@
       "Picnic Areas",
       "Public Restrooms",
       "Parking"
-    ]
+    ],
+    "image": "Dounia_Parc.jpg"
   },
   {
     "name": "Villa Abd-el-Tif",
@@ -1218,7 +1221,8 @@
     "nearby_amenities": [
       "Public Restrooms",
       "Scenic Viewpoints"
-    ]
+    ],
+    "image": "Villa_Abd-el-Tif.jpg"
   },
   {
     "name": "Villa Boulkine",
@@ -1239,7 +1243,8 @@
       "Parking",
       "Metro Station",
       "Stadium"
-    ]
+    ],
+    "image": "Villa_Boulkine.jpg"
   },
   {
     "name": "M'Zab Valley",
@@ -1259,7 +1264,8 @@
       "Guided Tours",
       "Souvenir Shops",
       "Cafés"
-    ]
+    ],
+    "image": "M'Zab_Valley.jpg"
   },
   {
     "name": "Ain El Fouara Fountain",
@@ -1439,7 +1445,8 @@
       "Hotels",
       "Camel Rides",
       "Sandboarding"
-    ]
+    ],
+    "image": "Taghit_Oasis.webp"
   },
   {
     "name": "Ahaggar National Park",
@@ -1526,7 +1533,8 @@
       "Ski Rentals",
       "Restaurants",
       "Hiking Trails"
-    ]
+    ],
+    "image": "Tikjda_National_Park.jpg"
   },
   {
     "name": "Brezina Oasis",
@@ -1559,7 +1567,8 @@
     "visit_duration": "3-6 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Hammam_Salihine.jpg"
   },
   {
     "name": "Aqua Palm Les Jardains des Zibans Biskra",
@@ -1627,7 +1636,8 @@
       "Local Guesthouses",
       "Restaurants serving traditional cuisine",
       "Souvenir Shops"
-    ]
+    ],
+    "image": "Timimoun_Oasis.jpg"
   },
   {
     "name": "Ksar Draa",
@@ -1644,7 +1654,8 @@
     "nearby_amenities": [
       "Local shops",
       "Restaurants"
-    ]
+    ],
+    "image": "Ksar_Draa.jpg"
   },
   {
     "name": "La Gazelle d'Or Resort & Spa",
@@ -1693,7 +1704,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Limited"
-    ]
+    ],
+    "image": "Qal'at_Bani_Hammad.jpg"
   },
   {
     "name": "Djurdjura National Park",
@@ -1728,7 +1740,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Beni_Abbes_Museum.webp"
   },
   {
     "name": "Port de Stora",
@@ -1782,10 +1795,11 @@
     "nearby_amenities": [
       "Guided Tours",
       "Information Center"
-    ]
+    ],
+    "image": "Madaure_Ruins.jpg"
   },
   {
-    "name": "Thubursicum(Khamissa)",
+    "name": "Thubursicum (Khamissa)",
     "category": "Historical",
     "city": "Souk Ahras",
     "gps": [
@@ -1801,7 +1815,8 @@
       "Guided Tours",
       "Parking",
       "Information Center"
-    ]
+    ],
+    "image": "Thubursicum(Khamissa).jpg"
   },
   {
     "name": "lacs de Burgas",
@@ -1821,7 +1836,8 @@
       "Parking",
       "Restaruants",
       "Tawra University"
-    ]
+    ],
+    "image": "lacs_de_Burgas.jpg"
   },
   {
     "name": "The olive tree of St. Augustine",
@@ -1831,7 +1847,7 @@
       36.2844431,
       7.9590463
     ],
-    "description": "a revered 2,900-year-old olive tree in Souk Ahras, Algeria, where Saint Augustine is said to have meditated and written under its branches alongside his mother, Saint Monica. Certified by dendrochronology in 1953, this ancient symbol of faith and resilience—linked to biblical figures and Mediterranean history—draws pilgrims and scholars alike. Restored in 2005 with Italian collaboration, the site now features a museum and stands as a spiritual landmark, echoing UNESCO’s World Olive Day (November 26) as a testament to its global cultural and religious legacy.",
+    "description": "a revered 2,900-year-old olive tree in Souk Ahras, Algeria, where Saint Augustine is said to have meditated and written under its branches alongside his mother, Saint Monica. Certified by dendrochronology in 1953, this ancient symbol of faith and resilience—linked to biblical figures and Mediterranean history—draws pilgrims and scholars alike. Restored in 2005 with Italian collaboration, the site now features a museum and stands as a spiritual landmark, echoing UNESCO's World Olive Day (November 26) as a testament to its global cultural and religious legacy.",
     "rating": 4.2,
     "cost": "0 DZD",
     "visit_duration": "2-3 hours",
@@ -1841,7 +1857,8 @@
       "Parking",
       "Restaruants",
       "cafes"
-    ]
+    ],
+    "image": "The_olive_tree_of_St_Augustine.jpg"
   },
   {
     "name": "Mujahid Museum",
@@ -1851,7 +1868,7 @@
       36.287316,
       7.967866
     ],
-    "description": "honors Algeria’s fight for freedom (1954–1962) with photos, weapons, and stories of local heroes. Located in a historic city, it’s a moving tribute to courage and sacrifice. Perfect for understanding Algeria’s past. 🇩🇿",
+    "description": "honors Algeria's fight for freedom (1954–1962) with photos, weapons, and stories of local heroes. Located in a historic city, it's a moving tribute to courage and sacrifice. Perfect for understanding Algeria's past. 🇩🇿",
     "rating": 4.2,
     "cost": "0 DZD",
     "visit_duration": "1-2 hours",
@@ -1860,7 +1877,8 @@
       "Parking",
       "Restaruants",
       "cafes"
-    ]
+    ],
+    "image": "Mujahid_Museum.jpg"
   },
   {
     "name": "Mosque of Al-Aman",
@@ -1870,7 +1888,7 @@
       36.285538,
       7.954362
     ],
-    "description": " is a stunning modern mosque in the city center, built from 2011 to 2016. It holds 4,400 worshippers and includes a Quranic school, a 200-seat library, and parking. With its elegant design, it’s a peaceful place for prayer and cultural discovery. ",
+    "description": " is a stunning modern mosque in the city center, built from 2011 to 2016. It holds 4,400 worshippers and includes a Quranic school, a 200-seat library, and parking. With its elegant design, it's a peaceful place for prayer and cultural discovery. ",
     "rating": 4.6,
     "cost": "0 DZD",
     "visit_duration": "1-2 hours",
@@ -1879,7 +1897,8 @@
       "Parking",
       "Restaruants",
       "cafes"
-    ]
+    ],
+    "image": "Mosque_of_Al-Aman.jpg"
   },
   {
     "name": "Lac Tonga",
@@ -1898,7 +1917,8 @@
       "Wildlife Observation Areas",
       "Scenic Viewpoints",
       "Visitor Center"
-    ]
+    ],
+    "image": "Lac_Tonga.jpg"
   },
   {
     "name": "Monument historique de Challe et Maurice",
@@ -1916,7 +1936,8 @@
       "Parking",
       "Information Center",
       "Guided Tours"
-    ]
+    ],
+    "image": "Monument_historique de_Challe_et_Maurice.png"
   },
   {
     "name": "Palais de Lala Fatma",
@@ -1934,7 +1955,8 @@
       "Guided Tours",
       "Information Center",
       "Scenic Viewpoints"
-    ]
+    ],
+    "image": "Palais_de_Lala_Fatma.jpg"
   },
   {
     "name": "Église Saint Cyprien",
@@ -1951,7 +1973,8 @@
     "nearby_amenities": [
       "Cafés",
       "Public Transportation"
-    ]
+    ],
+    "image": "Église_Saint_Cyprien.jpg"
   },
   {
     "name": "Zoo Brabtia et Aqua Park",
@@ -1972,7 +1995,8 @@
       "Parking",
       "Gift Shops",
       "Children's Play Area"
-    ]
+    ],
+    "image": "Zoo_Brabtia_et_Aqua_Park.jpg"
   },
   {
     "name": "Mosquée El-Atik 'Ibn Khaldoune'",
@@ -2024,7 +2048,8 @@
     "nearby_amenities": [
       "Hiking Trails",
       "Guided Tours"
-    ]
+    ],
+    "image": "Grottes_de_Wadi_Bo’kouz.jpg"
   },
   {
     "name": "Timerkanine Lake",
@@ -2042,7 +2067,8 @@
       "Parking",
       "Hiking Trails",
       "Bird Watching Platforms"
-    ]
+    ],
+    "image": "Timerkanine_Lake.jpg"
   },
   {
     "name": "Nécropole mégalithique de Sefia",
@@ -2060,7 +2086,8 @@
       "Parking",
       "Guided Tours",
       "Information Panels"
-    ]
+    ],
+    "image": "Nécropole_mégalithique_de_Sefia.jpg"
   },
   {
     "name": "Sidi Rghis Mount Forest",
@@ -2080,7 +2107,8 @@
       "Picnic Areas",
       "Paragliding Spots",
       "Wildlife Observation Points"
-    ]
+    ],
+    "image": "Sidi_Rghis_Mount_Forest.jpg"
   },
   {
     "name": "Mosquée El Atique",
@@ -2098,7 +2126,8 @@
       "Parking",
       "Cafés",
       "Shops"
-    ]
+    ],
+    "image": "Mosquée_El_Atique.jpg"
   },
   {
     "name": "Zoo de Oum El Bouaghi",
@@ -2117,7 +2146,8 @@
       "Cafés",
       "Restrooms",
       "Playground"
-    ]
+    ],
+    "image": "Zoo_de_Oum_El_Bouaghi.jpg"
   },
   {
     "name": "Beni Belaid Beach",
@@ -2662,7 +2692,8 @@
     "nearby_amenities": [
       "Hiking Trails",
       "Rest Areas"
-    ]
+    ],
+    "image": "Soumaa_Plateau.jpg"
   },
   {
     "name": "Aït Ouabane Village",
@@ -2894,7 +2925,8 @@
     "nearby_amenities": [
       "National Park",
       "Limited"
-    ]
+    ],
+    "image": "Cap_Djenat.jpg"
   },
   {
     "name": "Dellys Beach",
@@ -2911,7 +2943,8 @@
     "nearby_amenities": [
       "Restaurants",
       "Local shops"
-    ]
+    ],
+    "image": "Dellys_Beach.jpg"
   },
   {
     "name": "Tichy Beach",
@@ -3145,7 +3178,8 @@
       "Restaruants",
       "Hotels",
       "Cafes"
-    ]
+    ],
+    "image": "Plage_Corso.jpg"
   },
   {
     "name": "Plage Boudouaou El Bahri",
@@ -3163,7 +3197,8 @@
       "Restaruants",
       "Hotels",
       "Cafes"
-    ]
+    ],
+    "image": "Plage_Boudouaou_El_Bahri.webp"
   },
   {
     "name": "Plage du Figuier",
@@ -3181,7 +3216,8 @@
       "Restaruants",
       "Hotels",
       "Cafes"
-    ]
+    ],
+    "image": "Plage_du_Figuier.jpg"
   },
   {
     "name": "Aokas Craftsmanship Center (Centre de l'Artisanat à Aokas)",
@@ -4982,7 +5018,7 @@
     "nearby_amenities": [
       "Hiking trails"
     ],
-    "image": "djebel_nador.jpg"
+    "image": "djebel_nador.JPG"
   },
   {
     "name": "Tiaret Grand Mosque",
@@ -5213,7 +5249,7 @@
       "Local Shops",
       "Traditional Market"
     ],
-    "image": "ksar_badjouda.jpg"
+    "image": "Ksar_Badjouda.jpg"
   },
   {
     "name": "Grand Erg Occidental",
