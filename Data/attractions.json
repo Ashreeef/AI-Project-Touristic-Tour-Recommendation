@@ -2822,7 +2822,8 @@
     "visit_duration": "6-10 hours",
     "nearby_amenities": [
       "Limited"
-    ]
+    ],
+    "image": "Barbadjani_Beach.jpg"
   },
   {
     "name": "Sbiat Beach",
@@ -2839,24 +2840,8 @@
     "nearby_amenities": [
       "Camping sites",
       "Local shops"
-    ]
-  },
-  {
-    "name": "Madagh Beach",
-    "category": "Beach",
-    "city": "Aïn Témouchent",
-    "gps": [
-      35.6333,
-      -1.2333
     ],
-    "description": "Comprises two beaches, Madagh 1 and Madagh 2, separated by a small mountain. Known for its crystal-clear waters and scenic surroundings.",
-    "rating": 4.4,
-    "cost": "0 DZD",
-    "visit_duration": "4-10 hours",
-    "nearby_amenities": [
-      "Restaurants",
-      "Local shops"
-    ]
+    "image": "Sbiat_Beach.jpg"
   },
   {
     "name": "Les Andalouses Beach",
@@ -2874,24 +2859,8 @@
       "Hotels",
       "Restaurants",
       "Water sports facilities"
-    ]
-  },
-  {
-    "name": "Cap Falcon",
-    "category": "Beach",
-    "city": "Oran",
-    "gps": [
-      35.7833,
-      -0.6333
     ],
-    "description": "A cape with a historic lighthouse, offering scenic views of the Mediterranean Sea.",
-    "rating": 4.4,
-    "cost": "0 DZD",
-    "visit_duration": "4-8 hours",
-    "nearby_amenities": [
-      "Lighthouse",
-      "Scenic viewpoints"
-    ]
+    "image": "Les_Andalouses_Beach.png"
   },
   {
     "name": "Cap Rousseau",
@@ -2907,7 +2876,8 @@
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Limited"
-    ]
+    ],
+    "image": "Cap_Rousseau.jpg"
   },
   {
     "name": "Cap Djenat",
@@ -3592,7 +3562,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "plage_El_Marsa.jpg"
   },
   {
     "name": "Plage Vieille Calle",
@@ -3610,7 +3581,8 @@
       "Parking",
       "Cafés",
       "Restrooms"
-    ]
+    ],
+    "image": "Plage_Vieille_Calle.jpg"
   },
   {
     "name": "Plage Echatt",
@@ -3664,7 +3636,8 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "Plage_Bikini.webp"
   },
   {
     "name": "Plage Bleu 2",
@@ -3766,25 +3739,6 @@
     "image": "Jewish_Cemetery_of_Blida.jpg"
   },
   {
-    "name": "Amoura",
-    "category": "Historical",
-    "city": "Djelfa",
-    "gps": [
-      34.3543,
-      3.8709
-    ],
-    "description": "Amoura, historically known as Sufasar, is a commune in Djelfa Province, Algeria. It holds significance as an ancient Roman town in the province of Mauretania Caesariensis.",
-    "rating": 4,
-    "cost": "0 DZD",
-    "visit_duration": "2 hours",
-    "nearby_amenities": [
-      "Cafés",
-      "Local Markets",
-      "Historical Sites",
-      "Public Transport Access"
-    ]
-  },
-  {
     "name": "Ain al-Naqah Rock Carvings",
     "category": "Historical",
     "city": "Djelfa",
@@ -3801,7 +3755,8 @@
       "Guided Tours",
       "Parking",
       "Public Transport Access"
-    ]
+    ],
+    "image": "ain_al_naqah_rock_carvings.jpg"
   },
   {
     "name": "Senalba Forest",
@@ -3820,7 +3775,8 @@
       "Hiking Trails",
       "Guided Tours",
       "Parking Facilities"
-    ]
+    ],
+    "image": "senalba_forest.webp"
   },
   {
     "name": "Agoulmime Lake",
@@ -3839,7 +3795,8 @@
       "Scenic Viewpoints",
       "Picnic Areas",
       "Camping Spots"
-    ]
+    ],
+    "image": "lac_agulmim.jpg"
   },
   {
     "name": "Petit Vichy Garden",
@@ -3858,7 +3815,8 @@
       "Seating Areas",
       "Local Cafés",
       "Restrooms"
-    ]
+    ],
+    "image": "petit_vichy_garden.jpg"
   },
   {
     "name": "Mosquée Al-Houda",
@@ -3875,7 +3833,8 @@
     "nearby_amenities": [
       "Parc",
       "gym"
-    ]
+    ],
+    "image": "mosquee_al_houda.jpg"
   },
   {
     "name": "Dar Eddaya",
@@ -3893,7 +3852,8 @@
       "Local Markets",
       "Restaurants",
       "Cultural Sites"
-    ]
+    ],
+    "image": "dar_eddaya.jpg"
   },
   {
     "name": "Cap Figalo Beach",
@@ -3911,25 +3871,8 @@
       "Restaurants",
       "Parking",
       "Restrooms"
-    ]
-  },
-  {
-    "name": "Sassel Beach",
-    "category": "Nature",
-    "city": "Aïn Témouchent",
-    "gps": [
-      35.497349166578886,
-      -1.221386042701457
     ],
-    "description": "Sassel Beach is a popular family destination, appreciated for its calm waters and wide sandy areas. Local vendors often sell snacks and souvenirs near the entrance.",
-    "rating": 4,
-    "cost": "0 DZD",
-    "visit_duration": "2-4 hours",
-    "nearby_amenities": [
-      "Restaurants",
-      "Parking",
-      "Restrooms"
-    ]
+    "image": "cap_figalo_beach.jpg"
   },
   {
     "name": "Bou Zadjar Beach",
@@ -3947,7 +3890,8 @@
       "Restaurants",
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "bou_zadjar_beach.webp"
   },
   {
     "name": "Plage Rachgoun Beach",
@@ -3965,25 +3909,8 @@
       "Restaurants",
       "Parking",
       "Restrooms"
-    ]
-  },
-  {
-    "name": "Sidi Djelloul Beach",
-    "category": "Nature",
-    "city": "Aïn Témouchent",
-    "gps": [
-      35.40151139594744,
-      -1.2844964185754213
     ],
-    "description": "Sidi Djelloul Beach is tucked between rocky cliffs and is appreciated for its wild, untouched nature. It’s a hidden gem ideal for adventurers and nature lovers.",
-    "rating": 4.4,
-    "cost": "0 DZD",
-    "visit_duration": "2-4 hours",
-    "nearby_amenities": [
-      "Restaurants",
-      "Parking",
-      "Restrooms"
-    ]
+    "image": "plage_rachgoun_beach.jpg"
   },
   {
     "name": "Terga Beach",
@@ -4001,7 +3928,8 @@
       "Restaurants",
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "terga_beach.webp"
   },
   {
     "name": "Medegh 1 Beach",
@@ -4019,7 +3947,8 @@
       "Restaurants",
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "medegh_1_beach.jpg"
   },
   {
     "name": "Pont Sidi Rached",
@@ -4127,7 +4056,8 @@
       "Parking",
       "Restrooms",
       "Picnic areas"
-    ]
+    ],
+    "image": "monts_chelia.jpg"
   },
   {
     "name": "Canyon de Ghoufi",
@@ -4163,7 +4093,8 @@
       "Parking",
       "Restrooms",
       "Visitor Center"
-    ]
+    ],
+    "image": "parc_national_djebel_aissa.jpg"
   },
   {
     "name": "Lac Agulmim",
@@ -4180,11 +4111,12 @@
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "lac_agulmim.jpg"
   },
   {
     "name": "La plage de Sidi Lakhdar",
-    "category": "Nature",
+    "category": "Beach",
     "city": "Mostaganem",
     "gps": [
       36.20870415562302,
@@ -4193,15 +4125,32 @@
     "description": "Located in the commune of Sidi Lakhdar, this beach is renowned for its golden sands and clear waters, providing an ideal setting for swimming and water sports.",
     "rating": 4.4,
     "cost": "0 DZD",
-    "visit_duration": "3-10 hours",
+    "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Parking",
       "Restrooms"
-    ]
+    ],
+    "image": "plage_sidi_lakhdar.jpg"
+  },
+  {
+    "name": "Cap Ivi",
+    "category": "Nature",
+    "city": "Mostaganem",
+    "gps": [36.117486414835625, 0.22182943002164085],
+    "description": "A scenic cape on the Mediterranean coast, known for its rugged cliffs, panoramic sea views, and tranquil atmosphere. Popular for hiking, photography, and sunset watching.",
+    "rating": 4.5,
+    "cost": "0 DZD",
+    "visit_duration": "1-2 hours",
+    "nearby_amenities": [
+      "Parking",
+      "Picnic Areas",
+      "Walking Trails"
+    ],
+    "image": "cap_ivi.jpg_large"
   },
   {
     "name": "Salamandre Beach",
-    "category": "Nature",
+    "category": "Beach",
     "city": "Mostaganem",
     "gps": [
       35.91313623530849,
@@ -4216,11 +4165,12 @@
       "Restaurants",
       "Cafes",
       "Boutiques"
-    ]
+    ],
+    "image": "salamandre_beach.jpg"
   },
   {
     "name": "Hadjadj beach",
-    "category": "Nature",
+    "category": "Beach",
     "city": "Mostaganem",
     "gps": [
       36.14666669936615,
@@ -4232,7 +4182,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Parking"
-    ]
+    ],
+    "image": "hadjadj_beach.jpg"
   },
   {
     "name": "Parc Mosta Land",
@@ -4250,7 +4201,8 @@
       "Parking",
       "Restrooms",
       "Food Stalls"
-    ]
+    ],
+    "image": "parc_mosta_land.jpg"
   },
   {
     "name": "Mausoleum of Medghacen",
@@ -4360,7 +4312,8 @@
       "Natural lookout points",
       "Parking area",
       "Picnic spots"
-    ]
+    ],
+    "image": "djebel_messaad.jpg"
   },
   {
     "name": "Tomb of Tin Hinan",
@@ -4379,7 +4332,8 @@
       "Souvenir shops",
       "Public restrooms",
       "Guided tour availability"
-    ]
+    ],
+    "image": "tomb_of_tin_hinan.jpg"
   },
   {
     "name": "Hodna Salt Lake (Chott El Hodna)",
@@ -4398,26 +4352,8 @@
       "Nature trails",
       "Resting areas",
       "Information panels"
-    ]
-  },
-  {
-    "name": "Ksar El Aouassi",
-    "category": "Cultural",
-    "city": "M'Sila",
-    "gps": [
-      35.7748,
-      4.5239
     ],
-    "description": "Ksar El Aouassi is a traditional fortified village that showcases the architectural style and community living of ancient Amazigh and Arab societies. Visitors can explore narrow alleys, ancient homes, and cultural artifacts.",
-    "rating": 4.1,
-    "cost": "300 DZD",
-    "visit_duration": "1-2 hours",
-    "nearby_amenities": [
-      "Local café",
-      "Souvenir shop",
-      "Cultural center",
-      "Guided tours"
-    ]
+    "image": "hodna_salt_lake.jpg"
   },
   {
     "name": "Bou Saâda Museum of Nasreddine Dinet",
@@ -4436,7 +4372,8 @@
       "Gift shop",
       "Parking",
       "Café"
-    ]
+    ],
+    "image": "bou_saada_museum_nasreddine_dinet.jpg"
   },
   {
     "name": "Grande Mosquée de Ghardaïa",
