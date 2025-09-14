@@ -882,7 +882,8 @@
     "nearby_amenities": [
       "Campgrounds",
       "Guided 4x4 Tours"
-    ]
+    ],
+    "image": "Tassili_n'Ajjer.jpg"
   },
   {
     "name": "Moul N'Aga Pass",
@@ -899,7 +900,8 @@
     "nearby_amenities": [
       "Campgrounds",
       "Local Guides"
-    ]
+    ],
+    "image": "Moul_N'Aga_Pass.jpg"
   },
   {
     "name": "Tadrart Rouge",
@@ -916,7 +918,8 @@
     "nearby_amenities": [
       "Desert Camps",
       "4x4 Rentals"
-    ]
+    ],
+    "image": "Tadrart_Rouge.webp"
   },
   {
     "name": "Essendilène Valley",
@@ -933,7 +936,8 @@
     "nearby_amenities": [
       "Camping Sites",
       "Guided Tours"
-    ]
+    ],
+    "image": "Essendilène_Valley.jpg"
   },
   {
     "name": "Fort Charlet",
@@ -950,7 +954,8 @@
     "nearby_amenities": [
       "Museum",
       "Town Center"
-    ]
+    ],
+    "image": "Fort_Charlet.jpg"
   },
   {
     "name": "Iherir Valley",
@@ -968,7 +973,8 @@
       "Eco-Lodges",
       "Guided Hikes",
       "Oasis d' iherir"
-    ]
+    ],
+    "image": "iherir-valey-djanet.jpg"
   },
   {
     "name": "Tikoubaouine Arch",
@@ -985,7 +991,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Tikoubaouine_Arch.jpg"
   },
   {
     "name": "Sefar Rock Art Site",
@@ -1002,7 +1009,8 @@
     "nearby_amenities": [
       "Guided Tours",
       "Campgrounds"
-    ]
+    ],
+    "image": "sefar-rock-site-djanet.jpg"
   },
   {
     "name": "Djemila",
@@ -1123,7 +1131,8 @@
       "Parking",
       "Thermal Baths",
       "Souvenir Shops"
-    ]
+    ],
+    "image": "hammam-debagh-guelma.jpg"
   },
   {
     "name": "Guelma Roman Theatre",
@@ -1141,7 +1150,8 @@
       "Restaurants",
       "Cafés",
       "Public Restrooms"
-    ]
+    ],
+    "image": "Guelma_Roman_Theatre.jpg"
   },
   {
     "name": "Parc National El Kala",
@@ -1410,7 +1420,8 @@
     "nearby_amenities": [
       "Camping Areas",
       "Hiking Trails"
-    ]
+    ],
+    "image": "Hoggar_Mountains.jpg"
   },
   {
     "name": "Assekrem Plateau",
@@ -1427,7 +1438,8 @@
     "nearby_amenities": [
       "Lodges",
       "Photography Spots"
-    ]
+    ],
+    "image": "Assekrem_Plateau.jpg"
   },
   {
     "name": "Taghit Oasis",
@@ -1463,7 +1475,8 @@
     "nearby_amenities": [
       "Visitor Center",
       "Campgrounds"
-    ]
+    ],
+    "image": "ahaggar-national-park.jpg"
   },
   {
     "name": "National Museum of Ahaggar",
@@ -1481,7 +1494,8 @@
       "Souvenir Shops",
       "Cafes",
       "Town Center"
-    ]
+    ],
+    "image": "National_Museum_of_Ahaggar.jpg"
   },
   {
     "name": "Tazrouk Village",
@@ -1498,7 +1512,8 @@
     "nearby_amenities": [
       "Local Markets",
       "Guided Village Tours"
-    ]
+    ],
+    "image": "Tazrouk_Village.jpg"
   },
   {
     "name": "Erg Tihodaïne",
@@ -1515,7 +1530,8 @@
     "nearby_amenities": [
       "Desert Camps",
       "Tour Agencies"
-    ]
+    ],
+    "image": "Erg_Tihodaïne.jpg"
   },
   {
     "name": "Tikjda National Park",
@@ -1551,7 +1567,8 @@
     "nearby_amenities": [
       "Local shops",
       "Basic services"
-    ]
+    ],
+    "image": "brezina-oasis-bayadh.jpg"
   },
   {
     "name": "Hammam Salihine",
@@ -1586,7 +1603,8 @@
       "Water slides",
       "Swimming pools",
       "Refreshments"
-    ]
+    ],
+    "image": "aqua-palm-biskra.jpg"
   },
   {
     "name": "Landon Garden",
@@ -1602,7 +1620,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Landon_Garden.jpg"
   },
   {
     "name": "Sidna Oqba Ibn Nafi Mosque",
@@ -1618,7 +1637,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Sidna_Oqba_Ibn_Nafi_Mosque.jpg"
   },
   {
     "name": "Timimoun Oasis",
@@ -1674,7 +1694,8 @@
       "Swimming pools",
       "Restaurants",
       "Fitness center"
-    ]
+    ],
+    "image": "la-gazelle-dor-eloued.jpg"
   },
   {
     "name": "The Dunes of El Oued",
@@ -1688,7 +1709,8 @@
     "nearby_amenities": [
       "Camel Trekking",
       "Desert Camps"
-    ]
+    ],
+    "image": "The_Dunes_of_El_Oued.jpg"
   },
   {
     "name": "Qal'at Bani Hammad",
@@ -1724,7 +1746,8 @@
       "Campgrounds",
       "Hiking trails",
       "Visitor center at Tikjda"
-    ]
+    ],
+    "image": "djurjura.jpg"
   },
   {
     "name": "Beni Abbes Museum",
@@ -1759,7 +1782,8 @@
       "Cafés",
       "Fishing Spots",
       "Boat Tours"
-    ]
+    ],
+    "image": "port-de-stora.jpg"
   },
   {
     "name": "La Place",
@@ -1778,7 +1802,8 @@
       "Shops",
       "Restaurants",
       "Public Seating"
-    ]
+    ],
+    "image": "La_Place.jpg"
   },
   {
     "name": "Madaure Ruins",
@@ -2013,7 +2038,8 @@
     "nearby_amenities": [
       "Shops",
       "Public Restrooms"
-    ]
+    ],
+    "image": "Mosquée_El-Atik_'Ibn_Khaldoune'.jpg"
   },
   {
     "name": "Île Srigina",
@@ -2031,7 +2057,8 @@
       "Boat Tours",
       "Fishing Spots",
       "Scenic Viewpoints"
-    ]
+    ],
+    "image": "ile-srigina-skikda.jpg"
   },
   {
     "name": "Grottes de Wadi Bo’kouz",
@@ -2488,7 +2515,8 @@
     "nearby_amenities": [
       "Camel Rides",
       "Guided Tours"
-    ]
+    ],
+    "image": "ouled-djellal-biskra.jpg"
   },
   {
     "name": "Oued El Bared",
@@ -2675,7 +2703,8 @@
     "nearby_amenities": [
       "Camping Areas",
       "Guided Tours"
-    ]
+    ],
+    "image": "ain-salah-sand-dunes.jpg"
   },
   {
     "name": "Soumaa Plateau",
@@ -2711,7 +2740,8 @@
       "Traditional Guesthouses",
       "Hiking Trails",
       "Local Cafés"
-    ]
+    ],
+    "image": "Village_Ait_El_Kaid.jpg"
   },
   {
     "name": "Beni Yenni",
@@ -2729,7 +2759,8 @@
       "Handicraft Shops",
       "Local Cafés",
       "Hiking Trails"
-    ]
+    ],
+    "image": "Beni_Yenni.jpg"
   },
   {
     "name": "Yakouren Forest",
@@ -2747,7 +2778,8 @@
       "Picnic Areas",
       "Hiking Trails",
       "Campsites"
-    ]
+    ],
+    "image": "Yakouren_Forest.jpg"
   },
   {
     "name": "Tizi N'Kouilal",
@@ -2765,7 +2797,8 @@
       "Parking",
       "Scenic Viewpoints",
       "Local Restaurants"
-    ]
+    ],
+    "image": "Tizi_N'Kouilal.jpg"
   },
   {
     "name": "Oued Sebaou River",
@@ -2783,7 +2816,8 @@
       "Picnic Areas",
       "Fishing Spots",
       "Hiking Trails"
-    ]
+    ],
+    "image": "Oued_Sebaou_River.jpg"
   },
   {
     "name": "Azeffoun Beach",
@@ -2801,7 +2835,8 @@
       "Restaurants",
       "Parking",
       "Hotels"
-    ]
+    ],
+    "image": "Azeffoun_Beach.webp"
   },
   {
     "name": "Tighramt Park",
@@ -2819,7 +2854,8 @@
       "Cafés",
       "Playgrounds",
       "Picnic Areas"
-    ]
+    ],
+    "image": "Tighramt_Park.jpg"
   },
   {
     "name": "Thala Guilef",
@@ -2837,7 +2873,8 @@
       "Hiking Trails",
       "Camping Areas",
       "Local Restaurants"
-    ]
+    ],
+    "image": "Thala_Guilef.jpg"
   },
   {
     "name": "Barbadjani Beach",
@@ -2978,7 +3015,8 @@
     "visit_duration": "4-8 hours",
     "nearby_amenities": [
       "Limited"
-    ]
+    ],
+    "image": "Collo_Beach.jpg"
   },
   {
     "name": "Village Ait El Kaid",
@@ -2994,7 +3032,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Village_Ait_El_Kaid.jpg"
   },
   {
     "name": "Grotte Ifri n-teriel",
@@ -3010,7 +3049,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Cultural Sites"
-    ]
+    ],
+    "image": "Grotte_Ifri_n-teriel.jpg"
   },
   {
     "name": "La Grotte d'Anou",
@@ -3026,7 +3066,8 @@
     "visit_duration": "2-3 Hours",
     "nearby_amenities": [
       "Cultural Sites"
-    ]
+    ],
+    "image": "La_Grotte_d'Anou.jpg"
   },
   {
     "name": "Main du Juif",
@@ -3042,7 +3083,8 @@
     "visit_duration": "3-4 hours",
     "nearby_amenities": [
       "Hiking Trails"
-    ]
+    ],
+    "image": "Main_du_Juif.jpg"
   },
   {
     "name": "Ifri N'Dlal",
@@ -3058,7 +3100,8 @@
     "visit_duration": "2-3 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Ifri_N'Dlal.jpg"
   },
   {
     "name": "Ancient Villages Aourir and Moknea",
@@ -3074,7 +3117,8 @@
     "visit_duration": "2-3 Hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "aourir-tizi.jpg"
   },
   {
     "name": "Ruines romaines",
@@ -3090,7 +3134,8 @@
     "visit_duration": "1-2 hours",
     "nearby_amenities": [
       "Unknown"
-    ]
+    ],
+    "image": "Ruines_romaines.jpg"
   },
   {
     "name": "Plage les Caroubiers",
@@ -3108,7 +3153,8 @@
       "Restaruants",
       "Hotels",
       "Cafés"
-    ]
+    ],
+    "image": "Plage_les_Caroubiers.jpg"
   },
   {
     "name": "Plage Sidi-Khelifa",
@@ -3126,7 +3172,8 @@
       "Restaruants",
       "Hotels",
       "Cafes"
-    ]
+    ],
+    "image": "Plage_Sidi-Khelifa.jpg"
   },
   {
     "name": "Petit Paradis",
@@ -3144,7 +3191,8 @@
       "Restaruants",
       "Hotels",
       "Cafes"
-    ]
+    ],
+    "image": "Petit_Paradis.jpg"
   },
   {
     "name": "Mont de Tamgout",
@@ -3160,7 +3208,8 @@
     "visit_duration": "2-4 hours",
     "nearby_amenities": [
       "Hiking Trails"
-    ]
+    ],
+    "image": "mont-tamgout.jpg"
   },
   {
     "name": "Plage Corso",
@@ -4182,7 +4231,7 @@
       "Picnic Areas",
       "Walking Trails"
     ],
-    "image": "cap_ivi.jpg_large"
+    "image": "Cap_Ivi.jpg"
   },
   {
     "name": "Salamandre Beach",
