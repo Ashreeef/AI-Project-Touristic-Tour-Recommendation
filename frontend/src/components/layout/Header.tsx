@@ -6,7 +6,7 @@ const navigationItems = [
   { label: 'Home', href: '/' },
   { label: 'Destinations', href: '/destinations' },
   { label: 'Hotels', href: '/hotels' },
-  { label: 'About Us', href: '#about' },
+  { label: 'About Us', href: '/about' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -36,13 +36,21 @@ export const Header: React.FC = () => {
 
   const handleNavClick = (href: string) => {
     if (href.startsWith('#')) {
-      // Navigate to home first, then scroll to section
-      if (location.pathname !== '/') {
-        window.location.href = `/${href}`;
-      } else {
+      // For contact section, scroll to footer on current page
+      if (href === '#contact') {
         const element = document.querySelector(href);
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else {
+        // For other sections, navigate to home first, then scroll to section
+        if (location.pathname !== '/') {
+          window.location.href = `/${href}`;
+        } else {
+          const element = document.querySelector(href);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
         }
       }
     }
@@ -59,6 +67,17 @@ export const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 lg:h-24">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/logo.png" 
+                alt="7WESS Logo" 
+                className="h-10 w-auto"
+              />
+            </Link>
+          </div>
+
           {/* Centered Desktop Navigation */}
           <div className="flex-1 flex justify-center">
             <nav className="hidden lg:flex items-center space-x-10">

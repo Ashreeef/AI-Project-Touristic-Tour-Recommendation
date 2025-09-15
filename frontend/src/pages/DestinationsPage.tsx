@@ -4,12 +4,14 @@ import { DestinationsGrid } from '../components/destinations/DestinationsGrid';
 import { FilterSidebar } from '../components/destinations/FilterSidebar';
 import { useItinerary } from '../hooks/useItinerary';
 import { Button } from '../components/ui/button';
-import { Loader2, RefreshCw, AlertCircle } from 'lucide-react';
+import { Loader2, RefreshCw } from 'lucide-react';
+import { getCities } from '../services/api';
 
 export const DestinationsPage: React.FC = () => {
   const [filters, setFilters] = useState({
     selectedCategories: [] as string[],
-    ratingRange: [1, 5] as [number, number]
+    ratingRange: [1, 5] as [number, number],
+    selectedCities: [] as string[]
   });
 
   const {
@@ -19,18 +21,37 @@ export const DestinationsPage: React.FC = () => {
     clearError
   } = useItinerary();
 
-  // Load categories on component mount
+  const [cities, setCities] = useState<string[]>([]);
+  const [isLoadingCities, setIsLoadingCities] = useState(false);
+
+  // Load categories and cities on component mount
   useEffect(() => {
     loadCategories();
+    loadCities();
   }, [loadCategories]);
 
-  const handleFiltersChange = (newFilters: { selectedCategories: string[]; ratingRange: [number, number] }) => {
+  const loadCities = async () => {
+    setIsLoadingCities(true);
+    try {
+      const response = await getCities();
+      if (response.success) {
+        setCities(response.wilayas);
+      }
+    } catch (error) {
+      console.error('Error loading cities:', error);
+    } finally {
+      setIsLoadingCities(false);
+    }
+  };
+
+  const handleFiltersChange = (newFilters: { selectedCategories: string[]; ratingRange: [number, number]; selectedCities: string[] }) => {
     setFilters(newFilters);
   };
 
   const handleRefresh = () => {
     clearError();
     loadCategories();
+    loadCities();
   };
 
   return (
@@ -47,7 +68,8 @@ export const DestinationsPage: React.FC = () => {
             <FilterSidebar 
               onFiltersChange={handleFiltersChange}
               categories={categories}
-              isLoading={isLoadingCategories}
+              cities={cities}
+              isLoading={isLoadingCategories || isLoadingCities}
             />
           </div>
           <div className="lg:w-3/4">
@@ -74,17 +96,9 @@ export const DestinationsPage: React.FC = () => {
             <DestinationsGrid 
               selectedCategories={filters.selectedCategories}
               ratingRange={filters.ratingRange}
+              selectedCities={filters.selectedCities}
             />
             
-            <div className="mt-8 text-center">
-              <p className="text-sm text-gray-500 [font-family:'Outfit',Helvetica] mb-4">
-                Showing attractions and destinations across Algeria. Use filters to narrow down your search.
-              </p>
-              <div className="flex items-center justify-center gap-2 text-xs text-gray-400">
-                <AlertCircle className="w-4 h-4" />
-                <span>Data is loaded from our comprehensive database of Algerian attractions</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

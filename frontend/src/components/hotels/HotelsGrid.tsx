@@ -1,65 +1,134 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from '../ui/card';
-import { Star, MapPin } from 'lucide-react';
+import { Button } from '../ui/button';
+import { Star, MapPin, Grid, List, ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
+import { getHotels } from '../../services/api';
+import { Hotel } from '../../services/api';
 
-type FixedHotel = {
-  id: number;
-  hotel: string;
-  city: string;
-  image: string;
-  avg_review: number;
-  stars: number;
-  price: number;
+// Default image fallback
+const DEFAULT_HOTEL_IMAGE = '/image-1.png';
+
+const getHotelImage = (hotel: Hotel): string => {
+  if (hotel.image) {
+    return `/Hotels/${hotel.image}`;
+  }
+  return DEFAULT_HOTEL_IMAGE;
 };
-
-// All 20 hotels for the hotels page 
-const FIXED_HOTELS: FixedHotel[] = [
-  { id: 1, hotel: 'Hotel El Djazair', city: 'Algiers', image: '/Hotels/hotel-el-djazair.jpg', avg_review: 4.8, stars: 5, price: 25000 },
-  { id: 2, hotel: 'Sheraton Oran Hotel', city: 'Oran', image: '/Hotels/sheraton_hotel.jpg', avg_review: 4.6, stars: 5, price: 22000 },
-  { id: 3, hotel: 'Hotel Cirta', city: 'Constantine', image: '/Hotels/hotel_citra.jpg', avg_review: 4.7, stars: 4, price: 18000 },
-  { id: 4, hotel: 'Hotel Sabri', city: 'Annaba', image: '/Hotels/hotel_sabri.jpeg', avg_review: 4.5, stars: 4, price: 16000 },
-  { id: 5, hotel: 'Hotel Zianides', city: 'Tlemcen', image: '/Hotels/hotel_ziandies.jpg', avg_review: 4.9, stars: 5, price: 20000 },
-  { id: 6, hotel: 'Novotel Constantine', city: 'Constantine', image: '/Hotels/novotel_hotel.jpg', avg_review: 4.4, stars: 4, price: 17000 },
-  { id: 7, hotel: 'AZ Hotel Vague d’Or', city: 'Algiers', image: '/Hotels/AZ_hotel.jpg', avg_review: 4.2, stars: 4, price: 19000 },
-  { id: 8, hotel: 'Holiday Inn Cheraga', city: 'Algiers', image: '/Hotels/holiday_inn.avif', avg_review: 4.3, stars: 4, price: 18500 },
-  { id: 9, hotel: 'Hyatt Regency Algiers', city: 'Algiers', image: '/Hotels/hyatt_hotel.jpg', avg_review: 4.6, stars: 5, price: 27000 },
-  { id: 10, hotel: 'Renaissance Tlemcen', city: 'Tlemcen', image: '/Hotels/renaissance_hotel.jpg', avg_review: 4.5, stars: 5, price: 24000 },
-  { id: 11, hotel: 'Four Points Oran', city: 'Oran', image: '/Hotels/four_points_hotel.avif', avg_review: 4.1, stars: 4, price: 20000 },
-  { id: 12, hotel: 'Le Méridien Oran', city: 'Oran', image: '/Hotels/le_meridien_hotel.jpg', avg_review: 4.4, stars: 5, price: 26000 },
-  { id: 13, hotel: 'Ibis Tlemcen', city: 'Tlemcen', image: '/Hotels/ibis_Tlemcen_hotel.jpg', avg_review: 4.0, stars: 4, price: 14000 },
-  { id: 14, hotel: 'Sheraton Annaba', city: 'Annaba', image: '/Hotels/sheraton_annaba_hotel.jpg', avg_review: 4.6, stars: 5, price: 23000 },
-  { id: 15, hotel: 'AZ Hotel Vieux Kouba', city: 'Algiers', image: '/Hotels/AZ_Hotel_Vieux_Kouba.jpg', avg_review: 4.2, stars: 4, price: 15000 },
-  { id: 16, hotel: 'El Aurassi', city: 'Algiers', image: '/Hotels/EL_Aurassi.jpg', avg_review: 4.4, stars: 5, price: 26000 },
-  { id: 17, hotel: 'Hotel Oasis Tipaza', city: 'Tipaza', image: '/Hotels/Hotel_Oasis.jpg', avg_review: 4.1, stars: 4, price: 15500 },
-  { id: 18, hotel: 'Hotel Jijel Plage', city: 'Jijel', image: '/Hotels/hotel_la_plage_jijel.jpg', avg_review: 4.0, stars: 4, price: 14500 },
-  { id: 19, hotel: 'Hotel Sidi Fredj', city: 'Algiers', image: '/Hotels/hotel_sidi_fredj.jpg', avg_review: 4.3, stars: 4, price: 17500 },
-  { id: 20, hotel: 'AZ Hotel Zeralda', city: 'Algiers', image: '/Hotels/AZ_hotel_zeralda.jpg', avg_review: 4.1, stars: 4, price: 16500 },
-];
 
 interface HotelsGridProps {
   priceRange?: [number, number];
   ratingRange?: [number, number];
+  selectedCities?: string[];
 }
 
 export const HotelsGrid: React.FC<HotelsGridProps> = ({ 
   priceRange = [0, 150000], 
-  ratingRange = [1, 5] 
+  ratingRange = [1, 5],
+  selectedCities = [],
 }) => {
-  const [hotels, setHotels] = useState<FixedHotel[]>([]);
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [sortBy, setSortBy] = useState<'rating' | 'price' | 'name'>('rating');
+  const [hotels, setHotels] = useState<Hotel[]>([]);
   const [loading, setLoading] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [goToPage, setGoToPage] = useState('');
+  const itemsPerPage = 12;
 
   useEffect(() => {
-    // Use fixed curated hotels; no API calls
-    setHotels(FIXED_HOTELS);
-    setLoading(false);
+    const loadHotels = async () => {
+      try {
+        const response = await getHotels();
+        setHotels(response.hotels);
+      } catch (error) {
+        console.error('Error loading hotels:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadHotels();
   }, []);
 
-  // Filter hotels based on price and rating range
+  // Filter hotels based on price, rating range and selected cities
   const filteredHotels = hotels.filter(hotel => {
     const priceMatch = hotel.price >= priceRange[0] && hotel.price <= priceRange[1];
     const ratingMatch = hotel.avg_review >= ratingRange[0] && hotel.avg_review <= ratingRange[1];
-    return priceMatch && ratingMatch;
+    const cityMatch = selectedCities.length === 0 || selectedCities.includes(hotel.city);
+    return priceMatch && ratingMatch && cityMatch;
   });
+
+  // Sort hotels
+  const sortedHotels = [...filteredHotels].sort((a, b) => {
+    switch (sortBy) {
+      case 'rating':
+        return b.avg_review - a.avg_review;
+      case 'price':
+        return a.price - b.price;
+      case 'name':
+        return a.hotel.localeCompare(b.hotel);
+      default:
+        return 0;
+    }
+  });
+
+  // Calculate stars based on rating (convert 0-5 rating to 1-5 stars)
+  const getStars = (rating: number): number => {
+    return Math.round(rating);
+  };
+
+  // Pagination logic
+  const totalPages = Math.ceil(sortedHotels.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedHotels = sortedHotels.slice(startIndex, endIndex);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [priceRange, ratingRange, selectedCities]);
+
+  // Helper function to generate pagination numbers with ellipses
+  const getPaginationNumbers = () => {
+    const delta = 2; // Number of pages to show around current page
+    const range = [];
+    const rangeWithDots = [];
+
+    for (let i = Math.max(2, currentPage - delta); i <= Math.min(totalPages - 1, currentPage + delta); i++) {
+      range.push(i);
+    }
+
+    if (currentPage - delta > 2) {
+      rangeWithDots.push(1, '...');
+    } else {
+      rangeWithDots.push(1);
+    }
+
+    rangeWithDots.push(...range);
+
+    if (currentPage + delta < totalPages - 1) {
+      rangeWithDots.push('...', totalPages);
+    } else if (totalPages > 1) {
+      rangeWithDots.push(totalPages);
+    }
+
+    return rangeWithDots;
+  };
+
+  // Handle go to page
+  const handleGoToPage = () => {
+    const page = parseInt(goToPage);
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+      setGoToPage('');
+    }
+  };
+
+  // Handle enter key in go to page input
+  const handleGoToPageKeyPress = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      handleGoToPage();
+    }
+  };
 
 
 
@@ -75,44 +144,235 @@ export const HotelsGrid: React.FC<HotelsGridProps> = ({
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-      {filteredHotels.map((hotel, index) => (
-        <Card key={hotel.id || `${hotel.hotel}-${index}`} className="overflow-hidden hover:shadow-xl transition-all duration-300">
-          <CardContent className="p-0">
-            <div className="relative">
-              <img
-                src={hotel.image}
-                alt={`${hotel.hotel} hotel`}
-                className="w-full h-40 sm:h-48 object-cover"
-              />
-              <div className="absolute top-3 right-3 sm:top-4 sm:right-4 bg-white/90 rounded-full px-2 py-1 flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-500 fill-current" />
-                <span className="text-sm font-semibold">{hotel.avg_review}</span>
-              </div>
+    <div className="space-y-6">
+      {/* Controls */}
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
+          <Button
+            variant={viewMode === 'grid' ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => setViewMode('grid')}
+            className="px-3 py-2"
+          >
+            <Grid className="w-4 h-4" />
+          </Button>
+          <Button
+            variant={viewMode === 'list' ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => setViewMode('list')}
+            className="px-3 py-2"
+          >
+            <List className="w-4 h-4" />
+          </Button>
+        </div>
+
+        <div className="flex items-center gap-2 sm:gap-4">
+          <span className="text-sm text-gray-600">Sort by:</span>
+          <div className="relative">
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as any)}
+              className="border border-gray-300 rounded-lg px-3 py-2 text-sm w-full sm:w-auto appearance-none bg-white pr-8 focus:outline-none focus:ring-2 focus:ring-[#1e6f9f] focus:border-transparent"
+            >
+              <option value="rating">Rating</option>
+              <option value="price">Price</option>
+              <option value="name">Name</option>
+            </select>
+            <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
+          </div>
+        </div>
+      </div>
+
+      {/* Hotels Grid/List */}
+      <div className={
+        viewMode === 'grid' 
+          ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6'
+          : 'space-y-4'
+      }>
+        {paginatedHotels.map((hotel, index) => {
+          const stars = getStars(hotel.avg_review);
+          return (
+            <Card
+              key={hotel.id || `${hotel.hotel}-${index}`}
+              className={`group overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
+                viewMode === 'list' ? 'flex flex-row' : ''
+              }`}
+            >
+              <CardContent className={viewMode === 'list' ? 'p-0' : 'p-0'}>
+                <div className={viewMode === 'list' ? 'flex' : ''}>
+                  <div className={`relative overflow-hidden ${
+                    viewMode === 'list' ? 'w-32 sm:w-48 h-24 sm:h-32' : 'w-full h-40 sm:h-48'
+                  }`}>
+                    <img
+                      src={getHotelImage(hotel)}
+                      alt={`${hotel.hotel} hotel`}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      onError={(e) => {
+                        e.currentTarget.src = DEFAULT_HOTEL_IMAGE;
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                    
+                    <div className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-white/90 backdrop-blur-sm rounded-full px-2 py-1 flex items-center gap-1">
+                      <Star className="w-3 h-3 text-yellow-500 fill-current" />
+                      <span className="text-xs font-semibold text-gray-800">
+                        {hotel.avg_review}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className={`p-4 sm:p-6 space-y-3 sm:space-y-4 ${viewMode === 'list' ? 'flex-1' : ''}`}>
+                    <div>
+                      <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2">
+                        <h3 className="text-lg sm:text-xl font-bold text-[#062546]">
+                          {hotel.hotel}
+                        </h3>
+                        <div className="flex items-center gap-1">
+                          {[...Array(5)].map((_, i) => (
+                            <Star
+                              key={i}
+                              className={`w-4 h-4 ${
+                                i < stars ? 'text-yellow-500 fill-current' : 'text-gray-300'
+                              }`}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-1 text-[#1e6f9f] text-sm mb-2 sm:mb-3">
+                        <MapPin className="w-4 h-4" />
+                        <span>{hotel.city}, Algeria</span>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xl sm:text-2xl font-bold text-[#062546]">
+                          {hotel.price.toLocaleString()} DZD
+                        </span>
+                        <span className="text-gray-600 text-sm">/night</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          );
+        })}
+      </div>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="mt-8">
+          {/* Desktop Pagination */}
+          <div className="hidden sm:flex items-center justify-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              <ChevronLeft className="w-4 h-4 mr-1" />
+              Previous
+            </Button>
+            
+            <div className="flex items-center gap-1">
+              {getPaginationNumbers().map((page, index) => (
+                page === '...' ? (
+                  <span key={`dots-${index}`} className="px-2 py-1 text-gray-500">
+                    ...
+                  </span>
+                ) : (
+                  <Button
+                    key={page}
+                    variant={currentPage === page ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => setCurrentPage(page as number)}
+                    className={`px-3 py-2 min-w-[40px] transition-all ${
+                      currentPage === page 
+                        ? 'bg-[#1e6f9f] text-white border-[#1e6f9f] rounded-full font-semibold' 
+                        : 'hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] hover:rounded-full'
+                    }`}
+                  >
+                    {page}
+                  </Button>
+                )
+              ))}
             </div>
             
-            <div className="p-4 sm:p-6 space-y-3 sm:space-y-4">
-              <div>
-                <h3 className="text-lg sm:text-xl font-bold text-[#062546] mb-1">{hotel.hotel}</h3>
-                <div className="flex items-center gap-2 text-[#1e6f9f]">
-                  <MapPin className="w-4 h-4" />
-                  <span className="text-sm">{hotel.city}, Algeria</span>
-                </div>
-              </div>
-              
-              
-              <div className="flex items-center justify-between">
-                <div>
-                  <span className="text-xl sm:text-2xl font-bold text-[#062546]">
-                    {hotel.price} DZD
-                  </span>
-                  <span className="text-gray-600 text-sm ml-1">/night</span>
-                </div>
-              </div>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              Next
+              <ChevronRight className="w-4 h-4 ml-1" />
+            </Button>
+          </div>
+
+          {/* Mobile Pagination */}
+          <div className="sm:hidden flex items-center justify-center gap-3">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </Button>
+            
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-600 [font-family:'Outfit',Helvetica]">
+                Page {currentPage} of {totalPages}
+              </span>
             </div>
-          </CardContent>
-        </Card>
-      ))}
+            
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </Button>
+          </div>
+
+          {/* Go to page (for large datasets) */}
+          {totalPages > 10 && (
+            <div className="flex items-center justify-center gap-2 mt-4">
+              <span className="text-sm text-gray-600 [font-family:'Outfit',Helvetica]">Go to page:</span>
+              <input
+                type="number"
+                min="1"
+                max={totalPages}
+                value={goToPage}
+                onChange={(e) => setGoToPage(e.target.value)}
+                onKeyPress={handleGoToPageKeyPress}
+                className="w-16 px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1e6f9f] focus:border-transparent"
+                placeholder="Page"
+              />
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleGoToPage}
+                className="px-3 py-1 text-sm hover:bg-[#1e6f9f] hover:text-white hover:border-[#1e6f9f] transition-colors"
+              >
+                Go
+              </Button>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Results info */}
+      <div className="text-center mt-4 text-sm text-gray-600 [font-family:'Outfit',Helvetica]">
+        Showing {startIndex + 1}-{Math.min(endIndex, sortedHotels.length)} of {sortedHotels.length} hotels
+      </div>
+
     </div>
   );
 };

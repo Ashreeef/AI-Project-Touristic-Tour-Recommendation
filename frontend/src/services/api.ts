@@ -19,6 +19,7 @@ export interface Attraction {
   visit_duration: string;
   rating: number;
   description: string;
+  image?: string;
 }
 
 export interface Hotel {
@@ -29,6 +30,7 @@ export interface Hotel {
   price: number;
   type?: string;
   amenities?: string[];
+  image?: string; 
 }
 
 export interface Activity {
@@ -204,6 +206,13 @@ export async function getCategories(): Promise<CategoriesResponse> {
  * Get all available wilayas (provinces)
  */
 export async function getWilayas(): Promise<WilayasResponse> {
+  return apiRequest<WilayasResponse>('/wilayas');
+}
+
+/**
+ * Get all available cities (same as wilayas for this implementation)
+ */
+export async function getCities(): Promise<WilayasResponse> {
   return apiRequest<WilayasResponse>('/wilayas');
 }
 
