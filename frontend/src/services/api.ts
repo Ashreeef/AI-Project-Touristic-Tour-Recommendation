@@ -13,13 +13,13 @@ export interface Attraction {
   name: string;
   category: string;
   city: string;
-  wilaya: string;
   gps: [number, number];
+  description: string;
+  rating: number;
   cost: string;
   visit_duration: string;
-  rating: number;
-  description: string;
-  image?: string;
+  nearby_amenities: string[];
+  image: string;
 }
 
 export interface Hotel {

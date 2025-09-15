@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-visible">
       {/* Background Image */}
@@ -37,7 +40,7 @@ export const HeroSection: React.FC = () => {
                 formSection.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="w-full sm:w-auto bg-[rgb(30,111,159)] hover:bg-[#1a5f8a] text-white px-8 sm:px-10 py-4 sm:py-5 text-lg sm:text-xl font-semibold group rounded-2xl shadow-2xl hover:shadow-[#1e6f9f]/30 transition-all duration-300 [font-family:'Outfit',Helvetica]"
+            className="w-full sm:w-auto bg-[#1e6f9f] hover:bg-[#1a5f8a] active:bg-[#164d73] text-white px-8 sm:px-10 py-4 sm:py-5 text-lg sm:text-xl font-semibold group rounded-2xl shadow-2xl hover:shadow-[#1e6f9f]/30 hover:scale-105 active:scale-95 transition-all duration-300 [font-family:'Outfit',Helvetica]"
           >
             Start Planning
             <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 ml-2 sm:ml-3 group-hover:translate-x-1 transition-transform duration-300" />
@@ -45,8 +48,8 @@ export const HeroSection: React.FC = () => {
           <Button
             variant="outline"
             size="lg"
-            onClick={() => window.location.href = '/destinations'}
-            className="w-full sm:w-auto border-2 border-white text-[#1e6f9f] bg-white hover:bg-gray-100 hover:text-[#1e6f9f] px-8 sm:px-10 py-4 sm:py-5 text-lg sm:text-xl font-semibold group rounded-2xl shadow-2xl hover:shadow-white/20 transition-all duration-300 [font-family:'Outfit',Helvetica]"
+            onClick={() => navigate('/destinations')}
+            className="w-full sm:w-auto border-2 border-white text-white bg-transparent hover:bg-white hover:text-[#1e6f9f] active:bg-gray-100 px-8 sm:px-10 py-4 sm:py-5 text-lg sm:text-xl font-semibold group rounded-2xl shadow-2xl hover:shadow-white/20 hover:scale-105 active:scale-95 transition-all duration-300 [font-family:'Outfit',Helvetica]"
           >
             Discover Destinations
           </Button>

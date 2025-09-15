@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
-  MapPin, 
-  Mail, 
+  MapPin,
+  Mail,
+  Github, 
   Facebook, 
   Twitter, 
   Instagram, 
@@ -254,6 +255,23 @@ export const Footer: React.FC = () => {
                     <p className="text-gray-300 text-sm [font-family:'Outfit',Helvetica] font-normal">
                       info@7wess.com
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-3 group">
+                  <div className="bg-[#1e6f9f]/20 p-2 rounded-lg group-hover:bg-[#1e6f9f]/30 transition-colors">
+                    <Github className="w-5 h-5 text-[#1e6f9f]" />
+                  </div>
+                  <div>
+                    <p className="text-white font-medium [font-family:'Outfit',Helvetica]">GitHub</p>
+                    <a 
+                      href="https://github.com/Ashreeef/AI-Project-Touristic-Tour-Recommendation"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-300 hover:text-white text-sm [font-family:'Outfit',Helvetica] font-normal transition-colors duration-300"
+                    >
+                      View Source Code
+                    </a>
                   </div>
                 </div>
 

@@ -19,7 +19,8 @@ import {
   Loader2,
   AlertCircle,
   CheckCircle,
-  ChevronDown
+  ChevronDown,
+  Crosshair
 } from 'lucide-react';
 import { useItinerary } from '../../hooks/useItinerary';
 import { ItineraryRequest, generateItinerary as apiGenerateItinerary } from '../../services/api';
@@ -51,6 +52,7 @@ export const SearchFormSection: React.FC = () => {
   });
 
   const [isActivitiesOpen, setIsActivitiesOpen] = useState(false);
+  const [isGettingLocation, setIsGettingLocation] = useState(false);
 
   const {
     isGenerating,
@@ -70,6 +72,49 @@ export const SearchFormSection: React.FC = () => {
     loadCategories();
     loadWilayas();
   }, [loadCategories, loadWilayas]);
+
+  // Add GPS location function
+  const getCurrentLocation = () => {
+    setIsGettingLocation(true);
+    setLocalError(null);
+
+    if (!navigator.geolocation) {
+      setLocalError('Geolocation is not supported by this browser');
+      setIsGettingLocation(false);
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        const coordinates = `${latitude.toFixed(6)}, ${longitude.toFixed(6)}`;
+        handleInputChange('currentLocation', coordinates);
+        setLocationStatus('valid');
+        setIsGettingLocation(false);
+      },
+      (error) => {
+        let errorMessage = 'Failed to get location';
+        switch (error.code) {
+          case error.PERMISSION_DENIED:
+            errorMessage = 'Location access denied. Please enable location permissions.';
+            break;
+          case error.POSITION_UNAVAILABLE:
+            errorMessage = 'Location information unavailable';
+            break;
+          case error.TIMEOUT:
+            errorMessage = 'Location request timeout';
+            break;
+        }
+        setLocalError(errorMessage);
+        setIsGettingLocation(false);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 60000
+      }
+    );
+  };
 
   const handleInputChange = (field: keyof SearchFormData, value: string | boolean | string[]) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -214,6 +259,7 @@ export const SearchFormSection: React.FC = () => {
       field: 'currentLocation' as keyof SearchFormData,
       type: 'input',
       placeholder: 'e.g., Algiers, Algeria or 36.737, 3.086',
+      hasLocationButton: true,
     },
     {
       icon: Calendar,
@@ -324,15 +370,18 @@ export const SearchFormSection: React.FC = () => {
                         </div>
                         
                         {field.type === 'input' ? (
-                          <div>
+                          <div className="relative">
                             <Input
                               type={(field as any).inputType || 'text'}
                               value={formData[field.field] as string}
                               onChange={(e) => handleInputChange(field.field, e.target.value)}
                               className={`h-12 sm:h-14 bg-transparent border-2 border-white text-white placeholder:text-gray-400 focus:border-[#1e6f9f] rounded-xl text-base sm:text-lg [font-family:'Outfit',Helvetica] transition-all duration-300 hover:border-gray-300 ${
+                                (field as any).hasLocationButton ? 'pr-12' : ''
+                              } ${
                                 (field as any).inputType === 'date' ? 'text-white [&::-webkit-calendar-picker-indicator]:ml-auto [&::-webkit-calendar-picker-indicator]:mr-4' : ''
                               }`}
                               placeholder={field.placeholder}
+                              disabled={isGettingLocation && (field as any).hasLocationButton}
                               style={(field as any).inputType === 'date' ? { 
                                 colorScheme: 'dark',
                                 color: 'white',
@@ -343,6 +392,24 @@ export const SearchFormSection: React.FC = () => {
                                 backgroundSize: '20px 20px'
                               } : {}}
                             />
+                            
+                            {/* GPS Location Button */}
+                            {(field as any).hasLocationButton && (
+                              <button
+                                type="button"
+                                onClick={getCurrentLocation}
+                                disabled={isGettingLocation}
+                                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white hover:text-[#1e6f9f] transition-colors duration-300 disabled:opacity-50 p-1 rounded-md hover:bg-white/10"
+                                title="Get current location"
+                              >
+                                {isGettingLocation ? (
+                                  <Loader2 className="w-5 h-5 animate-spin" />
+                                ) : (
+                                  <Crosshair className="w-5 h-5" />
+                                )}
+                              </button>
+                            )}
+                            
                             {field.field === 'currentLocation' && (
                               <div className="mt-2 space-y-1">
                                 {locationStatus === 'validating' && (
@@ -361,6 +428,12 @@ export const SearchFormSection: React.FC = () => {
                                   <div className="flex items-center gap-2 text-sm text-yellow-300 [font-family:'Outfit',Helvetica]">
                                     <AlertCircle className="w-4 h-4" />
                                     Unknown location - will default to Algiers
+                                  </div>
+                                )}
+                                {isGettingLocation && (
+                                  <div className="flex items-center gap-2 text-sm text-blue-300 [font-family:'Outfit',Helvetica]">
+                                    <Loader2 className="w-4 h-4 animate-spin" />
+                                    Getting your location...
                                   </div>
                                 )}
                               </div>

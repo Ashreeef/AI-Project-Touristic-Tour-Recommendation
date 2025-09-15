@@ -13,6 +13,7 @@ const navigationItems = [
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [panelVisible, setPanelVisible] = useState(false);
   const location = useLocation();
   
   // Determine if we're on homepage or other pages
@@ -27,11 +28,26 @@ export const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const headerBgClass = isHomepage
+    ? (isScrolled ? 'bg-gradient-to-br from-[#1e6f9f]/95 via-[#0a3c6b]/95 to-[#1557a0]/95 backdrop-blur-md shadow-xl'
+        : 'bg-transparent')
+    : 'bg-gradient-to-br from-[#1e6f9f] via-[#0a3c6b] to-[#1557a0] shadow-lg';
+
   const isActive = (href: string) => {
     if (href.startsWith('#')) {
       return false; // Anchor links are never "active" in the traditional sense
     }
     return location.pathname === href;
+  };
+
+  const toggleMobileMenu = () => {
+    if (isMobileMenuOpen) {
+      setPanelVisible(false);
+      setTimeout(() => setIsMobileMenuOpen(false), 220);
+    } else {
+      setIsMobileMenuOpen(true);
+      setTimeout(() => setPanelVisible(true), 20);
+    }
   };
 
   const handleNavClick = (href: string) => {
@@ -54,17 +70,11 @@ export const Header: React.FC = () => {
         }
       }
     }
-    setIsMobileMenuOpen(false);
+    if (isMobileMenuOpen) toggleMobileMenu();
   };
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isHomepage 
-          ? (isScrolled ? 'bg-[#1e6f9f]/95 backdrop-blur-md shadow-xl' : 'bg-transparent')
-          : 'bg-[#1e6f9f] shadow-lg'
-      }`}
-    >
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${headerBgClass}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
@@ -118,12 +128,9 @@ export const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
-              isHomepage 
-                ? (isScrolled ? 'text-white hover:bg-white/20' : 'text-white hover:bg-white/10')
-                : 'text-white hover:bg-white/20'
-            }`}
+            onClick={toggleMobileMenu}
+            className={`lg:hidden p-2 rounded-lg transition-colors ${isHomepage ? (isScrolled ? 'text-white hover:bg-white/20' : 'text-white hover:bg-white/10') : 'text-white hover:bg-white/20'}`}
+            aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -134,40 +141,38 @@ export const Header: React.FC = () => {
           <div className="lg:hidden fixed inset-0 z-50">
             {/* Backdrop */}
             <div
-              className="absolute inset-0 bg-black/50 backdrop-blur-sm"
-              onClick={() => setIsMobileMenuOpen(false)}
+              className={`absolute inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-300 ${panelVisible ? 'opacity-100' : 'opacity-0'}`}
+              onClick={toggleMobileMenu}
             />
             {/* Panel */}
-            <div className="absolute left-0 right-0 top-20 bg-[#1e6f9f] shadow-2xl border-t border-white/10 rounded-b-2xl mx-4">
-              <nav className="px-6 py-8 space-y-6">
-              {navigationItems.map((item) => (
-                item.href.startsWith('#') ? (
-                  <button
-                    key={item.href}
-                    onClick={() => {
-                      handleNavClick(item.href);
-                      setIsMobileMenuOpen(false);
-                    }}
-                    className="block w-full text-left py-3 px-4 font-semibold text-lg transition-all duration-300 text-white hover:text-white/80 hover:bg-white/10 rounded-xl [font-family:'Outfit',Helvetica]"
-                  >
-                    {item.label}
-                  </button>
-                ) : (
-                  <Link
-                    key={item.href}
-                    to={item.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className={`block w-full text-left py-3 px-4 font-semibold text-lg transition-all duration-300 rounded-xl [font-family:'Outfit',Helvetica] ${
-                      isActive(item.href)
-                        ? 'text-white bg-white/20'
-                        : 'text-white/90 hover:text-white hover:bg-white/10'
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                )
-              ))}
-              
+            <div
+              className={`absolute left-0 right-0 top-20 bg-gradient-to-br from-[#1e6f9f] via-[#0a3c6b] to-[#1557a0] shadow-2xl border-t border-white/10 rounded-b-2xl mx-4 transform transition-all duration-220 ease-out ${
+                panelVisible ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0'
+              }`}
+            >
+              <nav className="px-6 py-6 space-y-4">
+                {navigationItems.map((item) => (
+                  item.href.startsWith('#') ? (
+                    <button
+                      key={item.href}
+                      onClick={() => handleNavClick(item.href)}
+                      className="block w-full text-left py-3 px-4 font-semibold text-lg transition-all duration-300 text-white hover:text-white/90 hover:bg-white/10 rounded-xl [font-family:'Outfit',Helvetica]"
+                    >
+                      {item.label}
+                    </button>
+                  ) : (
+                    <Link
+                      key={item.href}
+                      to={item.href}
+                      onClick={() => toggleMobileMenu()}
+                      className={`block w-full text-left py-3 px-4 font-semibold text-lg transition-all duration-300 rounded-xl [font-family:'Outfit',Helvetica] ${
+                        isActive(item.href) ? 'text-white bg-white/10' : 'text-white/90 hover:text-white hover:bg-white/10'
+                      }`}
+                    >
+                      {item.label}
+                    </Link>
+                  )
+                ))}
               </nav>
             </div>
           </div>
