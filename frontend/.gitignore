@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Allow frontend/src/lib back in (override earlier 'lib/' ignore)
+!frontend/src/lib/
+!frontend/src/lib/utils.ts
