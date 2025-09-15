@@ -174,7 +174,7 @@ async function apiRequest<T>(
  * Health check endpoint
  */
 export async function checkHealth(): Promise<HealthResponse> {
-  return apiRequest<HealthResponse>('/health');
+  return apiRequest<HealthResponse>('/api/health');
 }
 
 /**
@@ -190,7 +190,7 @@ export async function getAttractions(
   if (params.limit) searchParams.append('limit', params.limit.toString());
 
   const queryString = searchParams.toString();
-  const endpoint = queryString ? `/attractions?${queryString}` : '/attractions';
+  const endpoint = queryString ? `/api/attractions?${queryString}` : '/api/attractions';
   
   return apiRequest<AttractionsResponse>(endpoint);
 }
@@ -199,21 +199,21 @@ export async function getAttractions(
  * Get all available attraction categories
  */
 export async function getCategories(): Promise<CategoriesResponse> {
-  return apiRequest<CategoriesResponse>('/categories');
+  return apiRequest<CategoriesResponse>('/api/categories');
 }
 
 /**
  * Get all available wilayas (provinces)
  */
 export async function getWilayas(): Promise<WilayasResponse> {
-  return apiRequest<WilayasResponse>('/wilayas');
+  return apiRequest<WilayasResponse>('/api/wilayas');
 }
 
 /**
  * Get all available cities (same as wilayas for this implementation)
  */
 export async function getCities(): Promise<WilayasResponse> {
-  return apiRequest<WilayasResponse>('/wilayas');
+  return apiRequest<WilayasResponse>('/api/wilayas');
 }
 
 /**
@@ -230,7 +230,7 @@ export async function getHotels(
   if (params.max_stars) searchParams.append('max_stars', params.max_stars.toString());
 
   const queryString = searchParams.toString();
-  const endpoint = queryString ? `/hotels?${queryString}` : '/hotels';
+  const endpoint = queryString ? `/api/hotels?${queryString}` : '/api/hotels';
   
   return apiRequest<HotelsResponse>(endpoint);
 }
@@ -241,7 +241,7 @@ export async function getHotels(
 export async function generateItinerary(
   request: ItineraryRequest
 ): Promise<{ data: ItineraryResponse }> {
-  return apiRequest<{ data: ItineraryResponse }>('/itinerary/generate', {
+  return apiRequest<{ data: ItineraryResponse }>('/api/itinerary/generate', {
     method: 'POST',
     body: JSON.stringify(request),
   });
