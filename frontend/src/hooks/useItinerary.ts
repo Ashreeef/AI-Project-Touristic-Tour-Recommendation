@@ -13,8 +13,15 @@ import {
   CategoriesResponse,
   WilayasResponse,
   HealthResponse,
-  DEFAULT_ITINERARY_PARAMS
 } from '../services/api';
+
+const DEFAULT_ITINERARY_PARAMS = {
+  minHotelStars: 3,
+  maxHotelStars: 5,
+  maxAttractions: 3,
+  maxTravelHours: 8.0,
+  hasCar: false,
+};
 
 export interface UseItineraryState {
   // Loading states
