@@ -3,14 +3,15 @@ Main Flask application
 """
 
 import logging
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from datetime import datetime, timezone
 from flask_cors import CORS
+from pathlib import Path
+import os
+import json
 
 # Minimal single-file backend: only depends on itinerary_planner.py
 from typing import Any, Dict, List, Tuple
-import os
-import json
 from itinerary_planner import (
     TourPlanningProblem,
     a_star_search,
@@ -27,6 +28,19 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = (BASE_DIR / ".." / "Data").resolve()
+
+def load_json(filename: str, default=None):
+    path = DATA_DIR / filename
+    if not path.exists():
+        return default if default is not None else []
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+ATTRACTIONS = load_json("attractions.json", default=[])
+HOTELS = load_json("cleaned_hotels.json", default=[])
+
 def load_data():
     """Optional no-op loader to satisfy run_server.py imports.
     Data files are read on-demand by endpoints.
@@ -38,8 +52,9 @@ def create_app():
     app = Flask(__name__)
     
     # Enable CORS for all routes
-    CORS(app, origins=["http://localhost:5173", "http://127.0.0.1:5173"])
-    
+    FRONTEND_ORIGIN = os.environ.get("FRONTEND_ORIGIN", "*")
+    CORS(app, resources={r"/api/*": {"origins": FRONTEND_ORIGIN}})
+
     # -------- Helpers (inline) --------
     def _parse_location(loc_str: str) -> Tuple[float, float]:
         """Accepts 'lat,lon' or city names and returns coordinates"""
@@ -67,6 +82,7 @@ def create_app():
             'setif': (36.19, 5.41),
             'blida': (36.47, 2.83),
             'batna': (35.55, 6.17),
+            'bechar': (31.62, -2.22),
             'djelfa': (34.67, 3.25),
             'sidi bel abbes': (35.2, -0.63),
             'biskra': (34.85, 5.73),
@@ -286,7 +302,6 @@ def create_app():
     @app.post('/api/itinerary/generate')
     def generate_itinerary():
         try:
-            from flask import request
             data = request.get_json()
             if not data:
                 return jsonify({"success": False, "error": "No JSON data provided"}), 400
@@ -351,7 +366,6 @@ def create_app():
     @app.get('/api/attractions')
     def get_attractions():
         try:
-            from flask import request
             wilaya = request.args.get('wilaya')
             category = request.args.get('category')
             limit = request.args.get('limit', type=int)
@@ -371,7 +385,6 @@ def create_app():
     @app.get('/api/hotels')
     def get_hotels():
         try:
-            from flask import request
             wilaya = request.args.get('wilaya')
             min_stars = request.args.get('min_stars', type=int)
             max_stars = request.args.get('max_stars', type=int)
@@ -431,7 +444,6 @@ def create_app():
     @app.post('/api/itinerary/geocode')
     def geocode_location():
         try:
-            from flask import request
             data = request.get_json()
             if not data or 'location' not in data:
                 return jsonify({"success": False, "error": "Location string is required"}), 400
