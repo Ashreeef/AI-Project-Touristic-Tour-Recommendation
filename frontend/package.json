@@ -40,5 +40,8 @@
   },
   "alias": {
     "@/*": "./src/components/ui/$1"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=22.x"
   }
 }
