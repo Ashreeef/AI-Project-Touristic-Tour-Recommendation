@@ -159,7 +159,8 @@ export function useItinerary(): UseItineraryState & UseItineraryActions {
       setIsGenerating(true);
       setError(null);
       
-      const response = await fetch('http://localhost:5000/api/itinerary/test');
+  const apiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+  const response = await fetch(`${apiBase}/api/itinerary/test`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
