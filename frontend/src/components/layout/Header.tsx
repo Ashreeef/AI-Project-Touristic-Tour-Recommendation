@@ -67,6 +67,17 @@ export const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 lg:h-24">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/logo.png" 
+                alt="7WESS Logo" 
+                className="h-10 w-auto"
+              />
+            </Link>
+          </div>
+
           {/* Centered Desktop Navigation */}
           <div className="flex-1 flex justify-center">
             <nav className="hidden lg:flex items-center space-x-10">

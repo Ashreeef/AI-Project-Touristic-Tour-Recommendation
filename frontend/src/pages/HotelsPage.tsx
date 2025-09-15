@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { PageHeader } from '../components/common/PageHeader';
 import { HotelsGrid } from '../components/hotels/HotelsGrid';
 import { HotelFilters } from '../components/hotels/HotelFilters';
 import { Button } from '../components/ui/button';
 import { Loader2, RefreshCw } from 'lucide-react';
+import { getCities } from '../services/api';
 
 
 // Loading all hotels from the database with pagination
@@ -12,10 +13,13 @@ export const HotelsPage: React.FC = () => {
   const [filters, setFilters] = useState({
     priceRange: [0, 150000] as [number, number],
     ratingRange: [1, 5] as [number, number],
+    selectedCities: [] as string[],
   });
   const [isLoading, setIsLoading] = useState(false);
+  const [cities, setCities] = useState<string[]>([]);
+  const [isLoadingCities, setIsLoadingCities] = useState(false);
 
-  const handleFiltersChange = (newFilters: { priceRange: [number, number]; ratingRange: [number, number] }) => {
+  const handleFiltersChange = (newFilters: { priceRange: [number, number]; ratingRange: [number, number]; selectedCities: string[] }) => {
     setFilters(newFilters);
   };
 
@@ -23,7 +27,24 @@ export const HotelsPage: React.FC = () => {
     setIsLoading(true);
     
     setTimeout(() => setIsLoading(false), 1000);
+    loadCities();
   };
+
+  const loadCities = async () => {
+    try {
+      setIsLoadingCities(true);
+      const response = await getCities();
+      setCities(response.wilayas || []);
+    } catch (error) {
+      console.error('Failed to load cities', error);
+    } finally {
+      setIsLoadingCities(false);
+    }
+  };
+
+  useEffect(() => {
+    loadCities();
+  }, []);
 
   return (
     <div className="pt-20 min-h-screen">
@@ -38,7 +59,8 @@ export const HotelsPage: React.FC = () => {
           <div className="lg:w-1/4">
             <HotelFilters 
               onFiltersChange={handleFiltersChange}
-              isLoading={isLoading}
+              isLoading={isLoading || isLoadingCities}
+              cities={cities}
             />
           </div>
           <div className="lg:w-3/4">
@@ -65,6 +87,7 @@ export const HotelsPage: React.FC = () => {
             <HotelsGrid 
               priceRange={filters.priceRange}
               ratingRange={filters.ratingRange}
+              selectedCities={filters.selectedCities}
             />
             
           </div>

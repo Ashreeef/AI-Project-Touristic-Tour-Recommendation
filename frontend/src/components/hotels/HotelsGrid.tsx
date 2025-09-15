@@ -18,11 +18,13 @@ const getHotelImage = (hotel: Hotel): string => {
 interface HotelsGridProps {
   priceRange?: [number, number];
   ratingRange?: [number, number];
+  selectedCities?: string[];
 }
 
 export const HotelsGrid: React.FC<HotelsGridProps> = ({ 
   priceRange = [0, 150000], 
-  ratingRange = [1, 5] 
+  ratingRange = [1, 5],
+  selectedCities = [],
 }) => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [sortBy, setSortBy] = useState<'rating' | 'price' | 'name'>('rating');
@@ -47,11 +49,12 @@ export const HotelsGrid: React.FC<HotelsGridProps> = ({
     loadHotels();
   }, []);
 
-  // Filter hotels based on price and rating range
+  // Filter hotels based on price, rating range and selected cities
   const filteredHotels = hotels.filter(hotel => {
     const priceMatch = hotel.price >= priceRange[0] && hotel.price <= priceRange[1];
     const ratingMatch = hotel.avg_review >= ratingRange[0] && hotel.avg_review <= ratingRange[1];
-    return priceMatch && ratingMatch;
+    const cityMatch = selectedCities.length === 0 || selectedCities.includes(hotel.city);
+    return priceMatch && ratingMatch && cityMatch;
   });
 
   // Sort hotels
@@ -82,7 +85,7 @@ export const HotelsGrid: React.FC<HotelsGridProps> = ({
   // Reset to first page when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [priceRange, ratingRange]);
+  }, [priceRange, ratingRange, selectedCities]);
 
   // Helper function to generate pagination numbers with ellipses
   const getPaginationNumbers = () => {

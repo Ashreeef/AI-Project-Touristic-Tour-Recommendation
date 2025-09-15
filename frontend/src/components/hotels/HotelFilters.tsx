@@ -5,25 +5,34 @@ import { Slider } from '../ui/slider';
 import { Filter, X, Loader2 } from 'lucide-react';
 
 interface HotelFiltersProps {
-  onFiltersChange: (filters: { priceRange: [number, number]; ratingRange: [number, number] }) => void;
+  onFiltersChange: (filters: { priceRange: [number, number]; ratingRange: [number, number]; selectedCities: string[] }) => void;
   isLoading?: boolean;
+  cities?: string[];
 }
 
-export const HotelFilters: React.FC<HotelFiltersProps> = ({ onFiltersChange, isLoading = false }) => {
+export const HotelFilters: React.FC<HotelFiltersProps> = ({ onFiltersChange, isLoading = false, cities = [] }) => {
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 150000]);
   const [ratingRange, setRatingRange] = useState<[number, number]>([1, 5]);
+  const [selectedCities, setSelectedCities] = useState<string[]>([]);
 
   const clearFilters = () => {
     setPriceRange([0, 150000]);
     setRatingRange([1, 5]);
+    setSelectedCities([]);
   };
 
-  const hasActiveFilters = priceRange[0] !== 0 || priceRange[1] !== 150000 || ratingRange[0] !== 1 || ratingRange[1] !== 5;
+  const hasActiveFilters = priceRange[0] !== 0 || priceRange[1] !== 150000 || ratingRange[0] !== 1 || ratingRange[1] !== 5 || selectedCities.length > 0;
 
   // Notify parent component when filters change
   useEffect(() => {
-    onFiltersChange({ priceRange, ratingRange });
-  }, [priceRange, ratingRange, onFiltersChange]);
+    onFiltersChange({ priceRange, ratingRange, selectedCities });
+  }, [priceRange, ratingRange, selectedCities, onFiltersChange]);
+
+  const handleCityToggle = (city: string) => {
+    setSelectedCities((prev) =>
+      prev.includes(city) ? prev.filter((c) => c !== city) : [...prev, city]
+    );
+  };
 
   return (
     <Card className="transition-all duration-300 hover:shadow-lg">
@@ -55,6 +64,30 @@ export const HotelFilters: React.FC<HotelFiltersProps> = ({ onFiltersChange, isL
           </div>
         ) : (
           <>
+            <div>
+              <h4 className="font-semibold mb-3 text-[#062546] [font-family:'Outfit',Helvetica]">
+                Cities
+              </h4>
+              {cities.length === 0 ? (
+                <p className="text-sm text-gray-500 [font-family:'Outfit',Helvetica] font-normal">No cities available.</p>
+              ) : (
+                <div className="max-h-48 overflow-y-auto space-y-2 pr-1">
+                  {cities.map((city) => (
+                    <label key={city} className="flex items-center gap-2 text-sm text-gray-700 cursor-pointer select-none">
+                      <input
+                        type="checkbox"
+                        className="rounded border-gray-300 text-[#1e6f9f] focus:ring-[#1e6f9f]"
+                        checked={selectedCities.includes(city)}
+                        onChange={() => handleCityToggle(city)}
+                        disabled={isLoading}
+                      />
+                      <span className="[font-family:'Outfit',Helvetica]">{city}</span>
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <div>
               <h4 className="font-semibold mb-3 text-[#062546] [font-family:'Outfit',Helvetica]">
                 Price Range (DZD)

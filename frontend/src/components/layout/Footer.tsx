@@ -95,9 +95,13 @@ export const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2 xl:col-span-2 space-y-6">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4 [font-family:'Outfit',Helvetica]">
-                7wess
-              </h2>
+              <div className="mb-4">
+                <img 
+                  src="/logo.png" 
+                  alt="7WESS Logo" 
+                  className="h-16 w-auto mb-10"
+                />
+              </div>
               <p className="text-gray-300 text-base leading-7 mb-6 max-w-md [font-family:'Outfit',Helvetica] font-normal">
                 Your ultimate touristic guide for exploring the magnificent landscapes, rich culture, and hidden gems of Algeria. 
                 Discover authentic experiences crafted by locals, for travelers who seek more than just destinations.

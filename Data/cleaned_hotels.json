@@ -3,7 +3,8 @@
         "hotel": "Hotel Best Night 2",
         "price": 69741,
         "city": "Algiers",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Hotel_Best_Night_2.webp"
     },
     {
         "hotel": "Holiday Inn Algiers - Cheraga Tower by IHG",
@@ -16,85 +17,85 @@
         "hotel": "Hotel Best Night",
         "price": 75676,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_Best_Night.jpg"
     },
     {
         "hotel": "Hôtel Sidi Yahia",
         "price": 109956,
         "city": "Algiers",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hôtel_Sidi_Yahia.jpg"
     },
     {
         "hotel": "Mercure Alger Palais Des Congres",
         "price": 92400,
         "city": "Algiers",
-        "avg_review": 4.5
-    },
-    {
-        "hotel": "AFRIC HOTEL- Casbah",
-        "price": 62300,
-        "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.5,
+        "image": "Mercure_Alger_Palais_Des_Congres.jpg"
     },
     {
         "hotel": "ibis Alger Aéroport",
         "price": 88920,
         "city": "Algiers",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "ibis_Alger_Aéroport.jpg"
     },
     {
         "hotel": "Lalla Doudja Hotel",
         "price": 99400,
         "city": "Algiers",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Atlantis Alger",
-        "price": 91000,
-        "city": "Algiers",
-        "avg_review": 4.7
+        "avg_review": 4.2,
+        "image": "Lalla_Doudja_Hotel.jpg"
     },
     {
         "hotel": "Hotel Hammamet",
         "price": 105000,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_Hammamet.jpg"
     },
     {
         "hotel": "Numidien Hotel",
         "price": 73500,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Numidien_Hotel.jpg"
     },
     {
         "hotel": "Golden Tulip Opera Alger",
         "price": 113400,
         "city": "Algiers",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Golden_Tulip_Opera_Alger.jpg"
     },
     {
         "hotel": "Cozi et très chaleureux",
         "price": 47600,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Cozi_et_très_chaleureux.jpg"
     },
     {
         "hotel": "Hôtel Zinou zm",
         "price": 77000,
         "city": "Algiers",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hôtel_Zinou_zm.jpg"
     },
     {
         "hotel": "M Suite Hotel",
         "price": 106780,
         "city": "Algiers",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "M_Suite_Hotel.jpg"
     },
     {
         "hotel": "AZ Hôtels Kouba",
         "price": 109200,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "AZ_Hôtels_Kouba.jpg"
     },
     {
         "hotel": "AZ Hôtels Vieux Kouba",
@@ -107,43 +108,29 @@
         "hotel": "Algiers Marriott Hotel Bab Ezzouar",
         "price": 164900,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Algiers_Marriott_Hotel_Bab_Ezzouar.jpg"
     },
     {
         "hotel": "Residence Inn by Marriott Algiers Bab Ezzouar",
         "price": 325500,
         "city": "Algiers",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Apartment dans villa avec Piscine",
-        "price": 142800,
-        "city": "Algiers",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Maisonnette Borj El Bahri",
-        "price": 37931,
-        "city": "Algiers",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Cosy house",
-        "price": 45062,
-        "city": "Algiers",
-        "avg_review": 5.0
+        "avg_review": 4.0,
+        "image": "Residence_Inn_by_Marriott_Algiers_Bab_Ezzouar.jpg"
     },
     {
         "hotel": "Coast Haven",
         "price": 80920,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Coast_Haven.jpg"
     },
     {
         "hotel": "Hotel El Biar",
         "price": 47775,
         "city": "Algiers",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "Hotel_El_Biar.jpg"
     },
     {
         "hotel": "Rym El Djamil Hotel",
@@ -978,7 +965,8 @@
         "hotel": "Afric Hotel",
         "price": 6075,
         "city": "Algiers",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Afric_Hotel.jpg"
     },
     {
         "hotel": "Hôtel El Aurassi",
@@ -991,194 +979,190 @@
         "hotel": "Nelson Hotel",
         "price": 6480,
         "city": "Algiers",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Nelson_Hotel.jpg"
     },
     {
         "hotel": "Hôtel Saint Eugène",
         "price": 15255,
         "city": "Algiers",
-        "avg_review": 4.7
+        "avg_review": 4.7,
+        "image": "Hôtel_Saint_Eugène.jpg"
     },
     {
         "hotel": "The Post Hotel",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "The_Post_Hotel.jpg"
     },
     {
         "hotel": "Hôtel RALF",
         "price": 15255,
         "city": "Algiers",
-        "avg_review": 4.7
+        "avg_review": 4.7,
+        "image": "Hôtel_RALF.avif"
     },
     {
         "hotel": "Oasis Hotel",
         "price": 4185,
         "city": "Algiers",
-        "avg_review": 3.3
+        "avg_review": 3.3,
+        "image": "Oasis_Hotel.jpg"
     },
     {
         "hotel": "Hôtel Audin",
         "price": 7830,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hôtel_Audin.jpg"
     },
     {
         "hotel": "City Hotel Algiers",
         "price": 5535,
         "city": "Algiers",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "City_Hotel_Algiers.jpg"
     },
     {
         "hotel": "Space Telemly Hotel",
         "price": 8370,
         "city": "Algiers",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Space_Telemly_Hotel.jpg"
     },
     {
         "hotel": "Atlantis Hotel - Algiers",
         "price": 11880,
         "city": "Algiers",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Atlantis_Hotel-Algiers.jpg"
     },
     {
         "hotel": "The Legacy Luxury Hotel",
         "price": 12150,
         "city": "Algiers",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "The_Legacy_Luxury_Hotel.jpg"
     },
     {
         "hotel": "Hôtel Suisse",
         "price": 8640,
         "city": "Algiers",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hôtel_Suisse.jpg"
     },
     {
         "hotel": "Hotel El Djazair",
         "price": 10530,
         "city": "Algiers",
         "avg_review": 4.1,
-        "image": "hotel_el_djazair.jpg"
-    },
-    {
-        "hotel": "Sidi Yahia Hotel",
-        "price": 12690,
-        "city": "Algiers",
-        "avg_review": 4.0
+        "image": "hotel-el-djazair.jpg"
     },
     {
         "hotel": "Hôtel Elghanami",
         "price": 11070,
         "city": "Algiers",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "AD Hotel Hydra",
-        "price": 11880,
-        "city": "Algiers",
-        "avg_review": 4.4
-    },
-    {
-        "hotel": "Hôtel des Etrangers - Square Port Said",
-        "price": 9900,
-        "city": "Algiers",
-        "avg_review": 2.4
+        "avg_review": 4.3,
+        "image": "Hôtel_Elghanami.jpg"
     },
     {
         "hotel": "El Kettani Hotel",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "El_Kettani_Hotel.jpg"
     },
     {
         "hotel": "Terminus Hotel",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 3.2
+        "avg_review": 3.2,
+        "image": "Terminus_Hotel.jpg"
     },
     {
         "hotel": "Hôtel El Badr",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 2.6
-    },
-    {
-        "hotel": "Hotel Astrid",
-        "price": 9900,
-        "city": "Algiers",
-        "avg_review": 3.2
+        "avg_review": 2.6,
+        "image": "Hôtel_El_Badr.jpg"
     },
     {
         "hotel": "Hotel Amirouche",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 3.4
-    },
-    {
-        "hotel": "Hôtel Tunis",
-        "price": 9900,
-        "city": "Algiers",
-        "avg_review": 3.4
+        "avg_review": 3.4,
+        "image": "Hotel_Amirouche.jpg"
     },
     {
         "hotel": "Grand Hôtel des étrangers",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 5.0
+        "avg_review": 5.0,
+        "image": "Grand_Hôtel_des_étrangers.jpg"
     },
     {
         "hotel": "HOTEL LA FAMILLE",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "HOTEL_LA_FAMILLE.jpg"
     },
     {
         "hotel": "Hydra Hotel",
         "price": 4455,
         "city": "Algiers",
-        "avg_review": 3.4
+        "avg_review": 3.4,
+        "image": "Hydra_Hotel.jpg"
     },
     {
         "hotel": "Hotel Saray",
         "price": 9045,
         "city": "Algiers",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Hotel_Saray.jpg"
     },
     {
         "hotel": "Hôtel Ikram El Dhayf",
         "price": 9990,
         "city": "Algiers",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Hôtel_Ikram_El_Dhayf.jpg"
     },
     {
         "hotel": "AD Hotel, Hydra",
         "price": 16200,
         "city": "Algiers",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "AD_Hotel_Hydra.jpg"
     },
     {
         "hotel": "Hôtel du Val",
         "price": 14040,
         "city": "Algiers",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hôtel_du_Val.avif"
     },
     {
         "hotel": "Plaza Hotel Algiers",
         "price": 6480,
         "city": "Algiers",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Plaza_Hotel_Algiers.avif"
     },
     {
         "hotel": "Hotel Dar Diaf",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_Dar_Diaf.jpg"
     },
     {
         "hotel": "Hotel restaurant le 103",
         "price": 9900,
         "city": "Algiers",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Hotel_restaurant_le_103.jpg"
     },
     {
         "hotel": "El Bey Hotel - Jijel",
@@ -2579,13 +2563,15 @@
         "hotel": "Hotel Touat",
         "price": 20000,
         "city": "Adrar",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hotel_Touat.jpg"
     },
     {
         "hotel": "Mraguen Hotel",
         "price": 8000,
         "city": "Adrar",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Mraguen_Hotel.jpg"
     },
     {
         "hotel": "Hôtel Gourara",
@@ -2597,7 +2583,8 @@
         "hotel": "Hotel Takialt",
         "price": 9500,
         "city": "Adrar",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_Takialt.jpg"
     },
     {
         "hotel": "Hotel Mirador Palace",
@@ -2717,19 +2704,22 @@
         "hotel": "Kasbah Tizimi",
         "price": 12000,
         "city": "Adrar",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Kasbah_Tizimi.jpg"
     },
     {
         "hotel": "Chez Le Pacha",
         "price": 11000,
         "city": "Adrar",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Chez_Le_Pacha.jpg"
     },
     {
         "hotel": "La Perle du Draa",
         "price": 11500,
         "city": "Adrar",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "La_Perle_du_Draa.jpg"
     },
     {
         "hotel": "Hotel El Medina",
