@@ -399,22 +399,32 @@
         "avg_review": 5.0
     },
     {
-        "hotel": "Hotel MEDINA",
-        "price": 56000,
+        "hotel": "Mediterranean Village",
+        "price": 3000,
         "city": "Oran",
-        "avg_review": 4.2
+        "avg_review": 4.6,
+        "image": "Mediterranean_Village.jpg"
+    },
+    {
+        "hotel": "Hotel MEDINA",
+        "price": 11000,
+        "city": "Oran",
+        "avg_review": 4.2,
+        "image": "Hotel_MEDINA.jpg"
     },
     {
         "hotel": "LE PALME HOTEL",
-        "price": 81800,
+        "price": 14500,
         "city": "Oran",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "LE_PALME_HOTEL.webp"
     },
     {
         "hotel": "Hôtel Ottoman - ORAN",
-        "price": 41412,
+        "price": 14000,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hôtel_Ottoman_ORAN.jpg"
     },
     {
         "hotel": "HOTEL IKRAM ORAN",
@@ -425,63 +435,45 @@
     },
     {
         "hotel": "Hotel 2H",
-        "price": 1338750,
+        "price": 31000,
         "city": "Oran",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Le cheval blanc",
-        "price": 28350,
-        "city": "Oran",
-        "avg_review": 3.0
+        "avg_review": 4.0,
+        "image": "Hotel_2H.jpg"
     },
     {
         "hotel": "T2 résidence le wencharis Oran",
-        "price": 38080,
+        "price": 8000,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "T2_résidence_le_wencharis_Oran.jpg"
     },
     {
         "hotel": "Liberté Hotels Oran",
-        "price": 68600,
+        "price": 17000,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Liberté_Hotels_Oran.jpg"
     },
     {
         "hotel": "Melissa Hotel",
-        "price": 107800,
+        "price": 14000,
         "city": "Oran",
-        "avg_review": 3.0
-    },
-    {
-        "hotel": "Hôtel privilège Oran",
-        "price": 33201,
-        "city": "Oran",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "Melissa_Hotel.jpg"
     },
     {
         "hotel": "ONYX by luna",
-        "price": 87500,
+        "price": 17000,
         "city": "Oran",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "ONYX_by_luna.jpg"
     },
     {
         "hotel": "Calypso",
-        "price": 59500,
+        "price": 10000,
         "city": "Oran",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel Les Ambassadeurs",
-        "price": 50400,
-        "city": "Oran",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Calypso Home Oran",
-        "price": 59500,
-        "city": "Oran",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Calypso.jpg"
     },
     {
         "hotel": "Four Points by Sheraton Oran",
@@ -496,30 +488,6 @@
         "city": "Oran",
         "avg_review": 4.0,
         "image": "le_meridien_hotel.jpg"
-    },
-    {
-        "hotel": "2H Hotel",
-        "price": 227500,
-        "city": "Oran",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "À oran centre ville dans la residence gharb mall",
-        "price": 38080,
-        "city": "Oran",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Khawaja",
-        "price": 47600,
-        "city": "Oran",
-        "avg_review": 3.0
-    },
-    {
-        "hotel": "Charm El Cheikh Hotel",
-        "price": 41475,
-        "city": "Oran",
-        "avg_review": 4.2
     },
     {
         "hotel": "West khaw",
@@ -1310,251 +1278,123 @@
         "avg_review": 4.3
     },
     {
-        "hotel": "Royal Hotel Oran-MGallery",
+        "hotel": "Royal Hotel Oran",
         "price": 14580,
         "city": "Oran",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Royal_Hotel_Oran.jpg"
     },
     {
         "hotel": "Best Western Hotel Colombe Oran",
         "price": 8100,
         "city": "Oran",
-        "avg_review": 4.4
-    },
-    {
-        "hotel": "Hôtel le Cheval Blanc",
-        "price": 4995,
-        "city": "Oran",
-        "avg_review": 3.8
+        "avg_review": 4.4,
+        "image": "Best_Western_Hotel_Colombe_Oran.jpg"
     },
     {
         "hotel": "ASSALA HOTEL",
         "price": 10800,
         "city": "Oran",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "ASSALA_HOTEL.webp"
     },
     {
         "hotel": "MH HOTEL",
         "price": 5670,
         "city": "Oran",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Charme El Cheikh Hotel",
-        "price": 6210,
-        "city": "Oran",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Le Palme Hotel Oran",
-        "price": 10800,
-        "city": "Oran",
-        "avg_review": 4.7
-    },
-    {
-        "hotel": "Melissa Hotel",
-        "price": 11475,
-        "city": "Oran",
-        "avg_review": 3.5
-    },
-    {
-        "hotel": "Hotel II Horloges Oran",
-        "price": 6615,
-        "city": "Oran",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "2H Hotel",
-        "price": 24165,
-        "city": "Oran",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Medina Hotel Oran",
-        "price": 7425,
-        "city": "Oran",
-        "avg_review": 3.8
+        "avg_review": 4.2,
+        "image": "MH_HOTEL.avif"
     },
     {
         "hotel": "Plaza Hotel Oran",
         "price": 9315,
         "city": "Oran",
-        "avg_review": 3.4
-    },
-    {
-        "hotel": "Le Méridien Oran Hotel & Convention Centre",
-        "price": 16065,
-        "city": "Oran",
-        "avg_review": 4.1
+        "avg_review": 3.4,
+        "image": "Plaza_Hotel_Oran.webp"
     },
     {
         "hotel": "RODINA Hotel & SPA",
         "price": 12285,
         "city": "Oran",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "RODINA_Hotel_SPA.jpg"
     },
     {
         "hotel": "Ibiris Hotel",
         "price": 7695,
         "city": "Oran",
-        "avg_review": 4.6
+        "avg_review": 4.6,
+        "image": "Ibiris_Hotel.jpg"
     },
     {
         "hotel": "Hôtel Bay Oran",
         "price": 18360,
         "city": "Oran",
-        "avg_review": 4.1
-    },
-    {
-        "hotel": "Fantazia Hotel Oran",
-        "price": 7425,
-        "city": "Oran",
-        "avg_review": 3.5
+        "avg_review": 4.1,
+        "image": "Hôtel_Bay_Oran.webp"
     },
     {
         "hotel": "Hôtel El Ksar",
         "price": 6480,
         "city": "Oran",
-        "avg_review": 2.6
-    },
-    {
-        "hotel": "Liberty Hotel",
-        "price": 11070,
-        "city": "Oran",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Onyx By Luna",
-        "price": 12960,
-        "city": "Oran",
-        "avg_review": 4.6
+        "avg_review": 2.6,
+        "image": "Hôtel_El_Ksar.jpg"
     },
     {
         "hotel": "Hôtel Adef",
         "price": 10530,
         "city": "Oran",
-        "avg_review": 2.9
-    },
-    {
-        "hotel": "Hotel Grand Horloge",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "HÔTEL RHOUFI",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.9
+        "avg_review": 2.9,
+        "image": "Hôtel_Adef.avif"
     },
     {
         "hotel": "Hotel MZ",
-        "price": 9900,
+        "price": 9000,
         "city": "Oran",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Talbi",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hôtel bouaza",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 4.1
-    },
-    {
-        "hotel": "Sidi Khattab Hotel",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 2.9
+        "avg_review": 3.8,
+        "image": "Hotel_MZ.jpg"
     },
     {
         "hotel": "Hôtel Houna",
         "price": 9900,
         "city": "Oran",
-        "avg_review": 3.6
-    },
-    {
-        "hotel": "Hotel Charem Echikh",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.4
+        "avg_review": 3.6,
+        "image": "Hôtel_Houna.png"
     },
     {
         "hotel": "Hotel Mansour",
         "price": 9900,
         "city": "Oran",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hôtel NADJAH",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 4.4
-    },
-    {
-        "hotel": "Hotel President 2",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 2.8
-    },
-    {
-        "hotel": "Hôtel du Jardin",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.1
+        "avg_review": 3.7,
+        "image": "Hotel_Mansour.webp"
     },
     {
         "hotel": "Hôtel tahtaha وهران",
-        "price": 9900,
+        "price": 6000,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hôtel_tahtaha.jpg"
     },
     {
         "hotel": "Hôtel Andalous",
         "price": 9900,
         "city": "Oran",
-        "avg_review": 3.4
-    },
-    {
-        "hotel": "Hôtel l'Alhambra",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.7
+        "avg_review": 3.4,  
+        "image": "Hôtel_Andalous.jpg"
     },
     {
         "hotel": "Hôtel Bel Air",
-        "price": 9900,
+        "price": 7000,
         "city": "Oran",
-        "avg_review": 3.2
+        "avg_review": 3.2,
+        "image": "Hôtel_Bel_Air.jpg"
     },
     {
-        "hotel": "HOTEL HAYATT REGENCY BARKI ORAN",
-        "price": 9900,
-        "city": "Oran",
+        "hotel": "HOTEL HAYATT REGENCY Algiers",
+        "price": 35000,
+        "city": "Algiers",
         "avg_review": 4.9,
         "image": "hyatt_hotel.jpg"
-    },
-    {
-        "hotel": "Hôtel KAMEL",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.6
-    },
-    {
-        "hotel": "Hotel RIAD",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 4.1
-    },
-    {
-        "hotel": "Africa Hotel",
-        "price": 9900,
-        "city": "Oran",
-        "avg_review": 3.9
     },
     {
         "hotel": "SH Hotel",
@@ -1567,7 +1407,8 @@
         "hotel": "Hôtel le Majestic Oran",
         "price": 9900,
         "city": "Oran",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hôtel_le_Majestic_Oran.jpg"
     },
     {
         "hotel": "Constantine Marriott Hotel",
@@ -3970,129 +3811,45 @@
         "avg_review": 4.0
     },
     {
-        "hotel": "Hotel Zighoud Youcef",
-        "price": 6200,
-        "city": "Mila",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Ferdjioua",
+        "hotel": "Hotel AGHA",
         "price": 5700,
         "city": "Mila",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hotel_AGHA.jpg"
     },
     {
-        "hotel": "Hotel Mila Plaza",
-        "price": 6800,
-        "city": "Mila",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel Grarem",
-        "price": 6000,
-        "city": "Mila",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Tassadane",
+        "hotel": "Hotel Tapis Rouge",
         "price": 6500,
         "city": "Mila",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel El Athmania",
-        "price": 5800,
-        "city": "Mila",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hotel Sidi Merouane",
-        "price": 7000,
-        "city": "Mila",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Aïn Sefra",
-        "price": 5500,
-        "city": "Naâma",
-        "avg_review": 3.5
+        "avg_review": 3.9,
+        "image": "Hotel_Tapis_Rouge.jpg"
     },
     {
         "hotel": "Hotel Djebel Mekter",
         "price": 5000,
         "city": "Naâma",
-        "avg_review": 3.4
-    },
-    {
-        "hotel": "Hotel Naâma Inn",
-        "price": 6000,
-        "city": "Naâma",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hotel Les Dunes",
-        "price": 5800,
-        "city": "Naâma",
-        "avg_review": 3.6
-    },
-    {
-        "hotel": "Hotel El Mouilah",
-        "price": 5200,
-        "city": "Naâma",
-        "avg_review": 3.5
-    },
-    {
-        "hotel": "Hotel Oasis Naâma",
-        "price": 6200,
-        "city": "Naâma",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Naâma Plaza",
-        "price": 6500,
-        "city": "Naâma",
-        "avg_review": 3.9
+        "avg_review": 3.4,
+        "image": "Hotel_Djebel_Mekter.webp"
     },
     {
         "hotel": "Hotel Mina",
         "price": 5800,
         "city": "Relizane",
-        "avg_review": 3.6
+        "avg_review": 3.6,
+        "image": "Hotel_Mina.jpg"
     },
     {
         "hotel": "Hotel Oued Rhiou",
         "price": 5300,
         "city": "Relizane",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Hotel_Oued_Rhiou.jpg"
     },
     {
         "hotel": "Hotel Relizane Plaza",
         "price": 6500,
         "city": "Relizane",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel El Amir",
-        "price": 6000,
-        "city": "Relizane",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hotel Les Oliviers",
-        "price": 6200,
-        "city": "Relizane",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Sidi M'Hamed",
-        "price": 5500,
-        "city": "Relizane",
-        "avg_review": 3.6
-    },
-    {
-        "hotel": "Hotel Relizane Inn",
-        "price": 6800,
-        "city": "Relizane",
-        "avg_review": 3.9
+        "avg_review": 3.8,
+        "image": "Hotel_Relizane_Plaza.jpg"
     }
 ]
