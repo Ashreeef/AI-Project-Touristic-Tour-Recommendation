@@ -136,44 +136,36 @@
         "hotel": "Rym El Djamil Hotel",
         "price": 81900,
         "city": "Annaba",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Rym_El_Djamil_Hotel.jpg"
     },
     {
         "hotel": "MAJESTIC Hotel Annaba",
         "price": 57225,
         "city": "Annaba",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "MAJESTIC_Hotel_Annaba.jpg"
     },
     {
         "hotel": "Azur",
         "price": 78750,
         "city": "Annaba",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Azur",
-        "price": 78750,
-        "city": "Annaba",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Azur.jpg"
     },
     {
         "hotel": "Hotel D'orient",
         "price": 58800,
         "city": "Annaba",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "Hotel_D'orient.webp"
     },
     {
         "hotel": "Hotel Sabri",
         "price": 86100,
         "city": "Annaba",
         "avg_review": 4.0,
-        "image": "hotel_sabri.jpg"
-    },
-    {
-        "hotel": "Jakasse",
-        "price": 28560,
-        "city": "Annaba",
-        "avg_review": 4.0
+        "image": "Hotel_Sabri.jpg"
     },
     {
         "hotel": "Hotel el Hayat",
@@ -1687,211 +1679,169 @@
         "hotel": "Hotel Royal Elisa Annaba",
         "price": 11880,
         "city": "Annaba",
-        "avg_review": 3.6
-    },
-    {
-        "hotel": "Le Majestic Hotel",
-        "price": 6075,
-        "city": "Annaba",
-        "avg_review": 3.7
+        "avg_review": 3.6,
+        "image": "Hotel_Royal_Elisa_Annaba.avif"
     },
     {
         "hotel": "El Nour Hotel",
         "price": 5535,
         "city": "Annaba",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "El_Nour_Hotel.jpg"
     },
     {
         "hotel": "HOTEL TÉLÉPHÉRIQUE ANNABA",
         "price": 5805,
         "city": "Annaba",
-        "avg_review": 3.6
+        "avg_review": 3.6,
+        "image": "HOTEL_TÉLÉPHÉRIQUE_ANNABA.jpg"
     },
     {
         "hotel": "Seybouse international hotel",
         "price": 19845,
         "city": "Annaba",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Seybouse_international_hotel.jpg"
     },
     {
         "hotel": "Hôtel Sidi Brahim",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "Hôtel_Sidi_Brahim.jpg"
     },
     {
         "hotel": "HÔTEL SINDIBAD",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "HÔTEL_SINDIBAD.jpg"
     },
     {
         "hotel": "فندق دار لياس",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.0
+        "avg_review": 3.0,
+        "image": "فندق_دار_لياس.avif"
     },
     {
         "hotel": "فندق تامانارت",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "فندق_تامانارت.jpg"
     },
     {
         "hotel": "Hôtel El Mouna",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_El_Mouna.jpg"
     },
     {
         "hotel": "Hôtel Safsaf",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Safsaf.jpg"
     },
     {
         "hotel": "Hôtel Andalous",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Hôtel_Andalous.jpg"
     },
     {
         "hotel": "Hôtel El Hana",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Hôtel_El_Hana.jpg"
     },
     {
         "hotel": "فندق تورينغ",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.3
+        "avg_review": 3.3,
+        "image": "فندق_تورينغ.jpg"
     },
     {
         "hotel": "Hôtel Résidence Hippone",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 2.8
+        "avg_review": 2.8,
+        "image": "Hôtel_Résidence_Hippone.jpg"
     },
     {
         "hotel": "Hôtel Marignan",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hôtel_Marignan.jpg"
     },
     {
         "hotel": "Hôtel Splendid",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 2.8
-    },
-    {
-        "hotel": "Sabri hotel",
-        "price": 4320,
-        "city": "Annaba",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Rym El Djamil Hotel",
-        "price": 6615,
-        "city": "Annaba",
-        "avg_review": 3.5
-    },
-    {
-        "hotel": "Hôtel Nassim",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 3.4
+        "avg_review": 2.8,
+        "image": "Hôtel_Splendid.jpg"
     },
     {
         "hotel": "Hôtel Dar Chadli",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel anaba",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 5.0
+        "avg_review": 3.8,
+        "image": "Hôtel_Dar_Chadli.jpg"
     },
     {
         "hotel": "Hotel Cirta",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 4.6
+        "avg_review": 4.6,
+        "image": "Hotel_Cirta.jpg"
     },
     {
         "hotel": "Hôtel Hoggar",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Hoggar.jpg"
     },
     {
         "hotel": "Hôtel Mondial",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 4.4
-    },
-    {
-        "hotel": "HÔTEL NOUZHA",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 3.6
+        "avg_review": 4.4,
+        "image": "Hôtel_Mondial.jpg"
     },
     {
         "hotel": "فندق الحرية",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "Hotel International",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 5.0
+        "avg_review": 4.3,
+        "image": "فندق_الحرية.png"
     },
     {
         "hotel": "Hôtel Familial Marhaba",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.2
-    },
-    {
-        "hotel": "Hôtel El Ahram",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 3.3
+        "avg_review": 3.2,
+        "image": "Hôtel_Familial_Marhaba.webp"
     },
     {
         "hotel": "فندق رشراش",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.1
+        "avg_review": 3.1,
+        "image": "فندق_رشراش.webp"
     },
     {
         "hotel": "Hôtel Alexandria",
         "price": 9900,
         "city": "Annaba",
-        "avg_review": 3.0
-    },
-    {
-        "hotel": "HÔTEL DE NICE",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "فندق حريم السلطان",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "hôtel bizoc",
-        "price": 9900,
-        "city": "Annaba",
-        "avg_review": 4.3
+        "avg_review": 3.0,
+        "image": "Hôtel_Alexandria.webp"
     },
     {
         "hotel": "Renaissance Tlemcen Hotel",
@@ -2764,43 +2714,36 @@
         "hotel": "Hotel El Amane",
         "price": 6000,
         "city": "Aïn Defla",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_El_Amane.webp"
     },
     {
         "hotel": "Hotel El Waha",
         "price": 6500,
         "city": "Aïn Defla",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel El Manar",
-        "price": 7000,
-        "city": "Aïn Defla",
-        "avg_review": 4.2
+        "avg_review": 3.8,
+        "image": "Hotel_El_Waha.jpg"
     },
     {
         "hotel": "Hotel El Amir",
         "price": 6200,
         "city": "Aïn Defla",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel Tassili",
-        "price": 6800,
-        "city": "Aïn Defla",
-        "avg_review": 4.1
+        "avg_review": 3.9,
+        "image": "Hotel_El_Amir.jpg"
     },
     {
         "hotel": "Hotel Numidia",
         "price": 7100,
         "city": "Aïn Defla",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_Numidia.png"
     },
     {
         "hotel": "Hotel El Mouggar",
         "price": 6300,
         "city": "Aïn Defla",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hotel_El_Mouggar.jpg"
     },
     {
         "hotel": "Hotel El Bahia",

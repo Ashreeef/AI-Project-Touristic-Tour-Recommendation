@@ -1,5 +1,7 @@
 import React from 'react';
 
+//this component is used to display the page header
+
 interface PageHeaderProps {
   title: string;
   subtitle: string;

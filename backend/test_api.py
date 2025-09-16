@@ -6,7 +6,7 @@ This script tests all API endpoints to ensure they work correctly.
 Run this after starting the Flask server to verify functionality.
 
 Usage:
-    python test_api.py
+    py test_api.py 
 """
 
 import requests
