@@ -168,30 +168,6 @@
         "image": "Hotel_Sabri.jpg"
     },
     {
-        "hotel": "Hotel el Hayat",
-        "price": 32480,
-        "city": "Batna",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "HOTEL CHELIA",
-        "price": 41055,
-        "city": "Batna",
-        "avg_review": 3.0
-    },
-    {
-        "hotel": "hotel brahimi batna",
-        "price": 35000,
-        "city": "Batna",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Messaoudi",
-        "price": 98000,
-        "city": "Batna",
-        "avg_review": 4.0
-    },
-    {
         "hotel": "HOTEL SALDAE",
         "price": 8000,
         "city": "Béjaïa",
@@ -672,142 +648,116 @@
         "avg_review": 4.0
     },
     {
-        "hotel": "hotel techriret فندق تيشريرث",
-        "price": 9900,
-        "city": "Batna",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "فندق محطة خدمات أولاد سي سليمان",
-        "price": 9900,
-        "city": "Batna",
-        "avg_review": 4.3
-    },
-    {
         "hotel": "Hôtel El Hayat",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel chaabani",
-        "price": 9900,
-        "city": "Batna",
-        "avg_review": 1.0
+        "avg_review": 4.2,
+        "image": "Hôtel_El_Hayat.webp"
     },
     {
         "hotel": "Hôtel Messaoudi",
         "price": 12420,
         "city": "Batna",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Hôtel_Messaoudi.jpg"
     },
     {
         "hotel": "فندق براهيمي",
         "price": 4590,
         "city": "Batna",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "فندق_براهيمي.jpg"
     },
     {
         "hotel": "Hotel CH Chaker",
         "price": 10125,
         "city": "Batna",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Chelia Batna Hotel",
-        "price": 7020,
-        "city": "Batna",
-        "avg_review": 3.1
+        "avg_review": 3.8,
+        "image": "Hotel_CH_Chaker.jpg"
     },
     {
         "hotel": "TIMGAD HÔTEL HAZEM",
         "price": 6345,
         "city": "Batna",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "TIMGAD_HÔTEL_HAZEM.webp"
     },
     {
         "hotel": "Hôtel Guettafi",
         "price": 6345,
         "city": "Batna",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Guettafi.jpg"
     },
     {
         "hotel": "Hotel elmadera",
         "price": 5670,
         "city": "Batna",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hotel_elmadera.webp"
     },
     {
         "hotel": "Hôtel Kourtel",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Hôtel_Kourtel.jpg"
     },
     {
         "hotel": "فندق سليم",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "فندق_سليم.webp"
     },
     {
         "hotel": "hôtel résidence el mahdi",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.5
-    },
-    {
-        "hotel": "HOTEL MESSAOUI BARIKA",
-        "price": 9900,
-        "city": "Batna",
-        "avg_review": 3.8
+        "avg_review": 4.5,
+        "image": "hôtel_résidence_el_mahdi.jpg"
     },
     {
         "hotel": "Timgad Trajan Hotel",
         "price": 6885,
         "city": "Batna",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Timgad_Trajan_Hotel.jpg"
     },
     {
         "hotel": "MOFATIS Hotel",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "MOFATIS_Hotel.webp"
     },
     {
         "hotel": "hotel mont chélia فندق الهواء النقي شليا",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "hotel_mont_chélia.webp"
     },
     {
         "hotel": "مرقد لمهنوي hotel mhnawi",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "HOTEL MIZOU",
-        "price": 9900,
-        "city": "Batna",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "مرقد_لمهنوي_hotel_mhnawi.jpg"
     },
     {
         "hotel": "Hotel Transatlantique - Ghoufi",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Hotel_Transatlantique-Ghoufi.jpg"
     },
     {
         "hotel": "HOTEL AMINE نزل أمين",
         "price": 9900,
         "city": "Batna",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Gold Hotel",
-        "price": 9900,
-        "city": "Batna",
-        "avg_review": 3.4
+        "avg_review": 4.0,
+        "image": "HOTEL_AMINE_نزل_أمين.webp"
     },
     {
         "hotel": "Atlantis Hôtel Béjaïa",
@@ -2908,43 +2858,29 @@
         "hotel": "Hotel El Bahia",
         "price": 7500,
         "city": "Aïn Témouchent",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Hotel_El_Bahia.jpg"
     },
     {
         "hotel": "Hotel El Waha",
         "price": 7000,
         "city": "Aïn Témouchent",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel El Amir",
-        "price": 7200,
-        "city": "Aïn Témouchent",
-        "avg_review": 4.1
+        "avg_review": 4.0,
+        "image": "Hotel_El_Waha.jpg"
     },
     {
         "hotel": "Hotel Tassili",
         "price": 6800,
         "city": "Aïn Témouchent",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel Numidia",
-        "price": 7300,
-        "city": "Aïn Témouchent",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel El Mouggar",
-        "price": 6900,
-        "city": "Aïn Témouchent",
-        "avg_review": 3.8
+        "avg_review": 3.9,
+        "image": "Hotel_Tassili.jpg"
     },
     {
         "hotel": "Hotel El Manar",
         "price": 7100,
         "city": "Aïn Témouchent",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_El_Manar.jpg"
     },
     {
         "hotel": "Hotel Khaouni",
