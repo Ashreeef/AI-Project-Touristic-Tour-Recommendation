@@ -2018,119 +2018,116 @@
         "avg_review": 4.3
     },
     {
-        "hotel": "Ziban Hotel",
-        "price": 6850,
-        "city": "Biskra",
-        "avg_review": 3.2
-    },
-    {
         "hotel": "Hôtel Vescera sud",
         "price": 12741,
         "city": "Biskra",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Hôtel_Vescera_sud.avif"
     },
     {
         "hotel": "Hammam Salihine",
         "price": 6165,
         "city": "Biskra",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Hammam_Salihine.jpg"
     },
     {
         "hotel": "Hotel Cristal",
         "price": 5069,
         "city": "Biskra",
-        "avg_review": 4.6
+        "avg_review": 4.6,
+        "image": "Hotel_Cristal.webp"
     },
     {
         "hotel": "Complexe touristiques thermal Sidi Yahia - Biskra",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "Complexe_touristiques_thermal_Sidi_Yahia-Biskra.webp"
     },
     {
         "hotel": "Hôtel Maurice Laban",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Hôtel_Maurice_Laban.jpeg"
     },
     {
         "hotel": "AN Hôtel",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "AN_Hôtel.jpg"
     },
     {
         "hotel": "JB HÔTEL BISKRA",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.4
+        "avg_review": 3.4,
+        "image": "JB_HÔTEL_BISKRA.jpg"
     },
     {
         "hotel": "Hôtel Palace Biskra",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.3
+        "avg_review": 3.3,
+        "image": "Hôtel_Palace_Biskra.webp"
     },
     {
         "hotel": "Hôtel Royal",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Royal.jpg"
     },
     {
         "hotel": "Hôtel Bab Sahara",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.6
+        "avg_review": 3.6,
+        "image": "Hôtel_Bab_Sahara.jpg"
     },
     {
         "hotel": "Hôtel El Qods",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_El_Qods.webp"
     },
     {
         "hotel": "hotel nail zakaria",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "hotel_nail_zakaria.webp"
     },
     {
         "hotel": "HOTEL ET RESTAURANT SELAMI",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "complexe sidi yahya",
-        "price": 9900,
-        "city": "Biskra",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hôtel Oasis",
-        "price": 9900,
-        "city": "Biskra",
-        "avg_review": 3.3,
-        "image": "Hotel_Oasis.jpg"
+        "avg_review": 3.9,
+        "image": "HOTEL_ET_RESTAURANT_SELAMI.jpg"
     },
     {
         "hotel": "Hôtel PTT",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 3.4
+        "avg_review": 3.4,
+        "image": "Hôtel_PTT.webp"
     },
     {
         "hotel": "Hôtel Ennakhil",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 2.9
+        "avg_review": 2.9,
+        "image": "Hôtel_Ennakhil.jpg"
     },
     {
         "hotel": "Le Grand Hôtel",
         "price": 9900,
         "city": "Biskra",
-        "avg_review": 2.7
+        "avg_review": 2.7,
+        "image": "Le_Grand_Hôtel.webp"
     },
     {
         "hotel": "HOTEL YOUCEF",
@@ -2505,46 +2502,25 @@
         "avg_review": 3.6
     },
     {
-        "hotel": "Hotel El Bordj",
-        "price": 6000,
-        "city": "Biskra",
-        "avg_review": 4.0
-    },
-    {
         "hotel": "Hotel Les Zibans",
         "price": 7000,
         "city": "Biskra",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel Vescera",
-        "price": 6500,
-        "city": "Biskra",
-        "avg_review": 4.1
+        "avg_review": 4.2,
+        "image": "Hotel_Les_Zibans.jpg"
     },
     {
         "hotel": "Hotel El Oued",
         "price": 6200,
         "city": "Biskra",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "Hotel_El_Oued.jpg"
     },
     {
         "hotel": "Hotel Oasis",
         "price": 6800,
         "city": "Biskra",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Sahara",
-        "price": 7100,
-        "city": "Biskra",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "Hotel Palmier",
-        "price": 6300,
-        "city": "Biskra",
-        "avg_review": 4.1
+        "avg_review": 4.0,
+        "image": "Hotel_Oasis_biskra.jpg"
     },
     {
         "hotel": "Hotel Aurès",
@@ -3105,43 +3081,36 @@
         "hotel": "Hotel Chréa",
         "price": 8000,
         "city": "Blida",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Hotel_Chréa.jpg"
     },
     {
         "hotel": "Hotel El Kef",
         "price": 7500,
         "city": "Blida",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel Mitidja",
-        "price": 8500,
-        "city": "Blida",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel Les Oranges",
-        "price": 7800,
-        "city": "Blida",
-        "avg_review": 4.0
+        "avg_review": 3.9,
+        "image": "Hotel_El_Kef.jpg"
     },
     {
         "hotel": "Hotel El Annasser",
         "price": 7000,
         "city": "Blida",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hotel_El_Annasser.jpg"
     },
     {
         "hotel": "Hotel Atlas",
         "price": 7200,
         "city": "Blida",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "Hotel_Atlas.jpg"
     },
     {
         "hotel": "Hotel Blida Plaza",
         "price": 9000,
         "city": "Blida",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Hotel_Blida_Plaza.jpg"
     },
     {
         "hotel": "Hotel Tahat",
