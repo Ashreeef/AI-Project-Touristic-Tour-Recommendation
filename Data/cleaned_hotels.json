@@ -2232,70 +2232,60 @@
         "avg_review": 3.4
     },
     {
-        "hotel": "HOTEL EL BESSEM",
-        "price": 9900,
-        "city": "Bouira",
-        "avg_review": 4.0
-    },
-    {
         "hotel": "AB Hôtel",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "AB_Hôtel.jpg"
     },
     {
         "hotel": "Hotel Al Mokhtar",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Hotel_Al_Mokhtar.jpg"
     },
     {
         "hotel": "Hôtel Errich",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 3.2
+        "avg_review": 3.2,
+        "image": "Hôtel_Errich.webp"
     },
     {
         "hotel": "Hôtel Le Royal - Bouira",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 3.3
+        "avg_review": 3.3,
+        "image": "Hôtel_Le_Royal-Bouira.webp"
     },
     {
         "hotel": "Hôtel Résidence Mekdouh",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 3.2
+        "avg_review": 3.2,
+        "image": "Hôtel_Résidence_Mekdouh.webp"
     },
     {
         "hotel": "Sofy Hotel",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Sofy_Hotel.webp"
     },
     {
         "hotel": "El ATTIK BOUIRA HOTEL",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 3.1
-    },
-    {
-        "hotel": "Dortoir bouira",
-        "price": 9900,
-        "city": "Bouira",
-        "avg_review": 3.9
+        "avg_review": 3.1,
+        "image": "El_ATTIK_BOUIRA_HOTEL.webp"
     },
     {
         "hotel": "Dortoir hôtel ouest",
         "price": 9900,
         "city": "Bouira",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "Dortoire FLORIDA",
-        "price": 9900,
-        "city": "Bouira",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Dortoir_hôtel_ouest.webp"
     },
     {
         "hotel": "Hotel Touat",
@@ -2601,40 +2591,18 @@
         "avg_review": 4.1
     },
     {
-        "hotel": "Hotel Bouira",
-        "price": 5800,
-        "city": "Bouira",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel El Khroub",
-        "price": 5900,
-        "city": "Bouira",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Tassili",
-        "price": 6100,
-        "city": "Bouira",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel El Mouggar",
-        "price": 6200,
-        "city": "Bouira",
-        "avg_review": 4.3
-    },
-    {
         "hotel": "Hotel Numidia",
         "price": 6300,
         "city": "Bouira",
-        "avg_review": 4.4
+        "avg_review": 4.4,
+        "image": "Hotel_Numidia_bouira.jpg"
     },
     {
         "hotel": "Hotel El Amir",
         "price": 6400,
         "city": "Bouira",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Hotel_El_Amir_Bouira.webp"
     },
     {
         "hotel": "Hotel El Amane",
@@ -2703,85 +2671,85 @@
         "hotel": "Hotel Khaouni",
         "price": 6500,
         "city": "Bordj Bou Arréridj",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_Khaouni.jpg"
     },
     {
-        "hotel": "Hotel El Waha",
-        "price": 6200,
+        "hotel": "Hotel Beni Hamad",
+        "price": 8673,
         "city": "Bordj Bou Arréridj",
-        "avg_review": 3.9
+        "avg_review": 4.1,
+        "image": "Hotel_Beni_Hamad.webp"
     },
     {
-        "hotel": "Hotel El Amir",
-        "price": 6400,
+        "hotel": "Hotel Rue D'or",
+        "price": 4727,
         "city": "Bordj Bou Arréridj",
-        "avg_review": 4.1
+        "avg_review": 3.8,
+        "image": "Hotel_Rue_D'or.webp"
     },
     {
-        "hotel": "Hotel Tassili",
-        "price": 6000,
+        "hotel": "Hotel Lina",
+        "price": 8691,
         "city": "Bordj Bou Arréridj",
-        "avg_review": 3.8
+        "avg_review": 3.7,
+        "image": "Hotel_Lina.webp"
     },
     {
-        "hotel": "Hotel Numidia",
-        "price": 6600,
-        "city": "Bordj Bou Arréridj",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Hotel El Mouggar",
-        "price": 6100,
-        "city": "Bordj Bou Arréridj",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hotel El Manar",
+        "hotel": "Hotel Des Bibans",
         "price": 6300,
         "city": "Bordj Bou Arréridj",
-        "avg_review": 4.0
+        "avg_review": 2.9,
+        "image": "Hotel_Des_Bibans.webp"
     },
     {
-        "hotel": "Hotel El Waha",
-        "price": 7000,
+        "hotel": "Boumerdes Plaza Hotel & Spa",
+        "price": 9817,
         "city": "Boumerdès",
-        "avg_review": 4.1
+        "avg_review": 4.2,
+        "image": "Boumerdes_Plaza_Hotel&Spa.webp"
     },
     {
-        "hotel": "Hotel El Amir",
-        "price": 7200,
+        "hotel": "Coast hotel",
+        "price": 11679,
         "city": "Boumerdès",
-        "avg_review": 4.2
+        "avg_review": 4.7,
+        "image": "Coast_hotel.jpg"
     },
     {
-        "hotel": "Hotel Tassili",
-        "price": 6800,
+        "hotel": "Hotel Zinou ZM",
+        "price": 5975,
         "city": "Boumerdès",
-        "avg_review": 3.9
+        "avg_review": 4.7,
+        "image": "Hotel_Zinou_ZM.webp"
     },
     {
-        "hotel": "Hotel Numidia",
-        "price": 7300,
+        "hotel": "Dar Tlidjene Hotel",
+        "price": 2914,
         "city": "Boumerdès",
-        "avg_review": 4.3
+        "avg_review": 4.0,
+        "image": "Dar_Tlidjene_Hotel.webp"
     },
     {
-        "hotel": "Hotel El Mouggar",
-        "price": 6900,
+        "hotel": "Hotel El Amine",
+        "price": 23023,
         "city": "Boumerdès",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_El_Amine.webp"
     },
     {
-        "hotel": "Hotel El Manar",
+        "hotel": "Complexe Touristique Albatros beach",
         "price": 7100,
         "city": "Boumerdès",
-        "avg_review": 4.1
+        "avg_review": 3.8,
+        "image": "Complexe_Touristique_Albatros_beach.webp"
     },
     {
-        "hotel": "Hotel El Bahia",
+        "hotel": "The Villa Hotel",
         "price": 7500,
         "city": "Boumerdès",
-        "avg_review": 4.4
+        "avg_review": 3.5,
+        "image": "The_Villa_Hotel.webp"
     },
     {
         "hotel": "Hotel El Waha",
@@ -3039,43 +3007,29 @@
         "hotel": "Hotel Saoura",
         "price": 7000,
         "city": "Béchar",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel Kenadsa",
-        "price": 6000,
-        "city": "Béchar",
-        "avg_review": 3.6
+        "avg_review": 3.9,
+        "image": "Hotel_Saoura.webp"
     },
     {
         "hotel": "Hotel Grand Erg",
         "price": 7200,
         "city": "Béchar",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Oasis Rouge",
-        "price": 6500,
-        "city": "Béchar",
-        "avg_review": 3.8
+        "avg_review": 4.0,
+        "image": "Hotel_Grand_Erg.webp"
     },
     {
         "hotel": "Hotel El Mordjane",
         "price": 6800,
         "city": "Béchar",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hotel_El_Mordjane.webp"
     },
     {
-        "hotel": "Hotel Tindouf Road",
-        "price": 5500,
+        "hotel": "Antar Hotel",
+        "price": 8163,
         "city": "Béchar",
-        "avg_review": 3.4
-    },
-    {
-        "hotel": "Hotel Béchar Plaza",
-        "price": 8000,
-        "city": "Béchar",
-        "avg_review": 4.2
+        "avg_review": 3.2,
+        "image": "Antar_Hotel.webp"
     },
     {
         "hotel": "Hotel Chréa",

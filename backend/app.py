@@ -177,6 +177,29 @@ def create_app():
             return data[:limit]
         return data
 
+    def _get_hotels() -> List[Dict[str, Any]]:
+        # Try common locations for cleaned_hotels.json
+        candidates = [
+            os.path.join(os.path.dirname(__file__), 'hotels.json'),
+            os.path.join(os.path.dirname(__file__), 'data', 'hotels.json'),
+            os.path.join(os.path.dirname(__file__), 'Data', 'hotels.json'),
+            os.path.join(os.path.dirname(__file__), '..', 'Data', 'cleaned_hotels.json'),
+            os.path.join(os.getcwd(), 'Data', 'cleaned_hotels.json'),
+            os.path.join(os.getcwd(), 'backend', 'hotels.json'),
+            os.path.join(os.getcwd(), 'backend', 'data', 'hotels.json'),
+            os.path.join(os.getcwd(), 'backend', 'Data', 'cleaned_hotels.json'),
+        ]
+        data: List[Dict[str, Any]] = []
+        for path in candidates:
+            if os.path.exists(path):
+                try:
+                    with open(path, encoding='utf-8') as f:
+                        data = json.load(f)
+                    break
+                except Exception:
+                    continue
+        return data
+
     def _build_constraints(req: Dict[str, Any]) -> Dict[str, Any]:
         return {
             'max_total_budget': float(req.get('budget', 0)),
@@ -389,22 +412,8 @@ def create_app():
             min_stars = request.args.get('min_stars', type=int)
             max_stars = request.args.get('max_stars', type=int)
             limit = request.args.get('limit', type=int)
-            # Load hotels.json if available
-            hotels: List[Dict[str, Any]] = []
-            for hp in [
-                os.path.join(os.path.dirname(__file__), 'hotels.json'),
-                os.path.join(os.path.dirname(__file__), 'data', 'hotels.json'),
-                os.path.join(os.path.dirname(__file__), 'Data', 'hotels.json'),
-                os.path.join(os.path.dirname(__file__), '..', 'Data', 'cleaned_hotels.json'),
-                os.path.join(os.getcwd(), 'Data', 'cleaned_hotels.json'),
-            ]:
-                if os.path.exists(hp):
-                    try:
-                        with open(hp, encoding='utf-8') as f:
-                            hotels = json.load(f)
-                    except Exception:
-                        pass
-                    break
+            # Load hotels using helper function
+            hotels = _get_hotels()
             if wilaya:
                 hotels = [h for h in hotels if h.get('city') == wilaya or h.get('wilaya') == wilaya]
             if isinstance(min_stars, int):
@@ -422,9 +431,9 @@ def create_app():
     @app.get('/api/wilayas')
     def get_wilayas():
         try:
-            # Derive wilayas from attractions dataset
-            data = _get_attractions()
-            wilayas = sorted(list({a.get('city') or a.get('wilaya') for a in data if a.get('city') or a.get('wilaya')}))
+            # Derive wilayas from hotels dataset to only show cities with hotels
+            hotels_data = _get_hotels()
+            wilayas = sorted(list({h.get('city') for h in hotels_data if h.get('city')}))
             return jsonify({"success": True, "wilayas": wilayas})
         except Exception:
             logger.exception("Error fetching wilayas")
