@@ -171,121 +171,43 @@
         "hotel": "HOTEL SALDAE",
         "price": 8000,
         "city": "Béjaïa",
-        "avg_review": 4.7
+        "avg_review": 4.7,
+        "image": "HOTEL_SALDAE.webp"
     },
     {
         "hotel": "Atlantis Béjaïa Aéroport",
         "price": 12350,
         "city": "Béjaïa",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "HOTEL DU NORD",
-        "price": 7310,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Kenzi appart",
-        "price": 5200,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "T4 douane",
-        "price": 7500,
-        "city": "Béjaïa",
-        "avg_review": 4.2
-    },
-    {
-        "hotel": "Kenzi appart",
-        "price": 4500,
-        "city": "Béjaïa",
-        "avg_review": 4.0
+        "avg_review": 4.2,
+        "image": "Atlantis_Béjaïa_Aéroport.webp"
     },
     {
         "hotel": "Brahmi Hotel",
         "price": 5175,
         "city": "Béjaïa",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Brahmi_Hotel.webp"
     },
     {
         "hotel": "Golden H",
         "price": 5175,
         "city": "Béjaïa",
-        "avg_review": 4.7
-    },
-    {
-        "hotel": "Léa appart",
-        "price": 9000,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "F2 bien équipé en plein centre-ville de Béjaïa",
-        "price": 9600,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Béjaïa city center",
-        "price": 3200,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Sofwar location",
-        "price": 6300,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Résidence Aslouni Aach El Vaz saket Béjaïa",
-        "price": 11200,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Kenzi appart",
-        "price": 7000,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "HOTEL DU LAC",
-        "price": 6230,
-        "city": "Béjaïa",
-        "avg_review": 3.0
-    },
-    {
-        "hotel": "Résidence brahmi",
-        "price": 5120,
-        "city": "Béjaïa",
-        "avg_review": 4.0
+        "avg_review": 4.7,
+        "image": "Golden_H.webp"
     },
     {
         "hotel": "Résidence riad kharfallah",
         "price": 9750,
         "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "T3 cité douanière",
-        "price": 9500,
-        "city": "Béjaïa",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Résidence_riad_kharfallah.webp"
     },
     {
         "hotel": "LES HAMMADITES",
         "price": 6970,
         "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Villa la crête",
-        "price": 19125,
-        "city": "Béjaïa",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "LES_HAMMADITES.jpg"
     },
     {
         "hotel": "Ibis Constantine",
@@ -728,148 +650,130 @@
         "image": "HOTEL_AMINE_نزل_أمين.webp"
     },
     {
-        "hotel": "Atlantis Hôtel Béjaïa",
-        "price": 12690,
-        "city": "Béjaïa",
-        "avg_review": 4.1
-    },
-    {
-        "hotel": "Hôtel Golden  Béjaïa",
-        "price": 5940,
-        "city": "Béjaïa",
-        "avg_review": 4.4
-    },
-    {
         "hotel": "Hôtel du Lac",
         "price": 7155,
         "city": "Béjaïa",
-        "avg_review": 4.4
-    },
-    {
-        "hotel": "Saldae Hotel",
-        "price": 15255,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hôtel Brahmi",
-        "price": 6615,
-        "city": "Béjaïa",
-        "avg_review": 4.1
+        "avg_review": 4.4,
+        "image": "Hôtel_du_Lac.webp"
     },
     {
         "hotel": "Hôtel Cristal",
         "price": 7020,
         "city": "Béjaïa",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hôtel_Cristal.jpg"
     },
     {
         "hotel": "Hôtel de l'Étoile",
         "price": 8505,
         "city": "Béjaïa",
-        "avg_review": 4.8
+        "avg_review": 4.8,
+        "image": "Hôtel_de_l'Étoile.webp"
     },
     {
         "hotel": "Hôtel La Bravoure",
         "price": 5670,
         "city": "Béjaïa",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hôtel_La_Bravoure.webp"
     },
     {
         "hotel": "Hôtel Royal",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Hôtel_Royal_bejaia.jpg"
     },
     {
         "hotel": "Hôtel Le Zéphyr",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Le_Zéphyr.jpg"
     },
     {
         "hotel": "Hotel Chrea",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hotel_Chrea.jpg"
     },
     {
         "hotel": "Hôtel du Nord",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Hôtel_du_Nord.png"
     },
     {
         "hotel": "Hôtel Le Sarrasin",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Le_Sarrasin.jpg"
     },
     {
         "hotel": "Hôtel Le Palace",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.7
+        "avg_review": 3.7,
+        "image": "Hôtel_Le_Palace.jpg"
     },
     {
         "hotel": "Hôtel Madala",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Hôtel_Madala.jpg"
     },
     {
         "hotel": "Hôtel Providentia",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.8
-    },
-    {
-        "hotel": "Hotel Ou Autre",
-        "price": 9900,
-        "city": "Béjaïa",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hôtel",
-        "price": 9900,
-        "city": "Béjaïa",
-        "avg_review": 2.5
+        "avg_review": 3.8,
+        "image": "Hôtel_Providentia.jpg"
     },
     {
         "hotel": "Hôtel taïs",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hôtel_taïs.jpg"
     },
     {
         "hotel": "Hôtel Essalem",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Hôtel_Essalem.jpg"
     },
     {
         "hotel": "Hôtel Thiziri",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "Hôtel_Thiziri.jpg"
     },
     {
         "hotel": "Hôtel Delphine",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 2.7
+        "avg_review": 2.7,
+        "image": "Hôtel_Delphine.jpg"
     },
     {
         "hotel": "Hôtel Cap Carbon",
         "price": 9900,
         "city": "Béjaïa",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hôtel_Cap_Carbon.jpg"
     },
     {
-        "hotel": "Le Belvédère Hôtel",
-        "price": 9900,
+        "hotel": "Auberge Le Thais",
+        "price": 6579,
         "city": "Béjaïa",
-        "avg_review": 5.0
+        "avg_review": 4.0,
+        "image": "Auberge_Le_Thais.webp"
     },
     {
         "hotel": "Afric Hotel",
@@ -2318,19 +2222,22 @@
         "hotel": "Hotel Mirador Palace",
         "price": 12000,
         "city": "Chlef",
-        "avg_review": 4.3
+        "avg_review": 4.3,
+        "image": "Hotel_Mirador_Palace.jpg"
     },
     {
         "hotel": "Hotel Castellum",
         "price": 7000,
         "city": "Chlef",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Hotel_Castellum.webp"
     },
     {
         "hotel": "Hôtel de La Vallée",
         "price": 9000,
         "city": "Chlef",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hôtel_de_La_Vallée.jpg"
     },
     {
         "hotel": "Hotel Ben Osman",
@@ -2450,28 +2357,11 @@
         "image": "La_Perle_du_Draa.jpg"
     },
     {
-        "hotel": "Hotel El Medina",
-        "price": 8000,
+        "hotel": "Hotel les Orangers",
+        "price": 5418,
         "city": "Chlef",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel El Amane",
-        "price": 8500,
-        "city": "Chlef",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel El Nour",
-        "price": 7500,
-        "city": "Chlef",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hotel El Waha",
-        "price": 7800,
-        "city": "Chlef",
-        "avg_review": 3.8
+        "avg_review": 4.3,
+        "image": "Hotel_les_Orangers.webp"
     },
     {
         "hotel": "Caracalla Hotel",
