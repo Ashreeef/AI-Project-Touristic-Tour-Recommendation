@@ -210,12 +210,6 @@
         "image": "LES_HAMMADITES.jpg"
     },
     {
-        "hotel": "Ibis Constantine",
-        "price": 53010,
-        "city": "Constantine",
-        "avg_review": 3.0
-    },
-    {
         "hotel": "Novotel Constantine",
         "price": 69849,
         "city": "Constantine",
@@ -226,37 +220,36 @@
         "hotel": "Hotel El Bey Constantine",
         "price": 67200,
         "city": "Constantine",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hotel_El_Bey_Constantine.jpg"
     },
     {
         "hotel": "Hostel le Rhumel",
         "price": 21000,
         "city": "Constantine",
-        "avg_review": 4.5
+        "avg_review": 4.5,
+        "image": "Hostel_le_Rhumel.jpg"
     },
     {
         "hotel": "El khayem Hotel",
         "price": 59325,
         "city": "Constantine",
-        "avg_review": 4.7
+        "avg_review": 4.7,
+        "image": "El_khayem_Hotel.jpg"
     },
     {
         "hotel": "Constantine Marriott Hotel",
         "price": 158500,
         "city": "Constantine",
-        "avg_review": 4.5
-    },
-    {
-        "hotel": "Constantine Air-conditioned Parking near Parc Aquatiq",
-        "price": 119000,
-        "city": "Constantine",
-        "avg_review": 4.0
+        "avg_review": 4.5,
+        "image": "Constantine_Marriott_Hotel.jpg"
     },
     {
         "hotel": "résidence infinity",
         "price": 23562,
         "city": "Constantine",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "résidence_infinity.jpg"
     },
     {
         "hotel": "Mirana Mayotte Hostel 47",
@@ -1260,13 +1253,8 @@
         "hotel": "Constantine Marriott Hotel",
         "price": 19845,
         "city": "Constantine",
-        "avg_review": 4.4
-    },
-    {
-        "hotel": "El Bey Hotel - Constantine",
-        "price": 8100,
-        "city": "Constantine",
-        "avg_review": 4.2
+        "avg_review": 4.4,
+        "image": "Constantine_Marriott_Hotel.jpg"
     },
     {
         "hotel": "Grand Hotel Cirta",
@@ -1276,58 +1264,53 @@
         "image": "hotel_citra.jpg"
     },
     {
-        "hotel": "Grand Hotel",
-        "price": 9900,
-        "city": "Constantine",
-        "avg_review": 3.4
-    },
-    {
         "hotel": "Eucalyptus Hotel",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Eucalyptus_Hotel.webp"
     },
     {
         "hotel": "Remes Hotel",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Remes_Hotel.avif"
     },
     {
         "hotel": "Hotel el-Hawa Talk",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 3.1
+        "avg_review": 3.1,
+        "image": "Hotel_el-Hawa_Talk.jpg"
     },
     {
-        "hotel": "Hotel Des Prince",
+        "hotel": "Hotel Des Princes",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 3.4
+        "avg_review": 3.4,
+        "image": "Hotel_Des_Princes.avif"
     },
     {
         "hotel": "فندق بلقيس",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 3.9
+        "avg_review": 3.9,
+        "image": "فندق_بلقيس.png"
     },
     {
         "hotel": "Hôtel Dali Constantine",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 4.3
-    },
-    {
-        "hotel": "Hôtel Nassim",
-        "price": 9900,
-        "city": "Constantine",
-        "avg_review": 5.0
+        "avg_review": 4.3,
+        "image": "Hôtel_Dali_Constantine.jpg"
     },
     {
         "hotel": "L'escale hotel aéroport Constantine",
         "price": 9900,
         "city": "Constantine",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "L'escale_hotel_aéroport_Constantine.jpg"
     },
     {
         "hotel": "Park Mall Hotel & Conference Center",
@@ -2642,46 +2625,53 @@
         "image": "The_Villa_Hotel.webp"
     },
     {
-        "hotel": "Hotel El Waha",
+        "hotel": "ALRACHAD HOTEL فندق الرشاد",
         "price": 6000,
         "city": "Djelfa",
-        "avg_review": 3.8
+        "avg_review": 4.5,
+        "image": "ALRACHAD_HOTEL_فندق_الرشاد.jpg"
     },
     {
-        "hotel": "Hotel El Amir",
+        "hotel": "Hotel El Amir Djelfa",
         "price": 6200,
         "city": "Djelfa",
-        "avg_review": 4.0
+        "avg_review": 4.0,
+        "image": "Hotel_El_Amir_Djelfa.jpg"
     },
     {
-        "hotel": "Hotel Tassili",
+        "hotel": "Hotel Asslouni",
         "price": 5800,
         "city": "Djelfa",
-        "avg_review": 3.7
+        "avg_review": 4.3,
+        "image": "Hotel_Asslouni.webp"
     },
     {
-        "hotel": "Hotel Numidia",
-        "price": 6300,
+        "hotel": "Hôtel Salsabil Naoui Djelfa",
+        "price": 4687,
         "city": "Djelfa",
-        "avg_review": 4.1
+        "avg_review": 4.3,
+        "image": "Hôtel_Salsabil_Naoui_Djelfa.jpg"
     },
     {
-        "hotel": "Hotel El Mouggar",
-        "price": 5900,
+        "hotel": "Hotel Rouatel",
+        "price": 5970,
         "city": "Djelfa",
-        "avg_review": 3.9
+        "avg_review": 4.9,
+        "image": "Hotel_Rouatel.jpg"
     },
     {
-        "hotel": "Hotel El Manar",
-        "price": 6100,
+        "hotel": "Hôtel Sultan Djelfa",
+        "price": 5440,
         "city": "Djelfa",
-        "avg_review": 4.0
+        "avg_review": 4.1,
+        "image": "Hôtel_Sultan_Djelfa.webp"
     },
     {
-        "hotel": "Hotel El Bahia",
+        "hotel": "Hotel El Bayt",
         "price": 6500,
         "city": "Djelfa",
-        "avg_review": 4.2
+        "avg_review": 4.2,
+        "image": "Hotel_El_Bayt.webp"
     },
     {
         "hotel": "Royal Tulip Skikda",
