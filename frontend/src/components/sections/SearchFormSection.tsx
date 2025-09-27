@@ -73,7 +73,7 @@ export const SearchFormSection: React.FC = () => {
     loadWilayas();
   }, [loadCategories, loadWilayas]);
 
-  // Add GPS location function
+  // Add GPS location function (simplified and reliable)
   const getCurrentLocation = () => {
     setIsGettingLocation(true);
     setLocalError(null);
@@ -84,35 +84,62 @@ export const SearchFormSection: React.FC = () => {
       return;
     }
 
+    const options: PositionOptions = {
+      enableHighAccuracy: true,
+      timeout: 30000, // 30 seconds to allow user to respond to permission prompt
+      maximumAge: 0 // Don't use cached position, always get fresh one
+    };
+
+    // Add a delay before showing error messages to give user time to respond
+    let errorTimeout: ReturnType<typeof setTimeout>;
+
     navigator.geolocation.getCurrentPosition(
       (position) => {
+        // Clear any pending error timeout
+        if (errorTimeout) {
+          clearTimeout(errorTimeout);
+        }
+        
+        console.log('Location obtained successfully:', position);
         const { latitude, longitude } = position.coords;
         const coordinates = `${latitude.toFixed(6)}, ${longitude.toFixed(6)}`;
         handleInputChange('currentLocation', coordinates);
         setLocationStatus('valid');
+        setLocalError(null); // Clear any previous geolocation errors
         setIsGettingLocation(false);
       },
       (error) => {
-        let errorMessage = 'Failed to get location';
-        switch (error.code) {
-          case error.PERMISSION_DENIED:
-            errorMessage = 'Location access denied. Please enable location permissions.';
-            break;
-          case error.POSITION_UNAVAILABLE:
-            errorMessage = 'Location information unavailable';
-            break;
-          case error.TIMEOUT:
-            errorMessage = 'Location request timeout';
-            break;
-        }
-        setLocalError(errorMessage);
-        setIsGettingLocation(false);
+        console.log('Geolocation error:', error);
+        
+        // Set a delay before showing error to give user time to respond
+        errorTimeout = setTimeout(() => {
+          let errorMessage = 'Failed to get location';
+          
+          switch (error.code) {
+            case error.PERMISSION_DENIED:
+              errorMessage = 'Location access denied. Please enable location permissions and try again.';
+              // Clear any previously set coordinates and mark status invalid
+              handleInputChange('currentLocation', '');
+              setLocationStatus('invalid');
+              break;
+            case error.POSITION_UNAVAILABLE:
+              errorMessage = 'Location information unavailable. Please check your device settings.';
+              setLocationStatus('invalid');
+              break;
+            case error.TIMEOUT:
+              errorMessage = 'Location request timed out. Please allow location access when prompted and try again.';
+              setLocationStatus('invalid');
+              break;
+            default:
+              errorMessage = error.message || errorMessage;
+              setLocationStatus('invalid');
+          }
+          
+          setLocalError(errorMessage);
+          setIsGettingLocation(false);
+        }, 2000); // 2 second delay before showing error
       },
-      {
-        enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 60000
-      }
+      options
     );
   };
 
@@ -370,48 +397,50 @@ export const SearchFormSection: React.FC = () => {
                         </div>
                         
                         {field.type === 'input' ? (
-                          <div className="relative">
-                            <Input
-                              type={(field as any).inputType || 'text'}
-                              value={formData[field.field] as string}
-                              onChange={(e) => handleInputChange(field.field, e.target.value)}
-                              className={`h-12 sm:h-14 bg-transparent border-2 border-white text-white placeholder:text-gray-400 focus:border-[#1e6f9f] rounded-xl text-base sm:text-lg [font-family:'Outfit',Helvetica] transition-all duration-300 hover:border-gray-300 ${
-                                (field as any).hasLocationButton ? 'pr-12' : ''
-                              } ${
-                                (field as any).inputType === 'date' ? 'text-white [&::-webkit-calendar-picker-indicator]:ml-auto [&::-webkit-calendar-picker-indicator]:mr-4' : ''
-                              }`}
-                              placeholder={field.placeholder}
-                              disabled={isGettingLocation && (field as any).hasLocationButton}
-                              style={(field as any).inputType === 'date' ? { 
-                                colorScheme: 'dark',
-                                color: 'white',
-                                paddingLeft: '40px',
-                                backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'20\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'white\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Crect x=\'3\' y=\'4\' width=\'18\' height=\'18\' rx=\'2\' ry=\'2\'/%3E%3Cline x1=\'16\' y1=\'2\' x2=\'16\' y2=\'6\'/%3E%3Cline x1=\'8\' y1=\'2\' x2=\'8\' y2=\'6\'/%3E%3Cline x1=\'3\' y1=\'10\' x2=\'21\' y2=\'10\'/%3E%3C/svg%3E")',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: '12px center',
-                                backgroundSize: '20px 20px'
-                              } : {}}
-                            />
-                            
-                            {/* GPS Location Button */}
-                            {(field as any).hasLocationButton && (
-                              <button
-                                type="button"
-                                onClick={getCurrentLocation}
-                                disabled={isGettingLocation}
-                                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white hover:text-[#1e6f9f] transition-colors duration-300 disabled:opacity-50 p-1 rounded-md hover:bg-white/10"
-                                title="Get current location"
-                              >
-                                {isGettingLocation ? (
-                                  <Loader2 className="w-5 h-5 animate-spin" />
-                                ) : (
-                                  <Crosshair className="w-5 h-5" />
-                                )}
-                              </button>
-                            )}
+                          <div className="space-y-2">
+                            <div className="relative">
+                              <Input
+                                type={(field as any).inputType || 'text'}
+                                value={formData[field.field] as string}
+                                onChange={(e) => handleInputChange(field.field, e.target.value)}
+                                className={`h-12 sm:h-14 bg-transparent border-2 border-white text-white placeholder:text-gray-400 focus:border-[#1e6f9f] rounded-xl text-base sm:text-lg [font-family:'Outfit',Helvetica] transition-all duration-300 hover:border-gray-300 ${
+                                  (field as any).hasLocationButton ? 'pr-12' : ''
+                                } ${
+                                  (field as any).inputType === 'date' ? 'text-white [&::-webkit-calendar-picker-indicator]:ml-auto [&::-webkit-calendar-picker-indicator]:mr-4' : ''
+                                }`}
+                                placeholder={field.placeholder}
+                                disabled={isGettingLocation && (field as any).hasLocationButton}
+                                style={(field as any).inputType === 'date' ? { 
+                                  colorScheme: 'dark',
+                                  color: 'white',
+                                  paddingLeft: '40px',
+                                  backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'20\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'white\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Crect x=\'3\' y=\'4\' width=\'18\' height=\'18\' rx=\'2\' ry=\'2\'/%3E%3Cline x1=\'16\' y1=\'2\' x2=\'16\' y2=\'6\'/%3E%3Cline x1=\'8\' y1=\'2\' x2=\'8\' y2=\'6\'/%3E%3Cline x1=\'3\' y1=\'10\' x2=\'21\' y2=\'10\'/%3E%3C/svg%3E")',
+                                  backgroundRepeat: 'no-repeat',
+                                  backgroundPosition: '12px center',
+                                  backgroundSize: '20px 20px'
+                                } : {}}
+                              />
+                              
+                              {/* GPS Location Button */}
+                              {(field as any).hasLocationButton && (
+                                <button
+                                  type="button"
+                                  onClick={getCurrentLocation}
+                                  disabled={isGettingLocation}
+                                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white hover:text-[#1e6f9f] transition-colors duration-300 disabled:opacity-50 p-1 rounded-md hover:bg-white/10 z-10"
+                                  title="Get current location"
+                                >
+                                  {isGettingLocation ? (
+                                    <Loader2 className="w-5 h-5 animate-spin" />
+                                  ) : (
+                                    <Crosshair className="w-5 h-5" />
+                                  )}
+                                </button>
+                              )}
+                            </div>
                             
                             {field.field === 'currentLocation' && (
-                              <div className="mt-2 space-y-1">
+                              <div className="min-h-[20px]">
                                 {locationStatus === 'validating' && (
                                   <div className="flex items-center gap-2 text-sm text-blue-300 [font-family:'Outfit',Helvetica]">
                                     <Loader2 className="w-4 h-4 animate-spin" />
