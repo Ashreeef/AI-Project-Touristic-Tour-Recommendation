@@ -2080,13 +2080,15 @@
         "hotel": "Hotel Hana",
         "price": 9900,
         "city": "El Bayadh",
-        "avg_review": 5.0
+        "avg_review": 5.0,
+        "image": "Hotel_Hana.jpg"
     },
     {
         "hotel": "Hotel El Hidhab",
         "price": 9900,
         "city": "El Bayadh",
-        "avg_review": 2.8
+        "avg_review": 2.8,
+        "image": "Hotel_El_Hidhab.jpg"
     },
     {
         "hotel": "Hôtel doaa",
@@ -2098,25 +2100,29 @@
         "hotel": "Hotel BOURENANE",
         "price": 9900,
         "city": "El Bayadh",
-        "avg_review": 3.8
+        "avg_review": 3.8,
+        "image": "Hotel_BOURENANE.jpg"
     },
     {
         "hotel": "Hôtel Fahmi KSEL",
         "price": 9900,
         "city": "El Bayadh",
-        "avg_review": 3.5
+        "avg_review": 3.5,
+        "image": "Hôtel_Fahmi_KSEL.jpg"
     },
     {
         "hotel": "Hôtel Nadjem",
         "price": 9900,
         "city": "El Bayadh",
-        "avg_review": 3.6
+        "avg_review": 3.6,
+        "image": "Hotel_Nadjem.webp"
     },
     {
         "hotel": "Hotel Sidi Sheikh",
         "price": 9900,
         "city": "El Bayadh",
-        "avg_review": 3.4
+        "avg_review": 3.4,
+        "image": "Hotel_Sidi_Sheikh.jpg"
     },
     {
         "hotel": "AB Hôtel",
@@ -2428,40 +2434,18 @@
         "avg_review": 4.0
     },
     {
-        "hotel": "Hotel El Bayadh",
-        "price": 5000,
+        "hotel": "Hotel El djanoub",
+        "price": 12450,
         "city": "El Bayadh",
-        "avg_review": 3.5
+        "avg_review": 3.2,
+        "image": "Hotel_El_djanoub.webp"
     },
     {
-        "hotel": "Hotel Sahara",
-        "price": 5200,
+        "hotel": "Hotel Bay Diab",
+        "price": 22333,
         "city": "El Bayadh",
-        "avg_review": 3.6
-    },
-    {
-        "hotel": "Hotel Oasis",
-        "price": 5100,
-        "city": "El Bayadh",
-        "avg_review": 3.7
-    },
-    {
-        "hotel": "Hotel Tassili",
-        "price": 5400,
-        "city": "El Bayadh",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel El Mouggar",
-        "price": 5500,
-        "city": "El Bayadh",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Numidia",
-        "price": 5600,
-        "city": "El Bayadh",
-        "avg_review": 4.1
+        "avg_review": 4.3,
+        "image": "Hotel_Bay_Diab.webp"
     },
     {
         "hotel": "Hotel Numidia",
@@ -3412,43 +3396,29 @@
         "hotel": "Hotel Souf",
         "price": 7000,
         "city": "El Oued",
-        "avg_review": 3.9
-    },
-    {
-        "hotel": "Hotel Les Dunes",
-        "price": 6500,
-        "city": "El Oued",
-        "avg_review": 3.8
+        "avg_review": 3.9,
+        "image": "Hotel_Souf.jpg"
     },
     {
         "hotel": "Hotel El Oued Plaza",
         "price": 7500,
         "city": "El Oued",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel Ghouta",
-        "price": 6800,
-        "city": "El Oued",
-        "avg_review": 3.9
+        "avg_review": 4.0,
+        "image": "Hotel_El_Oued_Plaza.webp"
     },
     {
         "hotel": "Hotel Oasis El Oued",
         "price": 7200,
         "city": "El Oued",
-        "avg_review": 4.0
-    },
-    {
-        "hotel": "Hotel El Nakhla",
-        "price": 6000,
-        "city": "El Oued",
-        "avg_review": 3.7
+        "avg_review": 4.0,
+        "image": "Hotel_Oasis_El_Oued.webp"
     },
     {
         "hotel": "Hotel Sahara Inn",
         "price": 7800,
         "city": "El Oued",
-        "avg_review": 4.1
+        "avg_review": 4.1,
+        "image": "Hotel_Sahara_Inn.jpg"
     },
     {
         "hotel": "Hotel Thagaste",
